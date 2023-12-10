@@ -1,0 +1,228 @@
+\documentclass[a4paper]{article}
+
+\usepackage[backend=bibtex, sorting=nty]{biblatex}
+\addbibresource{refs.bib}
+
+\usepackage[nottoc,numbib]{tocbibind}
+\usepackage{a4wide,amssymb,epsfig,latexsym,multicol,array,hhline,fancyhdr}
+\usepackage{listings}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{amsmath}
+\usepackage{lastpage}
+\usepackage[lined,boxed,commentsnumbered]{algorithm2e}
+\usepackage{enumerate}
+\usepackage{color}
+\usepackage[dvipsnames]{xcolor} 
+\usepackage{graphicx}							% Standard graphics package
+\usepackage{array}
+\usepackage{tabularx, caption}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{rotating}
+\usepackage{graphics}
+\usepackage{geometry}
+\usepackage{float}
+\usepackage{ragged2e}
+\usepackage{setspace}
+\usepackage{tabularray}
+\usepackage[nodayofweek]{datetime}
+\usepackage{epsfig}
+\usepackage{tikz}
+\usepackage{booktabs}
+\usepackage{subcaption}
+\usepackage{indentfirst}
+\definecolor{llgray}{gray}{0.9}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\lstset{
+  basicstyle=\ttfamily,
+}
+
+\lstdefinestyle{mystyle}{
+	backgroundcolor = \color{llgray},
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    xleftmargin = 1cm,
+    xrightmargin = 1cm
+}
+\lstset{style=mystyle}
+\usetikzlibrary{arrows, snakes, backgrounds}
+\usepackage{hyperref}
+\hypersetup{urlcolor=blue,linkcolor=black,citecolor=black,colorlinks=true}
+\usepackage[skip=5pt, indent=20pt]{parskip}
+%\usepackage{pstcol} % PSTricks with the standard color package
+
+%% Layout %%
+\usepackage{geometry} 
+\geometry{a4paper,total={160mm,240mm},left=30mm,top=30mm, bottom=30mm}
+\renewcommand{\baselinestretch}{1.3}
+\renewcommand{\arraystretch}{1.5}
+%% cover border %%
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{decorations.pathmorphing}
+
+
+\usepackage{lastpage}
+\setlength{\headheight}{40pt}
+\pagestyle{fancy}
+\fancyhead{} % clear all header fields
+\fancyhead[L]{
+ \begin{tabular}{rl}
+    \begin{picture}(25,15)(0,0)
+    \put(0,-8){\includegraphics[width=8mm, height=8mm]{assets/images/hcmut.png}}
+    %\put(0,-8){\epsfig{width=10mm,figure=hcmut.eps}}
+   \end{picture}&
+	%\includegraphics[width=8mm, height=8mm]{assets/images/hcmut.png} & %
+	\begin{tabular}{l}
+		\textbf{\bf \ttfamily Ho Chi Minh City University of Technology}\\
+		\textbf{\bf \ttfamily Faculty of Computer Science and Engineering}
+	\end{tabular} 	
+ \end{tabular}
+}
+\fancyhead[R]{
+	\begin{tabular}{l}
+		\tiny \bf \\
+		\tiny \bf 
+	\end{tabular}  }
+\fancyfoot{} % clear all footer fields
+\fancyfoot[L]{ \ttfamily {Specialized Project - Semester 231}}
+\fancyfoot[R]{ \ttfamily {Page {\thepage}/\pageref{LastPage}}}
+\renewcommand{\headrulewidth}{0.7pt}
+\renewcommand{\footrulewidth}{0.7pt}
+
+
+%%%
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{3}
+\makeatletter
+\newcounter {subsubsubsection}[subsubsection]
+\renewcommand\thesubsubsubsection{\thesubsubsection .\@alph\c@subsubsubsection}
+\newcommand\subsubsubsection{\@startsection{subsubsubsection}{4}{\z@}%
+    {-3.25ex\@plus -1ex \@minus -.2ex}%
+    {1.5ex \@plus .2ex}%
+    {\normalfont\normalsize\bfseries}}
+\newcommand*\l@subsubsubsection{\@dottedtocline{3}{10.0em}{4.1em}}
+\newcommand*{\subsubsubsectionmark}[1]{}
+\makeatother
+
+
+\begin{document}
+
+% ---------------------------------------------------------------------------- %
+%                                  TITLE PAGE                                  %
+% ---------------------------------------------------------------------------- %
+
+\begin{titlepage}
+\begin{tikzpicture}[overlay,remember picture]
+\draw [line width=3pt]
+       ($ (current page.north west) + (1.5cm,-2.0cm) $)
+    rectangle
+    ($ (current page.south east) + (-1.5cm,1.8cm) $);
+\draw [line width=1pt]
+    ($ (current page.north west) + (1.65cm,-2.15cm) $)
+    rectangle
+    ($ (current page.south east) + (-1.65cm,1.95cm) $); 
+\end{tikzpicture}
+\begin{center}
+\large\textcolor{BlueViolet}{\textbf{
+VIETNAM NATIONAL UNIVERSITY - HO CHI MINH CITY \\
+UNIVERSITY OF TECHNOLOGY \\
+FACULTY OF COMPUTER SCIENCE AND ENGINEERING}}
+\vspace{1cm}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=4cm]{assets/images/hcmut.png}
+\end{figure}
+
+\begin{center}
+\textbf{{\Large SPECIALIZED PROJECT}}\\
+\vspace{1cm}
+{\fontsize{36}{20}\selectfont % Adjust the numbers (36 and 48) to increase/decrease the font size and line spacing as needed
+\textbf{{BUILD A MOBILE APP FOR DATA COLLECTION AND URBAN TRAFFIC ESTIMATION}}\\
+}
+\vspace{1cm}
+\textbf{{\Large Major: Computer Science}}
+\end{center}
+
+\vspace{1cm}
+
+\begin{table}[h]
+    \large
+    \begin{tabular}{r r l}
+    \hspace{4 cm} & \textbf{Supervisors}: & Assoc. Prof. Tran Minh Quang \\ 
+    & & Ms. Eng. Bui Tien Duc\\
+    & \textbf{Students}: & Nguyen Minh Khoa - 2052538\\
+    & & Nguyen Nho Gia Phuc - 2052214 \\
+    \end{tabular}
+\end{table}
+\vspace{2cm}
+
+\newdateformat{mydate}{\twodigit{\THEDAY}{ }\shortmonthname[\THEMONTH],\THEYEAR}
+{Ho Chi Minh City, \today}
+\end{center}
+\end{titlepage}
+
+% ---------------------------------------------------------------------------- %
+%                       AUTHENTICITY AND ACKNOWLEDGEMENT                       %
+% ---------------------------------------------------------------------------- %
+\begin{center}
+    \Large{\textbf{DECLARATION OF AUTHENTICITY}}
+\end{center}
+We would like to state that to project "Build a mobile app for data collection and urban traffic estimation "is our own work under the guidance of Assoc. Prof. Tran Minh Quang and MSc. Bui Tien Duc. Related knowledge, information and research works that we refer to will be clearly noted in the references section.
+We are responsible for the truthfulness of our topic.
+
+\begin{flushright}
+    Ho Chi Minh, December 2023 \\
+    \textbf{Students} \\
+    Nguyen Nho Gia Phuc \\
+    Nguyen Minh Khoa
+\end{flushright}
+
+
+\newpage
+\begin{center}
+    \Large{\textbf{ACKNOWLEDGEMENT}}
+\end{center}
+
+In creating this undertaking, the guidance of our instructors, Associate Professor Tran Minh Quang and Master of Science Bui Tien Duc was indispensable. For this, we are extremely grateful. 
+
+
+
+% ---------------------------------------------------------------------------- %
+%                               INCLUDE CONTENTS                               %
+% ---------------------------------------------------------------------------- %
+
+\newpage
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+\listoftables
+\newpage
+\include{Sections/introduction}
+\include{Sections/related_research}
+\include{Sections/system_analysis_and_design}
+\include{Sections/implementation}
+\include{Sections/work_evaluation_&_future_plans}
+
+% ------------------------------- BIBLIOGRAPHY ------------------------------- %
+\printbibliography
+
+\end{document}

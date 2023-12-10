@@ -1,0 +1,127 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{apple_webview}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={Apple},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{howpublished}{\url{https://developer.apple.com/news/?id=12232019b}}
+    \field{note}{Accessed: 2023-12-10}
+    \field{title}{WKWebView}
+  \endentry
+
+  \entry{congestion-damage}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=HT}{%
+         family={Ha},
+         familyi={H\bibinitperiod},
+         given={Thanh},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=DT}{%
+         family={Dung},
+         familyi={D\bibinitperiod},
+         given={Thu},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HTDT1}
+    \strng{fullhash}{HTDT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+  \field{howpublished}{\url{https://tuoitrenews.vn/news/society/20221001/traffic-congestion-costs-ho-chi-minh-city-6-billion-each-year/69343.html}}
+    \field{note}{Accessed: 2023-12-10}
+    \field{title}{Tuoi Tre News}
+  \endentry
+
+  \entry{refactor_needed}{booklet}{}
+    \name{author}{1}{}{%
+      {{hash=NCKLDHVAN}{%
+         family={Nguyen Chinh\bibnamedelima Khoi},
+         familyi={N\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim
+  K\bibinitperiod},
+         suffix={Vu\bibnamedelima Anh\bibnamedelima Nhi},
+         suffixi={V\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+  N\bibinitperiod},
+         given={Luong Duy\bibnamedelima Hung},
+         giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
+  H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NCKVANLDH1}
+    \strng{fullhash}{NCKVANLDH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{title}{Build a mobile app for data collection and urban traffic
+  estimation}
+    \field{year}{2023}
+  \endentry
+
+  \entry{buythcm}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=TB}{%
+         family={TPHCM},
+         familyi={T\bibinitperiod},
+         given={Buyt},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TB1}
+    \strng{fullhash}{TB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{howpublished}{\url{http://buyttphcm.com.vn/}}
+    \field{note}{Accessed: 2023-12-10}
+    \field{title}{Buyt TPHCM Homepage}
+  \endentry
+
+  \entry{utraffic-introduction}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \field{howpublished}{\url{https://bktraffic.com/home/}}
+    \field{note}{Accessed: 2023-12-10}
+    \field{title}{UTraffic Introduction}
+  \endentry
+
+  \entry{utraffic-mobile}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \field{howpublished}{\url{https://bktraffic.com/home/mobile-app}}
+    \field{note}{Accessed: 2023-12-10}
+    \field{title}{UTraffic Mobile}
+  \endentry
+\enddatalist
+\endinput
