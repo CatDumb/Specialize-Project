@@ -17,24 +17,6 @@
 \endgroup
 
 \datalist[entry]{nty/global//global/global}
-  \entry{apple_webview}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=A}{%
-         family={Apple},
-         familyi={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{A}
-    \field{sortinithash}{A}
-    \field{howpublished}{\url{https://developer.apple.com/news/?id=12232019b}}
-    \field{note}{Accessed: 2023-12-10}
-    \field{title}{WKWebView}
-  \endentry
-
   \entry{congestion-damage}{misc}{}
     \name{author}{2}{}{%
       {{hash=HT}{%
@@ -84,26 +66,6 @@
     \field{title}{Build a mobile app for data collection and urban traffic
   estimation}
     \field{year}{2023}
-  \endentry
-
-  \entry{buythcm}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=TB}{%
-         family={TPHCM},
-         familyi={T\bibinitperiod},
-         given={Buyt},
-         giveni={B\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{TB1}
-    \strng{fullhash}{TB1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{T}
-    \field{sortinithash}{T}
-    \field{howpublished}{\url{http://buyttphcm.com.vn/}}
-    \field{note}{Accessed: 2023-12-10}
-    \field{title}{Buyt TPHCM Homepage}
   \endentry
 
   \entry{utraffic-introduction}{misc}{}
