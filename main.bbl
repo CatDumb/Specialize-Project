@@ -3,8 +3,8 @@
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
-% This file may safely be deleted. It will be recreated as
-% required.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
 %
 \begingroup
 \makeatletter
@@ -16,74 +16,268 @@
   {}
 \endgroup
 
-\datalist[entry]{nty/global//global/global}
-  \entry{congestion-damage}{misc}{}
-    \name{author}{2}{}{%
-      {{hash=HT}{%
-         family={Ha},
-         familyi={H\bibinitperiod},
-         given={Thanh},
-         giveni={T\bibinitperiod},
-      }}%
-      {{hash=DT}{%
-         family={Dung},
-         familyi={D\bibinitperiod},
-         given={Thu},
-         giveni={T\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{HTDT1}
-    \strng{fullhash}{HTDT1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{H}
-    \field{sortinithash}{H}
-  \field{howpublished}{\url{https://tuoitrenews.vn/news/society/20221001/traffic-congestion-costs-ho-chi-minh-city-6-billion-each-year/69343.html}}
-    \field{note}{Accessed: 2023-12-10}
-    \field{title}{Tuoi Tre News}
-  \endentry
 
-  \entry{refactor_needed}{booklet}{}
-    \name{author}{1}{}{%
-      {{hash=NCKLDHVAN}{%
-         family={Nguyen Chinh\bibnamedelima Khoi},
-         familyi={N\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim
-  K\bibinitperiod},
-         suffix={Vu\bibnamedelima Anh\bibnamedelima Nhi},
-         suffixi={V\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
-  N\bibinitperiod},
-         given={Luong Duy\bibnamedelima Hung},
-         giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
-  H\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{NCKVANLDH1}
-    \strng{fullhash}{NCKVANLDH1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{N}
-    \field{sortinithash}{N}
-    \field{title}{Build a mobile app for data collection and urban traffic
-  estimation}
-    \field{year}{2023}
-  \endentry
-
-  \entry{utraffic-introduction}{misc}{}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{U}
-    \field{sortinithash}{U}
-    \field{howpublished}{\url{https://bktraffic.com/home/}}
-    \field{note}{Accessed: 2023-12-10}
-    \field{title}{UTraffic Introduction}
-  \endentry
-
-  \entry{utraffic-mobile}{misc}{}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{U}
-    \field{sortinithash}{U}
-    \field{howpublished}{\url{https://bktraffic.com/home/mobile-app}}
-    \field{note}{Accessed: 2023-12-10}
-    \field{title}{UTraffic Mobile}
-  \endentry
-\enddatalist
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{apple_webview}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9f6290f4436e5a2351f12e03b6433c3c}{%
+           family={Apple},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \strng{fullhash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \strng{bibnamehash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \strng{authorbibnamehash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \strng{authornamehash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \strng{authorfullhash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://developer.apple.com/news/?id=12232019b}}
+      \field{note}{Accessed: 2023-12-10}
+      \field{title}{WKWebView}
+    \endentry
+    \entry{congestion-damage}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7432223f26eb953680226f31ead0fb8e}{%
+           family={Ha},
+           familyi={H\bibinitperiod},
+           given={Thanh},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8439ecc5ac9fb7e85afb8b2e55bf9477}{%
+           family={Dung},
+           familyi={D\bibinitperiod},
+           given={Thu},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2ba8981973224302ce7c17765f26537d}
+      \strng{fullhash}{2ba8981973224302ce7c17765f26537d}
+      \strng{bibnamehash}{2ba8981973224302ce7c17765f26537d}
+      \strng{authorbibnamehash}{2ba8981973224302ce7c17765f26537d}
+      \strng{authornamehash}{2ba8981973224302ce7c17765f26537d}
+      \strng{authorfullhash}{2ba8981973224302ce7c17765f26537d}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://tuoitrenews.vn/news/society/20221001/traffic-congestion-costs-ho-chi-minh-city-6-billion-each-year/69343.html}}
+      \field{note}{Accessed: 2023-12-10}
+      \field{title}{Tuoi Tre News}
+    \endentry
+    \entry{refactor_needed}{booklet}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c53f20be18911970f84291ce892eb9fd}{%
+           family={Nguyen\bibnamedelimb Chinh\bibnamedelima Khoi},
+           familyi={N\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={Luong\bibnamedelimb Duy\bibnamedelima Hung},
+           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0,
+           suffix={Vu\bibnamedelima Anh\bibnamedelima Nhi},
+           suffixi={V\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim N\bibinitperiod},
+           suffixun=0}}%
+      }
+      \strng{namehash}{c53f20be18911970f84291ce892eb9fd}
+      \strng{fullhash}{c53f20be18911970f84291ce892eb9fd}
+      \strng{bibnamehash}{c53f20be18911970f84291ce892eb9fd}
+      \strng{authorbibnamehash}{c53f20be18911970f84291ce892eb9fd}
+      \strng{authornamehash}{c53f20be18911970f84291ce892eb9fd}
+      \strng{authorfullhash}{c53f20be18911970f84291ce892eb9fd}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Build a mobile app for data collection and urban traffic estimation}
+      \field{year}{2023}
+    \endentry
+    \entry{buythcm}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b5f47d7b52689a81c3c434794fe7bffe}{%
+           family={TPHCM},
+           familyi={T\bibinitperiod},
+           given={Buyt},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b5f47d7b52689a81c3c434794fe7bffe}
+      \strng{fullhash}{b5f47d7b52689a81c3c434794fe7bffe}
+      \strng{bibnamehash}{b5f47d7b52689a81c3c434794fe7bffe}
+      \strng{authorbibnamehash}{b5f47d7b52689a81c3c434794fe7bffe}
+      \strng{authornamehash}{b5f47d7b52689a81c3c434794fe7bffe}
+      \strng{authorfullhash}{b5f47d7b52689a81c3c434794fe7bffe}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://buyttphcm.com.vn/}}
+      \field{note}{Accessed: 2023-12-10}
+      \field{title}{Buyt TPHCM Homepage}
+    \endentry
+    \entry{utraffic-introduction}{misc}{}
+      \list{language}{1}{%
+        {en}%
+      }
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Web site created using create-react-app}
+      \field{howpublished}{\url{https://bktraffic.com/home/}}
+      \field{note}{Accessed: 2023-12-11}
+      \field{title}{{UTraffic} - homepage}
+    \endentry
+    \entry{utraffic-mobile}{misc}{}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://bktraffic.com/home/mobile-app}}
+      \field{note}{Accessed: 2023-12-10}
+      \field{title}{UTraffic Mobile}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{apple_webview}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9f6290f4436e5a2351f12e03b6433c3c}{%
+           family={Apple},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \strng{fullhash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \strng{bibnamehash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \strng{authorbibnamehash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \strng{authornamehash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \strng{authorfullhash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://developer.apple.com/news/?id=12232019b}}
+      \field{note}{Accessed: 2023-12-10}
+      \field{title}{WKWebView}
+    \endentry
+    \entry{congestion-damage}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7432223f26eb953680226f31ead0fb8e}{%
+           family={Ha},
+           familyi={H\bibinitperiod},
+           given={Thanh},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8439ecc5ac9fb7e85afb8b2e55bf9477}{%
+           family={Dung},
+           familyi={D\bibinitperiod},
+           given={Thu},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2ba8981973224302ce7c17765f26537d}
+      \strng{fullhash}{2ba8981973224302ce7c17765f26537d}
+      \strng{bibnamehash}{2ba8981973224302ce7c17765f26537d}
+      \strng{authorbibnamehash}{2ba8981973224302ce7c17765f26537d}
+      \strng{authornamehash}{2ba8981973224302ce7c17765f26537d}
+      \strng{authorfullhash}{2ba8981973224302ce7c17765f26537d}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://tuoitrenews.vn/news/society/20221001/traffic-congestion-costs-ho-chi-minh-city-6-billion-each-year/69343.html}}
+      \field{note}{Accessed: 2023-12-10}
+      \field{title}{Tuoi Tre News}
+    \endentry
+    \entry{refactor_needed}{booklet}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c53f20be18911970f84291ce892eb9fd}{%
+           family={Nguyen\bibnamedelimb Chinh\bibnamedelima Khoi},
+           familyi={N\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={Luong\bibnamedelimb Duy\bibnamedelima Hung},
+           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0,
+           suffix={Vu\bibnamedelima Anh\bibnamedelima Nhi},
+           suffixi={V\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim N\bibinitperiod},
+           suffixun=0}}%
+      }
+      \strng{namehash}{c53f20be18911970f84291ce892eb9fd}
+      \strng{fullhash}{c53f20be18911970f84291ce892eb9fd}
+      \strng{bibnamehash}{c53f20be18911970f84291ce892eb9fd}
+      \strng{authorbibnamehash}{c53f20be18911970f84291ce892eb9fd}
+      \strng{authornamehash}{c53f20be18911970f84291ce892eb9fd}
+      \strng{authorfullhash}{c53f20be18911970f84291ce892eb9fd}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Build a mobile app for data collection and urban traffic estimation}
+      \field{year}{2023}
+    \endentry
+    \entry{buythcm}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b5f47d7b52689a81c3c434794fe7bffe}{%
+           family={TPHCM},
+           familyi={T\bibinitperiod},
+           given={Buyt},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b5f47d7b52689a81c3c434794fe7bffe}
+      \strng{fullhash}{b5f47d7b52689a81c3c434794fe7bffe}
+      \strng{bibnamehash}{b5f47d7b52689a81c3c434794fe7bffe}
+      \strng{authorbibnamehash}{b5f47d7b52689a81c3c434794fe7bffe}
+      \strng{authornamehash}{b5f47d7b52689a81c3c434794fe7bffe}
+      \strng{authorfullhash}{b5f47d7b52689a81c3c434794fe7bffe}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://buyttphcm.com.vn/}}
+      \field{note}{Accessed: 2023-12-10}
+      \field{title}{Buyt TPHCM Homepage}
+    \endentry
+    \entry{utraffic-introduction}{misc}{}
+      \list{language}{1}{%
+        {en}%
+      }
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Web site created using create-react-app}
+      \field{howpublished}{\url{https://bktraffic.com/home/}}
+      \field{note}{Accessed: 2023-12-11}
+      \field{title}{{UTraffic} - homepage}
+    \endentry
+    \entry{utraffic-mobile}{misc}{}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://bktraffic.com/home/mobile-app}}
+      \field{note}{Accessed: 2023-12-10}
+      \field{title}{UTraffic Mobile}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
+

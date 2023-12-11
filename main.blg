@@ -1,80 +1,19 @@
-This is BibTeX, Version 0.99d
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: main.aux
-Reallocating 'name_of_file' (item size: 1) to 9 items.
-The style file: biblatex.bst
-Reallocating 'name_of_file' (item size: 1) to 9 items.
-Reallocating 'name_of_file' (item size: 1) to 5 items.
-Reallocating 'name_of_file' (item size: 1) to 26 items.
-A level-1 auxiliary file: Sections/introduction.aux
-Reallocating 'name_of_file' (item size: 1) to 30 items.
-A level-1 auxiliary file: Sections/related_research.aux
-Reallocating 'name_of_file' (item size: 1) to 40 items.
-A level-1 auxiliary file: Sections/system_analysis_and_design.aux
-Reallocating 'name_of_file' (item size: 1) to 31 items.
-A level-1 auxiliary file: Sections/theoretical_basis.aux
-Reallocating 'name_of_file' (item size: 1) to 28 items.
-A level-1 auxiliary file: Sections/implementation.aux
-Reallocating 'name_of_file' (item size: 1) to 44 items.
-A level-1 auxiliary file: Sections/work_evaluation_&_future_plans.aux
-Reallocating 'glb_str_end' (item size: 4) to 20 items.
-Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
-Reallocating 'global_strs' (item size: 1) to 4000000 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'wiz_functions' (item size: 4) to 6000 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Database file #1: main-blx.bib
-Database file #2: refs.bib
-Biblatex version: 3.19
-Reallocating 'wiz_functions' (item size: 4) to 9000 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 5 entries,
-            6399 wiz_defined-function locations,
-            1224 strings with 9630 characters,
-and the built_in function-call counts, 21570 in all, are:
-= -- 1589
-> -- 257
-< -- 86
-+ -- 371
-- -- 95
-* -- 1571
-:= -- 2264
-add.period$ -- 0
-call.type$ -- 5
-change.case$ -- 25
-chr.to.int$ -- 42
-cite$ -- 8
-duplicate$ -- 1750
-empty$ -- 2267
-format.name$ -- 115
-if$ -- 4612
-int.to.chr$ -- 0
-int.to.str$ -- 6
-missing$ -- 0
-newline$ -- 85
-num.names$ -- 82
-pop$ -- 1391
-preamble$ -- 1
-purify$ -- 30
-quote$ -- 0
-skip$ -- 545
-stack$ -- 0
-substring$ -- 3399
-swap$ -- 400
-text.length$ -- 104
-text.prefix$ -- 4
-top$ -- 1
-type$ -- 158
-warning$ -- 0
-while$ -- 226
-width$ -- 0
-write$ -- 81
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'main.blg'
+[166] biber-MSWIN64:340> INFO - === 
+[229] Biber.pm:419> INFO - Reading 'main.bcf'
+[453] Biber.pm:979> INFO - Found 6 citekeys in bib section 0
+[485] Biber.pm:4419> INFO - Processing section 0
+[502] Biber.pm:4610> INFO - Looking for bibtex file 'refs.bib' for section 0
+[561] bibtex.pm:1713> INFO - LaTeX decoding ...
+[572] bibtex.pm:1519> INFO - Found BibTeX data source 'refs.bib'
+[643] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[644] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[644] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[644] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[661] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[661] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[661] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[661] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[668] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[674] bbl.pm:763> INFO - Output to main.bbl
