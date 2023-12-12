@@ -375,9 +375,6 @@ INPUT Sections\introduction.aux
 INPUT .\Sections\related_research.aux
 INPUT .\Sections\related_research.aux
 INPUT Sections\related_research.aux
-INPUT .\Sections\system_analysis_and_design.aux
-INPUT .\Sections\system_analysis_and_design.aux
-INPUT Sections\system_analysis_and_design.aux
 INPUT .\Sections\theoretical_basis.aux
 INPUT .\Sections\theoretical_basis.aux
 INPUT Sections\theoretical_basis.aux
@@ -607,16 +604,6 @@ INPUT .\assets\images\hcmut.png
 INPUT .\assets\images\hcmut.png
 INPUT .\assets\images\hcmut.png
 INPUT .\assets\images\hcmut.png
-INPUT .\Sections\system_analysis_and_design.tex
-INPUT .\Sections\system_analysis_and_design.tex
-OUTPUT Sections\system_analysis_and_design.aux
-INPUT .\Sections\system_analysis_and_design.tex
-INPUT .\Sections\system_analysis_and_design.tex
-INPUT Sections\system_analysis_and_design.tex
-INPUT .\assets\images\hcmut.png
-INPUT .\assets\images\hcmut.png
-INPUT .\assets\images\hcmut.png
-INPUT .\assets\images\hcmut.png
 INPUT .\Sections\theoretical_basis.tex
 INPUT .\Sections\theoretical_basis.tex
 OUTPUT Sections\theoretical_basis.aux
@@ -688,9 +675,6 @@ INPUT Sections\introduction.aux
 INPUT .\Sections\related_research.aux
 INPUT .\Sections\related_research.aux
 INPUT Sections\related_research.aux
-INPUT .\Sections\system_analysis_and_design.aux
-INPUT .\Sections\system_analysis_and_design.aux
-INPUT Sections\system_analysis_and_design.aux
 INPUT .\Sections\theoretical_basis.aux
 INPUT .\Sections\theoretical_basis.aux
 INPUT Sections\theoretical_basis.aux

@@ -74,12 +74,17 @@ The fundamental bus services like searching and routing are executed well on Bus
 
 Both of these apps share a common feature of being equipped with an abundance of supplementary services. While Go!Bus TPHCM is compatible with Grab, BusMap has diversified its partnerships to include other businesses. One apparent limitation of UTraffic is the lack of access to real-time data, such as the current locations of buses and the duration until the next journey. Nevertheless, with sufficient effort and development, our application can excel as a dependable routing and search engine. Ultimately, the primary function of UTraffic is to process congestion data; therefore, care must be taken not to delve too thoroughly into other domains.
 
-\subsection{Data mining current bus stops and routes}
+\subsection{UTraffic's system analysis and design}
 
-In our endeavor to enhance urban mobility and public transportation services in Ho Chi Minh City, we embark on a comprehensive research initiative focusing on the Buyt TPHCM website. This platform serves as a valuable resource for gathering essential data related to bus stops and routes.
+\subsubsection{Current code base structure}
 
-% ------------ TODO: complete this with knowledge about buyt tphcm ----------- %
+\subsubsection{Implemented APIs}
 
-\subsection{Current architecture of the backend system}
-
-% ------------- TODO: write about current structure of the system ------------ %
+During our research to improve the performance and coherence of the application, we have come across some crucial APIs that are listed below:
+\begin{itemize}
+    \item \textbf{Find Route by ID: /routes/route\_id} - Retrieve detailed information about a specific bus route.
+    \item \textbf{Nearby Routes: /routes/nearby} - Discover nearby bus routes based on location.
+    \item \textbf{Find Stops by Route: /routes/route\_id/stops} - Get a list of bus stops along a specific route.
+    \item \textbf{Find Stops by Location: /stops/nearby} - Find bus stops near a given location.
+    \item \textbf{Route Search: /routes/search} - Search for bus routes based on keywords or criteria.
+\end{itemize}
