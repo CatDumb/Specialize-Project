@@ -3063,8 +3063,6 @@
     <bcf:citekey order="2" intorder="1">utraffic-mobile</bcf:citekey>
     <bcf:citekey order="3" intorder="1">utraffic-introduction</bcf:citekey>
     <bcf:citekey order="4" intorder="1">refactor_needed</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">apple_webview</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">buythcm</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

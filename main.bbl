@@ -19,28 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global}
-    \entry{apple_webview}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=9f6290f4436e5a2351f12e03b6433c3c}{%
-           family={Apple},
-           familyi={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{9f6290f4436e5a2351f12e03b6433c3c}
-      \strng{fullhash}{9f6290f4436e5a2351f12e03b6433c3c}
-      \strng{bibnamehash}{9f6290f4436e5a2351f12e03b6433c3c}
-      \strng{authorbibnamehash}{9f6290f4436e5a2351f12e03b6433c3c}
-      \strng{authornamehash}{9f6290f4436e5a2351f12e03b6433c3c}
-      \strng{authorfullhash}{9f6290f4436e5a2351f12e03b6433c3c}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{labeldatesource}{nodate}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://developer.apple.com/news/?id=12232019b}}
-      \field{note}{Accessed: 2023-12-10}
-      \field{title}{WKWebView}
-    \endentry
     \entry{congestion-damage}{misc}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=7432223f26eb953680226f31ead0fb8e}{%
@@ -99,31 +77,6 @@
       \field{labeltitlesource}{title}
       \field{title}{Build a mobile app for data collection and urban traffic estimation}
       \field{year}{2023}
-    \endentry
-    \entry{buythcm}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b5f47d7b52689a81c3c434794fe7bffe}{%
-           family={TPHCM},
-           familyi={T\bibinitperiod},
-           given={Buyt},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{b5f47d7b52689a81c3c434794fe7bffe}
-      \strng{fullhash}{b5f47d7b52689a81c3c434794fe7bffe}
-      \strng{bibnamehash}{b5f47d7b52689a81c3c434794fe7bffe}
-      \strng{authorbibnamehash}{b5f47d7b52689a81c3c434794fe7bffe}
-      \strng{authornamehash}{b5f47d7b52689a81c3c434794fe7bffe}
-      \strng{authorfullhash}{b5f47d7b52689a81c3c434794fe7bffe}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{labeldatesource}{nodate}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{http://buyttphcm.com.vn/}}
-      \field{note}{Accessed: 2023-12-10}
-      \field{title}{Buyt TPHCM Homepage}
     \endentry
     \entry{utraffic-introduction}{misc}{}
       \list{language}{1}{%
@@ -149,28 +102,6 @@
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global}
-    \entry{apple_webview}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=9f6290f4436e5a2351f12e03b6433c3c}{%
-           family={Apple},
-           familyi={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{9f6290f4436e5a2351f12e03b6433c3c}
-      \strng{fullhash}{9f6290f4436e5a2351f12e03b6433c3c}
-      \strng{bibnamehash}{9f6290f4436e5a2351f12e03b6433c3c}
-      \strng{authorbibnamehash}{9f6290f4436e5a2351f12e03b6433c3c}
-      \strng{authornamehash}{9f6290f4436e5a2351f12e03b6433c3c}
-      \strng{authorfullhash}{9f6290f4436e5a2351f12e03b6433c3c}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{labeldatesource}{nodate}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://developer.apple.com/news/?id=12232019b}}
-      \field{note}{Accessed: 2023-12-10}
-      \field{title}{WKWebView}
-    \endentry
     \entry{congestion-damage}{misc}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=7432223f26eb953680226f31ead0fb8e}{%
@@ -229,31 +160,6 @@
       \field{labeltitlesource}{title}
       \field{title}{Build a mobile app for data collection and urban traffic estimation}
       \field{year}{2023}
-    \endentry
-    \entry{buythcm}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b5f47d7b52689a81c3c434794fe7bffe}{%
-           family={TPHCM},
-           familyi={T\bibinitperiod},
-           given={Buyt},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{b5f47d7b52689a81c3c434794fe7bffe}
-      \strng{fullhash}{b5f47d7b52689a81c3c434794fe7bffe}
-      \strng{bibnamehash}{b5f47d7b52689a81c3c434794fe7bffe}
-      \strng{authorbibnamehash}{b5f47d7b52689a81c3c434794fe7bffe}
-      \strng{authornamehash}{b5f47d7b52689a81c3c434794fe7bffe}
-      \strng{authorfullhash}{b5f47d7b52689a81c3c434794fe7bffe}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{labeldatesource}{nodate}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{http://buyttphcm.com.vn/}}
-      \field{note}{Accessed: 2023-12-10}
-      \field{title}{Buyt TPHCM Homepage}
     \endentry
     \entry{utraffic-introduction}{misc}{}
       \list{language}{1}{%
