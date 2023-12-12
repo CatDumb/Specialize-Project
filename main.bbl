@@ -19,6 +19,59 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global}
+    \entry{apple_webview}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3325b015fbae57ba74629a53f1ead961}{%
+           family={{Apple Inc}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{3325b015fbae57ba74629a53f1ead961}
+      \strng{fullhash}{3325b015fbae57ba74629a53f1ead961}
+      \strng{bibnamehash}{3325b015fbae57ba74629a53f1ead961}
+      \strng{authorbibnamehash}{3325b015fbae57ba74629a53f1ead961}
+      \strng{authornamehash}{3325b015fbae57ba74629a53f1ead961}
+      \strng{authorfullhash}{3325b015fbae57ba74629a53f1ead961}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{If your app still embeds web content using the deprecated UIWebView API, we strongly encourage you to update to WKWebView as soon as possible for improved security and reliability. WKWebView ensures that compromised web content doesn't affect the rest of an app by limiting web processing to the app's web view. And it's supported in iOS and macOS, and by Mac Catalyst.The App Store will no longer accept new apps using UIWebView as of April 2020 and app updates using UIWebView as of December 2020.Learn more about WKWebView}
+      \field{howpublished}{\url{https://developer.apple.com/news/?id=12232019b}}
+      \field{note}{Accessed: 2023-12-11}
+      \field{title}{Updating apps that use web views - latest news - apple developer}
+      \true{nocite}
+    \endentry
+    \entry{mongodb_bson}{misc}{}
+      \list{language}{1}{%
+        {en}%
+      }
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.mongodb.com/docs/v3.0/reference/bson-types/}}
+      \field{note}{Accessed: 2023-12-12}
+      \field{title}{{BSON} types --- {MongoDB} manual}
+      \true{nocite}
+    \endentry
+    \entry{buythcm}{misc}{}
+      \list{language}{1}{%
+        {vi}%
+      }
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://buyttphcm.com.vn/}}
+      \field{note}{Accessed: 2023-12-11}
+      \field{title}{Buyt TPHCM Homepage}
+      \true{nocite}
+    \endentry
     \entry{congestion-damage}{misc}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=7432223f26eb953680226f31ead0fb8e}{%
@@ -102,6 +155,59 @@
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global}
+    \entry{apple_webview}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3325b015fbae57ba74629a53f1ead961}{%
+           family={{Apple Inc}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{3325b015fbae57ba74629a53f1ead961}
+      \strng{fullhash}{3325b015fbae57ba74629a53f1ead961}
+      \strng{bibnamehash}{3325b015fbae57ba74629a53f1ead961}
+      \strng{authorbibnamehash}{3325b015fbae57ba74629a53f1ead961}
+      \strng{authornamehash}{3325b015fbae57ba74629a53f1ead961}
+      \strng{authorfullhash}{3325b015fbae57ba74629a53f1ead961}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{If your app still embeds web content using the deprecated UIWebView API, we strongly encourage you to update to WKWebView as soon as possible for improved security and reliability. WKWebView ensures that compromised web content doesn't affect the rest of an app by limiting web processing to the app's web view. And it's supported in iOS and macOS, and by Mac Catalyst.The App Store will no longer accept new apps using UIWebView as of April 2020 and app updates using UIWebView as of December 2020.Learn more about WKWebView}
+      \field{howpublished}{\url{https://developer.apple.com/news/?id=12232019b}}
+      \field{note}{Accessed: 2023-12-11}
+      \field{title}{Updating apps that use web views - latest news - apple developer}
+      \true{nocite}
+    \endentry
+    \entry{mongodb_bson}{misc}{}
+      \list{language}{1}{%
+        {en}%
+      }
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.mongodb.com/docs/v3.0/reference/bson-types/}}
+      \field{note}{Accessed: 2023-12-12}
+      \field{title}{{BSON} types --- {MongoDB} manual}
+      \true{nocite}
+    \endentry
+    \entry{buythcm}{misc}{}
+      \list{language}{1}{%
+        {vi}%
+      }
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://buyttphcm.com.vn/}}
+      \field{note}{Accessed: 2023-12-11}
+      \field{title}{Buyt TPHCM Homepage}
+      \true{nocite}
+    \endentry
     \entry{congestion-damage}{misc}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=7432223f26eb953680226f31ead0fb8e}{%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.9)  12 DEC 2023 00:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.9)  12 DEC 2023 10:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1391,7 +1391,7 @@ Package pdftex.def Info: assets/images/hcmut.png  used on input line 218.
 \openout2 = `Sections/introduction.aux'.
 
  (Sections/introduction.tex
-<assets/images/Trivia/Ket_xe.jpg, id=279, 246.95691pt x 151.14754pt>
+<assets/images/Trivia/Ket_xe.jpg, id=281, 246.95691pt x 151.14754pt>
 File: assets/images/Trivia/Ket_xe.jpg Graphic file (type jpg)
 <use assets/images/Trivia/Ket_xe.jpg>
 Package pdftex.def Info: assets/images/Trivia/Ket_xe.jpg  used on input line 11.
@@ -1419,22 +1419,22 @@ Package pdftex.def Info: assets/images/hcmut.png  used on input line 220.
 
 Package hyperref Warning: bookmark level for unknown subsubsubsection defaults to 0.
 
-<assets/images/Research/Bus/gobus_home.png, id=302, 558.085pt x 1074.0125pt>
+<assets/images/Research/Bus/gobus_home.png, id=304, 558.085pt x 1074.0125pt>
 File: assets/images/Research/Bus/gobus_home.png Graphic file (type png)
 <use assets/images/Research/Bus/gobus_home.png>
 Package pdftex.def Info: assets/images/Research/Bus/gobus_home.png  used on input line 20.
 (pdftex.def)             Requested size: 136.5746pt x 262.83218pt.
-<assets/images/Research/Bus/gobus_find.png, id=303, 558.085pt x 1074.0125pt>
+<assets/images/Research/Bus/gobus_find.png, id=305, 558.085pt x 1074.0125pt>
 File: assets/images/Research/Bus/gobus_find.png Graphic file (type png)
 <use assets/images/Research/Bus/gobus_find.png>
 Package pdftex.def Info: assets/images/Research/Bus/gobus_find.png  used on input line 32.
 (pdftex.def)             Requested size: 127.46777pt x 245.29692pt.
-<assets/images/Research/Bus/gobus_routes.png, id=304, 558.085pt x 1074.0125pt>
+<assets/images/Research/Bus/gobus_routes.png, id=306, 558.085pt x 1074.0125pt>
 File: assets/images/Research/Bus/gobus_routes.png Graphic file (type png)
 <use assets/images/Research/Bus/gobus_routes.png>
 Package pdftex.def Info: assets/images/Research/Bus/gobus_routes.png  used on input line 37.
 (pdftex.def)             Requested size: 127.46777pt x 245.29692pt.
-<assets/images/Research/Bus/gobus_instruction.png, id=305, 558.085pt x 1074.0125pt>
+<assets/images/Research/Bus/gobus_instruction.png, id=307, 558.085pt x 1074.0125pt>
 File: assets/images/Research/Bus/gobus_instruction.png Graphic file (type png)
 <use assets/images/Research/Bus/gobus_instruction.png>
 Package pdftex.def Info: assets/images/Research/Bus/gobus_instruction.png  used on input line 42.
@@ -1462,7 +1462,7 @@ File: assets/images/hcmut.png Graphic file (type png)
 Package pdftex.def Info: assets/images/hcmut.png  used on input line 64.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
 [11 <./assets/images/Research/Bus/gobus_find.png> <./assets/images/Research/Bus/gobus_routes.png> <./assets/images/Research/Bus/gobus_instruction.png>]
-<assets/images/Research/Bus/busmap_home.png, id=321, 558.085pt x 1074.0125pt>
+<assets/images/Research/Bus/busmap_home.png, id=323, 558.085pt x 1074.0125pt>
 File: assets/images/Research/Bus/busmap_home.png Graphic file (type png)
 <use assets/images/Research/Bus/busmap_home.png>
 Package pdftex.def Info: assets/images/Research/Bus/busmap_home.png  used on input line 68.
@@ -1509,16 +1509,40 @@ Package pdftex.def Info: assets/images/hcmut.png  used on input line 223.
 ]
 \openout2 = `Sections/implementation.aux'.
 
- (Sections/implementation.tex)
+ (Sections/implementation.tex
+<assets/images/Research/Bus/lat_long_web.png, id=346, 1445.4pt x 778.40813pt>
+File: assets/images/Research/Bus/lat_long_web.png Graphic file (type png)
+<use assets/images/Research/Bus/lat_long_web.png>
+Package pdftex.def Info: assets/images/Research/Bus/lat_long_web.png  used on input line 19.
+(pdftex.def)             Requested size: 455.24408pt x 245.16423pt.
+ (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
 File: assets/images/hcmut.png Graphic file (type png)
 <use assets/images/hcmut.png>
-Package pdftex.def Info: assets/images/hcmut.png  used on input line 224.
+Package pdftex.def Info: assets/images/hcmut.png  used on input line 33.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
  [16
 
 
 
-]
+ <./assets/images/Research/Bus/lat_long_web.png>]
+<assets/images/Research/Bus/plot_route.png, id=359, 754.82pt x 658.46pt>
+File: assets/images/Research/Bus/plot_route.png Graphic file (type png)
+<use assets/images/Research/Bus/plot_route.png>
+Package pdftex.def Info: assets/images/Research/Bus/plot_route.png  used on input line 58.
+(pdftex.def)             Requested size: 182.09485pt x 158.84746pt.
+<assets/images/Research/Bus/actual_route.png, id=360, 948.54375pt x 865.2325pt>
+File: assets/images/Research/Bus/actual_route.png Graphic file (type png)
+<use assets/images/Research/Bus/actual_route.png>
+Package pdftex.def Info: assets/images/Research/Bus/actual_route.png  used on input line 63.
+(pdftex.def)             Requested size: 182.09485pt x 166.09898pt.
+)
+File: assets/images/hcmut.png Graphic file (type png)
+<use assets/images/hcmut.png>
+Package pdftex.def Info: assets/images/hcmut.png  used on input line 224.
+(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
+ [17 <./assets/images/Research/Bus/plot_route.png> <./assets/images/Research/Bus/actual_route.png>]
 \openout2 = `Sections/work_evaluation_&_future_plans.aux'.
 
  (Sections/work_evaluation_&_future_plans.tex)
@@ -1526,16 +1550,16 @@ File: assets/images/hcmut.png Graphic file (type png)
 <use assets/images/hcmut.png>
 Package pdftex.def Info: assets/images/hcmut.png  used on input line 225.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [17
+ [18
 
 
 
 ]
 File: assets/images/hcmut.png Graphic file (type png)
 <use assets/images/hcmut.png>
-Package pdftex.def Info: assets/images/hcmut.png  used on input line 230.
+Package pdftex.def Info: assets/images/hcmut.png  used on input line 231.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [18
+ [19
 
 
 ] 
@@ -1551,23 +1575,23 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 11.12pt have occurred.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 969A04AF09B6B2E60F9F8C445FE66157;6138.
+(rerunfilecheck)             Checksum: 7E80CB7B51DEE9F928E1A5C38361C260;6168.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38497 strings out of 474587
- 761157 string characters out of 5746174
- 1943558 words of memory out of 5000000
- 59942 multiletter control sequences out of 15000+600000
- 568332 words of font info for 79 fonts, out of 8000000 for 9000
+ 39007 strings out of 474587
+ 767381 string characters out of 5746174
+ 2043558 words of memory out of 5000000
+ 60420 multiletter control sequences out of 15000+600000
+ 568500 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  88i,25n,101p,1279b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (19 pages, 5796318 bytes).
+ <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on main.pdf (20 pages, 8185324 bytes).
 PDF statistics:
- 418 PDF objects out of 1000 (max. 8388607)
- 74 named destinations out of 1000 (max. 500000)
- 392 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 471 PDF objects out of 1000 (max. 8388607)
+ 102 named destinations out of 1000 (max. 500000)
+ 407 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -12,8 +12,57 @@ The integrity of the data on the Buyt TPHCM website is guaranteed due to its com
 Several JavaScript source files power this site:
 \begin{itemize}
     \item \textbf{L.Config.js:} This is a configuration file to set up the map rendering for Buyt TPHCM. The tiles are loaded from http://map.stis.vn/bright/{z}/{x}/{y}.png.
-    \item \textbf{L.RouteMap.js:} This source file is responsible for showing the stops and bus routes. We were able to get the coordinate sets that we wanted by placing breakpoints on this site.
+    \item \textbf{L.RouteMap.js:} This source file is responsible for showing the stops and bus routes. We were able to get the coordinate sets that we wanted by placing breakpoints on this file.
 \end{itemize}
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{assets/images/Research/Bus/lat_long_web.png}
+    \caption{Capturing and observing the route data using the DevTool}
+    \label{fig:lat_long_web}
+\end{figure}
+
+By inserting breakpoints in L.RouteMap.js, we can easily obtain the coordinates of the route, as demonstrated on the right-hand side. It is worth mentioning that while the coordinates are given in both distinct arrays and a single array with integrated data, it is more advantageous to utilize the latitudes and longitudes in separate arrays. The reason for this is that the present system implementation utilizes MongoDB, which does not allow tuples due to its implementation of BSON.
+
+When it is desirable to work with a single array of coordinates, the stored data can be retrieved and combined together. Below is an example where we zip the arrays and plot them using Matplotlib (please note that since there are over 600 elements in each array, 668 to be exact, a figurative number was put in the code excerpt)
+
+\begin{lstlisting}[language=python]
+    lat = [10.001, 10.002] # the latitudes
+    lng = [106.001, 106.002] # the longitudes
+    coordinates = [(lat[i], lng[i]) for i in range(min(len(lat), len(lng)))]
+    # Extract latitudes and longitudes from the coordinates
+    latitudes, longitudes = zip(*coordinates)
+    
+    # Create a scatter plot to mark the coordinates
+    plt.scatter(longitudes, latitudes, color='red', marker='o', label='Coordinates')
+    
+    # Create a line plot to draw the polyline
+    plt.plot(longitudes, latitudes, color='blue', label='Polyline')
+    
+    # Set labels for the x and y axes
+    plt.xlabel('Longitude')
+    plt.ylabel('Latitude')
+    
+    # Add a legend
+    plt.legend()
+    
+    # Display the plot
+    plt.show()
+\end{lstlisting}
+
+The result is as follow:
+\begin{figure}[H]
+    \centering
+    \subfloat[The Matplotlib representation of the bus route 8.]{
+        \includegraphics[width=0.4\linewidth]{assets/images/Research/Bus/plot_route.png}
+        \label{fig:plot-route}
+    }
+    \hspace{0.5cm} % Add a horizontal space of 0.5 cm
+    \subfloat[The actual route 8 from Buyt TPHCM.]{
+        \includegraphics[width=0.4\linewidth]{assets/images/Research/Bus/actual_route.png}
+        \label{fig:actual_route}
+    }
+\end{figure}
+
 \subsubsection{Data storage of bus services}
 
 \subsection{iOS App Development}
