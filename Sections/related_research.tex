@@ -5,9 +5,10 @@
 
 \subsection{Bus-Related Services}
 
-Our research investigates a range of applications that provide services related to buses. Through a thorough analysis of established solutions within this field, our objective is to acquire insights that will guide the improvement of our application, thereby providing our audience with a more comprehensive and intuitive experience.
+Previous groups' research has investigated traffic-related value-added services, such as nearby hospitals and automatic teller machines. When it comes to our project, one major candidate for us to continue this research direction is the addition of buses and public transport as a whole. Our research investigates a range of existing applications that provide services related to buses. Through a thorough analysis of established solutions within this field, our objective is to acquire insights that will guide the improvement of our application by finding a compromise between the current system's strengths and weaknesses.
 
-\subsubsection{FPT Ecosystem}
+The existing solutions in question are the package offered by FPT in the names of Go!Bus TPHCM and the Buyt TPHCM website, as well as BusMap by Phenikaa MaaS JSC.
+\subsubsection{The FPT Ecosystem}
 
 Besides Go!Bus TPHCM, FPT offers a wide set of choices for citizens to track traﬀic data, and these services are linked together. Most notably, the TTGT Tp Ho Chi Minh app allows users to see public cameras for traﬀic. We place particular emphasis on Go!Bus as it aligns with our project's focus, and Buyt TPHCM holds significance for data collection, as detailed in subsequent sections. These applications play pivotal roles in informing our research and development efforts.
 
@@ -22,8 +23,7 @@ Fundamentally, Go!Bus offers solely bus-related services like bus stop searching
     \label{fig:gobus_homescreen}
 \end{figure}
 
-Nevertheless, during our testing of these features, none of them functioned. Here are a few examples of these occurrences.
-
+Nevertheless, during our testing of these features, none of them functioned, or had inconsistent uptimes. Here are a few examples of these occurrences.
 \begin{figure}[H]
     \centering
     \subfloat[No data for nearby routes.]{
@@ -43,7 +43,7 @@ Nevertheless, during our testing of these features, none of them functioned. Her
     \caption{Go!Bus functionalities problems}
 \end{figure}
 
-It also portrayed some mobile app bad practices, such as embedding web views into the UI. Apple, in particular, is not fond of this approach and publicly stated that apps using this will not be accepted
+It also portrayed some mobile app bad practices, such as embedding an excessive number of web views into the user interface. Apple, in particular, is not fond of this approach and publicly stated that apps using this will not be accepted in the future. This is one of the points that we will take into consideration when developing our iOS app.
 
 \subsubsubsection{Buyt TPHCM website}
 Buyt TPHCM website is an online resource designed to provide comprehensive information and tools for navigating the public bus system in Ho Chi Minh City. This website aims to enhance the accessibility and user experience of public transportation within the city by offering the following key functionalities:
@@ -72,7 +72,7 @@ The fundamental bus services like searching and routing are executed well on Bus
 
 \subsubsection{Conclusion}
 
-Both of these apps share a common feature of being equipped with an abundance of supplementary services. While Go!Bus TPHCM is compatible with Grab, BusMap has diversified its partnerships to include other businesses. One apparent limitation of UTraffic is the lack of access to real-time data, such as the current locations of buses and the duration until the next journey. Nevertheless, with sufficient effort and development, our application can excel as a dependable routing and search engine. Ultimately, the primary function of UTraffic is to process congestion data; therefore, care must be taken not to delve too thoroughly into other domains.
+Both of these apps share a common feature of being equipped with an abundance of supplementary services. While Go!Bus TPHCM is compatible with Grab, BusMap has diversified its partnerships to include other businesses. One apparent limitation of UTraffic is the lack of access to real-time data, such as the current locations of buses and the duration until the next journey. Nevertheless, with sufficient effort and development, our application can excel as a dependable routing and search engine. Ultimately, the primary function of UTraffic is to process congestion data; therefore, we must be careful not to delve too thoroughly into other domains.
 
 \subsection{UTraffic's system analysis and design}
 
