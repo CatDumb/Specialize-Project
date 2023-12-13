@@ -88,3 +88,5 @@ During our research to improve the performance and coherence of the application,
     \item \textbf{Find Stops by Location: /stops/nearby} - Find bus stops near a given location.
     \item \textbf{Route Search: /routes/search} - Search for bus routes based on keywords or criteria.
 \end{itemize}
+
+We also expanded the existing API that handles the traffic status by supporting an endpoint that outputs GeoJSON data. This is done by following the GeoJSON's standard format of being a FeatureCollection of Features, where each Feature is a Point with the coordinates of the traffic status.
