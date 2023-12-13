@@ -121,6 +121,36 @@
       \field{title}{{MongoDB} manual}
       \true{nocite}
     \endentry
+    \entry{MVC_MVVM}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=2151f71adda110135d46c192dbb73149}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{2151f71adda110135d46c192dbb73149}
+      \strng{fullhash}{2151f71adda110135d46c192dbb73149}
+      \strng{bibnamehash}{2151f71adda110135d46c192dbb73149}
+      \strng{authorbibnamehash}{2151f71adda110135d46c192dbb73149}
+      \strng{authornamehash}{2151f71adda110135d46c192dbb73149}
+      \strng{authorfullhash}{2151f71adda110135d46c192dbb73149}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{MVC and MVVM references}
+      \field{booktitle}{Guru99}
+      \field{howpublished}{\url{https://www.guru99.com/mvc-vs-mvvm.html}}
+      \field{month}{11}
+      \field{note}{Accessed: 2023-12-13}
+      \field{title}{{MVC} vs {MVVM} -- difference between them}
+      \field{year}{2023}
+      \true{nocite}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
