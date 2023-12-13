@@ -66,3 +66,16 @@ The result is as follow:
 \subsubsection{Data storage of bus services}
 
 \subsection{iOS App Development}
+We are determined to develop an equivalent iOS app for the project in order to provide a more complete experience for the users. The app is developed using Swift 5.9 and Xcode 15. The app is compatible with iOS 16.0 and above.
+
+First and foremost, this app must at least offer the basic functionalities like that of the Android counterpart. This includes authentication, viewing the traffic status report, and being able to communicate with the server. Other requirements are that the app must also be lightweight, performant, and consistent with the ongoing design of the Android app to an extent. During the developement of this prototype, we have also taken into consideration the possibility of future expansion, such as adding more features and improving the user experience, as well as following Apple's best practices when it comes to iOS app development.
+
+\subsubsection{The landing page and permission requests}
+Because the UTraffic app must know the user's real-time location in order to gather GPS data and also display nearby traffic status, it is crucial that we ask the users for location permissions upon the first app launch. This is done by presenting a dialog box that asks for the user's permission to access their location. The choice is saved into \lstinline{UserDefaults}, so that this process will not be repeated on subsequent app launches.
+
+\subsubsection{Account registration and login}
+We adapt most of the user interface from the Android app to the iOS app in order to provide a consistent experience of the app across platforms. 
+
+\subsubsection{Viewing the traffic status report}
+
+
