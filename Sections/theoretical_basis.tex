@@ -5,6 +5,7 @@
 \subsubsection{Model-View-Controller (MVC)}
 
 MVC is an architectural design pattern for building applications that separates the application into three main logical components: the model, the view, and the controller. In the MVC model:
+
 \begin{itemize}
     \item \textbf{Model}: Represents the data and business logic of the application. It is the "unchanging essence" of the application and should be stable and long-lived.
 
@@ -29,9 +30,33 @@ Benefits of using MVC:
     \item \textbf{Easier collaboration}: Different developers can work on different components independently.
 \end{itemize}
 
+\begin{table}[htbp]
+    \centering
+    \begin{tabularx}{\textwidth}{| X | X | X |}
+        \hline
+                &       Pros        &       Cons        \\ \hline
+        MVC     &   \begin{itemize}
+                        \item Separation of concerns
+                        \item Improved testability
+                        \item Increased flexibility
+                        \item Easier collaboration
+                    \end{itemize}
+                &   \begin{itemize}
+                        \item Increased complexity
+                        \item Increased development time
+                    \end{itemize} \\ \hline
+    \end{tabularx}
+\end{table}
+
 \subsubsection{Model-View-ViewModel (MVVM)}
 
+MVVM architecture offers two-way data binding between view and view-model. The view-model makes use of observer pattern to make changes in the view-model. The components of MVVM are:
 
+\begin{itemize}
+    \item \textbf{Model}: Holds the data and business logic. The model is independant of UI or user interaction.
+    \item \textbf{View}: Represents how the user interacts with the application.
+    \item \textbf{View-model}: Acts as a bridge between the view and the model. It provides data from the model to the view and handles user interaction with the view.
+\end{itemize}
 
 \subsection{Frontend}
 

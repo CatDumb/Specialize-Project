@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.9)  13 DEC 2023 23:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.9)  14 DEC 2023 01:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -629,37 +629,37 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
 ) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/graphics\dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
-) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
-Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
-\TX@col@width=\dimen178
-\TX@old@table=\dimen179
-\TX@old@col=\dimen180
-\TX@target=\dimen181
-\TX@delta=\dimen182
-\TX@cols=\count434
-\TX@ftn=\toks29
 ) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen183
-\captionmargin=\dimen184
-\caption@leftmargin=\dimen185
-\caption@rightmargin=\dimen186
-\caption@width=\dimen187
-\caption@indent=\dimen188
-\caption@parindent=\dimen189
-\caption@hangindent=\dimen190
+\caption@tempdima=\dimen178
+\captionmargin=\dimen179
+\caption@leftmargin=\dimen180
+\caption@rightmargin=\dimen181
+\caption@width=\dimen182
+\caption@indent=\dimen183
+\caption@parindent=\dimen184
+\caption@hangindent=\dimen185
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count435
-\c@continuedfloat=\count436
+\c@caption@flags=\count434
+\c@continuedfloat=\count435
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: wrapfig package is loaded.
+) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen186
+\TX@old@table=\dimen187
+\TX@old@col=\dimen188
+\TX@target=\dimen189
+\TX@delta=\dimen190
+\TX@cols=\count436
+\TX@ftn=\toks29
 ) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip111
@@ -1173,7 +1173,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip129
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 66.
+Package hyperref Info: Option `colorlinks' set `true' on input line 68.
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/parskip\parskip.sty
 Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
 )
@@ -1190,24 +1190,24 @@ File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (main.aux (Sections/introduction.aux) (Sections/related_research.aux) (Sections/theoretical_basis.aux) (Sections/implementation.aux) (Sections/work_evaluation_&_future_plans.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
@@ -1221,8 +1221,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 125.
-Package biblatex Info: Reference segment=0 on input line 125.
+Package biblatex Info: Reference section=0 on input line 127.
+Package biblatex Info: Reference segment=0 on input line 127.
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count534
@@ -1288,7 +1288,7 @@ Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
 ) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fc-english.def
 File: fc-english.def 2016/01/12
 )
-Package hyperref Info: Link coloring ON on input line 125.
+Package hyperref Info: Link coloring ON on input line 127.
  (main.out) (main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -1296,26 +1296,26 @@ Package hyperref Info: Link coloring ON on input line 125.
 <assets/images/Trivia/hcmut.png, id=186, 1204.5pt x 1218.5525pt>
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 151.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 153.
 (pdftex.def)             Requested size: 113.81102pt x 115.1315pt.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <36> not available
-(Font)              size <24.88> substituted on input line 157.
+(Font)              size <24.88> substituted on input line 159.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <36> not available
-(Font)              size <24.88> substituted on input line 158.
+(Font)              size <24.88> substituted on input line 160.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 168.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 170.
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 168.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 170.
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 168.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 170.
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ) [1
@@ -1323,19 +1323,19 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 {C:/Users/User/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./assets/images/Trivia/hcmut.png>]
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 201.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 203.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 201.
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 203.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.201 \newpage
+l.203 \newpage
                [1]
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 214.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 216.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
  [2] (main.toc
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
@@ -1348,7 +1348,7 @@ Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 40.
 
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 216.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 218.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
  [4] (main.lof)
 \tf@lof=\write7
@@ -1356,7 +1356,7 @@ Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 216.
 
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 218.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 220.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
  [5] (main.lot)
 \tf@lot=\write8
@@ -1364,7 +1364,7 @@ Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 218.
 
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 220.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 222.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
  [6]
 \openout2 = `Sections/introduction.aux'.
@@ -1388,12 +1388,12 @@ LaTeX Warning: Citation 'refactor_needed' on page 8 undefined on input line 30.
 )
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 222.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 224.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
  [8]
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 222.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 224.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
  [9]
 \openout2 = `Sections/related_research.aux'.
@@ -1461,7 +1461,7 @@ Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 85.
 [12 <./assets/images/Research/Bus/busmap_home.png>])
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 223.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 225.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
  [13]
 \openout2 = `Sections/theoretical_basis.aux'.
@@ -1470,27 +1470,31 @@ Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 223.
 <assets/images/Research/System/MVC.png, id=348, 931.48pt x 660.4675pt>
 File: assets/images/Research/System/MVC.png Graphic file (type png)
 <use assets/images/Research/System/MVC.png>
-Package pdftex.def Info: assets/images/Research/System/MVC.png  used on input line 18.
+Package pdftex.def Info: assets/images/Research/System/MVC.png  used on input line 19.
 (pdftex.def)             Requested size: 364.19664pt x 258.23634pt.
-)
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+[]\OT1/cmr/m/n/10 Increased de-vel-op-ment
+ []
+
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 224.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 56.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [14
+[14
 
 
 
- <./assets/images/Research/System/MVC.png>]
+ <./assets/images/Research/System/MVC.png>])
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 224.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 226.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
  [15]
 \openout2 = `Sections/implementation.aux'.
 
  (Sections/implementation.tex
-<assets/images/Research/Bus/lat_long_web.png, id=360, 1445.4pt x 778.40813pt>
+<assets/images/Research/Bus/lat_long_web.png, id=361, 1445.4pt x 778.40813pt>
 File: assets/images/Research/Bus/lat_long_web.png Graphic file (type png)
 <use assets/images/Research/Bus/lat_long_web.png>
 Package pdftex.def Info: assets/images/Research/Bus/lat_long_web.png  used on input line 19.
@@ -1507,17 +1511,17 @@ Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 33.
 
 
  <./assets/images/Research/Bus/lat_long_web.png>]
-<assets/images/Research/Bus/plot_route.png, id=373, 754.82pt x 658.46pt>
+<assets/images/Research/Bus/plot_route.png, id=374, 754.82pt x 658.46pt>
 File: assets/images/Research/Bus/plot_route.png Graphic file (type png)
 <use assets/images/Research/Bus/plot_route.png>
 Package pdftex.def Info: assets/images/Research/Bus/plot_route.png  used on input line 58.
 (pdftex.def)             Requested size: 182.09485pt x 158.84746pt.
-<assets/images/Research/Bus/actual_route.png, id=374, 948.54375pt x 865.2325pt>
+<assets/images/Research/Bus/actual_route.png, id=375, 948.54375pt x 865.2325pt>
 File: assets/images/Research/Bus/actual_route.png Graphic file (type png)
 <use assets/images/Research/Bus/actual_route.png>
 Package pdftex.def Info: assets/images/Research/Bus/actual_route.png  used on input line 63.
 (pdftex.def)             Requested size: 182.09485pt x 166.09898pt.
-<assets/images/Research/Bus/stop_web.png, id=375, 1445.4pt x 775.39688pt>
+<assets/images/Research/Bus/stop_web.png, id=376, 1445.4pt x 775.39688pt>
 File: assets/images/Research/Bus/stop_web.png Graphic file (type png)
 <use assets/images/Research/Bus/stop_web.png>
 Package pdftex.def Info: assets/images/Research/Bus/stop_web.png  used on input line 69.
@@ -1534,7 +1538,7 @@ Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 89.
  [18 <./assets/images/Research/Bus/stop_web.png>])
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 225.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 227.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
  [19]
 \openout2 = `Sections/work_evaluation_&_future_plans.aux'.
@@ -1542,20 +1546,20 @@ Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 225.
  (Sections/work_evaluation_&_future_plans.tex)
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 226.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 228.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
  [20
 
 
 
 ]
-Overfull \hbox (6.44661pt too wide) in paragraph at lines 231--231
+Overfull \hbox (6.44661pt too wide) in paragraph at lines 233--233
 []\OT1/cmr/m/n/10 T. H.[]T. D. /, \OT1/cmr/m/it/10 Traf-fic con-ges-tion costs ho chi minh city \TS1/cmr/m/it/10 $\OT1/cmr/m/it/10 6 bil-lion each year\OT1/cmr/m/n/10 , en, [][]$\OT1/cmtt/m/n/10 https : / / tuoitrenews .
  []
 
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 232.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 234.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
 [21
 
@@ -1587,17 +1591,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38377 strings out of 474587
- 753950 string characters out of 5746174
+ 38386 strings out of 474587
+ 754195 string characters out of 5746174
  2043558 words of memory out of 5000000
- 59794 multiletter control sequences out of 15000+600000
+ 59801 multiletter control sequences out of 15000+600000
  568877 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  88i,25n,92p,1279b,2268s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti1000.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on main.pdf (22 pages, 8437029 bytes).
+Output written on main.pdf (22 pages, 8439490 bytes).
 PDF statistics:
- 516 PDF objects out of 1000 (max. 8388607)
- 109 named destinations out of 1000 (max. 500000)
+ 520 PDF objects out of 1000 (max. 8388607)
+ 111 named destinations out of 1000 (max. 500000)
  433 words of extra memory for PDF output out of 10000 (max. 10000000)
 
