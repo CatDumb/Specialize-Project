@@ -28,7 +28,7 @@
            giveni={T\bibinitperiod\bibinitdelim H\bibinithyphendelim T\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
       }
       \list{language}{1}{%
-        {en}%
+        {vi}%
       }
       \strng{namehash}{aa1e3fbe372e9634c713f2f82e46ecdf}
       \strng{fullhash}{aa1e3fbe372e9634c713f2f82e46ecdf}
@@ -50,7 +50,7 @@
     \endentry
     \entry{utraffic-mobile}{misc}{}
       \list{language}{1}{%
-        {en}%
+        {vi}%
       }
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
@@ -62,7 +62,7 @@
     \endentry
     \entry{utraffic-introduction}{misc}{}
       \list{language}{1}{%
-        {en}%
+        {vi}%
       }
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
@@ -99,7 +99,7 @@
     \endentry
     \entry{buythcm}{misc}{}
       \list{language}{1}{%
-        {en}%
+        {vi}%
       }
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
@@ -111,7 +111,7 @@
     \endentry
     \entry{mongodb_bson}{misc}{}
       \list{language}{1}{%
-        {en}%
+        {vi}%
       }
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
@@ -149,6 +149,53 @@
       \field{note}{Accessed: 2023-12-13}
       \field{title}{{MVC} vs {MVVM} -- difference between them}
       \field{year}{2023}
+      \true{nocite}
+    \endentry
+    \entry{Swift}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=7d5966b00fe0cf0e10865326eb4fb8d8}{%
+           family={{Nimble App Genie}},
+           familyi={N\bibinitperiod}}}%
+        {{hash=4f89f384e381fb2e46fac756f3207c62}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Niketan},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{5afb8491e1fb0dda0764751faf47e082}
+      \strng{fullhash}{5afb8491e1fb0dda0764751faf47e082}
+      \strng{bibnamehash}{5afb8491e1fb0dda0764751faf47e082}
+      \strng{authorbibnamehash}{5afb8491e1fb0dda0764751faf47e082}
+      \strng{authornamehash}{5afb8491e1fb0dda0764751faf47e082}
+      \strng{authorfullhash}{5afb8491e1fb0dda0764751faf47e082}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Do you want to know the difference between swift vs objective c and want to know how they compare to swiftUI? Read this blog till the end.}
+      \field{booktitle}{nimbleappgenie}
+      \field{howpublished}{\url{https://www.nimbleappgenie.com/blogs/swift-vs-objective-c/}}
+      \field{month}{5}
+      \field{note}{Accessed: 2023-12-13}
+      \field{title}{Objective C vs Swift : Which one is the best?}
+      \field{year}{2023}
+      \true{nocite}
+    \endentry
+    \entry{Swift_2}{misc}{}
+      \list{language}{1}{%
+        {en}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{abstract}{More Swift vs Objective-C comparisons}
+      \field{booktitle}{Educative}
+      \field{howpublished}{\url{https://www.educative.io/answers/swift-vs-objective-c}}
+      \field{note}{Accessed: 2023-12-13}
+      \field{title}{Educative answers - trusted answers to developer questions}
       \true{nocite}
     \endentry
   \enddatalist

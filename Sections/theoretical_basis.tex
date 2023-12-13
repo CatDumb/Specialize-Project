@@ -16,37 +16,10 @@ MVC is an architectural design pattern for building applications that separates 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{assets/images/Research/System/MVC.png}
+    \includegraphics[width=\textwidth]{assets/images/Research/System/MVC.png}
     \caption{MVC architecture}
     \label{fig:mvc}
 \end{figure}
-
-Benefits of using MVC:
-
-\begin{itemize}
-    \item \textbf{Separation of concerns}: Each component has a well-defined role, making the code easier to understand and maintain.
-    \item \textbf{Improved testability}: Each component can be tested independently.
-    \item \textbf{Increased flexibility}: Changes to one component can be made without affecting the others.
-    \item \textbf{Easier collaboration}: Different developers can work on different components independently.
-\end{itemize}
-
-\begin{table}[htbp]
-    \centering
-    \begin{tabularx}{\textwidth}{| X | X | X |}
-        \hline
-                &       Pros        &       Cons        \\ \hline
-        MVC     &   \begin{itemize}
-                        \item Separation of concerns
-                        \item Improved testability
-                        \item Increased flexibility
-                        \item Easier collaboration
-                    \end{itemize}
-                &   \begin{itemize}
-                        \item Increased complexity
-                        \item Increased development time
-                    \end{itemize} \\ \hline
-    \end{tabularx}
-\end{table}
 
 \subsubsection{Model-View-ViewModel (MVVM)}
 
@@ -58,19 +31,101 @@ MVVM architecture offers two-way data binding between view and view-model. The v
     \item \textbf{View-model}: Acts as a bridge between the view and the model. It provides data from the model to the view and handles user interaction with the view.
 \end{itemize}
 
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{assets/images/Research/System/MVVM.png}
+    \caption{MVVM architecture}
+    \label{fig:mvvm}
+\end{figure}
+
+\subsubsection{Conclusion}
+
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{| c | p{0.4\textwidth} | p{0.4\textwidth} |}
+        \hline
+        \multicolumn{1}{|c|}{}
+        & \multicolumn{1}{c|}{Advantage}
+        & \multicolumn{1}{c|}{Disadvantage} \\ \hline
+        \multirow{4}{*}{MVC}     
+                &   \begin{itemize}[leftmargin=*,topsep=0pt,partopsep=0pt,parsep=0pt]
+                        \item The development of the various components can be performed parallelly.
+                        \item It avoids complexity by dividing an application into separate (MVC) units
+                        \item It only uses a front controller pattern that processes web application requests using a single controller.
+                        \item It provides a clean separation of concerns.
+                    \end{itemize}
+                &   \begin{itemize}[leftmargin=*,topsep=0pt,partopsep=0pt,parsep=0pt]
+                        \item Business logic is mixed with Ul
+                        \item Hard to reuse and implement tests
+                        \item There is a need for multiple programmers to conduct parallel programming.
+                    \end{itemize} \\ \hline
+        \multirow{4}{*}{MVVC}
+                &   \begin{itemize}[leftmargin=*,topsep=0pt,partopsep=0pt,parsep=0pt]
+                        \item Business logic is decoupled from Ul.
+                        \item Easy to reuse components.
+                        \item You can write unit test cases for both the viewmodel and Model layer without the need to reference the View.
+                    \end{itemize}
+                &   \begin{itemize}[leftmargin=*,topsep=0pt,partopsep=0pt,parsep=0pt]
+                        \item Maintenance of lots of codes in controller
+                        \item Some people think that for simple UIs of MVVM architecture can be overkill
+                    \end{itemize} \\ \hline
+    \end{tabular}
+\end{table}
+
+Base on the comparison above, MVVM is more suitable for this project because it is easier to reuse components and write unit test cases.
+
 \subsection{Frontend}
 
-\subsubsection{Java}
+\subsubsection{Objective C}
 
+Objective-C currently ranks 22nd in popularity according to the TIOBE Index. While its use is declining, it remains significant in the Apple ecosystem, with around 60,000 active repositories. Introduced in the 1980s by Brad Cox and Tom Love, Objective-C is an object-oriented programming language primarily used for Apple platforms. It was licensed by NeXT Computer Inc., a company founded by Steve Jobs. Noteworthy features include classes, inheritance, dynamic binding, and a Smalltalk-like syntax for messaging objects. Despite declining usage, Objective-C remains one of the more popular programming languages in the market
 
+Some of the great features of this language are:
+
+\begin{itemize}
+    \item \textbf{Object-Oriented}: Supports classes, objects, and object-oriented concepts.
+    \item \textbf{Dynamic Binding}: Resolves method calls at runtime for flexibility.
+    \item \textbf{Message Passing}: Utilizes message passing for a natural coding style.
+    \item \textbf{Smalltalk-style Syntax}: Simple and expressive syntax like Smalltalk for clear code.
+    \item \textbf{Cross-Platform}: Works on macOS, iOS, and other Apple platforms, plus Windows and Linux.
+    \item \textbf{Interoperability with C}: Integrates seamlessly with C libraries for collaboration.
+\end{itemize}
 
 \subsubsection{Swift}
 
-
+Swift is a powerful and modern programming language developed by Apple for building applications across its ecosystem, including iOS, macOS, watchOS, and tvOS. Introduced in 2014, Swift was designed to be efficient, expressive, and easy to learn, addressing the shortcomings of its predecessor, Objective-C. With a syntax that is both concise and readable, Swift empowers developers to create robust and high-performance applications. Known for its safety features, dynamic capabilities, and versatility, Swift has quickly become the language of choice for many developers seeking to craft innovative and seamless experiences within the Apple ecosystem. In this introduction, we'll explore the key features and characteristics that make Swift a standout language in the world of software development.
 
 \subsubsection{SwiftUI}
 
+In summary, SwiftUI, developed by Apple, has become increasingly popular among iOS app developers for valid reasons. Introduced five years after Swift alongside Swift 5 and Xcode 11, it serves as a UI toolkit designed for creating software across various platforms, including iOS, macOS, watchOS, and tvOS. SwiftUI offers a declarative approach to UI design, enabling developers to describe layout and behavior using a simple and intuitive syntax. This results in more efficient and faster development of complex UIs, thanks to concise and easily readable code compared to traditional imperative approaches.
 
+In summary, SwiftUI stands out with these key features:
+
+\begin{itemize}
+    \item \textbf{Declarative Syntax}: Describes UI appearance easily, improving code readability.
+    \item \textbf{Automatic Layout}: Handles UI layout automatically, reducing manual effort.
+    \item \textbf{Dynamic UI}: Enables the creation of dynamic and interactive interfaces.
+    \item \textbf{Cross-platform Support}: Works across all Apple devices with a single codebase.
+    \item \textbf{Real-time Preview}: Provides live previews of UI changes during development.
+    \item \textbf{Pre-built Components}: Offers ready-to-use UI components for quick and efficient development.
+\end{itemize}
+
+\subsubsection{Conclusion}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{| >{\centering\arraybackslash}m{2cm} | >{\centering\arraybackslash}m{6cm} | >{\centering\arraybackslash}m{6cm} |}
+        \hline
+        \textbf{Feature} & \textbf{Objective C} & \textbf{Swift} \\ \hline
+        Age & Developed in the early 1980s & Introduced in 2014 \\ \hline
+        Syntax & Uses C-based syntax with Smalltalk-style messaging & Uses a modern and concise syntax \\ \hline
+        Performance & Slower than Swift due to overhead and lack of optimization & Faster than Objective-C due to optimization features \\ \hline
+        Memory Managment & Prone to memory leaks & No memory leaks due to being type-safe and memory-safe \\ \hline
+        Stability & Stable & Unstable as it is still growing \\ \hline
+    \end{tabular}
+\end{table}
+
+Base on the comparison above, Swift is more suitable for this project because it is superior in multiple aspects when comparing to Objective C.
 
 \subsection{Backend}
 
