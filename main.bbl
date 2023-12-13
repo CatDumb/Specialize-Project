@@ -18,10 +18,63 @@
 
 
 \refsection{0}
-  \datalist[entry]{apa/apasortcite//global/global}
+  \datalist[entry]{none/global//global/global}
+    \entry{congestion-damage}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=aa1e3fbe372e9634c713f2f82e46ecdf}{%
+           family={/},
+           familyi={/\bibinitperiod},
+           given={Thanh\bibnamedelimb Ha-Thu\bibnamedelima Dung},
+           giveni={T\bibinitperiod\bibinitdelim H\bibinithyphendelim T\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{aa1e3fbe372e9634c713f2f82e46ecdf}
+      \strng{fullhash}{aa1e3fbe372e9634c713f2f82e46ecdf}
+      \strng{bibnamehash}{aa1e3fbe372e9634c713f2f82e46ecdf}
+      \strng{authorbibnamehash}{aa1e3fbe372e9634c713f2f82e46ecdf}
+      \strng{authornamehash}{aa1e3fbe372e9634c713f2f82e46ecdf}
+      \strng{authorfullhash}{aa1e3fbe372e9634c713f2f82e46ecdf}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Though the number of traffic-related injuries and fatalities has decreased in recent years, traffic congestion is getting worse}
+      \field{booktitle}{Tuoi Tre News}
+      \field{howpublished}{\url{https://tuoitrenews.vn/news/society/20221001/traffic-congestion-costs-ho-chi-minh-city-6-billion-each-year/69343.html}}
+      \field{month}{10}
+      \field{note}{Accessed: 2023-12-13}
+      \field{title}{Traffic congestion costs Ho Chi Minh City \$6 billion each year}
+      \field{year}{2022}
+    \endentry
+    \entry{utraffic-mobile}{misc}{}
+      \list{language}{1}{%
+        {en}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{abstract}{UTraffic Android application}
+      \field{howpublished}{\url{https://bktraffic.com/home/mobile-app}}
+      \field{note}{Accessed: 2023-12-13}
+      \field{title}{UTraffic Mobile}
+    \endentry
+    \entry{utraffic-introduction}{misc}{}
+      \list{language}{1}{%
+        {en}%
+      }
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Utraffic homepage}
+      \field{howpublished}{\url{https://bktraffic.com/home/}}
+      \field{note}{Accessed: 2023-12-13}
+      \field{title}{{UTraffic} - homepage}
+    \endentry
     \entry{apple_webview}{misc}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=3325b015fbae57ba74629a53f1ead961}{%
+        {{hash=3325b015fbae57ba74629a53f1ead961}{%
            family={{Apple Inc}},
            familyi={A\bibinitperiod}}}%
       }
@@ -34,260 +87,39 @@
       \strng{authorbibnamehash}{3325b015fbae57ba74629a53f1ead961}
       \strng{authornamehash}{3325b015fbae57ba74629a53f1ead961}
       \strng{authorfullhash}{3325b015fbae57ba74629a53f1ead961}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{labeldatesource}{nodate}
-      \true{uniqueprimaryauthor}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{If your app still embeds web content using the deprecated UIWebView API, we strongly encourage you to update to WKWebView as soon as possible for improved security and reliability. WKWebView ensures that compromised web content doesn't affect the rest of an app by limiting web processing to the app's web view. And it's supported in iOS and macOS, and by Mac Catalyst.The App Store will no longer accept new apps using UIWebView as of April 2020 and app updates using UIWebView as of December 2020.Learn more about WKWebView}
+      \field{abstract}{Apple on embedding webviews in iOS applications}
       \field{howpublished}{\url{https://developer.apple.com/news/?id=12232019b}}
-      \field{note}{Accessed: 2023-12-11}
+      \field{note}{Accessed: 2023-12-13}
       \field{title}{Updating apps that use web views - latest news - apple developer}
-      \true{nocite}
-    \endentry
-    \entry{mongodb_bson}{misc}{}
-      \list{language}{1}{%
-        {en}%
-      }
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{labeldatesource}{nodate}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://www.mongodb.com/docs/v3.0/reference/bson-types/}}
-      \field{note}{Accessed: 2023-12-12}
-      \field{title}{{BSON} types --- {MongoDB} manual}
       \true{nocite}
     \endentry
     \entry{buythcm}{misc}{}
       \list{language}{1}{%
-        {vi}%
+        {en}%
       }
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{labeldatesource}{nodate}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{http://buyttphcm.com.vn/}}
       \field{note}{Accessed: 2023-12-11}
       \field{title}{Buyt TPHCM Homepage}
       \true{nocite}
     \endentry
-    \entry{congestion-damage}{misc}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=7432223f26eb953680226f31ead0fb8e}{%
-           family={Ha},
-           familyi={H\bibinitperiod},
-           given={Thanh},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8439ecc5ac9fb7e85afb8b2e55bf9477}{%
-           family={Dung},
-           familyi={D\bibinitperiod},
-           given={Thu},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{2ba8981973224302ce7c17765f26537d}
-      \strng{fullhash}{2ba8981973224302ce7c17765f26537d}
-      \strng{bibnamehash}{2ba8981973224302ce7c17765f26537d}
-      \strng{authorbibnamehash}{2ba8981973224302ce7c17765f26537d}
-      \strng{authornamehash}{2ba8981973224302ce7c17765f26537d}
-      \strng{authorfullhash}{2ba8981973224302ce7c17765f26537d}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{labeldatesource}{nodate}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://tuoitrenews.vn/news/society/20221001/traffic-congestion-costs-ho-chi-minh-city-6-billion-each-year/69343.html}}
-      \field{note}{Accessed: 2023-12-10}
-      \field{title}{Tuoi Tre News}
-    \endentry
-    \entry{refactor_needed}{booklet}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=c53f20be18911970f84291ce892eb9fd}{%
-           family={Nguyen\bibnamedelimb Chinh\bibnamedelima Khoi},
-           familyi={N\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim K\bibinitperiod},
-           given={Luong\bibnamedelimb Duy\bibnamedelima Hung},
-           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=0,
-           suffix={Vu\bibnamedelima Anh\bibnamedelima Nhi},
-           suffixi={V\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim N\bibinitperiod},
-           suffixun=0}}%
-      }
-      \strng{namehash}{c53f20be18911970f84291ce892eb9fd}
-      \strng{fullhash}{c53f20be18911970f84291ce892eb9fd}
-      \strng{bibnamehash}{c53f20be18911970f84291ce892eb9fd}
-      \strng{authorbibnamehash}{c53f20be18911970f84291ce892eb9fd}
-      \strng{authornamehash}{c53f20be18911970f84291ce892eb9fd}
-      \strng{authorfullhash}{c53f20be18911970f84291ce892eb9fd}
-      \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Build a mobile app for data collection and urban traffic estimation}
-      \field{year}{2023}
-    \endentry
-    \entry{utraffic-introduction}{misc}{}
-      \list{language}{1}{%
-        {en}%
-      }
-      \field{sortinit}{U}
-      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
-      \field{labeldatesource}{nodate}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Web site created using create-react-app}
-      \field{howpublished}{\url{https://bktraffic.com/home/}}
-      \field{note}{Accessed: 2023-12-11}
-      \field{title}{{UTraffic} - homepage}
-    \endentry
-    \entry{utraffic-mobile}{misc}{}
-      \field{sortinit}{U}
-      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
-      \field{labeldatesource}{nodate}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://bktraffic.com/home/mobile-app}}
-      \field{note}{Accessed: 2023-12-10}
-      \field{title}{UTraffic Mobile}
-    \endentry
-  \enddatalist
-  \datalist[entry]{apa/global//global/global}
-    \entry{apple_webview}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=3325b015fbae57ba74629a53f1ead961}{%
-           family={{Apple Inc}},
-           familyi={A\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{fullhash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{bibnamehash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{authorbibnamehash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{authornamehash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{authorfullhash}{3325b015fbae57ba74629a53f1ead961}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{labeldatesource}{nodate}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{If your app still embeds web content using the deprecated UIWebView API, we strongly encourage you to update to WKWebView as soon as possible for improved security and reliability. WKWebView ensures that compromised web content doesn't affect the rest of an app by limiting web processing to the app's web view. And it's supported in iOS and macOS, and by Mac Catalyst.The App Store will no longer accept new apps using UIWebView as of April 2020 and app updates using UIWebView as of December 2020.Learn more about WKWebView}
-      \field{howpublished}{\url{https://developer.apple.com/news/?id=12232019b}}
-      \field{note}{Accessed: 2023-12-11}
-      \field{title}{Updating apps that use web views - latest news - apple developer}
-      \true{nocite}
-    \endentry
     \entry{mongodb_bson}{misc}{}
       \list{language}{1}{%
         {en}%
       }
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{labeldatesource}{nodate}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://www.mongodb.com/docs/v3.0/reference/bson-types/}}
       \field{note}{Accessed: 2023-12-12}
-      \field{title}{{BSON} types --- {MongoDB} manual}
+      \field{title}{{MongoDB} manual}
       \true{nocite}
-    \endentry
-    \entry{buythcm}{misc}{}
-      \list{language}{1}{%
-        {vi}%
-      }
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{labeldatesource}{nodate}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{http://buyttphcm.com.vn/}}
-      \field{note}{Accessed: 2023-12-11}
-      \field{title}{Buyt TPHCM Homepage}
-      \true{nocite}
-    \endentry
-    \entry{congestion-damage}{misc}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=7432223f26eb953680226f31ead0fb8e}{%
-           family={Ha},
-           familyi={H\bibinitperiod},
-           given={Thanh},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8439ecc5ac9fb7e85afb8b2e55bf9477}{%
-           family={Dung},
-           familyi={D\bibinitperiod},
-           given={Thu},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{2ba8981973224302ce7c17765f26537d}
-      \strng{fullhash}{2ba8981973224302ce7c17765f26537d}
-      \strng{bibnamehash}{2ba8981973224302ce7c17765f26537d}
-      \strng{authorbibnamehash}{2ba8981973224302ce7c17765f26537d}
-      \strng{authornamehash}{2ba8981973224302ce7c17765f26537d}
-      \strng{authorfullhash}{2ba8981973224302ce7c17765f26537d}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{labeldatesource}{nodate}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://tuoitrenews.vn/news/society/20221001/traffic-congestion-costs-ho-chi-minh-city-6-billion-each-year/69343.html}}
-      \field{note}{Accessed: 2023-12-10}
-      \field{title}{Tuoi Tre News}
-    \endentry
-    \entry{refactor_needed}{booklet}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=c53f20be18911970f84291ce892eb9fd}{%
-           family={Nguyen\bibnamedelimb Chinh\bibnamedelima Khoi},
-           familyi={N\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim K\bibinitperiod},
-           given={Luong\bibnamedelimb Duy\bibnamedelima Hung},
-           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=0,
-           suffix={Vu\bibnamedelima Anh\bibnamedelima Nhi},
-           suffixi={V\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim N\bibinitperiod},
-           suffixun=0}}%
-      }
-      \strng{namehash}{c53f20be18911970f84291ce892eb9fd}
-      \strng{fullhash}{c53f20be18911970f84291ce892eb9fd}
-      \strng{bibnamehash}{c53f20be18911970f84291ce892eb9fd}
-      \strng{authorbibnamehash}{c53f20be18911970f84291ce892eb9fd}
-      \strng{authornamehash}{c53f20be18911970f84291ce892eb9fd}
-      \strng{authorfullhash}{c53f20be18911970f84291ce892eb9fd}
-      \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Build a mobile app for data collection and urban traffic estimation}
-      \field{year}{2023}
-    \endentry
-    \entry{utraffic-introduction}{misc}{}
-      \list{language}{1}{%
-        {en}%
-      }
-      \field{sortinit}{U}
-      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
-      \field{labeldatesource}{nodate}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Web site created using create-react-app}
-      \field{howpublished}{\url{https://bktraffic.com/home/}}
-      \field{note}{Accessed: 2023-12-11}
-      \field{title}{{UTraffic} - homepage}
-    \endentry
-    \entry{utraffic-mobile}{misc}{}
-      \field{sortinit}{U}
-      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
-      \field{labeldatesource}{nodate}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://bktraffic.com/home/mobile-app}}
-      \field{note}{Accessed: 2023-12-10}
-      \field{title}{UTraffic Mobile}
     \endentry
   \enddatalist
 \endrefsection
