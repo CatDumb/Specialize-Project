@@ -5,7 +5,7 @@
 
 \subsection{Bus Services Integration}
 
-\subsubsection{The data mining process}
+\subsubsection{Getting a single route's information}
 
 The integrity of the data on the Buyt TPHCM website is guaranteed due to its commissioning and maintenance by the Ho Chi Minh City Department of Transport. 
 
@@ -62,6 +62,20 @@ The result is as follow:
         \label{fig:actual_route}
     }
 \end{figure}
+
+Similarly, information about the bus stops can be obtained by placing breakpoints in L.RouteMap.js. Each route comes with a list of stops and their corresponding data. This will be useful in designing our data schema later on when we integrate the gathered information into our database.
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{assets/images/Research/Bus/stop_web.png}
+    \caption{Capturing and observing the bus stops data using the DevTool}
+    \label{fig:stop_data}
+\end{figure}
+
+\subsubsection{Automation of the mining process}
+
+Since there are about 130 routes currently displayed on the website, it is impossible to place breakpoints and collect data by hand. This necessitates the use of automatic scripts to gather information.
+
+After careful examination, we found several places where we could mine the data. This introduces us to the routevar.js file, which contains the three functions: loadVarsByRou(rouId), loadStopsByVar(prtId, rouId, varId), and loadPathByVar(prtId, rouId, varId)
 
 \subsubsection{Data storage of bus services}
 
