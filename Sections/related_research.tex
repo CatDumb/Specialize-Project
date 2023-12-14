@@ -5,7 +5,7 @@
 
 \subsection{Bus-Related Services}
 
-Previous groups' research has investigated traffic-related value-added services, such as nearby hospitals and automatic teller machines. When it comes to our project, one major candidate for us to continue this research direction is the addition of buses and public transport as a whole. Our research investigates a range of existing applications that provide services related to buses. Through a thorough analysis of established solutions within this field, our objective is to acquire insights that will guide the improvement of our application by finding a compromise between the current system's strengths and weaknesses.
+Previous groups' research has investigated traffic-related value-added services, such as nearby hospitals and automatic teller machines (cite that group here). When it comes to our project, one major candidate for us to continue this research direction is the addition of buses and public transport as a whole. Our research investigates a range of existing applications that provide services related to buses. Through a thorough analysis of established solutions within this field, our objective is to acquire insights that will guide the improvement of our application by finding a compromise between the current system's strengths and weaknesses.
 
 The existing solutions in question are the package offered by FPT in the names of Go!Bus TPHCM and the Buyt TPHCM website, as well as BusMap by Phenikaa MaaS JSC.
 \subsubsection{The FPT Ecosystem}
@@ -18,7 +18,7 @@ Fundamentally, Go!Bus offers solely bus-related services like bus stop searching
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.3\textwidth]{assets/images/Research/Bus/gobus_home.png}
+    \includegraphics[width=0.5\textwidth]{assets/images/Research/Bus/gobus_home.png}
     \caption{The home screen for Go!Bus.}
     \label{fig:gobus_homescreen}
 \end{figure}
@@ -89,4 +89,20 @@ During our research to improve the performance and coherence of the application,
     \item \textbf{Route Search: /routes/search} - Search for bus routes based on keywords or criteria.
 \end{itemize}
 
-We also expanded the existing API that handles the traffic status by supporting an endpoint that outputs GeoJSON data. This is done by following the GeoJSON's standard format of being a FeatureCollection of Features, where each Feature is a Point with the coordinates of the traffic status.
+We also made changes to the currently deployed API endpoints. At the moment, the endpoint \lstinline{/traffic-status/get-status-v2} receives the query paramaters which are the northeast and southwest bounds of the client's visible map and the zoom level in order to return the appropriate street segments. This endpoint is currently used by the Android app as well as the web version of UTraffic. We have implemented another endpoint, \lstinline{/traffic-status/get-status-v3}, to handle the same functionality but with GeoJSON as the response. This is done by following the GeoJSON's standard format of being a FeatureCollection of Features, where each Feature is a Point with the coordinates of the traffic status. The following is the comparison between the two format when taking a node as an example:
+\begin{figure}[H]
+    \centering
+    \subfloat[The current response format.]{
+        \includegraphics[width=0.48\linewidth]{assets/images/Research/API/notgeojson.png}
+        \label{fig:notgeojson_response}
+    }
+    \hspace{0.5cm} % Add a horizontal space of 1cm
+    \subfloat[The GeoJSON response format.]{
+        \includegraphics[width=0.48\linewidth]{assets/images/Research/API/geojson.png}
+        \label{fig:geojson_response}
+    }
+    \hspace{0.5cm} % Add a horizontal space of 1cm
+    \caption{Comparison between the current response format and the GeoJSON format.}
+\end{figure}
+
+GeoJSON helps tremendously when implementing for the iOS app, as it is a standard format that is supported by Apple's MapKit \cite{mkgeojsonobject}. This means that we can easily convert the response into a list of \lstinline{MKAnnotation} and display them on the map without having to parse the original response to dedicated classes, saving development effort and adhering to Apple's best practices.
