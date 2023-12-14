@@ -47,7 +47,7 @@ MVVM architecture offers two-way data binding between view and view-model. The v
         \multicolumn{1}{|c|}{}
         & \multicolumn{1}{c|}{Advantage}
         & \multicolumn{1}{c|}{Disadvantage} \\ \hline
-        \multirow{4}{*}{MVC}     
+        \multirow{7}{*}{MVC}     
                 &   \begin{itemize}[leftmargin=*,topsep=0pt,partopsep=0pt,parsep=0pt]
                         \item The development of the various components can be performed parallelly.
                         \item It avoids complexity by dividing an application into separate (MVC) units
@@ -59,7 +59,7 @@ MVVM architecture offers two-way data binding between view and view-model. The v
                         \item Hard to reuse and implement tests
                         \item There is a need for multiple programmers to conduct parallel programming.
                     \end{itemize} \\ \hline
-        \multirow{4}{*}{MVVC}
+        \multirow{5}{*}{MVVC}
                 &   \begin{itemize}[leftmargin=*,topsep=0pt,partopsep=0pt,parsep=0pt]
                         \item Business logic is decoupled from Ul.
                         \item Easy to reuse components.
@@ -70,6 +70,7 @@ MVVM architecture offers two-way data binding between view and view-model. The v
                         \item Some people think that for simple UIs of MVVM architecture can be overkill
                     \end{itemize} \\ \hline
     \end{tabular}
+    \caption{Comparison between MVC and MVVM}
 \end{table}
 
 Base on the comparison above, MVVM is more suitable for this project because it is easier to reuse components and write unit test cases.
@@ -123,6 +124,7 @@ In summary, SwiftUI stands out with these key features:
         Memory Managment & Prone to memory leaks & No memory leaks due to being type-safe and memory-safe \\ \hline
         Stability & Stable & Unstable as it is still growing \\ \hline
     \end{tabular}
+    \caption{Comparison between Objective C and Swift}
 \end{table}
 
 Base on the comparison above, Swift is more suitable for this project because it is superior in multiple aspects when comparing to Objective C.
@@ -136,20 +138,116 @@ Base on the comparison above, Swift is more suitable for this project because it
 \subsubsection{Python}
 
 
+\subsubsection{NodeJS}
+
+
 
 \subsection{Database}
 
 \subsubsection{MySQL}
 
+MySQL is a widely used database for web-based applications, offered as freeware with regular upgrades to improve capabilities and security. The freeware edition emphasizes efficiency and dependability over a comprehensive range of functionalities. Prominent characteristics encompass the ability to select storage engines, a user-friendly interface, and effective handling of extensive datasets in batches, all while maintaining modest resource use.
 
+\begin{table}[H]
+    \centering
+    \begin{tabular}{| c | p{0.4\textwidth} | p{0.4\textwidth} |}
+        \hline
+        \multicolumn{1}{|c|}{}
+        & \multicolumn{1}{c|}{Advantage}
+        & \multicolumn{1}{c|}{Disadvantage} \\ \hline
+        \multirow{7}{*}{,MySQL}     
+                &   \begin{itemize}[leftmargin=*,topsep=0pt,partopsep=0pt,parsep=0pt]
+                        \item MySQL is accessible for free, making it cost-effective for various applications.
+                        \item Multiple user interfaces can be implemented, enhancing usability.
+                        \item Supports both structured data (SQL) and semi-structured data (JSON).
+                    \end{itemize}
+                &   \begin{itemize}[leftmargin=*,topsep=0pt,partopsep=0pt,parsep=0pt]
+                        \item The process of setting up MySQL for specific activities may necessitate a greater investment of time and effort in comparison to systems that automate certain functions, such as incremental backups.
+                        \item While support is available for the free version, premium support may incur additional costs.
+                    \end{itemize} \\ \hline
+    \end{tabular}
+    \caption{Advantages and disadvantages of MySQL}
+\end{table}
 
 \subsubsection{MongoDB}
 
+MongoDB is designed for applications that handle both structured and unstructured data, and it is offered in both free and paid versions. The highly adaptable database engine establishes connections between databases and applications using MongoDB database drivers, providing a wide array of options that are compatible with multiple programming languages. Although MongoDB may encounter performance challenges when heavily utilized for relational data models, it demonstrates exceptional capabilities in managing changeable, non-relational data. Successive iterations consistently incorporate functionalities to cater to various applications, bolster operational robustness, and prioritize the protection of data.
 
+\begin{table}[H]
+    \centering
+    \begin{tabular}{| c | p{0.4\textwidth} | p{0.4\textwidth} |}
+        \hline
+        \multicolumn{1}{|c|}{}
+        & \multicolumn{1}{c|}{Advantage}
+        & \multicolumn{1}{c|}{Disadvantage} \\ \hline
+        \multirow{7}{*}{MongoDB}     
+                &   \begin{itemize}[leftmargin=*,topsep=0pt,partopsep=0pt,parsep=0pt]
+                        \item MongoDB is fast and easy to use.
+                        \item The engine supports JSON and other NoSQL document formats.
+                        \item Capable of effectively storing and retrieving data of any arrangement without rigid schema prerequisites.
+                        \item  Allows the modification of schema without downtime, facilitating flexibility.
+                    \end{itemize}
+                &   \begin{itemize}[leftmargin=*,topsep=0pt,partopsep=0pt,parsep=0pt]
+                        \item Tools translating SQL to MongoDB queries add an extra step in using the engine.
+                        \item The default settings may lack sufficient security measures, necessitating further tweaking to provide optimal security.
+                    \end{itemize} \\ \hline
+    \end{tabular}
+    \caption{Advantages and disadvantages of MongoDB}
+\end{table}
 
 \subsubsection{Oracle}
 
+Oracle is a prominent and long-lasting database management solution that has been in use since the late 1970s. The different versions of the software are designed to meet the specific requirements of different organizations. The current long-term release focuses on providing comprehensive support and ensuring reliability. The most recent update incorporates cutting-edge functionalities like as autonomic management, AutoML, and improved multi-model compatibility, hence strengthening its attractiveness for future use.
 
+\begin{table}[H]
+    \centering
+    \begin{tabular}{| c | p{0.4\textwidth} | p{0.4\textwidth} |}
+        \hline
+        \multicolumn{1}{|c|}{}
+        & \multicolumn{1}{c|}{Advantage}
+        & \multicolumn{1}{c|}{Disadvantage} \\ \hline
+        \multirow{7}{*}{Oracle}     
+                &   \begin{itemize}[leftmargin=*,topsep=0pt,partopsep=0pt,parsep=0pt]
+                        \item Oracle consistently deliver cutting-edge innovations.
+                        \item Oracle's tools are highly robust, offering a wide range of capabilities to meet diverse requirements.
+                        \item Supports various data models, including semistructured (JSON, XML), spatial, RDF, and structured data (SQL).
+                        \item Provides multiple access patterns based on the data model.
+                    \end{itemize}
+                &   \begin{itemize}[leftmargin=*,topsep=0pt,partopsep=0pt,parsep=0pt]
+                        \item The cost of Oracle can be prohibitive, particularly for smaller organizations.
+                        \item The installation process may need a substantial amount of resources, which could result in the need for hardware upgrades.
+                    \end{itemize} \\ \hline
+    \end{tabular}
+    \caption{Advantages and disadvantages of Oracle}
+\end{table}
 
 \subsubsection{PostgreSQL}
 
+To summarize, PostgreSQL is a popular and freely available database system that is extensively utilized for web-based databases. Being one of the pioneering database management systems, it supports both organized and unstructured data and is compatible with multiple platforms, including Linux. The most recent update incorporates improvements in compression choices, backing for organized server log output in JSON format, and general benefits in performance.
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{| c | p{0.4\textwidth} | p{0.4\textwidth} |}
+        \hline
+        \multicolumn{1}{|c|}{}
+        & \multicolumn{1}{c|}{Advantage}
+        & \multicolumn{1}{c|}{Disadvantage} \\ \hline
+        \multirow{10}{*}{PostgreSQL}     
+                &   \begin{itemize}[leftmargin=*,topsep=0pt,partopsep=0pt,parsep=0pt]
+                        \item PostgreSQL has excellent scalability, enabling efficient management of terabytes of data.
+                        \item The system is capable of handling JSON data format, which allows for versatile data administration.
+                        \item Offers a range of predefined functions for diverse database operations.
+                        \item Multiple interfaces are available for user interaction.
+                        \item Functions as a multi-model database, supporting Spatial Data, Key-Value, Structured Data (SQL), and Semi-Structured Data (JSON, XML).
+                    \end{itemize}
+                &   \begin{itemize}[leftmargin=*,topsep=0pt,partopsep=0pt,parsep=0pt]
+                        \item The documentation may be incomplete or challenging to navigate
+                        \item Speed may be affected during extensive bulk operations or read queries involving large datasets.
+                    \end{itemize} \\ \hline
+    \end{tabular}
+    \caption{Advantages and disadvantages of PostgreSQL}
+\end{table}
+
+\subsubsection{Conclusion}
+
+After analyzing the advantages and disadvantages mentioned, it is clear that each of the four databases has unique strengths and limitations that are suited to certain project needs. When it comes to situations where the most important factors are scalability, flexibility, and excellent performance, MongoDB is the ideal choice. MongoDB is widely recognized for its remarkable capacity to handle large amounts of data and heavy website traffic. MongoDB's document-oriented architecture is specifically tailored for unstructured data and complex data structures. This design provides efficient access and retrieval of data, resulting in improved overall performance.

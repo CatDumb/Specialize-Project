@@ -12,7 +12,7 @@ The existing solutions in question are the package offered by FPT in the names o
 
 Besides Go!Bus TPHCM, FPT offers a wide set of choices for citizens to track traﬀic data, and these services are linked together. Most notably, the TTGT Tp Ho Chi Minh app allows users to see public cameras for traﬀic. We place particular emphasis on Go!Bus as it aligns with our project's focus, and Buyt TPHCM holds significance for data collection, as detailed in subsequent sections. These applications play pivotal roles in informing our research and development efforts.
 
-\subsubsubsection{Go!Bus}
+\paragraph{Go!Bus}
 
 Fundamentally, Go!Bus offers solely bus-related services like bus stop searching, bus route searching, and routing. The app also has some support for Grab when routing. The home screen for the app is as follows:
 
@@ -45,7 +45,7 @@ Nevertheless, during our testing of these features, none of them functioned, or 
 
 It also portrayed some mobile app bad practices, such as embedding an excessive number of web views into the user interface. Apple, in particular, is not fond of this approach and publicly stated that apps using this will not be accepted in the future. This is one of the points that we will take into consideration when developing our iOS app.
 
-\subsubsubsection{Buyt TPHCM website}
+\paragraph{Buyt TPHCM website}
 Buyt TPHCM website is an online resource designed to provide comprehensive information and tools for navigating the public bus system in Ho Chi Minh City. This website aims to enhance the accessibility and user experience of public transportation within the city by offering the following key functionalities:
 
 \begin{itemize}
@@ -90,18 +90,16 @@ During our research to improve the performance and coherence of the application,
 \end{itemize}
 
 We also made changes to the currently deployed API endpoints. At the moment, the endpoint \lstinline{/traffic-status/get-status-v2} receives the query paramaters which are the northeast and southwest bounds of the client's visible map and the zoom level in order to return the appropriate street segments. This endpoint is currently used by the Android app as well as the web version of UTraffic. We have implemented another endpoint, \lstinline{/traffic-status/get-status-v3}, to handle the same functionality but with GeoJSON as the response. This is done by following the GeoJSON's standard format of being a FeatureCollection of Features, where each Feature is a Point with the coordinates of the traffic status. The following is the comparison between the two format when taking a node as an example:
+
 \begin{figure}[H]
     \centering
-    \subfloat[The current response format.]{
-        \includegraphics[width=0.48\linewidth]{assets/images/Research/API/notgeojson.png}
-        \label{fig:notgeojson_response}
+    \subfloat[The current response format.\label{fig:notgeojson_response}]{%
+        \includegraphics[width=0.4\linewidth]{assets/images/Research/API/notgeojson.png}
     }
     \hspace{0.5cm} % Add a horizontal space of 1cm
-    \subfloat[The GeoJSON response format.]{
-        \includegraphics[width=0.48\linewidth]{assets/images/Research/API/geojson.png}
-        \label{fig:geojson_response}
+    \subfloat[The GeoJSON response format.\label{fig:geojson_response}]{%
+        \includegraphics[width=0.4\linewidth]{assets/images/Research/API/geojson.png}
     }
-    \hspace{0.5cm} % Add a horizontal space of 1cm
     \caption{Comparison between the current response format and the GeoJSON format.}
 \end{figure}
 

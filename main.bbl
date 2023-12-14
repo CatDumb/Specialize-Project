@@ -72,6 +72,25 @@
       \field{note}{Accessed: 2023-12-13}
       \field{title}{{UTraffic} - homepage}
     \endentry
+    \entry{mkgeojsonobject}{misc}{}
+      \list{organization}{1}{%
+        {Apple Developer Documentation}%
+      }
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labeltitlesource}{title}
+      \field{title}{MKGeoJSONObject}
+      \field{urlday}{14}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://developer.apple.com/documentation/mapkit/mkgeojsonobject
+      \endverb
+      \verb{url}
+      \verb https://developer.apple.com/documentation/mapkit/mkgeojsonobject
+      \endverb
+    \endentry
     \entry{apple_webview}{misc}{}
       \name{author}{1}{}{%
         {{hash=3325b015fbae57ba74629a53f1ead961}{%
@@ -87,8 +106,8 @@
       \strng{authorbibnamehash}{3325b015fbae57ba74629a53f1ead961}
       \strng{authornamehash}{3325b015fbae57ba74629a53f1ead961}
       \strng{authorfullhash}{3325b015fbae57ba74629a53f1ead961}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Apple on embedding webviews in iOS applications}
@@ -101,8 +120,8 @@
       \list{language}{1}{%
         {vi}%
       }
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{http://buyttphcm.com.vn/}}
       \field{note}{Accessed: 2023-12-14}
@@ -198,18 +217,18 @@
       \field{title}{Educative answers - trusted answers to developer questions}
       \true{nocite}
     \endentry
-    \entry{noauthor_undated-uf}{misc}{}
+    \entry{DBs}{misc}{}
       \list{language}{1}{%
         {en}%
       }
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
-      \field{abstract}{Objects that the GeoJSON decoder can return.}
-      \field{booktitle}{Apple Developer Documentation}
-      \field{howpublished}{\url{https://developer.apple.com/documentation/mapkit/mkgeojsonobject}}
+      \field{abstract}{Databases make it easy for us to create, edit, and access information making them indispensable. Check out this list of 8 popular databases.}
+      \field{booktitle}{{KeyCDN}}
+      \field{howpublished}{\url{https://www.keycdn.com/blog/popular-databases}}
       \field{note}{Accessed: 2023-12-14}
-      \field{title}{{MKGeoJSONObject}}
+      \field{title}{The pros and cons of 8 popular databases}
       \true{nocite}
     \endentry
   \enddatalist
