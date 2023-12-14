@@ -3,6 +3,8 @@
 \usepackage[backend=biber, style=ieee]{biblatex}
 \addbibresource{refs.bib}
 
+\usepackage[vietnamese, english]{babel}
+
 \usepackage[nottoc,numbib]{tocbibind}
 \usepackage{a4wide,amssymb,epsfig,latexsym,multicol,array,hhline,fancyhdr}
 \usepackage{listings}
@@ -35,6 +37,9 @@
 \usepackage{subcaption}
 \usepackage{indentfirst}
 \usepackage{graphicx}
+
+\newcommand{\uhook}{\fontencoding{T5}\selectfont \char"F5 \fontencoding{\encodingdefault}\selectfont}
+
 \definecolor{llgray}{gray}{0.9}
 \definecolor{codegreen}{rgb}{0,0.6,0}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}

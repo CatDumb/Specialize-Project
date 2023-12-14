@@ -87,8 +87,8 @@
       \strng{authorbibnamehash}{3325b015fbae57ba74629a53f1ead961}
       \strng{authornamehash}{3325b015fbae57ba74629a53f1ead961}
       \strng{authorfullhash}{3325b015fbae57ba74629a53f1ead961}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Apple on embedding webviews in iOS applications}
@@ -97,16 +97,16 @@
       \field{title}{Updating apps that use web views - latest news - apple developer}
       \true{nocite}
     \endentry
-    \entry{buythcm}{misc}{}
+    \entry{buyttphcm}{misc}{}
       \list{language}{1}{%
         {vi}%
       }
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{http://buyttphcm.com.vn/}}
-      \field{note}{Accessed: 2023-12-11}
-      \field{title}{Buyt TPHCM Homepage}
+      \field{note}{Accessed: 2023-12-14}
+      \field{title}{Trang ch\uhook}
       \true{nocite}
     \endentry
     \entry{mongodb_bson}{misc}{}
@@ -196,6 +196,20 @@
       \field{howpublished}{\url{https://www.educative.io/answers/swift-vs-objective-c}}
       \field{note}{Accessed: 2023-12-13}
       \field{title}{Educative answers - trusted answers to developer questions}
+      \true{nocite}
+    \endentry
+    \entry{noauthor_undated-uf}{misc}{}
+      \list{language}{1}{%
+        {en}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Objects that the GeoJSON decoder can return.}
+      \field{booktitle}{Apple Developer Documentation}
+      \field{howpublished}{\url{https://developer.apple.com/documentation/mapkit/mkgeojsonobject}}
+      \field{note}{Accessed: 2023-12-14}
+      \field{title}{{MKGeoJSONObject}}
       \true{nocite}
     \endentry
   \enddatalist

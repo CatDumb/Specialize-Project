@@ -1,3 +1,4 @@
+\babel@toc {english}{}\relax 
 \contentsline {section}{List of Figures}{5}{section*.4}%
 \contentsline {section}{List of Tables}{6}{section*.5}%
 \contentsline {section}{\numberline {1}INTRODUCTION}{7}{section.1}%
