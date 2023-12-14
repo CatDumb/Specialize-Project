@@ -1,0 +1,237 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{congestion-damage}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=aa1e3fbe372e9634c713f2f82e46ecdf}{%
+           family={/},
+           familyi={/\bibinitperiod},
+           given={Thanh\bibnamedelimb Ha-Thu\bibnamedelima Dung},
+           giveni={T\bibinitperiod\bibinitdelim H\bibinithyphendelim T\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {vi}%
+      }
+      \strng{namehash}{aa1e3fbe372e9634c713f2f82e46ecdf}
+      \strng{fullhash}{aa1e3fbe372e9634c713f2f82e46ecdf}
+      \strng{bibnamehash}{aa1e3fbe372e9634c713f2f82e46ecdf}
+      \strng{authorbibnamehash}{aa1e3fbe372e9634c713f2f82e46ecdf}
+      \strng{authornamehash}{aa1e3fbe372e9634c713f2f82e46ecdf}
+      \strng{authorfullhash}{aa1e3fbe372e9634c713f2f82e46ecdf}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Though the number of traffic-related injuries and fatalities has decreased in recent years, traffic congestion is getting worse}
+      \field{booktitle}{Tuoi Tre News}
+      \field{howpublished}{\url{https://tuoitrenews.vn/news/society/20221001/traffic-congestion-costs-ho-chi-minh-city-6-billion-each-year/69343.html}}
+      \field{month}{10}
+      \field{note}{Accessed: 2023-12-13}
+      \field{title}{Traffic congestion costs Ho Chi Minh City \$6 billion each year}
+      \field{year}{2022}
+    \endentry
+    \entry{utraffic-mobile}{misc}{}
+      \list{language}{1}{%
+        {vi}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{abstract}{UTraffic Android application}
+      \field{howpublished}{\url{https://bktraffic.com/home/mobile-app}}
+      \field{note}{Accessed: 2023-12-13}
+      \field{title}{UTraffic Mobile}
+    \endentry
+    \entry{utraffic-introduction}{misc}{}
+      \list{language}{1}{%
+        {vi}%
+      }
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Utraffic homepage}
+      \field{howpublished}{\url{https://bktraffic.com/home/}}
+      \field{note}{Accessed: 2023-12-13}
+      \field{title}{{UTraffic} - homepage}
+    \endentry
+    \entry{mkgeojsonobject}{misc}{}
+      \list{organization}{1}{%
+        {Apple Developer Documentation}%
+      }
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labeltitlesource}{title}
+      \field{title}{MKGeoJSONObject}
+      \field{urlday}{14}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://developer.apple.com/documentation/mapkit/mkgeojsonobject
+      \endverb
+      \verb{url}
+      \verb https://developer.apple.com/documentation/mapkit/mkgeojsonobject
+      \endverb
+    \endentry
+    \entry{apple_webview}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=3325b015fbae57ba74629a53f1ead961}{%
+           family={{Apple Inc}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{3325b015fbae57ba74629a53f1ead961}
+      \strng{fullhash}{3325b015fbae57ba74629a53f1ead961}
+      \strng{bibnamehash}{3325b015fbae57ba74629a53f1ead961}
+      \strng{authorbibnamehash}{3325b015fbae57ba74629a53f1ead961}
+      \strng{authornamehash}{3325b015fbae57ba74629a53f1ead961}
+      \strng{authorfullhash}{3325b015fbae57ba74629a53f1ead961}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Apple on embedding webviews in iOS applications}
+      \field{howpublished}{\url{https://developer.apple.com/news/?id=12232019b}}
+      \field{note}{Accessed: 2023-12-13}
+      \field{title}{Updating apps that use web views - latest news - apple developer}
+      \true{nocite}
+    \endentry
+    \entry{buyttphcm}{misc}{}
+      \list{language}{1}{%
+        {vi}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://buyttphcm.com.vn/}}
+      \field{note}{Accessed: 2023-12-14}
+      \field{title}{Trang ch\uhook}
+      \true{nocite}
+    \endentry
+    \entry{mongodb_bson}{misc}{}
+      \list{language}{1}{%
+        {vi}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.mongodb.com/docs/v3.0/reference/bson-types/}}
+      \field{note}{Accessed: 2023-12-12}
+      \field{title}{{MongoDB} manual}
+      \true{nocite}
+    \endentry
+    \entry{MVC_MVVM}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=2151f71adda110135d46c192dbb73149}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{2151f71adda110135d46c192dbb73149}
+      \strng{fullhash}{2151f71adda110135d46c192dbb73149}
+      \strng{bibnamehash}{2151f71adda110135d46c192dbb73149}
+      \strng{authorbibnamehash}{2151f71adda110135d46c192dbb73149}
+      \strng{authornamehash}{2151f71adda110135d46c192dbb73149}
+      \strng{authorfullhash}{2151f71adda110135d46c192dbb73149}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{MVC and MVVM references}
+      \field{booktitle}{Guru99}
+      \field{howpublished}{\url{https://www.guru99.com/mvc-vs-mvvm.html}}
+      \field{month}{11}
+      \field{note}{Accessed: 2023-12-13}
+      \field{title}{{MVC} vs {MVVM} -- difference between them}
+      \field{year}{2023}
+      \true{nocite}
+    \endentry
+    \entry{Swift}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=7d5966b00fe0cf0e10865326eb4fb8d8}{%
+           family={{Nimble App Genie}},
+           familyi={N\bibinitperiod}}}%
+        {{hash=4f89f384e381fb2e46fac756f3207c62}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Niketan},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{5afb8491e1fb0dda0764751faf47e082}
+      \strng{fullhash}{5afb8491e1fb0dda0764751faf47e082}
+      \strng{bibnamehash}{5afb8491e1fb0dda0764751faf47e082}
+      \strng{authorbibnamehash}{5afb8491e1fb0dda0764751faf47e082}
+      \strng{authornamehash}{5afb8491e1fb0dda0764751faf47e082}
+      \strng{authorfullhash}{5afb8491e1fb0dda0764751faf47e082}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Do you want to know the difference between swift vs objective c and want to know how they compare to swiftUI? Read this blog till the end.}
+      \field{booktitle}{nimbleappgenie}
+      \field{howpublished}{\url{https://www.nimbleappgenie.com/blogs/swift-vs-objective-c/}}
+      \field{month}{5}
+      \field{note}{Accessed: 2023-12-13}
+      \field{title}{Objective C vs Swift : Which one is the best?}
+      \field{year}{2023}
+      \true{nocite}
+    \endentry
+    \entry{Swift_2}{misc}{}
+      \list{language}{1}{%
+        {en}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{abstract}{More Swift vs Objective-C comparisons}
+      \field{booktitle}{Educative}
+      \field{howpublished}{\url{https://www.educative.io/answers/swift-vs-objective-c}}
+      \field{note}{Accessed: 2023-12-13}
+      \field{title}{Educative answers - trusted answers to developer questions}
+      \true{nocite}
+    \endentry
+    \entry{DBs}{misc}{}
+      \list{language}{1}{%
+        {en}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Databases make it easy for us to create, edit, and access information making them indispensable. Check out this list of 8 popular databases.}
+      \field{booktitle}{{KeyCDN}}
+      \field{howpublished}{\url{https://www.keycdn.com/blog/popular-databases}}
+      \field{note}{Accessed: 2023-12-14}
+      \field{title}{The pros and cons of 8 popular databases}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
