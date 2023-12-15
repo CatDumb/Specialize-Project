@@ -370,6 +370,18 @@ The following are the details of the new API endpoints. An example URL and the c
     \end{itemize} 
 \end{itemize}
 
+\subsubsection{Deployment of the Bus API}
+The deployment process was made possible first by accessing the server via the SSH protocol. The server is running Ubuntu 20.04 LTS with the NodeJS version 12.22.12 installed. It was crucial to first upgrade this NodeJS version to a more recent one due to this version being out of the active support. We have upgraded the NodeJS version to version 16.16.0 (LTS) instead of the newer version 18 or above, because the server hardware is also not very powerful, and the newer versions of NodeJS are not compatible. We also noticed that there was no Node Version Manager (NVM) installed on the server. This is a tool that allows us to install and manage multiple versions of NodeJS on the same machine, therefore, we installed the new node version with NVM.
+
+The next step was to upgrade PM2. PM2 is a process manager for NodeJS applications. It allows us to keep the application running in the background, restart the application automatically when it crashes, and monitor the application's resource usage. We have upgraded PM2 to accompany the new NodeJS version successfully.
+
+We use GitLab to host our source code. After the code was ready on the GitLab repository, we issued a \lstinline{git pull} on the server's terminal to pull the latest code to the correct directory. We then installed the dependencies using \lstinline{npm install} and restarted the process with \lstinline{pm2 restart BKTrafficApi}. Figure \ref{fig:pm2_show} shows the running server process.
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{assets/images/Implementation/pm2_show.png}
+    \caption{The server information and the running NodeJS process.}
+    \label{fig:pm2_show}
+\end{figure}
 
 \subsection{iOS App Development}
 The iOS app is developed using Swift 5.9 and Xcode 15. The app is compatible with iOS 16.0 and above.
