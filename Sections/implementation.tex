@@ -86,19 +86,21 @@ We have previously discussed the introduction of the API additions in the UTraff
 The following are the details of the new API endpoints. An example URL and the corresponding response are also provided for each endpoint.
 
 \begin{itemize}
+    
     \item \textbf{Get nearby bus stops}.
+    
     \begin{itemize}
         \item URL: \url{https://api.bktraffic.com/api/bus/nearby-stops}.
         \item Query parameters: \lstinline{lat}, \lstinline{lng}, \lstinline{radius}.
         \item Example request URL: \url{https://api.bktraffic.com/api/bus/nearby-stops?lat=10.7721&lng=106.6579&radius=500}
         \item Example response: 
-        \begin{lstlisting}
+        \begin{lstlisting}[language=Python,]
             {
                 "code": 200,
                 "message": "success",
                 "data": {
                     "type": "FeatureCollection",
-                    "features": [
+                    "features" : [
                         {
                             "type": "Feature",
                             "geometry": {
@@ -109,25 +111,9 @@ The following are the details of the new API endpoints. An example URL and the c
                                 ]
                             },
                             "properties": {
-                                "name": "Đại học Bách Khoa",
-                                "type": "Nhà chờ"
+                                "name": \uhook,
                             }
-                        },
-                        {
-                            "type": "Feature",
-                            "geometry": {
-                                "type": "Point",
-                                "coordinates": [
-                                    106.657829,
-                                    10.771331
-                                ]
-                            },
-                            "properties": {
-                                "name": "Đại Học Bách Khoa(cổng trước)",
-                                "type": "Trụ dừng"
-                            }
-                        },
-                        // ...
+                        }
                     ]
                 }
             }
@@ -135,239 +121,11 @@ The following are the details of the new API endpoints. An example URL and the c
     \end{itemize}
 
     \item \textbf{Get nearby disability friendly bus stops}.
-    \begin{itemize}
-        \item URL: \url{https://api.bktraffic.com/api/bus/disability-friendly-stops}.
-        \item Query parameters: \lstinline{lat}, \lstinline{lng}.
-        \item Example request URL: \url{http://api.bktraffic.com/api/bus/disability-friendly-stops?lat=10.77037&lng=106.69868}
-        \item Example response:
-        \begin{lstlisting}
-            {
-                "code": 200,
-                "message": "success",
-                "data": [
-                    {
-                        "_id": 1344,
-                        "address_no": "65G (75)",
-                        "code": "Q1 119",
-                        "lat": 10.766785,
-                        "lng": 106.696011,
-                        "name": "Cầu Ông Lãnh",
-                        "routes": "139, 140, 31, 46, 72",
-                        "status": "Đang khai thác",
-                        "stop_type": "Nhà chờ",
-                        "street": "Nguyễn Thái Học",
-                        "support_disability": true,
-                        "ward": "Phường Cầu Ông Lãnh",
-                        "zone": "Quận 1",
-                        "location": {
-                            "type": "Point",
-                            "coordinates": [
-                                106.696011,
-                                10.766785
-                            ]
-                        }
-                    },
-                    {
-                        "_id": 7276,
-                        "address_no": "277-279-275Y",
-                        "code": "Q1 190",
-                        "lat": 10.76767,
-                        "lng": 106.690941,
-                        "name": "Tôn Thất Tùng",
-                        "routes": "03, 04, 102, 109, 140, 18, 19, 20, 28, 34, 36, 39, 46, 52, 65, 69, 72, 75, 88, 93, D4",
-                        "status": "Đang khai thác",
-                        "stop_type": "Trụ dừng",
-                        "street": "Phạm Ngũ Lão",
-                        "support_disability": true,
-                        "ward": "Phường Phạm Ngũ Lão",
-                        "zone": "Quận 1",
-                        "location": {
-                            "type": "Point",
-                            "coordinates": [
-                                106.690941,
-                                10.76767
-                            ]
-                        }
-                    },
-                    // ...
-                ]
-            }
-        \end{lstlisting}
-    \end{itemize}
-
     \item \textbf{Get the details of a bus stop}.
-    \begin{itemize}
-        \item URL: \url{https://api.bktraffic.com/api/bus/stop-details}.
-        \item Query parameters: \lstinline{id}.
-        \item Example request URL: \url{https://api.bktraffic.com/api/bus/stop-details?id=2931}.
-        \item Example response:
-        \begin{lstlisting}
-            {
-                "code": 200,
-                "message": "success",
-                "data": {
-                    "_id": 2931,
-                    "address_no": "432",
-                    "code": "QTP 117",
-                    "lat": 10.794048,
-                    "lng": 106.628799,
-                    "name": "Tân Sơn Nhì",
-                    "routes": "41",
-                    "status": "Đang khai thác",
-                    "stop_type": "Trụ dừng",
-                    "street": "Tân Sơn Nhì",
-                    "support_disability": false,
-                    "ward": "Phường Tân Sơn Nhì",
-                    "zone": "Quận Tân Phú",
-                    "location": {
-                        "type": "Point",
-                        "coordinates": [
-                            106.628799,
-                            10.794048
-                        ]
-                    }
-                }
-            }
-        \end{lstlisting}
-    \end{itemize}
-
     \item \textbf{Get all bus routes}.
-    \begin{itemize}
-        \item URL: \url{https://api.bktraffic.com/api/bus/routes}.
-        \item Query paramaters: none.
-        \item Example request URL: \url{https://api.bktraffic.com/api/bus/routes}.
-        \item Example response:
-        \begin{lstlisting}
-            {
-                "code": 200,
-                "message": "success",
-                "data": [
-                    {
-                        "_id": "01",
-                        "route_name": "Bến Thành - Bến xe buýt Chợ Lớn"
-                    },
-                    {
-                        "_id": "03",
-                        "route_name": "Bến Thành - Thạnh Xuân"
-                    },
-                    {
-                        "_id": "04",
-                        "route_name": "Bến Thành - Cộng Hòa - Bến xe An Sương"
-                    },
-                    // ... 
-            }
-        \end{lstlisting}
-    \end{itemize}
-
     \item \textbf{Get the details of a bus route}.
-    \begin{itemize}
-        \item URL: \url{https://api.bktraffic.com/api/bus/route-details}.
-        \item Query parameters: \lstinline{id}.
-        \item Example request URL: \url{http://api.bktraffic.com/api/bus/route-info?id=08}
-        \item Example response:
-        \begin{lstlisting}
-            {
-                "code": 200,
-                "message": "success",
-                "data": {
-                    "_id": "08",
-                    "route_name": "Bến xe buýt Quận 8 - Đại học Quốc gia",
-                    "agencies": "Hợp tác xã vận tải xe buýt Quyết Thắng, ĐT: (028)38.642.712",
-                    "route_type": "Phổ thông - Có trợ giá",
-                    "distance": "32.70 km",
-                    "vehicle_type": "68 seats",
-                    "operation_time": "Operation time: 04:40 - 20:30",
-                    "fare_price": "- Vé lượt trợ giá: 7000 VNĐ\n      - Vé lượt trợ giá HSSV: 3000 VNĐ\n      - Vé tập: 157500 VNĐ",
-                    "total_trips": "348 Trip/day",
-                    "trip_time": "80 - 90 minutes",
-                    "trip_spacing": "3 - 10 minutes"
-                }
-            }
-        \end{lstlisting}
-    \end{itemize}
-
     \item \textbf{Get the bus stops along a bus route's path}.
-    \begin{itemize}
-        \item URL: \url{https://api.bktraffic.com/api/bus/route-stops}.
-        \item Query parameters: \lstinline{id}, \lstinline{leg}.
-        \item Example request URL: \url{https://api.bktraffic.com/api/bus/route-stops?id=08&leg=forward}.
-        \item Example response:
-        \begin{lstlisting}
-            {
-                "code": 200,
-                "message": "success",
-                "data": {
-                    "type": "FeatureCollection",
-                    "features": [
-                        {
-                            "type": "Feature",
-                            "geometry": {
-                                "type": "Point",
-                                "coordinates": [
-                                    106.656357,
-                                    10.733545
-                                ]
-                            },
-                            "properties": {
-                                "name": "Bến xe buýt Quận 8",
-                                "stopType": "Bến xe"
-                            }
-                        },
-                        {
-                            "type": "Feature",
-                            "geometry": {
-                                "type": "Point",
-                                "coordinates": [
-                                    106.656346,
-                                    10.73646
-                                ]
-                            },
-                            "properties": {
-                                "name": "Bùi Minh Trực",
-                                "stopType": "Ô sơn"
-                            }
-                        },
-                        // ... 
-                    ]
-                }
-            }
-        \end{lstlisting}
-    \end{itemize}
-
     \item \textbf{Get the path of a bus route}.
-    \begin{itemize}
-        \item URL: \url{https://api.bktraffic.com/api/bus/route-path}.
-        \item Query paramaters: \lstinline{id}, \lstinline{leg}.
-        \item Example request URL: \url{https://api.bktraffic.com/api/bus/route-path?id=08&leg=forward}.
-        \item Example response:
-        \begin{lstlisting}
-            {
-                "code": 200,
-                "message": "success",
-                "data": {
-                    "type": "Feature",
-                    "geometry": {
-                        "type": "LineString",
-                        "coordinates": [
-                            [
-                                106.65635681,
-                                10.7335453
-                            ],
-                            [
-                                106.65635681,
-                                10.7335453
-                            ],
-                            [
-                                106.65668488,
-                                10.73355579
-                            ],
-                            // ...  
-                        ]
-                    }
-                }
-            }
-        \end{lstlisting}
-    \end{itemize} 
 \end{itemize}
 
 \subsubsection{Deployment of the Bus API}
