@@ -2,6 +2,7 @@
 % This is the TeX file for the related research section
 %
 \section{RELATED RESEARCH}
+\label{section:related_research}
 
 \subsection{Bus-Related Services}
 
@@ -43,7 +44,7 @@ Nevertheless, during our testing of these features, none of them functioned, or 
     \caption{Go!Bus functionalities problems}
 \end{figure}
 
-It also portrayed some mobile app bad practices, such as embedding an excessive number of web views into the user interface. Apple, in particular, is not fond of this approach and publicly stated that apps using this will not be accepted in the future. This is one of the points that we will take into consideration when developing our iOS app.
+It also portrayed some mobile app bad practices, such as embedding an excessive number of web views into the user interface. Apple, in particular, is not fond of this approach and publicly stated that apps using this will not be accepted in the future \cite{apple_webview}. This is one of the points that we will take into consideration when developing our iOS app.
 
 \paragraph{Buyt TPHCM website}
 Buyt TPHCM website is an online resource designed to provide comprehensive information and tools for navigating the public bus system in Ho Chi Minh City. This website aims to enhance the accessibility and user experience of public transportation within the city by offering the following key functionalities:
@@ -74,6 +75,26 @@ The fundamental bus services like searching and routing are executed well on Bus
 
 Both of these apps share a common feature of being equipped with an abundance of supplementary services. While Go!Bus TPHCM is compatible with Grab, BusMap has diversified its partnerships to include other businesses. One apparent limitation of UTraffic is the lack of access to real-time data, such as the current locations of buses and the duration until the next journey. Nevertheless, with sufficient effort and development, our application can excel as a dependable routing and search engine. Ultimately, the primary function of UTraffic is to process congestion data; therefore, we must be careful not to delve too thoroughly into other domains.
 
+\subsection{HCMUT TrafficView}
+HCMUT TrafficView is a project developed by the Ho Chi Minh City University of Technology's students that allow users to view the traffic cameras placed around the city. Via the techniques of data labeling and image processing, the project's product is able to assess the traffic status shown by a traffic camera via the traffic density, condition, and give a recommended velocity. The users can choose to view cameras along a path or an individual one. \cite{hcmut_trafficview} Figure \ref{fig:trafficview_demo} shows a traffic camera near \textit{Hai Thuong Lan Ong - Cau Cha Va} with moderate density, unstable flow of traffic condition, and a recommended velocity of 25 km/h.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{assets/images/Research/trafficview/hcmut_trafficview_demo.png}
+    \caption{Demonstration of HCMUT TrafficView.}
+    \label{fig:trafficview_demo}
+\end{figure}
+
+The core functionalities, as described by the authoring group, include:
+\begin{itemize}
+    \item Live traffic camera feed: the system allowing users to select a location of interest and view real-time images.
+    \item Congestion predictions: the HCMUT TrafficView predicts the density, level of service, and the average vehicle velocity, which was also demonstrated in Figure \ref{fig:trafficview_demo}.
+    \item Route optimization: the system calculates and recommends the shortest path between two locations with respect to the real-time traffic conditions.
+\end{itemize}
+
+The group used pretrained models to arrive to their conclusions, including Mobilenet (v3\_large), GoogleNet, and Resnet18, with the reference times being 0.01108 second, 0.014 second, and 0.004 second, respectively.
+
+This is a particular useful application that can have a significant impact on the traffic problem of Ho Chi Minh City. Therefore, the addition of HCMUT TrafficView into the UTraffic system and its mobile apps is an impactful and necessary work. We were tasked with supporting the authoring group in integrating their work into the grand system, and meanwhile, we have also developed a UI to see how the traffic camera feed and the traffic status of it would look like. 
 \subsection{UTraffic's system analysis and design}
 
 \subsubsection{Current code base structure}
