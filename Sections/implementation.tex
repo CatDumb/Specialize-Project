@@ -198,14 +198,74 @@ The iOS app is developed using Swift 5.9 and Xcode 15. The app is compatible wit
 First and foremost, this app must at least offer the basic functionalities like that of the Android counterpart. This includes authentication, viewing the traffic status report, and the ability to communicate with the server. Other requirements are that the app must also be lightweight, performant, and consistent with the ongoing design of the Android app to an extent. During the development of this prototype, we have also taken into consideration the possibility of future expansion, such as adding more features and improving the user experience, as well as following Apple's best practices when it comes to iOS app development.
 
 \subsubsection{The landing page and permission requests}
-Because the UTraffic app must know the user's real-time location in order to gather GPS data and also display nearby traffic status, it is crucial that we ask the users for location permissions upon the first app launch. This is done by presenting a dialog box that asks for the user's permission to access their location. The choice is saved into \lstinline{UserDefaults}, so that this process will not be repeated on subsequent app launches.
+Because the UTraffic app must know the user's real-time location in order to gather GPS data and also display nearby traffic status, it is crucial that we ask the users for location permissions upon the first app launch. This is done by presenting a dialog box that asks for the user's permission to access their location. The choice is saved into \lstinline{UserDefaults}. \lstinline{UserDefaults} is an interface to the user's defaults database, where key-value pairs of data are stored persistently across launches of the app. \cite{a2019_userdefaults}. Therefore, this process will not be repeated on subsequent app launches. The onboarding process is divided into three main phases: greetings, location request, and always-on location request. They are as follows (the texts are in Vietnamese to first accommodate the Android app's design, but we are adding an option for language change in the next phase):
+\begin{figure}[H]
+    \centering
+    \subfloat[Greetings.]{
+        \includegraphics[width=0.28\linewidth]{assets/images/Implementation/onboard1.png}
+        \label{fig:onboard1}
+    }
+    \hspace{0.5cm} % Add a horizontal space of 1cm
+    \subfloat[Asking for location permission.]{
+        \includegraphics[width=0.28\linewidth]{assets/images/Implementation/onboard2.png}
+        \label{fig:onboard2}
+    }
+    \hspace{0.5cm} % Add a horizontal space of 1cm
+    \subfloat[Asking for always-on location permission.]{
+        \includegraphics[width=0.28\linewidth]{assets/images/Implementation/onboard3.png}
+        \label{fig:onboard3}
+        }
+    \caption{The onboarding process of the iOS UTraffic app.}
+\end{figure}
 
 \subsubsection{Account registration and login}
-We adapt most of the user interface from the Android app to the iOS app in order to provide a consistent experience of the app across platforms. 
+We adapt most of the user interface from the Android app to the iOS app in order to provide a consistent experience of the app across platforms. The account registration and login screens are as follows:
+\begin{figure}[H]
+    \centering
+    \subfloat[The iOS account registration view.]{
+        \includegraphics[width=0.48\linewidth]{assets/images/Implementation/register_view.png}
+        \label{fig:ios_register_view}
+    }
+    \hspace{0.5cm} % Add a horizontal space of 1cm
+    \subfloat[The iOS app's login view.]{
+        \includegraphics[width=0.48\linewidth]{assets/images/Implementation/login_view.png}
+        \label{fig:ios_login_view}
+    }
+    \hspace{0.5cm} % Add a horizontal space of 1cm
+    \label{fig:ios_auth_views}
+    \caption{The authentication views on the iOS UTraffic app.}
+\end{figure}
 
 \subsubsection{Viewing the traffic status report}
+We adopted the display logic from the Android app, where the northeast and southwest bounds of the map's visible area, along with the street level, are taken into account. However, since the Android app uses the original response data provided by the \lstinline{/get-status-v2} endpoint, using it on the iOS app means we have to develop additional classes to parse the data into the format that the iOS app can understand. We implemented the \lstinline{/get-status-v3} for this exact reason to support the iOS app better.
 
-\subsubsection{Integration with other groups' research projects}
+The home screen with the traffic status displayed is as follows:
+\begin{figure}
+    \centering
+    \includegraphics[width=0.4\textwidth]{assets/images/Implementation/traffic_status_view.png}
+    \caption{The home screen with the traffic status displayed.}
+    \label{fig:traffic_status_view}
+\end{figure}
+
+\subsubsection{Basic bus browsing}
+In this phase, we have implemented the bus list view within our iOS app. It is a view that displays all the routes within the database via the \lstinline{/routes} endpoint. 
+\begin{figure}
+    \centering
+    \includegraphics[width=0.4\textwidth]{assets/images/Implementation/bus_view.png}
+    \caption{The bus list view displayed in a bottom sheet.}
+    \label{fig:bus_view_ios}
+\end{figure}
+
+\subsubsection{Integration with HCMUT TrafficView}
+We have developed an UI to see how the elements of HCMUT TrafficView would look like on iOS. The result is as follows:
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.4\textwidth]{assets/images/Implementation/hcmut_trafficview.png}
+    \caption{The traffic camera view within the iOS app.}
+    \label{fig:trafficview_ios}
+\end{figure}
+
 
 
 
