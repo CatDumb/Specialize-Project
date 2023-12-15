@@ -2,6 +2,7 @@
 % This is the TeX file for the implementation section
 %
 \section{IMPLEMENTATION}
+\label{section:implementation}
 
 \subsection{Bus Services Integration}
 
@@ -79,10 +80,301 @@ After careful examination, we found several places where we could mine the data.
 
 \subsubsection{Data storage of bus services}
 
+\subsection{Bus API Development and Server Deployment}
+We have previously discussed the introduction of the API additions in the UTraffic system, and we have taken the steps to deploy them on the live server of UTraffic. The endpoints are now live and working as intended.
+\subsubsection{The Bus API}
+The following are the details of the new API endpoints. An example URL and the corresponding response are also provided for each endpoint.
+
+\begin{itemize}
+    \item \textbf{Get nearby bus stops}.
+    \begin{itemize}
+        \item URL: \url{https://api.bktraffic.com/api/bus/nearby-stops}.
+        \item Query parameters: \lstinline{lat}, \lstinline{lng}, \lstinline{radius}.
+        \item Example request URL: \url{https://api.bktraffic.com/api/bus/nearby-stops?lat=10.7721&lng=106.6579&radius=500}
+        \item Example response: 
+        \begin{lstlisting}
+            {
+                "code": 200,
+                "message": "success",
+                "data": {
+                    "type": "FeatureCollection",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [
+                                    106.657698,
+                                    10.772603
+                                ]
+                            },
+                            "properties": {
+                                "name": "Đại học Bách Khoa",
+                                "type": "Nhà chờ"
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [
+                                    106.657829,
+                                    10.771331
+                                ]
+                            },
+                            "properties": {
+                                "name": "Đại Học Bách Khoa(cổng trước)",
+                                "type": "Trụ dừng"
+                            }
+                        },
+                        // ...
+                    ]
+                }
+            }
+        \end{lstlisting}
+    \end{itemize}
+
+    \item \textbf{Get nearby disability friendly bus stops}.
+    \begin{itemize}
+        \item URL: \url{https://api.bktraffic.com/api/bus/disability-friendly-stops}.
+        \item Query parameters: \lstinline{lat}, \lstinline{lng}.
+        \item Example request URL: \url{http://api.bktraffic.com/api/bus/disability-friendly-stops?lat=10.77037&lng=106.69868}
+        \item Example response:
+        \begin{lstlisting}
+            {
+                "code": 200,
+                "message": "success",
+                "data": [
+                    {
+                        "_id": 1344,
+                        "address_no": "65G (75)",
+                        "code": "Q1 119",
+                        "lat": 10.766785,
+                        "lng": 106.696011,
+                        "name": "Cầu Ông Lãnh",
+                        "routes": "139, 140, 31, 46, 72",
+                        "status": "Đang khai thác",
+                        "stop_type": "Nhà chờ",
+                        "street": "Nguyễn Thái Học",
+                        "support_disability": true,
+                        "ward": "Phường Cầu Ông Lãnh",
+                        "zone": "Quận 1",
+                        "location": {
+                            "type": "Point",
+                            "coordinates": [
+                                106.696011,
+                                10.766785
+                            ]
+                        }
+                    },
+                    {
+                        "_id": 7276,
+                        "address_no": "277-279-275Y",
+                        "code": "Q1 190",
+                        "lat": 10.76767,
+                        "lng": 106.690941,
+                        "name": "Tôn Thất Tùng",
+                        "routes": "03, 04, 102, 109, 140, 18, 19, 20, 28, 34, 36, 39, 46, 52, 65, 69, 72, 75, 88, 93, D4",
+                        "status": "Đang khai thác",
+                        "stop_type": "Trụ dừng",
+                        "street": "Phạm Ngũ Lão",
+                        "support_disability": true,
+                        "ward": "Phường Phạm Ngũ Lão",
+                        "zone": "Quận 1",
+                        "location": {
+                            "type": "Point",
+                            "coordinates": [
+                                106.690941,
+                                10.76767
+                            ]
+                        }
+                    },
+                    // ...
+                ]
+            }
+        \end{lstlisting}
+    \end{itemize}
+
+    \item \textbf{Get the details of a bus stop}.
+    \begin{itemize}
+        \item URL: \url{https://api.bktraffic.com/api/bus/stop-details}.
+        \item Query parameters: \lstinline{id}.
+        \item Example request URL: \url{https://api.bktraffic.com/api/bus/stop-details?id=2931}.
+        \item Example response:
+        \begin{lstlisting}
+            {
+                "code": 200,
+                "message": "success",
+                "data": {
+                    "_id": 2931,
+                    "address_no": "432",
+                    "code": "QTP 117",
+                    "lat": 10.794048,
+                    "lng": 106.628799,
+                    "name": "Tân Sơn Nhì",
+                    "routes": "41",
+                    "status": "Đang khai thác",
+                    "stop_type": "Trụ dừng",
+                    "street": "Tân Sơn Nhì",
+                    "support_disability": false,
+                    "ward": "Phường Tân Sơn Nhì",
+                    "zone": "Quận Tân Phú",
+                    "location": {
+                        "type": "Point",
+                        "coordinates": [
+                            106.628799,
+                            10.794048
+                        ]
+                    }
+                }
+            }
+        \end{lstlisting}
+    \end{itemize}
+
+    \item \textbf{Get all bus routes}.
+    \begin{itemize}
+        \item URL: \url{https://api.bktraffic.com/api/bus/routes}.
+        \item Query paramaters: none.
+        \item Example request URL: \url{https://api.bktraffic.com/api/bus/routes}.
+        \item Example response:
+        \begin{lstlisting}
+            {
+                "code": 200,
+                "message": "success",
+                "data": [
+                    {
+                        "_id": "01",
+                        "route_name": "Bến Thành - Bến xe buýt Chợ Lớn"
+                    },
+                    {
+                        "_id": "03",
+                        "route_name": "Bến Thành - Thạnh Xuân"
+                    },
+                    {
+                        "_id": "04",
+                        "route_name": "Bến Thành - Cộng Hòa - Bến xe An Sương"
+                    },
+                    // ... 
+            }
+        \end{lstlisting}
+    \end{itemize}
+
+    \item \textbf{Get the details of a bus route}.
+    \begin{itemize}
+        \item URL: \url{https://api.bktraffic.com/api/bus/route-details}.
+        \item Query parameters: \lstinline{id}.
+        \item Example request URL: \url{http://api.bktraffic.com/api/bus/route-info?id=08}
+        \item Example response:
+        \begin{lstlisting}
+            {
+                "code": 200,
+                "message": "success",
+                "data": {
+                    "_id": "08",
+                    "route_name": "Bến xe buýt Quận 8 - Đại học Quốc gia",
+                    "agencies": "Hợp tác xã vận tải xe buýt Quyết Thắng, ĐT: (028)38.642.712",
+                    "route_type": "Phổ thông - Có trợ giá",
+                    "distance": "32.70 km",
+                    "vehicle_type": "68 seats",
+                    "operation_time": "Operation time: 04:40 - 20:30",
+                    "fare_price": "- Vé lượt trợ giá: 7000 VNĐ\n      - Vé lượt trợ giá HSSV: 3000 VNĐ\n      - Vé tập: 157500 VNĐ",
+                    "total_trips": "348 Trip/day",
+                    "trip_time": "80 - 90 minutes",
+                    "trip_spacing": "3 - 10 minutes"
+                }
+            }
+        \end{lstlisting}
+    \end{itemize}
+
+    \item \textbf{Get the bus stops along a bus route's path}.
+    \begin{itemize}
+        \item URL: \url{https://api.bktraffic.com/api/bus/route-stops}.
+        \item Query parameters: \lstinline{id}, \lstinline{leg}.
+        \item Example request URL: \url{https://api.bktraffic.com/api/bus/route-stops?id=08&leg=forward}.
+        \item Example response:
+        \begin{lstlisting}
+            {
+                "code": 200,
+                "message": "success",
+                "data": {
+                    "type": "FeatureCollection",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [
+                                    106.656357,
+                                    10.733545
+                                ]
+                            },
+                            "properties": {
+                                "name": "Bến xe buýt Quận 8",
+                                "stopType": "Bến xe"
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [
+                                    106.656346,
+                                    10.73646
+                                ]
+                            },
+                            "properties": {
+                                "name": "Bùi Minh Trực",
+                                "stopType": "Ô sơn"
+                            }
+                        },
+                        // ... 
+                    ]
+                }
+            }
+        \end{lstlisting}
+    \end{itemize}
+
+    \item \textbf{Get the path of a bus route}.
+    \begin{itemize}
+        \item URL: \url{https://api.bktraffic.com/api/bus/route-path}.
+        \item Query paramaters: \lstinline{id}, \lstinline{leg}.
+        \item Example request URL: \url{https://api.bktraffic.com/api/bus/route-path?id=08&leg=forward}.
+        \item Example response:
+        \begin{lstlisting}
+            {
+                "code": 200,
+                "message": "success",
+                "data": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                106.65635681,
+                                10.7335453
+                            ],
+                            [
+                                106.65635681,
+                                10.7335453
+                            ],
+                            [
+                                106.65668488,
+                                10.73355579
+                            ],
+                            // ...  
+                        ]
+                    }
+                }
+            }
+        \end{lstlisting}
+    \end{itemize} 
+\end{itemize}
+
+
 \subsection{iOS App Development}
 The iOS app is developed using Swift 5.9 and Xcode 15. The app is compatible with iOS 16.0 and above.
 
-First and foremost, this app must at least offer the basic functionalities like that of the Android counterpart. This includes authentication, viewing the traffic status report, and being able to communicate with the server. Other requirements are that the app must also be lightweight, performant, and consistent with the ongoing design of the Android app to an extent. During the development of this prototype, we have also taken into consideration the possibility of future expansion, such as adding more features and improving the user experience, as well as following Apple's best practices when it comes to iOS app development.
+First and foremost, this app must at least offer the basic functionalities like that of the Android counterpart. This includes authentication, viewing the traffic status report, and the ability to communicate with the server. Other requirements are that the app must also be lightweight, performant, and consistent with the ongoing design of the Android app to an extent. During the development of this prototype, we have also taken into consideration the possibility of future expansion, such as adding more features and improving the user experience, as well as following Apple's best practices when it comes to iOS app development.
 
 \subsubsection{The landing page and permission requests}
 Because the UTraffic app must know the user's real-time location in order to gather GPS data and also display nearby traffic status, it is crucial that we ask the users for location permissions upon the first app launch. This is done by presenting a dialog box that asks for the user's permission to access their location. The choice is saved into \lstinline{UserDefaults}, so that this process will not be repeated on subsequent app launches.
@@ -91,5 +383,8 @@ Because the UTraffic app must know the user's real-time location in order to gat
 We adapt most of the user interface from the Android app to the iOS app in order to provide a consistent experience of the app across platforms. 
 
 \subsubsection{Viewing the traffic status report}
+
+\subsubsection{Integration with other groups' research projects}
+
 
 

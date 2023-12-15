@@ -80,14 +80,24 @@ Both of these apps share a common feature of being equipped with an abundance of
 
 \subsubsection{Implemented APIs}
 
-During our research to improve the performance and coherence of the application, we have come across some crucial APIs that are listed below:
-\begin{itemize}
-    \item \textbf{Find Route by ID: /routes/route\_id} - Retrieve detailed information about a specific bus route.
-    \item \textbf{Nearby Routes: /routes/nearby} - Discover nearby bus routes based on location.
-    \item \textbf{Find Stops by Route: /routes/route\_id/stops} - Get a list of bus stops along a specific route.
-    \item \textbf{Find Stops by Location: /stops/nearby} - Find bus stops near a given location.
-    \item \textbf{Route Search: /routes/search} - Search for bus routes based on keywords or criteria.
-\end{itemize}
+During our research to improve the performance and coherence of the application, we have developed new API endpoints. They are tailored to work serve two major purposes when it comes to buses, which are the bus routes and the bus stops. The endpoints' description are as follows:
+\begin{enumerate}
+    \item API endpoints related to bus stops:
+    \begin{itemize}
+        \item \textbf{Get nearby bus stops}: This endpoint takes in a latitude value, a longitude value, and a radius value in meters. It then returns a list of bus stops that are within the radius of the given location and in the form of GeoJSON.
+        \item \textbf{Get nearby disability friendly bus stops}: This endpoint takes the same query paramaters like the nearby bus stops endpoint, but it returns a list of disability friendly bus stops instead.
+        \item \textbf{Get the details of a bus stop}: This endpoint takes in a bus stop ID and returns the details of that bus stop.
+    \end{itemize}
+    \item API endpoints related to bus routes:
+    \begin{itemize}
+        \item \textbf{Get all bus routes}: This endpoint simply returns all the bus routes in the database to the requesting client. This helps in building a list view for browsing purposes.
+        \item \textbf{Get the details of a bus route}: This endpoint takes in a bus route ID and returns the details of that bus route.
+        \item \textbf{Get the bus stops along a bus route's path}: This endpoint takes in a bus route ID and the leg, either \textbf{forward} or \textbf{return}. The endpoint then returns the bus stops along that bus route's path, preserving the order of the stops. The response is in the form of GeoJSON.
+        \item \textbf{Get the path of a bus route}: This endpoint takes in a bus route ID, and the desired leg and then returns the path of that bus route in the form of GeoJSON.
+    \end{itemize}
+\end{enumerate}
+
+The details of the API endpoints as well as the deployment efforts that we have done are discussed further in Section \ref{section:implementation}.
 
 We also made changes to the currently deployed API endpoints. At the moment, the endpoint \lstinline{/traffic-status/get-status-v2} receives the query paramaters which are the northeast and southwest bounds of the client's visible map and the zoom level in order to return the appropriate street segments. This endpoint is currently used by the Android app as well as the web version of UTraffic. We have implemented another endpoint, \lstinline{/traffic-status/get-status-v3}, to handle the same functionality but with GeoJSON as the response. This is done by following the GeoJSON's standard format of being a FeatureCollection of Features, where each Feature is a Point with the coordinates of the traffic status. The following is the comparison between the two format when taking a node as an example:
 \begin{figure}[H]
