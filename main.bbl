@@ -217,6 +217,46 @@
       \field{title}{Educative answers - trusted answers to developer questions}
       \true{nocite}
     \endentry
+    \entry{apple_account_deletion}{misc}{}
+      \list{organization}{1}{%
+        {developer.apple.com}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Offering account deletion in your app - Support - Apple Developer}
+      \field{urlday}{15}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://developer.apple.com/support/offering-account-deletion-in-your-app/
+      \endverb
+      \verb{url}
+      \verb https://developer.apple.com/support/offering-account-deletion-in-your-app/
+      \endverb
+    \endentry
+    \entry{google_account_deletion}{misc}{}
+      \list{organization}{1}{%
+        {support.google.com}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Understanding Google Play’s app account deletion requirements - Play Console Help}
+      \field{urlday}{15}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://support.google.com/googleplay/android-developer/answer/13327111?hl=en
+      \endverb
+      \verb{url}
+      \verb https://support.google.com/googleplay/android-developer/answer/13327111?hl=en
+      \endverb
+    \endentry
     \entry{DBs}{misc}{}
       \list{language}{1}{%
         {en}%
