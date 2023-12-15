@@ -94,38 +94,90 @@ The following are the details of the new API endpoints. An example URL and the c
         \item Query parameters: \lstinline{lat}, \lstinline{lng}, \lstinline{radius}.
         \item Example request URL: \url{https://api.bktraffic.com/api/bus/nearby-stops?lat=10.7721&lng=106.6579&radius=500}
         \item Example response: 
-        \begin{lstlisting}[language=Python,]
-            {
-                "code": 200,
-                "message": "success",
-                "data": {
-                    "type": "FeatureCollection",
-                    "features" : [
-                        {
-                            "type": "Feature",
-                            "geometry": {
-                                "type": "Point",
-                                "coordinates": [
-                                    106.657698,
-                                    10.772603
-                                ]
-                            },
-                            "properties": {
-                                "name": \uhook,
-                            }
-                        }
-                    ]
-                }
-            }
-        \end{lstlisting}
+        \begin{figure}[H]
+            \includegraphics[width=\textwidth]{assets/images/Implementation/nearby_bus_response.png}
+            \caption{The response containing bus stops within 500m of the coordinate (10.7721, 106.6579).}
+            \label{fig:nearby_stop_response}
+        \end{figure}
     \end{itemize}
 
     \item \textbf{Get nearby disability friendly bus stops}.
+    \begin{itemize}
+        \item URL: \url{https://api.bktraffic.com/api/bus/disability-friendly-stops}.
+        \item Query parameters: \lstinline{lat}, \lstinline{lng}.
+        \item Example request URL: \url{http://api.bktraffic.com/api/bus/disability-friendly-stops?lat=10.77037&lng=106.69868}
+        \item Example response:
+        \begin{figure}[H]
+            \includegraphics[width=\textwidth]{assets/images/Implementation/nearby_disable_response.png.png}
+            \caption{The response containing bus stops that are disability-friendly near the coordinate (10.77037, 106.69868).}
+            \label{fig:nearby_disable_response}
+        \end{figure}
+    \end{itemize}
+
     \item \textbf{Get the details of a bus stop}.
+    \begin{itemize}
+        \item URL: \url{https://api.bktraffic.com/api/bus/stop-details}.
+        \item Query parameters: \lstinline{id}.
+        \item Example request URL: \url{https://api.bktraffic.com/api/bus/stop-details?id=2931}.
+        \item Example response:
+        \begin{figure}[H]
+            \includegraphics[width=\textwidth]{assets/images/Implementation/stop_detail_response.png.png}
+            \caption{The response containing the details of the bus stop with the ID 2931.}
+            \label{fig:stop_detail_response}
+        \end{figure}
+    \end{itemize}
+
     \item \textbf{Get all bus routes}.
+    \begin{itemize}
+        \item URL: \url{https://api.bktraffic.com/api/bus/routes}.
+        \item Query paramaters: none.
+        \item Example request URL: \url{https://api.bktraffic.com/api/bus/routes}.
+        \item Example response:
+        \begin{figure}[H]
+            \includegraphics[width=\textwidth]{assets/images/Implementation/all_routes_response.png}
+            \caption{The response containing all the bus routes of Ho Chi Minh City.}
+            \label{fig:all_routes_response}
+        \end{figure}
+    \end{itemize}
+
     \item \textbf{Get the details of a bus route}.
+    \begin{itemize}
+        \item URL: \url{https://api.bktraffic.com/api/bus/route-details}.
+        \item Query parameters: \lstinline{id}.
+        \item Example request URL: \url{http://api.bktraffic.com/api/bus/route-info?id=08}
+        \item Example response:
+        \begin{figure}[H]
+            \includegraphics[width=\textwidth]{assets/images/Implementation/route_details_response.png}
+            \caption{The response containing the details of the bus route with the ID 08.}
+            \label{fig:route_details_response}
+        \end{figure}
+    \end{itemize}
+
     \item \textbf{Get the bus stops along a bus route's path}.
+    \begin{itemize}
+        \item URL: \url{https://api.bktraffic.com/api/bus/route-stops}.
+        \item Query parameters: \lstinline{id}, \lstinline{leg}.
+        \item Example request URL: \url{https://api.bktraffic.com/api/bus/route-stops?id=08&leg=forward}.
+        \item Example response:
+        \begin{figure}[H]
+            \includegraphics[width=\textwidth]{assets/images/Implementation/route_stops_response.png}
+            \caption{The response containing the array of the bus stop IDs along the route 08.}
+            \label{fig:route_stops_response}
+        \end{figure}
+    \end{itemize}
+
     \item \textbf{Get the path of a bus route}.
+    \begin{itemize}
+        \item URL: \url{https://api.bktraffic.com/api/bus/route-path}.
+        \item Query paramaters: \lstinline{id}, \lstinline{leg}.
+        \item Example request URL: \url{https://api.bktraffic.com/api/bus/route-path?id=08&leg=forward}.
+        \item Example response:
+        \begin{figure}[H]
+            \includegraphics[width=\textwidth]{assets/images/Implementation/route_path_response.png}
+            \caption{The response containing the line string path of the bus route 08.}
+            \label{fig:route_path_response}
+        \end{figure}
+    \end{itemize} 
 \end{itemize}
 
 \subsubsection{Deployment of the Bus API}
@@ -136,6 +188,7 @@ The next step was to upgrade PM2. PM2 is a process manager for NodeJS applicatio
 We use GitLab to host our source code. After the code was ready on the GitLab repository, we issued a \lstinline{git pull} on the server's terminal to pull the latest code to the correct directory. We then installed the dependencies using \lstinline{npm install} and restarted the process with \lstinline{pm2 restart BKTrafficApi}. Figure \ref{fig:pm2_show} shows the running server process.
 
 \begin{figure}[H]
+    \centering
     \includegraphics[width=\textwidth]{assets/images/Implementation/pm2_show.png}
     \caption{The server information and the running NodeJS process.}
     \label{fig:pm2_show}
