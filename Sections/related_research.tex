@@ -9,6 +9,7 @@
 Previous groups' research has investigated traffic-related value-added services, such as nearby hospitals and automatic teller machines \cite{added_services}. One major candidate for us to continue this research direction is the addition of buses and public transport as a whole. Our research investigates a range of existing applications that provide services related to buses. Through a thorough analysis of established solutions within this field, our objective is to acquire insights that will guide the improvement of our application by finding a compromise between the current system's strengths and weaknesses.
 
 The existing solutions in question are the package offered by FPT in the names of Go!Bus TPHCM and the Buyt TPHCM website, as well as BusMap by Phenikaa MaaS JSC.
+
 \subsubsection{The FPT Ecosystem}
 
 Besides Go!Bus TPHCM, FPT offers a wide set of choices for citizens to track traﬀic data, and these services are linked together. Most notably, the TTGT Tp Ho Chi Minh app allows users to see public cameras for traﬀic. We place particular emphasis on Go!Bus as it aligns with our project's focus, and Buyt TPHCM holds significance for data collection, as detailed in subsequent sections. These applications play pivotal roles in informing our research and development efforts.
@@ -233,4 +234,3 @@ We also made changes to the currently deployed API endpoints. At the moment, the
     \caption{Comparison between the current response format and the GeoJSON format.}
 \end{figure}
 
-GeoJSON helps tremendously when implementing for the iOS app, as it is a standard format that is supported by Apple's MapKit \cite{mkgeojsonobject}. This means that we can easily convert the response into a list of \lstinline{MKAnnotation} and display them on the map without having to parse the original response to dedicated classes, saving development effort and adhering to Apple's best practices.
