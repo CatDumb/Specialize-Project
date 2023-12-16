@@ -97,6 +97,71 @@ The group used pretrained models to arrive to their conclusions, including Mobil
 This is a particular useful application that can have a significant impact on the traffic problem of Ho Chi Minh City. Therefore, the addition of HCMUT TrafficView into the UTraffic system and its mobile apps is an impactful and necessary work. We were tasked with supporting the authoring group in integrating their work into the grand system, and meanwhile, we have also developed a UI to see how the traffic camera feed and the traffic status of it would look like. 
 \subsection{UTraffic's system analysis and design}
 
+\subsubsection{Apple's MapKit framework}
+Since UTraffic is all about maps, finding the right mapping framework was our first priority. For iOS, we have the options of using Apple's MapKit or the Google Maps Software Development Kit (SDK). We have decided to go with MapKit for the following reasons:
+\begin{itemize}
+    \item \textbf{Native support}: MapKit is a native framework of iOS, which means that it is developed and maintained by Apple. This ensures that the framework is always up-to-date with the latest iOS version and that it is optimized for the platform. We would be free from any SDK updates that would introduce breaking changes to the app. What is more, native support means that we have reduced development complexity, as we do not have to deal with third-party SDKs. This frees us to focus on the core functionalities of the app and the integration with the backend more easily.
+    \item \textbf{Performance}: MapKit is optimized for iOS, which means that it is faster than other frameworks. This is especially important for UTraffic, as we are dealing with a large amount of data and we need to display them on the map as fast as possible.
+    \item \textbf{Pricing}: Because MapKit is included in the iOS development tools, we are free from additional paid subscriptions or API calls. There is no dependence on Google's services or ecosystem, so we would have a greater flexibility.
+\end{itemize}
+While it is true that UTraffic web and its Android app uses Google Map SDK as their map rendering framework, we would not have to worry about incompatibility when rendering using MapKit. The fact that both MapKit and Google Maps use the same mapping standard, WGS-84, along with the OpenStreetMap data used on the UTraffic server being WGS-84 compatible, means that we can easily switch between the two frameworks without having to worry about the data being rendered incorrectly \cite{cllocationcoordinate2d} \cite{a2019_openstreetmap} \cite{google_map}. The World Geodetic System 1984 (WGS-84) is the Global Positioning System (GPS)'s reference, and has become the standard used in cartography, geodesy, and satellite navigation \cite{gisgeography_2015_world}.
+\subsubsection{The GeoJSON format}
+When we started working on the iOS app of UTraffic, it was crucial to visualize the data onto the map as seamlessly as possible. We have previously chosen MapKit as the mapping framework after examining its compatibility with the WGS-84 mapping standard. However, we still need to find a way to convert the data from the server into a format that is compatible with MapKit. This is where GeoJSON comes in.
+\subsubsubsection{GeoJSON definition}
+GeoJSON is an open standard geospatial data interchange format that represents simple geographic features and their nonspatial attributes. Based on JavaScript Object Notation (JSON), GeoJSON is a format for encoding a variety of geographic data structures. It uses a geographic coordinate reference system, World Geodetic System 1984, and units of decimal degrees \cite{geojsonarcgis}. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{assets/images/Research/geojson/example_geojson.png}
+    \caption{An example of GeoJSON data.}
+    \label{fig:geojson_example}
+\end{figure}
+
+\subsubsubsection{Feature and geometry types supported by GeoJSON}
+The following feature types are supported by GeoJSON:
+\begin{itemize}
+    \item Point: addresses and locations.
+    \item Line string: streets, highways, and boundaries.
+    \item Polygon: countries, provinces, and tracts of land.
+    \item Multipart collections of points, line strings, or polygons.
+\end{itemize}
+
+The following geometry types are supported by GeoJSON:
+\begin{itemize}
+    \item Point.
+    \item LineString.
+    \item Polygon.
+    \item MultiPoint.
+    \item MultiLineString.
+    \item MultiPolygon.
+\end{itemize}
+
+When rendered onto the map, the geometry types are illustrated in Figure \ref{fig:geojson_geometry}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{assets/images/Research/geojson/geojson_features.png}
+    \caption{The geometry types supported by GeoJSON.}
+    \label{fig:geojson_geometry}
+\end{figure}
+
+\subsubsubsection{The reason for choosing GeoJSON}
+We came to choose GeoJSON for the following reasons:
+\begin{itemize}
+    \item \textbf{WGS-84 comaptible}: As the definition claims, GeoJSON is based on the WGS-84 mapping standard, which is the same standard used by MapKit, Google Maps, and OpenStreetMap. This means that we can easily convert the data from the server into a format that is compatible with MapKit.
+    \item \textbf{Ease of understanding}: Because GeoJSON displays data in a structured and human-readable format, it is easy to understand and work with. This is especially important when we are working with a large amount of data, as we can easily visualize the data and see if there are any errors.
+    \item \textbf{Ease of testing}: Since GeoJSON is a standard format, we can easily test the data using online tools such as geojson.io \cite{mapbox_geojsonio}. This is especially useful when we are testing the data returned from the server, as we can easily visualize the data and see if there are any errors. Figure \ref{fig:geojson_io} gives an example in how we can see the bus stops within the 500-meter radius of the Ho Chi Minh City University of Technology.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.7\textwidth]{assets/images/Research/geojson/geojsonio.png}
+        \caption{Testing GeoJSON data using geojson.io.}
+        \label{fig:geojson_io}
+    \end{figure}
+    \item \textbf{Support for iOS MapKit framework}: The iOS MapKit framework supports GeoJSON natively via the use of the \lstinline{MKGeoJSONDecoder} class. This class is able to decode GeoJSON data into a list of \lstinline{MKAnnotation} objects, which can then be displayed on the map. This is a great advantage for us, as we do not have to parse the GeoJSON data into our own classes, saving development effort and adhering to Apple's best practices \cite{mkgeojsonobject}. Since it supports iOS 13.0 and newer versions, our target development version, iOS 16.0, is well within the supported range.
+\end{itemize}
+
+All in all, GeoJSON is part of our effort in standardizing the data format for UTraffic. We believe there are good reasons to choosing this format as we have explained, given our use cases and the advantages that it brings to the system.
+
 \subsubsection{Current code base structure}
 
 \subsubsection{Implemented APIs}
