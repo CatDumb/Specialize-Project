@@ -74,9 +74,9 @@ Similarly, information about the bus stops can be obtained by placing breakpoint
 
 \subsubsection{Automation of the mining process}
 
-Since there are about 130 routes currently displayed on the website, it is impossible to place breakpoints and collect data by hand. This necessitates the use of automatic scripts to gather information.
+Since there are about 130 routes currently displayed on the website, it is impossible to place breakpoints and collect data by hand. This necessitates the use of automatic scripts to gather data.
 
-After careful examinations, we found several places where we could mine the data. This introduces us to the routevar.js file, which contains the three functions: loadVarsByRou(rouId), loadStopsByVar(prtId, rouId, varId), and loadPathByVar(prtId, rouId, varId).
+After careful examinations, we found several places where we could mine the data. This introduces us to the routevar.js file, which contains the three functions: \lstinline{loadVarsByRou(rouId)}, \lstinline{loadStopsByVar(prtId, rouId, varId)}, and \lstinline{loadPathByVar(prtId, rouId, varId)}.
 
 It is worth it for us to elaborate more on the given terms:
 \begin{itemize}
@@ -85,7 +85,14 @@ It is worth it for us to elaborate more on the given terms:
     \item \lstinline{varId}: This value represents a bus route's variant. A variant's value is the combination of the \lstinline{rouId} and \lstinline{prtId}. Therefore, if the \lstinline{rouId} is 8 and the \lstinline{prtId} is 1, then the \lstinline{varId} is \textit{r8v1}.
 \end{itemize}
 
-Because the \lstinline{rouId} is present in a bus route view's URL, we can extract this value and log the value returned by the \lstinline{loadVarsByRou} function. After than, we can split the recorded string to get the \lstinline{prtId} value. The data retrieval process then involves injecting the website with two custom JavaScript variables that can capture the data loaded by the loadStopsByVar(prtId, rouId, varId) and loadPathByVar(prtId, rouId, varId). This is done after we have injected the website with our custom \lstinline{routevar.js} script that assigns the source's data to the custom variables. This whole process is then automated using Selenium WebDriver. Figure \ref{fig:data_org} shows how the raw JSON data are stored after they are collected.
+The automated data retrieval can be described in the following steps:
+\begin{enumerate}
+    \item Go to the source website and wait for all routes to load.
+    \item Capture all links to individual routes and store them in a temporary list.
+    \item Extract the necessary ID in each link and loop over the list to extract individual data.
+\end{enumerate}
+
+Because the \lstinline{rouId} is present in a bus route view's URL, we can extract this value and log the value returned by the \lstinline{loadVarsByRou} function. After than, we can split the recorded string to get the \lstinline{prtId} value. The data retrieval process then involves injecting the website with two custom JavaScript variables that can capture the data loaded by the loadStopsByVar(prtId, rouId, varId) and loadPathByVar(prtId, rouId, varId). This is done after we have injected the website with our custom \lstinline{routevar.js} script that assigns the source's data to the custom variables. This whole process is then automated using Selenium WebDriver. Figure \ref{fig:data_org} shows how the raw JSON data are stored after they are collected. This structured organization makes it easy for later scripts to iterate over the data and further process them.
 
 \begin{figure}
     \centering
@@ -97,9 +104,16 @@ Because the \lstinline{rouId} is present in a bus route view's URL, we can extra
 For the details of a bus route, this was made easy since they are explicitly displayed on the source website. We were able to parse the existing HTML structures and put the data into a JSON file and automate the process using Selenium WebDriver.
 
 \subsubsection{Data storage of bus services}
-Given the structured nature of the data we collected, as well as the existing use of MongoDB, it was a straightforward process to load the collection JSON files into MongoDB. This process was made even simpler with MongoDB Compass, a GUI for MongoDB that allows us to import JSON files into the database with a few clicks.
+Given the structured nature of the data we collected, as well as the existing use of MongoDB, it was a straightforward process to load the collection JSON files into MongoDB. This process was made even simpler with MongoDB Compass, a GUI for MongoDB that allows us to import JSON and CSV files into the database with a few clicks.
 
-However, the first thing to do was to preprocess the data for efficient and logical storage. In particular, for a route number, the raw data has the stops listed in full details. If we had gone and stored the data as-is to MongoDB, one clear problem would have been that there would be a lot of duplicates. Therefore, our solution to this was to create a Python script to iterate over the raw JSON and pick out the unique stops and save them to a new JSON. For the association with the routes, we reduced the stops array to only contain the IDs. This also helped save the order of the stops along a certain path. Finally, when it comes to querying, the IDs can be used to retrieve the full details of the stops from the stops collection, improving performance.
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{assets/images/Implementation/raw_stops.png}
+    \caption{The bus stops of a route before processing.}
+    \label{fig:raw_stops}
+\end{figure}
+
+However, the first thing to do was to preprocess the data for efficient and logical storage. In particular, for a route number, the raw data has the stops listed in full details, as in Figure \ref{fig:raw_stops}. If we had gone and stored the data as-is to MongoDB, one clear problem would have been duplicated data. Therefore, our solution to this was to create a Python script to iterate over the raw JSON and pick out the unique stops and save them to a CSV file. For the association with the routes, we reduced the stops array to only contain the IDs. This also helped save the order of the stops along a certain path. Finally, when it comes to querying, the IDs can be used to retrieve the full details of the stops from the stops collection, improving performance.
 
 We also implemented a \lstinline{2dsphere} index on the locations of the bus stops. This helps tremendously in the querying processes that care about the radius from within a coordinate. Our \textit{Get nearby bus stops} API endpoint is a prime example of how useful this index is, because if it was not implemented, the scanning process would have been very slow and inefficient. A column scan would have been used, and given that there are over 4000 stops in the database, the performance would have been unacceptable. The index creation was straightforward with the help of MongoDB Compass.
 
@@ -112,7 +126,7 @@ We decided to have 4 new collections within the existing MongoDB database. They 
 \end{itemize}
 \begin{figure}
     \centering
-    \includegraphics[width=\textwidth]{assets/images/Implementation/dbcompass.png}
+    \includegraphics[width=\textwidth]{assets/images/Implementation/db_compass.png}
     \caption{The Bus\_Stops collection in MongoDB Compass.}
     \label{fig:dbcompass}
 \end{figure}
