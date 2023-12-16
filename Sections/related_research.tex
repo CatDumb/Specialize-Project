@@ -6,9 +6,10 @@
 
 \subsection{Bus-Related Services}
 
-Previous groups' research has investigated traffic-related value-added services, such as nearby hospitals and automatic teller machines. When it comes to our project, one major candidate for us to continue this research direction is the addition of buses and public transport as a whole. Our research investigates a range of existing applications that provide services related to buses. Through a thorough analysis of established solutions within this field, our objective is to acquire insights that will guide the improvement of our application by finding a compromise between the current system's strengths and weaknesses.
+Previous groups' research has investigated traffic-related value-added services, such as nearby hospitals and automatic teller machines \cite{added_services}. One major candidate for us to continue this research direction is the addition of buses and public transport as a whole. Our research investigates a range of existing applications that provide services related to buses. Through a thorough analysis of established solutions within this field, our objective is to acquire insights that will guide the improvement of our application by finding a compromise between the current system's strengths and weaknesses.
 
 The existing solutions in question are the package offered by FPT in the names of Go!Bus TPHCM and the Buyt TPHCM website, as well as BusMap by Phenikaa MaaS JSC.
+
 \subsubsection{The FPT Ecosystem}
 
 Besides Go!Bus TPHCM, FPT offers a wide set of choices for citizens to track traﬀic data, and these services are linked together. Most notably, the TTGT Tp Ho Chi Minh app allows users to see public cameras for traﬀic. We place particular emphasis on Go!Bus as it aligns with our project's focus, and Buyt TPHCM holds significance for data collection, as detailed in subsequent sections. These applications play pivotal roles in informing our research and development efforts.
@@ -19,7 +20,7 @@ Fundamentally, Go!Bus offers solely bus-related services like bus stop searching
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.3\textwidth]{assets/images/Research/Bus/gobus_home.png}
+    \includegraphics[width=0.28\textwidth]{assets/images/Research/Bus/gobus_home.png}
     \caption{The home screen for Go!Bus.}
     \label{fig:gobus_homescreen}
 \end{figure}
@@ -29,17 +30,17 @@ Nevertheless, during our testing of these features, none of them functioned, or 
     \centering
     \subfloat[No data for nearby routes.]{
         \includegraphics[width=0.28\linewidth]{assets/images/Research/Bus/gobus_find.png}
-        \label{fig:sub1}
+        \label{fig:gobus_faul1}
     }
     \hspace{0.5cm} % Add a horizontal space of 1cm
     \subfloat[The stops do not show anything when pressed.]{
         \includegraphics[width=0.28\linewidth]{assets/images/Research/Bus/gobus_routes.png}
-        \label{fig:sub2}
+        \label{fig:gobus_fault2}
     }
     \hspace{0.5cm} % Add a horizontal space of 1cm
     \subfloat[Embedded web view with server error.]{
         \includegraphics[width=0.28\linewidth]{assets/images/Research/Bus/gobus_instruction.png}
-        \label{fig:sub3}
+        \label{fig:gobus_fault3}
         }
     \caption{Go!Bus functionalities problems}
 \end{figure}
@@ -74,6 +75,40 @@ The fundamental bus services like searching and routing are executed well on Bus
 \subsubsection{Conclusion}
 
 Both of these apps share a common feature of being equipped with an abundance of supplementary services. While Go!Bus TPHCM is compatible with Grab, BusMap has diversified its partnerships to include other businesses. One apparent limitation of UTraffic is the lack of access to real-time data, such as the current locations of buses and the duration until the next journey. Nevertheless, with sufficient effort and development, our application can excel as a dependable routing and search engine. Ultimately, the primary function of UTraffic is to process congestion data; therefore, we must be careful not to delve too thoroughly into other domains.
+
+
+\subsection{Parking services}
+
+The need to add parking services to our application originates from the pervasive issue of road congestion, which is compounded by the extensive use of parked automobiles on streets. The existing condition complicates traffic flow and reduces road space availability. Parking services not only handle the difficulty of finding acceptable parking places but also provide customers with compelling incentives for app usage. The availability of simple and efficient parking options encourages consumers to make better use of allotted parking spots. This, in turn, improves the overall user experience while also helping to alleviate traffic congestion by freeing up valuable road real estate.
+
+The existing solutions predominantly reside within Viettel's myparking ecosystem, consisting of two mobile applications: "My parking - Security" and "My parking." The former is a parking management system for security guards, while the latter is a parking search engine for users. We will focus on the latter as it is more relevant to our research.
+
+The system operates by Viettel advertising their parking lot management application to parking lot owners. Subsequently, they leverage the data collected to populate the database of the application, catering to the general public's parking lot search requirements.
+
+\subsubsection{Myparking for owners}
+
+While our exploration of the owner side of the ecosystem is constrained due to the group's inability to register as a parking lot owner, alternative avenues enable us to gain insights into the application. The app's website \cite{myparking_web} informs us that they offer diverse services, including parking lot advertising, camera surveillance, and analytics. Moreover, the application's page on Google Play provides us with a brief preview of their UI.
+
+\begin{figure}[H]
+    \centering
+    \subfloat[Lot serveillance]{
+        \includegraphics[width=0.28\linewidth]{assets/images/Research/Parking/myparking_surveillance.png}
+        \label{fig:myparking_ui1}
+    }
+    \hspace{0.5cm} % Add a horizontal space of 1cm
+    \subfloat[List of vehicles with infractions]{
+        \includegraphics[width=0.28\linewidth]{assets/images/Research/Parking/myparking_infraction_list.png}
+        \label{fig:myparking_ui2}
+    }
+    \hspace{0.5cm} % Add a horizontal space of 1cm
+    \subfloat[Add a new infration]{
+        \includegraphics[width=0.28\linewidth]{assets/images/Research/Parking/myparking_new_infraction.png}
+        \label{fig:myparking_ui3}
+    }
+    \caption{Myparking for owners - UI}
+\end{figure}
+
+\subsubsection{Myparking for general users}
 
 \subsection{HCMUT TrafficView}
 HCMUT TrafficView is a project developed by the Ho Chi Minh City University of Technology's students that allow users to view the traffic cameras placed around the city. Via the techniques of data labeling and image processing, the project's product is able to assess the traffic status shown by a traffic camera via the traffic density, condition, and give a recommended velocity. The users can choose to view cameras along a path or an individual one. \cite{hcmut_trafficview} Figure \ref{fig:trafficview_demo} shows a traffic camera near \textit{Hai Thuong Lan Ong - Cau Cha Va} with moderate density, unstable flow of traffic condition, and a recommended velocity of 25 km/h.
