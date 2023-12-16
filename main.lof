@@ -3,16 +3,22 @@
 \contentsline {figure}{\numberline {2}{\ignorespaces The home screen for Go!Bus.}}{9}{figure.caption.7}%
 \contentsline {figure}{\numberline {3}{\ignorespaces Go!Bus functionalities problems}}{10}{figure.caption.8}%
 \contentsline {figure}{\numberline {4}{\ignorespaces The home screen for BusMap}}{11}{figure.caption.9}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Comparison between the current response format and the GeoJSON format.}}{13}{figure.caption.10}%
-\contentsline {figure}{\numberline {6}{\ignorespaces MVC architecture}}{14}{figure.caption.11}%
-\contentsline {figure}{\numberline {7}{\ignorespaces MVVM architecture}}{15}{figure.caption.12}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Capturing and observing the route data using the DevTool}}{21}{figure.caption.19}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Capturing and observing the bus stops data using the DevTool}}{23}{figure.caption.21}%
-\contentsline {figure}{\numberline {11}{\ignorespaces The response containing bus stops within 500m of the coordinate (10.7721, 106.6579).}}{24}{figure.caption.22}%
-\contentsline {figure}{\numberline {12}{\ignorespaces The response containing bus stops that are disability-friendly near the coordinate (10.77037, 106.69868).}}{25}{figure.caption.23}%
-\contentsline {figure}{\numberline {13}{\ignorespaces The response containing the details of the bus stop with the ID 2931.}}{26}{figure.caption.24}%
-\contentsline {figure}{\numberline {14}{\ignorespaces The response containing all the bus routes of Ho Chi Minh City.}}{26}{figure.caption.25}%
-\contentsline {figure}{\numberline {15}{\ignorespaces The response containing the details of the bus route with the ID 08.}}{27}{figure.caption.26}%
-\contentsline {figure}{\numberline {16}{\ignorespaces The response containing the array of the bus stop IDs along the route 08.}}{27}{figure.caption.27}%
-\contentsline {figure}{\numberline {17}{\ignorespaces The response containing the line string path of the bus route 08.}}{28}{figure.caption.28}%
-\contentsline {figure}{\numberline {18}{\ignorespaces The server information and the running NodeJS process.}}{29}{figure.caption.29}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Demonstration of HCMUT TrafficView.}}{13}{figure.caption.10}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Comparison between the current response format and the GeoJSON format.}}{15}{figure.caption.11}%
+\contentsline {figure}{\numberline {7}{\ignorespaces MVC architecture}}{16}{figure.caption.12}%
+\contentsline {figure}{\numberline {8}{\ignorespaces MVVM architecture}}{17}{figure.caption.13}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Capturing and observing the route data using the DevTool}}{23}{figure.caption.20}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Capturing and observing the bus stops data using the DevTool}}{25}{figure.caption.22}%
+\contentsline {figure}{\numberline {12}{\ignorespaces The response containing bus stops within 500m of the coordinate (10.7721, 106.6579).}}{26}{figure.caption.23}%
+\contentsline {figure}{\numberline {13}{\ignorespaces The response containing bus stops that are disability-friendly near the coordinate (10.77037, 106.69868).}}{27}{figure.caption.24}%
+\contentsline {figure}{\numberline {14}{\ignorespaces The response containing the details of the bus stop with the ID 2931.}}{28}{figure.caption.25}%
+\contentsline {figure}{\numberline {15}{\ignorespaces The response containing all the bus routes of Ho Chi Minh City.}}{28}{figure.caption.26}%
+\contentsline {figure}{\numberline {16}{\ignorespaces The response containing the details of the bus route with the ID 08.}}{29}{figure.caption.27}%
+\contentsline {figure}{\numberline {17}{\ignorespaces The response containing the array of the bus stop IDs along the route 08.}}{29}{figure.caption.28}%
+\contentsline {figure}{\numberline {18}{\ignorespaces The response containing the line string path of the bus route 08.}}{30}{figure.caption.29}%
+\contentsline {figure}{\numberline {19}{\ignorespaces The server information and the running NodeJS process.}}{31}{figure.caption.30}%
+\contentsline {figure}{\numberline {20}{\ignorespaces The onboarding process of the iOS UTraffic app.}}{32}{figure.caption.31}%
+\contentsline {figure}{\numberline {21}{\ignorespaces The authentication views on the iOS UTraffic app.}}{34}{figure.caption.32}%
+\contentsline {figure}{\numberline {22}{\ignorespaces The home screen with the traffic status displayed.}}{35}{figure.caption.33}%
+\contentsline {figure}{\numberline {23}{\ignorespaces The bus list view displayed in a bottom sheet.}}{36}{figure.caption.34}%
+\contentsline {figure}{\numberline {24}{\ignorespaces The traffic camera view within the iOS app.}}{37}{figure.caption.35}%
