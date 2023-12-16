@@ -2370,11 +2370,18 @@
     <bcf:citekey order="3" intorder="1">utraffic-introduction</bcf:citekey>
     <bcf:citekey order="4" intorder="1">apple_webview</bcf:citekey>
     <bcf:citekey order="5" intorder="1">hcmut_trafficview</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">mkgeojsonobject</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">a2019_userdefaults</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">apple_account_deletion</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">google_account_deletion</bcf:citekey>
-    <bcf:citekey order="10" intorder="1" nocite="1">*</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">cllocationcoordinate2d</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">a2019_openstreetmap</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">google_map</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">gisgeography_2015_world</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">geojsonarcgis</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">mapbox_geojsonio</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">mkgeojsonobject</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">mkgeojsonobject</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">a2019_userdefaults</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">apple_account_deletion</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">google_account_deletion</bcf:citekey>
+    <bcf:citekey order="17" intorder="1" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
