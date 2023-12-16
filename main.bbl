@@ -72,25 +72,6 @@
       \field{note}{Accessed: 2023-12-13}
       \field{title}{{UTraffic} - homepage}
     \endentry
-    \entry{mkgeojsonobject}{misc}{}
-      \list{organization}{1}{%
-        {Apple Developer Documentation}%
-      }
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labeltitlesource}{title}
-      \field{title}{MKGeoJSONObject}
-      \field{urlday}{14}
-      \field{urlmonth}{12}
-      \field{urlyear}{2023}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://developer.apple.com/documentation/mapkit/mkgeojsonobject
-      \endverb
-      \verb{url}
-      \verb https://developer.apple.com/documentation/mapkit/mkgeojsonobject
-      \endverb
-    \endentry
     \entry{apple_webview}{misc}{}
       \name{author}{1}{}{%
         {{hash=3325b015fbae57ba74629a53f1ead961}{%
@@ -106,15 +87,129 @@
       \strng{authorbibnamehash}{3325b015fbae57ba74629a53f1ead961}
       \strng{authornamehash}{3325b015fbae57ba74629a53f1ead961}
       \strng{authorfullhash}{3325b015fbae57ba74629a53f1ead961}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Apple on embedding webviews in iOS applications}
       \field{howpublished}{\url{https://developer.apple.com/news/?id=12232019b}}
       \field{note}{Accessed: 2023-12-13}
       \field{title}{Updating apps that use web views - latest news - apple developer}
-      \true{nocite}
+    \endentry
+    \entry{hcmut_trafficview}{misc}{}
+      \name{author}{5}{}{%
+        {{hash=4cc1f2bfbcbaea803fe8a09f6a546e9a}{%
+           family={Tran},
+           familyi={T\bibinitperiod},
+           given={Duy},
+           giveni={D\bibinitperiod}}}%
+        {{hash=71997c5b18e547f900adb3b3714ee7da}{%
+           family={Le},
+           familyi={L\bibinitperiod},
+           given={Hieu},
+           giveni={H\bibinitperiod}}}%
+        {{hash=e3baf207a2e926349a455c243ad49223}{%
+           family={Van},
+           familyi={V\bibinitperiod},
+           given={Anh},
+           giveni={A\bibinitperiod}}}%
+        {{hash=23bc782e152901c397047a7e612ddeae}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={Khang},
+           giveni={K\bibinitperiod}}}%
+        {{hash=45a180aa104e06e090f2c1e0636cfec5}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={Quan},
+           giveni={Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{e949d3b741a82c0d79a0095509fca657}
+      \strng{fullhash}{14c07ae3ace6fe1e29d039d159fc31ef}
+      \strng{bibnamehash}{14c07ae3ace6fe1e29d039d159fc31ef}
+      \strng{authorbibnamehash}{14c07ae3ace6fe1e29d039d159fc31ef}
+      \strng{authornamehash}{e949d3b741a82c0d79a0095509fca657}
+      \strng{authorfullhash}{14c07ae3ace6fe1e29d039d159fc31ef}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{title}{HCMUT TrafficView: Automatically Detecting Traffic Congestion for Smooth Routes}
+      \field{year}{2023}
+    \endentry
+    \entry{mkgeojsonobject}{misc}{}
+      \list{organization}{1}{%
+        {Apple Developer Documentation}%
+      }
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labeltitlesource}{title}
+      \field{title}{MKGeoJSONObject}
+      \field{urlday}{14}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://developer.apple.com/documentation/mapkit/mkgeojsonobject
+      \endverb
+      \verb{url}
+      \verb https://developer.apple.com/documentation/mapkit/mkgeojsonobject
+      \endverb
+    \endentry
+    \entry{a2019_userdefaults}{misc}{}
+      \list{organization}{1}{%
+        {Apple.com}%
+      }
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labeltitlesource}{title}
+      \field{title}{UserDefaults - Foundation | Apple Developer Documentation}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://developer.apple.com/documentation/foundation/userdefaults
+      \endverb
+      \verb{url}
+      \verb https://developer.apple.com/documentation/foundation/userdefaults
+      \endverb
+    \endentry
+    \entry{apple_account_deletion}{misc}{}
+      \list{organization}{1}{%
+        {developer.apple.com}%
+      }
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labeltitlesource}{title}
+      \field{title}{Offering account deletion in your app - Support - Apple Developer}
+      \field{urlday}{15}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://developer.apple.com/support/offering-account-deletion-in-your-app/
+      \endverb
+      \verb{url}
+      \verb https://developer.apple.com/support/offering-account-deletion-in-your-app/
+      \endverb
+    \endentry
+    \entry{google_account_deletion}{misc}{}
+      \list{organization}{1}{%
+        {support.google.com}%
+      }
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeltitlesource}{title}
+      \field{title}{Understanding Google Play’s app account deletion requirements - Play Console Help}
+      \field{urlday}{15}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://support.google.com/googleplay/android-developer/answer/13327111?hl=en
+      \endverb
+      \verb{url}
+      \verb https://support.google.com/googleplay/android-developer/answer/13327111?hl=en
+      \endverb
     \endentry
     \entry{buyttphcm}{misc}{}
       \list{language}{1}{%
@@ -217,52 +312,12 @@
       \field{title}{Educative answers - trusted answers to developer questions}
       \true{nocite}
     \endentry
-    \entry{apple_account_deletion}{misc}{}
-      \list{organization}{1}{%
-        {developer.apple.com}%
-      }
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{Offering account deletion in your app - Support - Apple Developer}
-      \field{urlday}{15}
-      \field{urlmonth}{12}
-      \field{urlyear}{2023}
-      \field{urldateera}{ce}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://developer.apple.com/support/offering-account-deletion-in-your-app/
-      \endverb
-      \verb{url}
-      \verb https://developer.apple.com/support/offering-account-deletion-in-your-app/
-      \endverb
-    \endentry
-    \entry{google_account_deletion}{misc}{}
-      \list{organization}{1}{%
-        {support.google.com}%
-      }
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{Understanding Google Play’s app account deletion requirements - Play Console Help}
-      \field{urlday}{15}
-      \field{urlmonth}{12}
-      \field{urlyear}{2023}
-      \field{urldateera}{ce}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://support.google.com/googleplay/android-developer/answer/13327111?hl=en
-      \endverb
-      \verb{url}
-      \verb https://support.google.com/googleplay/android-developer/answer/13327111?hl=en
-      \endverb
-    \endentry
     \entry{DBs}{misc}{}
       \list{language}{1}{%
         {en}%
       }
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labeltitlesource}{title}
       \field{abstract}{Databases make it easy for us to create, edit, and access information making them indispensable. Check out this list of 8 popular databases.}
       \field{booktitle}{{KeyCDN}}

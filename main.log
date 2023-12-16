@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.9)  15 DEC 2023 20:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.9)  16 DEC 2023 00:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1580,7 +1580,7 @@ Package hyperref Info: Link coloring ON on input line 139.
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-<assets/images/Trivia/hcmut.png, id=218, 1204.5pt x 1218.5525pt>
+<assets/images/Trivia/hcmut.png, id=226, 1204.5pt x 1218.5525pt>
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
 Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 165.
@@ -1638,7 +1638,7 @@ File: assets/images/Trivia/hcmut.png Graphic file (type png)
 Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 230.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
  [4] (main.lof
-Overfull \hbox (1.22903pt too wide) in paragraph at lines 12--12
+Overfull \hbox (1.22903pt too wide) in paragraph at lines 13--13
  [][] [][][]\OT1/cmr/m/n/10 The re-sponse con-tain-ing bus stops that are disability-friendly near the co-or-di-nate (10.77037, 
  []
 
@@ -1662,7 +1662,7 @@ Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 234.
 \openout2 = `Sections/introduction.aux'.
 
  (Sections/introduction.tex
-<assets/images/Trivia/Ket_xe.jpg, id=368, 246.95691pt x 151.14754pt>
+<assets/images/Trivia/Ket_xe.jpg, id=390, 246.95691pt x 151.14754pt>
 File: assets/images/Trivia/Ket_xe.jpg Graphic file (type jpg)
 <use assets/images/Trivia/Ket_xe.jpg>
 Package pdftex.def Info: assets/images/Trivia/Ket_xe.jpg  used on input line 12.
@@ -1682,34 +1682,34 @@ Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 236.
 \openout2 = `Sections/related_research.aux'.
 
  (Sections/related_research.tex
-<assets/images/Research/Bus/gobus_home.png, id=384, 558.085pt x 1074.0125pt>
+<assets/images/Research/Bus/gobus_home.png, id=406, 558.085pt x 1074.0125pt>
 File: assets/images/Research/Bus/gobus_home.png Graphic file (type png)
 <use assets/images/Research/Bus/gobus_home.png>
-Package pdftex.def Info: assets/images/Research/Bus/gobus_home.png  used on input line 21.
+Package pdftex.def Info: assets/images/Research/Bus/gobus_home.png  used on input line 22.
 (pdftex.def)             Requested size: 136.5746pt x 262.83218pt.
-<assets/images/Research/Bus/gobus_find.png, id=385, 558.085pt x 1074.0125pt>
+<assets/images/Research/Bus/gobus_find.png, id=407, 558.085pt x 1074.0125pt>
 File: assets/images/Research/Bus/gobus_find.png Graphic file (type png)
 <use assets/images/Research/Bus/gobus_find.png>
-Package pdftex.def Info: assets/images/Research/Bus/gobus_find.png  used on input line 32.
+Package pdftex.def Info: assets/images/Research/Bus/gobus_find.png  used on input line 33.
 (pdftex.def)             Requested size: 127.46777pt x 245.29692pt.
-<assets/images/Research/Bus/gobus_routes.png, id=386, 558.085pt x 1074.0125pt>
+<assets/images/Research/Bus/gobus_routes.png, id=408, 558.085pt x 1074.0125pt>
 File: assets/images/Research/Bus/gobus_routes.png Graphic file (type png)
 <use assets/images/Research/Bus/gobus_routes.png>
-Package pdftex.def Info: assets/images/Research/Bus/gobus_routes.png  used on input line 37.
+Package pdftex.def Info: assets/images/Research/Bus/gobus_routes.png  used on input line 38.
 (pdftex.def)             Requested size: 127.46777pt x 245.29692pt.
-<assets/images/Research/Bus/gobus_instruction.png, id=387, 558.085pt x 1074.0125pt>
+<assets/images/Research/Bus/gobus_instruction.png, id=409, 558.085pt x 1074.0125pt>
 File: assets/images/Research/Bus/gobus_instruction.png Graphic file (type png)
 <use assets/images/Research/Bus/gobus_instruction.png>
-Package pdftex.def Info: assets/images/Research/Bus/gobus_instruction.png  used on input line 42.
+Package pdftex.def Info: assets/images/Research/Bus/gobus_instruction.png  used on input line 43.
 (pdftex.def)             Requested size: 127.46777pt x 245.29692pt.
 
-Underfull \hbox (badness 2980) in paragraph at lines 42--42
+Underfull \hbox (badness 2980) in paragraph at lines 43--43
 []\OT1/cmr/m/n/9 (c) |Em-bed-ded web view with
  []
 
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 44.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 45.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
 [9
 
@@ -1718,43 +1718,59 @@ Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 44.
  <./assets/images/Research/Bus/gobus_home.png>]
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 56.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 57.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
  [10 <./assets/images/Research/Bus/gobus_find.png> <./assets/images/Research/Bus/gobus_routes.png> <./assets/images/Research/Bus/gobus_instruction.png>]
-<assets/images/Research/Bus/busmap_home.png, id=405, 558.085pt x 1074.0125pt>
+<assets/images/Research/Bus/busmap_home.png, id=429, 558.085pt x 1074.0125pt>
 File: assets/images/Research/Bus/busmap_home.png Graphic file (type png)
 <use assets/images/Research/Bus/busmap_home.png>
-Package pdftex.def Info: assets/images/Research/Bus/busmap_home.png  used on input line 68.
+Package pdftex.def Info: assets/images/Research/Bus/busmap_home.png  used on input line 69.
 (pdftex.def)             Requested size: 136.5746pt x 262.83218pt.
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 85.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 80.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
  [11 <./assets/images/Research/Bus/busmap_home.png>]
-<assets/images/Research/API/notgeojson.png, id=413, 1043.9pt x 1381.16pt>
-File: assets/images/Research/API/notgeojson.png Graphic file (type png)
-<use assets/images/Research/API/notgeojson.png>
-Package pdftex.def Info: assets/images/Research/API/notgeojson.png  used on input line 108.
-(pdftex.def)             Requested size: 182.09485pt x 240.92685pt.
-<assets/images/Research/API/geojson.png, id=414, 1043.9pt x 1698.345pt>
-File: assets/images/Research/API/geojson.png Graphic file (type png)
-<use assets/images/Research/API/geojson.png>
-Package pdftex.def Info: assets/images/Research/API/geojson.png  used on input line 112.
-(pdftex.def)             Requested size: 182.09485pt x 296.25598pt.
+<assets/images/Research/trafficview/hcmut_trafficview_demo.png, id=438, 955.57pt x 1082.0425pt>
+File: assets/images/Research/trafficview/hcmut_trafficview_demo.png Graphic file (type png)
+<use assets/images/Research/trafficview/hcmut_trafficview_demo.png>
+Package pdftex.def Info: assets/images/Research/trafficview/hcmut_trafficview_demo.png  used on input line 83.
+(pdftex.def)             Requested size: 455.24408pt x 515.4945pt.
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 115.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 87.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [12])
+ [12]
+File: assets/images/Trivia/hcmut.png Graphic file (type png)
+<use assets/images/Trivia/hcmut.png>
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 93.
+(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
+ [13 <./assets/images/Research/trafficview/hcmut_trafficview_demo.png>]
+File: assets/images/Trivia/hcmut.png Graphic file (type png)
+<use assets/images/Trivia/hcmut.png>
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 124.
+(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
+ [14]
+<assets/images/Research/API/notgeojson.png, id=463, 1043.9pt x 1381.16pt>
+File: assets/images/Research/API/notgeojson.png Graphic file (type png)
+<use assets/images/Research/API/notgeojson.png>
+Package pdftex.def Info: assets/images/Research/API/notgeojson.png  used on input line 129.
+(pdftex.def)             Requested size: 182.09485pt x 240.92685pt.
+<assets/images/Research/API/geojson.png, id=464, 1043.9pt x 1698.345pt>
+File: assets/images/Research/API/geojson.png Graphic file (type png)
+<use assets/images/Research/API/geojson.png>
+Package pdftex.def Info: assets/images/Research/API/geojson.png  used on input line 133.
+(pdftex.def)             Requested size: 182.09485pt x 296.25598pt.
+)
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
 Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 237.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [13 <./assets/images/Research/API/notgeojson.png> <./assets/images/Research/API/geojson.png>]
+ [15 <./assets/images/Research/API/notgeojson.png> <./assets/images/Research/API/geojson.png>]
 \openout2 = `Sections/theoretical_basis.aux'.
 
  (Sections/theoretical_basis.tex
-<assets/images/Research/System/MVC.png, id=433, 931.48pt x 660.4675pt>
+<assets/images/Research/System/MVC.png, id=474, 931.48pt x 660.4675pt>
 File: assets/images/Research/System/MVC.png Graphic file (type png)
 <use assets/images/Research/System/MVC.png>
 Package pdftex.def Info: assets/images/Research/System/MVC.png  used on input line 19.
@@ -1763,12 +1779,12 @@ File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
 Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 32.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [14
+ [16
 
 
 
  <./assets/images/Research/System/MVC.png>]
-<assets/images/Research/System/MVVM.png, id=440, 560.0925pt x 249.93375pt>
+<assets/images/Research/System/MVVM.png, id=481, 560.0925pt x 249.93375pt>
 File: assets/images/Research/System/MVVM.png Graphic file (type png)
 <use assets/images/Research/System/MVVM.png>
 Package pdftex.def Info: assets/images/Research/System/MVVM.png  used on input line 35.
@@ -1777,12 +1793,12 @@ File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
 Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 83.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [15 <./assets/images/Research/System/MVVM.png>]
+ [17 <./assets/images/Research/System/MVVM.png>]
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
 Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 110.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [16]
+ [18]
 Underfull \hbox (badness 1960) in paragraph at lines 165--166
 \OT1/cmr/m/n/10 spe-cific ac-tiv-i-ties may ne-ces-si-tate a
  []
@@ -1791,7 +1807,7 @@ File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
 Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 171.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
-[17]
+[19]
 Underfull \hbox (badness 1173) in paragraph at lines 191--192
 []\OT1/cmr/m/n/10 Tools trans-lat-ing SQL to Mon-goDB
  []
@@ -1800,7 +1816,7 @@ File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
 Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 223.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
-[18]
+[20]
 Underfull \hbox (badness 1253) in paragraph at lines 237--238
 []\OT1/cmr/m/n/10 PostgreSQL has ex-cel-lent scal-a-bil-ity,
  []
@@ -1820,16 +1836,16 @@ File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
 Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 238.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [19]
+ [21]
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
 Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 238.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [20]
+ [22]
 \openout2 = `Sections/implementation.aux'.
 
  (Sections/implementation.tex
-<assets/images/Research/Bus/lat_long_web.png, id=473, 1445.4pt x 778.40813pt>
+<assets/images/Research/Bus/lat_long_web.png, id=514, 1445.4pt x 778.40813pt>
 File: assets/images/Research/Bus/lat_long_web.png Graphic file (type png)
 <use assets/images/Research/Bus/lat_long_web.png>
 Package pdftex.def Info: assets/images/Research/Bus/lat_long_web.png  used on input line 20.
@@ -1841,22 +1857,22 @@ File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
 Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 34.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [21
+ [23
 
 
 
  <./assets/images/Research/Bus/lat_long_web.png>]
-<assets/images/Research/Bus/plot_route.png, id=485, 754.82pt x 658.46pt>
+<assets/images/Research/Bus/plot_route.png, id=526, 754.82pt x 658.46pt>
 File: assets/images/Research/Bus/plot_route.png Graphic file (type png)
 <use assets/images/Research/Bus/plot_route.png>
 Package pdftex.def Info: assets/images/Research/Bus/plot_route.png  used on input line 59.
 (pdftex.def)             Requested size: 182.09485pt x 158.84746pt.
-<assets/images/Research/Bus/actual_route.png, id=486, 948.54375pt x 865.2325pt>
+<assets/images/Research/Bus/actual_route.png, id=527, 948.54375pt x 865.2325pt>
 File: assets/images/Research/Bus/actual_route.png Graphic file (type png)
 <use assets/images/Research/Bus/actual_route.png>
 Package pdftex.def Info: assets/images/Research/Bus/actual_route.png  used on input line 64.
 (pdftex.def)             Requested size: 182.09485pt x 166.09898pt.
-<assets/images/Research/Bus/stop_web.png, id=487, 1445.4pt x 775.39688pt>
+<assets/images/Research/Bus/stop_web.png, id=528, 1445.4pt x 775.39688pt>
 File: assets/images/Research/Bus/stop_web.png Graphic file (type png)
 <use assets/images/Research/Bus/stop_web.png>
 Package pdftex.def Info: assets/images/Research/Bus/stop_web.png  used on input line 70.
@@ -1865,12 +1881,12 @@ File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
 Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 74.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [22 <./assets/images/Research/Bus/plot_route.png> <./assets/images/Research/Bus/actual_route.png>]
+ [24 <./assets/images/Research/Bus/plot_route.png> <./assets/images/Research/Bus/actual_route.png>]
 Overfull \hbox (2.22563pt too wide) in paragraph at lines 95--96
 []\OT1/cmr/m/n/10 Example re-quest URL: [][]$\OT1/cmtt/m/n/10 https : / / api . bktraffic . com / api / bus / nearby-[]stops ? lat = 10 . 7721 &
  []
 
-<assets/images/Implementation/nearby_bus_response.png, id=516, 1224.575pt x 1969.3575pt>
+<assets/images/Implementation/nearby_bus_response.png, id=558, 1224.575pt x 1969.3575pt>
 File: assets/images/Implementation/nearby_bus_response.png Graphic file (type png)
 <use assets/images/Implementation/nearby_bus_response.png>
 Package pdftex.def Info: assets/images/Implementation/nearby_bus_response.png  used on input line 99.
@@ -1879,12 +1895,12 @@ File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
 Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 102.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
-[23 <./assets/images/Research/Bus/stop_web.png>]
+[25 <./assets/images/Research/Bus/stop_web.png>]
 Overfull \hbox (2.72563pt too wide) in paragraph at lines 109--110
 []\OT1/cmr/m/n/10 Example re-quest URL: [][]$\OT1/cmtt/m/n/10 http : / / api . bktraffic . com / api / bus / disability-[]friendly-[]stops ?
  []
 
-<assets/images/Implementation/nearby_disable_response.png, id=526, 1212.53pt x 2555.5475pt>
+<assets/images/Implementation/nearby_disable_response.png, id=568, 1212.53pt x 2555.5475pt>
 File: assets/images/Implementation/nearby_disable_response.png Graphic file (type png)
 <use assets/images/Implementation/nearby_disable_response.png>
 Package pdftex.def Info: assets/images/Implementation/nearby_disable_response.png  used on input line 113.
@@ -1893,8 +1909,8 @@ File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
 Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 117.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
-[24 <./assets/images/Implementation/nearby_bus_response.png>]
-<assets/images/Implementation/stop_detail_response.png, id=537, 1112.155pt x 1381.16pt>
+[26 <./assets/images/Implementation/nearby_bus_response.png>]
+<assets/images/Implementation/stop_detail_response.png, id=578, 1112.155pt x 1381.16pt>
 File: assets/images/Implementation/stop_detail_response.png Graphic file (type png)
 <use assets/images/Implementation/stop_detail_response.png>
 Package pdftex.def Info: assets/images/Implementation/stop_detail_response.png  used on input line 127.
@@ -1903,8 +1919,8 @@ File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
 Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 131.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [25 <./assets/images/Implementation/nearby_disable_response.png>]
-<assets/images/Implementation/all_routes_response.png, id=546, 1353.055pt x 1065.9825pt>
+ [27 <./assets/images/Implementation/nearby_disable_response.png>]
+<assets/images/Implementation/all_routes_response.png, id=587, 1353.055pt x 1065.9825pt>
 File: assets/images/Implementation/all_routes_response.png Graphic file (type png)
 <use assets/images/Implementation/all_routes_response.png>
 Package pdftex.def Info: assets/images/Implementation/all_routes_response.png  used on input line 141.
@@ -1913,8 +1929,8 @@ File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
 Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 150.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [26 <./assets/images/Implementation/stop_detail_response.png> <./assets/images/Implementation/all_routes_response.png>]
-<assets/images/Implementation/route_details_response.png, id=556, 1381.16pt x 1065.9825pt>
+ [28 <./assets/images/Implementation/stop_detail_response.png> <./assets/images/Implementation/all_routes_response.png>]
+<assets/images/Implementation/route_details_response.png, id=597, 1381.16pt x 1065.9825pt>
 File: assets/images/Implementation/route_details_response.png Graphic file (type png)
 <use assets/images/Implementation/route_details_response.png>
 Package pdftex.def Info: assets/images/Implementation/route_details_response.png  used on input line 155.
@@ -1924,7 +1940,7 @@ Overfull \hbox (26.00323pt too wide) in paragraph at lines 165--166
 []\OT1/cmr/m/n/10 Example re-quest URL: [][]$\OT1/cmtt/m/n/10 https : / / api . bktraffic . com / api / bus / route-[]stops ? id = 08 & leg = forward$[][]\OT1/cmr/m/n/10 . 
  []
 
-<assets/images/Implementation/route_stops_response.png, id=559, 1357.07pt x 1923.185pt>
+<assets/images/Implementation/route_stops_response.png, id=600, 1357.07pt x 1923.185pt>
 File: assets/images/Implementation/route_stops_response.png Graphic file (type png)
 <use assets/images/Implementation/route_stops_response.png>
 Package pdftex.def Info: assets/images/Implementation/route_stops_response.png  used on input line 169.
@@ -1933,12 +1949,12 @@ File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
 Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 177.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
-[27 <./assets/images/Implementation/route_details_response.png> <./assets/images/Implementation/route_stops_response.png>]
+[29 <./assets/images/Implementation/route_details_response.png> <./assets/images/Implementation/route_stops_response.png>]
 Overfull \hbox (20.75328pt too wide) in paragraph at lines 179--180
 []\OT1/cmr/m/n/10 Example re-quest URL: [][]$\OT1/cmtt/m/n/10 https : / / api . bktraffic . com / api / bus / route-[]path ? id = 08 & leg = forward$[][]\OT1/cmr/m/n/10 . 
  []
 
-<assets/images/Implementation/route_path_response.png, id=569, 1104.125pt x 1336.995pt>
+<assets/images/Implementation/route_path_response.png, id=610, 1104.125pt x 1336.995pt>
 File: assets/images/Implementation/route_path_response.png Graphic file (type png)
 <use assets/images/Implementation/route_path_response.png>
 Package pdftex.def Info: assets/images/Implementation/route_path_response.png  used on input line 183.
@@ -1947,8 +1963,8 @@ File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
 Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 196.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
-[28 <./assets/images/Implementation/route_path_response.png>]
-<assets/images/Implementation/pm2_show.png, id=577, 955.57pt x 1083.04625pt>
+[30 <./assets/images/Implementation/route_path_response.png>]
+<assets/images/Implementation/pm2_show.png, id=619, 955.57pt x 1083.04625pt>
 File: assets/images/Implementation/pm2_show.png Graphic file (type png)
 <use assets/images/Implementation/pm2_show.png>
 Package pdftex.def Info: assets/images/Implementation/pm2_show.png  used on input line 199.
@@ -1957,12 +1973,80 @@ File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
 Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 208.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [29 <./assets/images/Implementation/pm2_show.png>])
+ [31 <./assets/images/Implementation/pm2_show.png>]
+<assets/images/Implementation/onboard1.png, id=627, 308.15125pt x 653.44125pt>
+File: assets/images/Implementation/onboard1.png Graphic file (type png)
+<use assets/images/Implementation/onboard1.png>
+Package pdftex.def Info: assets/images/Implementation/onboard1.png  used on input line 216.
+(pdftex.def)             Requested size: 127.46777pt x 270.29564pt.
+<assets/images/Implementation/onboard2.png, id=628, 306.14375pt x 652.4375pt>
+File: assets/images/Implementation/onboard2.png Graphic file (type png)
+<use assets/images/Implementation/onboard2.png>
+Package pdftex.def Info: assets/images/Implementation/onboard2.png  used on input line 221.
+(pdftex.def)             Requested size: 127.46777pt x 271.6525pt.
+<assets/images/Implementation/onboard3.png, id=629, 306.14375pt x 652.4375pt>
+File: assets/images/Implementation/onboard3.png Graphic file (type png)
+<use assets/images/Implementation/onboard3.png>
+Package pdftex.def Info: assets/images/Implementation/onboard3.png  used on input line 226.
+(pdftex.def)             Requested size: 127.46777pt x 271.6525pt.
+<assets/images/Implementation/register_view.png, id=630, 298.11375pt x 599.23875pt>
+File: assets/images/Implementation/register_view.png Graphic file (type png)
+<use assets/images/Implementation/register_view.png>
+Package pdftex.def Info: assets/images/Implementation/register_view.png  used on input line 237.
+(pdftex.def)             Requested size: 218.51521pt x 439.24194pt.
+<assets/images/Implementation/login_view.png, id=631, 304.13625pt x 598.235pt>
+File: assets/images/Implementation/login_view.png Graphic file (type png)
+<use assets/images/Implementation/login_view.png>
+Package pdftex.def Info: assets/images/Implementation/login_view.png  used on input line 242.
+(pdftex.def)             Requested size: 218.51521pt x 429.82516pt.
+File: assets/images/Trivia/hcmut.png Graphic file (type png)
+<use assets/images/Trivia/hcmut.png>
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 246.
+(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
+ [32 <./assets/images/Implementation/onboard1.png> <./assets/images/Implementation/onboard2.png> <./assets/images/Implementation/onboard3.png>]
+File: assets/images/Trivia/hcmut.png Graphic file (type png)
+<use assets/images/Trivia/hcmut.png>
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 247.
+(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
+ [33]
+Overfull \vbox (251.73679pt too high) has occurred while \output is active []
+
+File: assets/images/Trivia/hcmut.png Graphic file (type png)
+<use assets/images/Trivia/hcmut.png>
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 247.
+(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
+ [34 <./assets/images/Implementation/register_view.png> <./assets/images/Implementation/login_view.png>]
+<assets/images/Implementation/traffic_status_view.png, id=653, 497.86pt x 940.51375pt>
+File: assets/images/Implementation/traffic_status_view.png Graphic file (type png)
+<use assets/images/Implementation/traffic_status_view.png>
+Package pdftex.def Info: assets/images/Implementation/traffic_status_view.png  used on input line 254.
+(pdftex.def)             Requested size: 182.09485pt x 343.99504pt.
+<assets/images/Implementation/bus_view.png, id=654, 497.86pt x 940.51375pt>
+File: assets/images/Implementation/bus_view.png Graphic file (type png)
+<use assets/images/Implementation/bus_view.png>
+Package pdftex.def Info: assets/images/Implementation/bus_view.png  used on input line 263.
+(pdftex.def)             Requested size: 182.09485pt x 343.99504pt.
+<assets/images/Implementation/hcmut_trafficview.png, id=655, 497.86pt x 940.51375pt>
+File: assets/images/Implementation/hcmut_trafficview.png Graphic file (type png)
+<use assets/images/Implementation/hcmut_trafficview.png>
+Package pdftex.def Info: assets/images/Implementation/hcmut_trafficview.png  used on input line 273.
+(pdftex.def)             Requested size: 182.09485pt x 343.99504pt.
+)
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
 Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 239.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [30]
+ [35 <./assets/images/Implementation/traffic_status_view.png>]
+File: assets/images/Trivia/hcmut.png Graphic file (type png)
+<use assets/images/Trivia/hcmut.png>
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 239.
+(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
+ [36 <./assets/images/Implementation/bus_view.png>]
+File: assets/images/Trivia/hcmut.png Graphic file (type png)
+<use assets/images/Trivia/hcmut.png>
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 239.
+(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
+ [37 <./assets/images/Implementation/hcmut_trafficview.png>]
 \openout2 = `Sections/work_evaluation_&_future_plans.aux'.
 
  (Sections/work_evaluation_&_future_plans.tex
@@ -1970,7 +2054,7 @@ File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
 Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 50.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [31
+ [38
 
 
 
@@ -1979,7 +2063,7 @@ File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
 Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 240.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [32]
+ [39]
 Overfull \hbox (8.7905pt too wide) in paragraph at lines 245--245
 []\OT1/cmr/m/it/10 Understanding google play's app ac-count dele-tion re-quire-ments - play con-sole help\OT1/cmr/m/n/10 , sup-port.google.com.
  []
@@ -1988,7 +2072,7 @@ File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
 Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 246.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
-[33
+[40
 
 
 ] 
@@ -2004,23 +2088,23 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 11.12pt have occurred.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6B8016B843DBCF80D4BE23FAE5474EDC;8123.
+(rerunfilecheck)             Checksum: 29EDCA684B0ED2EDA9E5537037C51F20;8357.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41866 strings out of 474587
- 819157 string characters out of 5746174
+ 41976 strings out of 474587
+ 823456 string characters out of 5746174
  2043558 words of memory out of 5000000
- 63162 multiletter control sequences out of 15000+600000
+ 63255 multiletter control sequences out of 15000+600000
  569700 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  88i,25n,92p,1265b,2295s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti1000.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnti10.pfb>
-Output written on main.pdf (34 pages, 10420511 bytes).
+Output written on main.pdf (41 pages, 15065806 bytes).
 PDF statistics:
- 732 PDF objects out of 1000 (max. 8388607)
- 156 named destinations out of 1000 (max. 500000)
- 552 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 821 PDF objects out of 1000 (max. 8388607)
+ 173 named destinations out of 1000 (max. 500000)
+ 613 words of extra memory for PDF output out of 10000 (max. 10000000)
 
