@@ -49,3 +49,8 @@ We aim to deliver our iOS app to the Apple App Store, which would involve acquir
 At the same time, after having access to the Google Developer console for the existing Android app, we were able to determine two necessary tasks, which are the data collection declaration to Google regarding what UTraffic will collect from the users and the ability for the users to request for account deletion. This is explicitly required by both Google and Apple, and since UTraffic offers account creation, it must offer account deletion as well \cite{apple_account_deletion} \cite{google_account_deletion}. Furthermore, we will work closely with the developing team of HCMUT TrafficView to bring their product into the UTraffic system in the next phase of the project.
 
 Finally, we are working to close the gaps between the functionalities offered by the iOS and Android apps. This aligns with our ultimate goal of having the apps on the respective app stores. 
+
+\subsubsection{Considerations for data collection}
+Because our bus data is static and retrieved via crawling instead of API calls, it is crucial to ensure that the data is up-to-date. While real-time data is a concern, we have a plan to implement tools for the UTraffic administrator to semi-automate the update process using a web extension. The extension will use the same logic of our scraping scripts but more intuitive and allow for easy data exports. We imagine a click of a button and then necessary JSON files will be generated. 
+
+We will implement the administration functionality to upload newer data and have them persist in the database as well. This will be done in the next phase of the project.
