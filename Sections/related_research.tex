@@ -110,12 +110,37 @@ While our exploration of the owner side of the ecosystem is constrained due to t
 
 \subsubsection{Myparking for general users}
 
+The application's intended functions are to provide users with a parking lot search engine, book empty lots, and digital payments. The illustrations for the features are as follow:
+
+\begin{figure}[H]
+    \centering
+    \subfloat[Look for parking lots]{
+        \includegraphics[width=0.28\linewidth]{assets/images/Research/Parking/myparking_search.png}
+        \label{fig:myparking_ui4}
+    }
+    \hspace{0.5cm} % Add a horizontal space of 1cm
+    \subfloat[Book empty lots]{
+        \includegraphics[width=0.28\linewidth]{assets/images/Research/Parking/myparking_book.png}
+        \label{fig:myparking_ui5}
+    }
+    \hspace{0.5cm} % Add a horizontal space of 1cm
+    \subfloat[Make digital payments]{
+        \includegraphics[width=0.28\linewidth]{assets/images/Research/Parking/myparking_payment.png}
+        \label{fig:myparking_ui6}
+    }
+    \caption{Myparking's functionalities for general users}
+\end{figure}
+
+\subsubsection{Conclusion}
+
+Viettel initially enticed parking lot owners by offering attractive incentives to integrate their services into the application, creating a comprehensive platform for users to search, book, and pay for parking spaces. Despite these promising features, the application has faced significant criticism stemming from inadequate administration and maintenance. Users have reported a range of issues, including the improper implementation of payment methods, inaccurate price and availability information, and instances where parking lot owners charge fees both through the app and directly. This dual charging system has led to frustration and mistrust among users, tarnishing the overall reputation of the application. The negative backlash underscores the importance of robust oversight and effective maintenance in ensuring the smooth operation and trustworthiness of such technology-driven services.
+
 \subsection{HCMUT TrafficView}
 HCMUT TrafficView is a project developed by the Ho Chi Minh City University of Technology's students that allow users to view the traffic cameras placed around the city. Via the techniques of data labeling and image processing, the project's product is able to assess the traffic status shown by a traffic camera via the traffic density, condition, and give a recommended velocity. The users can choose to view cameras along a path or an individual one. \cite{hcmut_trafficview} Figure \ref{fig:trafficview_demo} shows a traffic camera near \textit{Hai Thuong Lan Ong - Cau Cha Va} with moderate density, unstable flow of traffic condition, and a recommended velocity of 25 km/h.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{assets/images/Research/trafficview/hcmut_trafficview_demo.png}
+    \includegraphics[width=0.7\textwidth]{assets/images/Research/trafficview/hcmut_trafficview_demo.png}
     \caption{Demonstration of HCMUT TrafficView.}
     \label{fig:trafficview_demo}
 \end{figure}
@@ -130,30 +155,40 @@ The core functionalities, as described by the authoring group, include:
 The group used pretrained models to arrive to their conclusions, including Mobilenet (v3\_large), GoogleNet, and Resnet18, with the reference times being 0.01108 second, 0.014 second, and 0.004 second, respectively.
 
 This is a particular useful application that can have a significant impact on the traffic problem of Ho Chi Minh City. Therefore, the addition of HCMUT TrafficView into the UTraffic system and its mobile apps is an impactful and necessary work. We were tasked with supporting the authoring group in integrating their work into the grand system, and meanwhile, we have also developed a UI to see how the traffic camera feed and the traffic status of it would look like. 
+
 \subsection{UTraffic's system analysis and design}
 
 \subsubsection{Apple's MapKit framework}
+
 Since UTraffic is all about maps, finding the right mapping framework was our first priority. For iOS, we have the options of using Apple's MapKit or the Google Maps Software Development Kit (SDK). We have decided to go with MapKit for the following reasons:
+
 \begin{itemize}
     \item \textbf{Native support}: MapKit is a native framework of iOS, which means that it is developed and maintained by Apple. This ensures that the framework is always up-to-date with the latest iOS version and that it is optimized for the platform. We would be free from any SDK updates that would introduce breaking changes to the app. What is more, native support means that we have reduced development complexity, as we do not have to deal with third-party SDKs. This frees us to focus on the core functionalities of the app and the integration with the backend more easily.
     \item \textbf{Performance}: MapKit is optimized for iOS, which means that it is faster than other frameworks. This is especially important for UTraffic, as we are dealing with a large amount of data and we need to display them on the map as fast as possible.
     \item \textbf{Pricing}: Because MapKit is included in the iOS development tools, we are free from additional paid subscriptions or API calls. There is no dependence on Google's services or ecosystem, so we would have a greater flexibility.
 \end{itemize}
+
 While it is true that UTraffic web and its Android app uses Google Map SDK as their map rendering framework, we would not have to worry about incompatibility when rendering using MapKit. The fact that both MapKit and Google Maps use the same mapping standard, WGS-84, along with the OpenStreetMap data used on the UTraffic server being WGS-84 compatible, means that we can easily switch between the two frameworks without having to worry about the data being rendered incorrectly \cite{cllocationcoordinate2d} \cite{a2019_openstreetmap} \cite{google_map}. The World Geodetic System 1984 (WGS-84) is the Global Positioning System (GPS)'s reference, and has become the standard used in cartography, geodesy, and satellite navigation \cite{gisgeography_2015_world}.
+
 \subsubsection{The GeoJSON format}
+
 When we started working on the iOS app of UTraffic, it was crucial to visualize the data onto the map as seamlessly as possible. We have previously chosen MapKit as the mapping framework after examining its compatibility with the WGS-84 mapping standard. However, we still need to find a way to convert the data from the server into a format that is compatible with MapKit. This is where GeoJSON comes in.
+
 \subsubsubsection{GeoJSON definition}
+
 GeoJSON is an open standard geospatial data interchange format that represents simple geographic features and their nonspatial attributes. Based on JavaScript Object Notation (JSON), GeoJSON is a format for encoding a variety of geographic data structures. It uses a geographic coordinate reference system, World Geodetic System 1984, and units of decimal degrees \cite{geojsonarcgis}. 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{assets/images/Research/geojson/example_geojson.png}
+    \includegraphics[width=0.75\textwidth]{assets/images/Research/geojson/example_geojson.png}
     \caption{An example of GeoJSON data.}
     \label{fig:geojson_example}
 \end{figure}
 
 \subsubsubsection{Feature and geometry types supported by GeoJSON}
+
 The following feature types are supported by GeoJSON:
+
 \begin{itemize}
     \item Point: addresses and locations.
     \item Line string: streets, highways, and boundaries.
@@ -162,6 +197,7 @@ The following feature types are supported by GeoJSON:
 \end{itemize}
 
 The following geometry types are supported by GeoJSON:
+
 \begin{itemize}
     \item Point.
     \item LineString.
@@ -181,14 +217,16 @@ When rendered onto the map, the geometry types are illustrated in Figure \ref{fi
 \end{figure}
 
 \subsubsubsection{The reason for choosing GeoJSON}
+
 We came to choose GeoJSON for the following reasons:
+
 \begin{itemize}
     \item \textbf{WGS-84 comaptible}: As the definition claims, GeoJSON is based on the WGS-84 mapping standard, which is the same standard used by MapKit, Google Maps, and OpenStreetMap. This means that we can easily convert the data from the server into a format that is compatible with MapKit.
     \item \textbf{Ease of understanding}: Because GeoJSON displays data in a structured and human-readable format, it is easy to understand and work with. This is especially important when we are working with a large amount of data, as we can easily visualize the data and see if there are any errors.
     \item \textbf{Ease of testing}: Since GeoJSON is a standard format, we can easily test the data using online tools such as geojson.io \cite{mapbox_geojsonio}. This is especially useful when we are testing the data returned from the server, as we can easily visualize the data and see if there are any errors. Figure \ref{fig:geojson_io} gives an example in how we can see the bus stops within the 500-meter radius of the Ho Chi Minh City University of Technology.
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.7\textwidth]{assets/images/Research/geojson/geojsonio.png}
+        \includegraphics[width=0.9\textwidth]{assets/images/Research/geojson/geojsonio.png}
         \caption{Testing GeoJSON data using geojson.io.}
         \label{fig:geojson_io}
     \end{figure}
@@ -196,8 +234,6 @@ We came to choose GeoJSON for the following reasons:
 \end{itemize}
 
 All in all, GeoJSON is part of our effort in standardizing the data format for UTraffic. We believe there are good reasons to choosing this format as we have explained, given our use cases and the advantages that it brings to the system.
-
-\subsubsection{Current code base structure}
 
 \subsubsection{Implemented APIs}
 
