@@ -24,7 +24,7 @@ Several JavaScript source files power this site:
 
 By inserting breakpoints in L.RouteMap.js, we can easily obtain the coordinates of the route, as demonstrated on the right-hand side. It is worth mentioning that while the coordinates are given in both distinct arrays and a single array with integrated data, it is more advantageous to utilize the latitudes and longitudes in separate arrays. The reason for this is that the present system implementation utilizes MongoDB, which does not allow tuples due to its implementation of BSON.
 
-When it is desirable to work with a single array of coordinates, the stored data can be retrieved and combined together. Below is an example where we zip the arrays and plot them using Matplotlib (please note that since there are over 600 elements in each array, 668 to be exact, a figurative number was put in the code excerpt)
+When it is desirable to work with a single array of coordinates, the stored data can be retrieved and combined together. Below is an example where we zip the arrays and plot them using Matplotlib (please note that since there are over 600 elements in each array, 668 to be exact, a figurative number was put in the code excerpt).
 
 \begin{lstlisting}[language=python]
     lat = [10.001, 10.002] # the latitudes
@@ -76,9 +76,47 @@ Similarly, information about the bus stops can be obtained by placing breakpoint
 
 Since there are about 130 routes currently displayed on the website, it is impossible to place breakpoints and collect data by hand. This necessitates the use of automatic scripts to gather information.
 
-After careful examination, we found several places where we could mine the data. This introduces us to the routevar.js file, which contains the three functions: loadVarsByRou(rouId), loadStopsByVar(prtId, rouId, varId), and loadPathByVar(prtId, rouId, varId)
+After careful examinations, we found several places where we could mine the data. This introduces us to the routevar.js file, which contains the three functions: loadVarsByRou(rouId), loadStopsByVar(prtId, rouId, varId), and loadPathByVar(prtId, rouId, varId).
+
+It is worth it for us to elaborate more on the given terms:
+\begin{itemize}
+    \item \lstinline{rouId}: This value represents a bus route's ID. It is important to note that this ID is not the same as the route number. For example, the route SWB1 is represented by the ID 337. 
+    \item \lstinline{prtId}: This value represents a bus route's leg, which is either forward or return. The source from which we got the data does not use set values for all the routes, with some routes using 1 and 2 denoting each leg, while some other routes use 3, 4 or even 7, 8. 
+    \item \lstinline{varId}: This value represents a bus route's variant. A variant's value is the combination of the \lstinline{rouId} and \lstinline{prtId}. Therefore, if the \lstinline{rouId} is 8 and the \lstinline{prtId} is 1, then the \lstinline{varId} is \textit{r8v1}.
+\end{itemize}
+
+Because the \lstinline{rouId} is present in a bus route view's URL, we can extract this value and log the value returned by the \lstinline{loadVarsByRou} function. After than, we can split the recorded string to get the \lstinline{prtId} value. The data retrieval process then involves injecting the website with two custom JavaScript variables that can capture the data loaded by the loadStopsByVar(prtId, rouId, varId) and loadPathByVar(prtId, rouId, varId). This is done after we have injected the website with our custom \lstinline{routevar.js} script that assigns the source's data to the custom variables. This whole process is then automated using Selenium WebDriver. Figure \ref{fig:data_org} shows how the raw JSON data are stored after they are collected.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{assets/images/Implementation/data_org.png}
+    \caption{Organization of the data mining process.}
+    \label{fig:data_org}
+\end{figure}
+
+For the details of a bus route, this was made easy since they are explicitly displayed on the source website. We were able to parse the existing HTML structures and put the data into a JSON file and automate the process using Selenium WebDriver.
 
 \subsubsection{Data storage of bus services}
+Given the structured nature of the data we collected, as well as the existing use of MongoDB, it was a straightforward process to load the collection JSON files into MongoDB. This process was made even simpler with MongoDB Compass, a GUI for MongoDB that allows us to import JSON files into the database with a few clicks.
+
+However, the first thing to do was to preprocess the data for efficient and logical storage. In particular, for a route number, the raw data has the stops listed in full details. If we had gone and stored the data as-is to MongoDB, one clear problem would have been that there would be a lot of duplicates. Therefore, our solution to this was to create a Python script to iterate over the raw JSON and pick out the unique stops and save them to a new JSON. For the association with the routes, we reduced the stops array to only contain the IDs. This also helped save the order of the stops along a certain path. Finally, when it comes to querying, the IDs can be used to retrieve the full details of the stops from the stops collection, improving performance.
+
+We also implemented a \lstinline{2dsphere} index on the locations of the bus stops. This helps tremendously in the querying processes that care about the radius from within a coordinate. Our \textit{Get nearby bus stops} API endpoint is a prime example of how useful this index is, because if it was not implemented, the scanning process would have been very slow and inefficient. A column scan would have been used, and given that there are over 4000 stops in the database, the performance would have been unacceptable. The index creation was straightforward with the help of MongoDB Compass.
+
+We decided to have 4 new collections within the existing MongoDB database. They are as follows:
+\begin{itemize}
+    \item \textbf{Bus\_Associations}: This collection associates bus routes with their stops. The stops are stored as an array of IDs, preserving the order of the stops along a certain route.
+    \item \textbf{Bus\_Metadata}: This collection contains all information about bus routes, including their names, operating hours, operating agencies, the daily total trips, and the trip spacings.
+    \item \textbf{Bus\_Path\_Coordinates}: This collection stores the paths of the bus routes in 4 arrays of forward and return latitudes and longitudes.
+    \item \textbf{Bus\_Stops}: This collection stores all the bus stops in the database. The details of a stop are its official street address, its location, its type, whether it is disability-friendly, and the routes that pass through it.
+\end{itemize}
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{assets/images/Implementation/dbcompass.png}
+    \caption{The Bus\_Stops collection in MongoDB Compass.}
+    \label{fig:dbcompass}
+\end{figure}
+Figure \ref{fig:dbcompass} showcases the Bus\_Stops collection in MongoDB Compass with 4414 documents.
 
 \subsection{Bus API Development and Server Deployment}
 We have previously discussed the introduction of the API additions in the UTraffic system, and we have taken the steps to deploy them on the live server of UTraffic. The endpoints are now live and working as intended.
@@ -206,6 +244,8 @@ The iOS app is developed using Swift 5.9 and Xcode 15. The app is compatible wit
 
 First and foremost, this app must at least offer the basic functionalities like that of the Android counterpart. This includes authentication, viewing the traffic status report, and the ability to communicate with the server. Other requirements are that the app must also be lightweight, performant, and consistent with the ongoing design of the Android app to an extent. During the development of this prototype, we have also taken into consideration the possibility of future expansion, such as adding more features and improving the user experience, as well as following Apple's best practices when it comes to iOS app development.
 
+However, the similarities between the two versions should only be implemented to an extent, given the core differences between the two operating systems. We do not expect the complete iOS app to be \textit{identical} to its Android counterpart, nor the Android app's new functionalities such as the bus services to be the same as in iOS. 
+
 \subsubsection{The landing page and permission requests}
 Because the UTraffic app must know the user's real-time location in order to gather GPS data and also display nearby traffic status, it is crucial that we ask the users for location permissions upon the first app launch. This is done by presenting a dialog box that asks for the user's permission to access their location. The choice is saved into \lstinline{UserDefaults}. \lstinline{UserDefaults} is an interface to the user's defaults database, where key-value pairs of data are stored persistently across launches of the app. \cite{a2019_userdefaults}. Therefore, this process will not be repeated on subsequent app launches. The onboarding process is divided into three main phases: greetings, location request, and always-on location request. They are as follows (the texts are in Vietnamese to first accommodate the Android app's design, but we are adding an option for language change in the next phase):
 \begin{figure}[H]
@@ -232,12 +272,12 @@ We adapt most of the user interface from the Android app to the iOS app in order
 \begin{figure}[H]
     \centering
     \subfloat[The iOS account registration view.]{
-        \includegraphics[width=0.48\linewidth]{assets/images/Implementation/register_view.png}
+        \includegraphics[width=0.4\linewidth]{assets/images/Implementation/register_view.png}
         \label{fig:ios_register_view}
     }
     \hspace{0.5cm} % Add a horizontal space of 1cm
     \subfloat[The iOS app's login view.]{
-        \includegraphics[width=0.48\linewidth]{assets/images/Implementation/login_view.png}
+        \includegraphics[width=0.4\linewidth]{assets/images/Implementation/login_view.png}
         \label{fig:ios_login_view}
     }
     \hspace{0.5cm} % Add a horizontal space of 1cm
@@ -275,6 +315,6 @@ We have developed an UI to see how the elements of HCMUT TrafficView would look 
     \label{fig:trafficview_ios}
 \end{figure}
 
-
+Because of mobile devices' limited processing power, it is best that we only show a snapshot of the camera at the time the user issues the request. This is to avoid programming complexity of having to deal with stream data, as well as to avoid the app from crashing due to memory issues.
 
 
