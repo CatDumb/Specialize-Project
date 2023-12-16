@@ -138,12 +138,152 @@
       \field{title}{HCMUT TrafficView: Automatically Detecting Traffic Congestion for Smooth Routes}
       \field{year}{2023}
     \endentry
-    \entry{mkgeojsonobject}{misc}{}
+    \entry{cllocationcoordinate2d}{misc}{}
       \list{organization}{1}{%
         {Apple Developer Documentation}%
       }
       \field{sortinit}{6}
       \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labeltitlesource}{title}
+      \field{title}{CLLocationCoordinate2D}
+      \field{urlday}{14}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://developer.apple.com/documentation/corelocation/cllocationcoordinate2d
+      \endverb
+      \verb{url}
+      \verb https://developer.apple.com/documentation/corelocation/cllocationcoordinate2d
+      \endverb
+    \endentry
+    \entry{a2019_openstreetmap}{misc}{}
+      \list{organization}{1}{%
+        {hub.arcgis.com}%
+      }
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labeltitlesource}{title}
+      \field{month}{06}
+      \field{title}{OpenStreetMap (WGS84)}
+      \field{urlday}{14}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://hub.arcgis.com/maps/esri::openstreetmap-wgs84/about
+      \endverb
+      \verb{url}
+      \verb https://hub.arcgis.com/maps/esri::openstreetmap-wgs84/about
+      \endverb
+    \endentry
+    \entry{google_map}{misc}{}
+      \list{organization}{1}{%
+        {Google Developers}%
+      }
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labeltitlesource}{title}
+      \field{title}{Map and Tile Coordinates | Maps JavaScript API}
+      \verb{urlraw}
+      \verb https://developers.google.com/maps/documentation/javascript/coordinates
+      \endverb
+      \verb{url}
+      \verb https://developers.google.com/maps/documentation/javascript/coordinates
+      \endverb
+    \endentry
+    \entry{gisgeography_2015_world}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=834a401b49aa839a05aa54f0e1981733}{%
+           family={Geography},
+           familyi={G\bibinitperiod},
+           given={GIS},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {GIS Geography}%
+      }
+      \strng{namehash}{834a401b49aa839a05aa54f0e1981733}
+      \strng{fullhash}{834a401b49aa839a05aa54f0e1981733}
+      \strng{bibnamehash}{834a401b49aa839a05aa54f0e1981733}
+      \strng{authorbibnamehash}{834a401b49aa839a05aa54f0e1981733}
+      \strng{authornamehash}{834a401b49aa839a05aa54f0e1981733}
+      \strng{authorfullhash}{834a401b49aa839a05aa54f0e1981733}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{World Geodetic System (WGS84)}
+      \field{urlday}{15}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://gisgeography.com/wgs84-world-geodetic-system/
+      \endverb
+      \verb{url}
+      \verb https://gisgeography.com/wgs84-world-geodetic-system/
+      \endverb
+    \endentry
+    \entry{geojsonarcgis}{misc}{}
+      \list{organization}{1}{%
+        {doc.arcgis.com}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{GeoJSON—ArcGIS Online Help | Documentation}
+      \field{urlday}{14}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://doc.arcgis.com/en/arcgis-online/reference/geojson.htm
+      \endverb
+      \verb{url}
+      \verb https://doc.arcgis.com/en/arcgis-online/reference/geojson.htm
+      \endverb
+    \endentry
+    \entry{mapbox_geojsonio}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b9581d3afd386e452bb6ea357a6a4a34}{%
+           family={MapBox},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {geojson.io}%
+      }
+      \strng{namehash}{b9581d3afd386e452bb6ea357a6a4a34}
+      \strng{fullhash}{b9581d3afd386e452bb6ea357a6a4a34}
+      \strng{bibnamehash}{b9581d3afd386e452bb6ea357a6a4a34}
+      \strng{authorbibnamehash}{b9581d3afd386e452bb6ea357a6a4a34}
+      \strng{authornamehash}{b9581d3afd386e452bb6ea357a6a4a34}
+      \strng{authorfullhash}{b9581d3afd386e452bb6ea357a6a4a34}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{geojson.io}
+      \field{urlday}{15}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://geojson.io/
+      \endverb
+      \verb{url}
+      \verb https://geojson.io/
+      \endverb
+    \endentry
+    \entry{mkgeojsonobject}{misc}{}
+      \list{organization}{1}{%
+        {Apple Developer Documentation}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{title}{MKGeoJSONObject}
       \field{urlday}{14}
@@ -161,8 +301,8 @@
       \list{organization}{1}{%
         {Apple.com}%
       }
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{title}{UserDefaults - Foundation | Apple Developer Documentation}
       \field{year}{2019}
@@ -177,8 +317,8 @@
       \list{organization}{1}{%
         {developer.apple.com}%
       }
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{title}{Offering account deletion in your app - Support - Apple Developer}
       \field{urlday}{15}
@@ -196,8 +336,8 @@
       \list{organization}{1}{%
         {support.google.com}%
       }
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{title}{Understanding Google Play’s app account deletion requirements - Play Console Help}
       \field{urlday}{15}
@@ -215,8 +355,8 @@
       \list{language}{1}{%
         {vi}%
       }
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{http://buyttphcm.com.vn/}}
       \field{note}{Accessed: 2023-12-14}
@@ -227,8 +367,8 @@
       \list{language}{1}{%
         {vi}%
       }
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://www.mongodb.com/docs/v3.0/reference/bson-types/}}
       \field{note}{Accessed: 2023-12-12}
@@ -252,8 +392,8 @@
       \strng{authorbibnamehash}{2151f71adda110135d46c192dbb73149}
       \strng{authornamehash}{2151f71adda110135d46c192dbb73149}
       \strng{authorfullhash}{2151f71adda110135d46c192dbb73149}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{MVC and MVVM references}
@@ -285,8 +425,8 @@
       \strng{authorbibnamehash}{5afb8491e1fb0dda0764751faf47e082}
       \strng{authornamehash}{5afb8491e1fb0dda0764751faf47e082}
       \strng{authorfullhash}{5afb8491e1fb0dda0764751faf47e082}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Do you want to know the difference between swift vs objective c and want to know how they compare to swiftUI? Read this blog till the end.}
@@ -302,8 +442,8 @@
       \list{language}{1}{%
         {en}%
       }
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labeltitlesource}{title}
       \field{abstract}{More Swift vs Objective-C comparisons}
       \field{booktitle}{Educative}
@@ -316,8 +456,8 @@
       \list{language}{1}{%
         {en}%
       }
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labeltitlesource}{title}
       \field{abstract}{Databases make it easy for us to create, edit, and access information making them indispensable. Check out this list of 8 popular databases.}
       \field{booktitle}{{KeyCDN}}
