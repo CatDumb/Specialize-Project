@@ -3,8 +3,22 @@
 \subsection{OpenStreetMap's data format}
 % Khoa viet cai nay nhe, noi ve trunk, tag, way, node... nhu trong bao cao cuoi ki cua may anh chi nhe
 
+The OSM data file is structured around three fundamental elements:
 
-\subsection{Model}
+\begin{itemize}
+    \item \textbf{Node}: Represents a singular point on the geographic map, defined by latitude, longitude, and a unique identifier (ID). Optional tag elements, children of a node, display metadata. Nodes can signify individual features (e.g., a specific bench) or combine to create paths or areas.
+    \item \textbf{Way}: Comprises nodes forming a specific zone or line. Nodes within a way tag serve as vertices of a shape or path, referenced by the "ref" attribute. Ways can be open (with the initial and terminal nodes different) or closed (forming a closed shape). Open ways often represent linear features like roads or streams, while closed ways define boundaries, barriers, or territorial areas.
+    \item \textbf{Relation}: An element with at least the "type=*" tag and a list of members (nodes, ways, or relations). Relations define logical or geographic connections between objects, such as a lake and its island or roads for a bus route. Members in a relation can have optional roles, describing their part within the relation. Members must be geometric elements or other relations, ensuring valid visibility on the map.
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{assets/images/Research/System/osm_file_structure.png}
+    \caption{OSM data format \cite{osm_file_structure}}
+    \label{fig:osm}
+\end{figure}
+
+\subsection{iOS Application design patterns}
 
 \subsubsection{Model-View-Controller (MVC)}
 
@@ -166,7 +180,7 @@ MySQL is a widely used database for web-based applications, offered as freeware 
                         \item Supports both structured data (SQL) and semi-structured data (JSON).
                     \end{itemize}
                 &   \begin{itemize}[leftmargin=*,topsep=0pt,partopsep=0pt,parsep=0pt]
-                        \item The process of setting up MySQL for specific activities may necessitate a greater investment of time and effort in comparison to systems that automate certain functions, such as incremental backups.
+                        \item The process of setting up MySQL for specific activities may necessitate a greater investment of time and effort in comparison to systems that automate certain functions.
                         \item While support is available for the free version, premium support may incur additional costs.
                     \end{itemize} \\ \hline
     \end{tabular}

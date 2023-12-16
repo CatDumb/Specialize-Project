@@ -20,24 +20,29 @@
 \refsection{0}
   \datalist[entry]{none/global//global/global}
     \entry{congestion-damage}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=aa1e3fbe372e9634c713f2f82e46ecdf}{%
-           family={/},
-           familyi={/\bibinitperiod},
-           given={Thanh\bibnamedelimb Ha-Thu\bibnamedelima Dung},
-           giveni={T\bibinitperiod\bibinitdelim H\bibinithyphendelim T\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      \name{author}{2}{}{%
+        {{hash=7432223f26eb953680226f31ead0fb8e}{%
+           family={Ha},
+           familyi={H\bibinitperiod},
+           given={Thanh},
+           giveni={T\bibinitperiod}}}%
+        {{hash=8439ecc5ac9fb7e85afb8b2e55bf9477}{%
+           family={Dung},
+           familyi={D\bibinitperiod},
+           given={Thu},
+           giveni={T\bibinitperiod}}}%
       }
       \list{language}{1}{%
         {vi}%
       }
-      \strng{namehash}{aa1e3fbe372e9634c713f2f82e46ecdf}
-      \strng{fullhash}{aa1e3fbe372e9634c713f2f82e46ecdf}
-      \strng{bibnamehash}{aa1e3fbe372e9634c713f2f82e46ecdf}
-      \strng{authorbibnamehash}{aa1e3fbe372e9634c713f2f82e46ecdf}
-      \strng{authornamehash}{aa1e3fbe372e9634c713f2f82e46ecdf}
-      \strng{authorfullhash}{aa1e3fbe372e9634c713f2f82e46ecdf}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \strng{namehash}{2ba8981973224302ce7c17765f26537d}
+      \strng{fullhash}{2ba8981973224302ce7c17765f26537d}
+      \strng{bibnamehash}{2ba8981973224302ce7c17765f26537d}
+      \strng{authorbibnamehash}{2ba8981973224302ce7c17765f26537d}
+      \strng{authornamehash}{2ba8981973224302ce7c17765f26537d}
+      \strng{authorfullhash}{2ba8981973224302ce7c17765f26537d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Though the number of traffic-related injuries and fatalities has decreased in recent years, traffic congestion is getting worse}
@@ -52,8 +57,8 @@
       \list{language}{1}{%
         {vi}%
       }
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labeltitlesource}{title}
       \field{abstract}{UTraffic Android application}
       \field{howpublished}{\url{https://bktraffic.com/home/mobile-app}}
@@ -64,8 +69,8 @@
       \list{language}{1}{%
         {vi}%
       }
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labeltitlesource}{title}
       \field{abstract}{Utraffic homepage}
       \field{howpublished}{\url{https://bktraffic.com/home/}}
@@ -91,8 +96,8 @@
       \strng{authorbibnamehash}{c662eda2c4f62cd4a8ef62855577a249}
       \strng{authornamehash}{c662eda2c4f62cd4a8ef62855577a249}
       \strng{authorfullhash}{c662eda2c4f62cd4a8ef62855577a249}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Developing Enhanced Services Based on Data on the Smart Transportation Application Platform}
@@ -113,8 +118,8 @@
       \strng{authorbibnamehash}{3325b015fbae57ba74629a53f1ead961}
       \strng{authornamehash}{3325b015fbae57ba74629a53f1ead961}
       \strng{authorfullhash}{3325b015fbae57ba74629a53f1ead961}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Apple on embedding webviews in iOS applications}
@@ -137,8 +142,8 @@
       \strng{authorbibnamehash}{110b42d7b5e89858aeff96d198611592}
       \strng{authornamehash}{110b42d7b5e89858aeff96d198611592}
       \strng{authorfullhash}{110b42d7b5e89858aeff96d198611592}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Myparking homepage}
@@ -180,8 +185,8 @@
       \strng{authorbibnamehash}{14c07ae3ace6fe1e29d039d159fc31ef}
       \strng{authornamehash}{e949d3b741a82c0d79a0095509fca657}
       \strng{authorfullhash}{14c07ae3ace6fe1e29d039d159fc31ef}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{11}
@@ -192,8 +197,8 @@
       \list{organization}{1}{%
         {Apple Developer Documentation}%
       }
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labeltitlesource}{title}
       \field{title}{CLLocationCoordinate2D}
       \field{urlday}{14}
@@ -211,8 +216,8 @@
       \list{organization}{1}{%
         {hub.arcgis.com}%
       }
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{month}{06}
       \field{title}{OpenStreetMap (WGS84)}
@@ -347,6 +352,36 @@
       \verb https://developer.apple.com/documentation/mapkit/mkgeojsonobject
       \endverb
     \endentry
+    \entry{osm_file_structure}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=8bde637152c491eaf6f8557fa97e06ad}{%
+           family={Nguyễn\bibnamedelimb Chính\bibnamedelima Khôi},
+           familyi={N\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={Vũ\bibnamedelima Anh\bibnamedelima Nhi},
+           giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=04cef37ee093abaa8260ba90d06e48af}{%
+           family={Hưng},
+           familyi={H\bibinitperiod},
+           given={Lương\bibnamedelima Duy},
+           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{54dbcbc0cccab10b13005c6e0656cd89}
+      \strng{fullhash}{54dbcbc0cccab10b13005c6e0656cd89}
+      \strng{bibnamehash}{54dbcbc0cccab10b13005c6e0656cd89}
+      \strng{authorbibnamehash}{54dbcbc0cccab10b13005c6e0656cd89}
+      \strng{authornamehash}{54dbcbc0cccab10b13005c6e0656cd89}
+      \strng{authorfullhash}{54dbcbc0cccab10b13005c6e0656cd89}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{OSM file structure}
+      \field{title}{Build a mobile app for data collection and urban traffic estimation}
+      \field{year}{2023}
+    \endentry
     \entry{a2019_userdefaults}{misc}{}
       \list{organization}{1}{%
         {Apple.com}%
@@ -386,8 +421,8 @@
       \list{organization}{1}{%
         {support.google.com}%
       }
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labeltitlesource}{title}
       \field{title}{Understanding Google Play’s app account deletion requirements - Play Console Help}
       \field{urlday}{15}
@@ -410,7 +445,7 @@
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{http://buyttphcm.com.vn/}}
       \field{note}{Accessed: 2023-12-14}
-      \field{title}{Trang ch\uhook}
+      \field{title}{Trang chủ}
       \true{nocite}
     \endentry
     \entry{mongodb_bson}{misc}{}
@@ -492,8 +527,8 @@
       \list{language}{1}{%
         {en}%
       }
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labeltitlesource}{title}
       \field{abstract}{More Swift vs Objective-C comparisons}
       \field{booktitle}{Educative}
