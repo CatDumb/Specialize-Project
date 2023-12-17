@@ -26,6 +26,8 @@ By inserting breakpoints in L.RouteMap.js, we can easily obtain the coordinates 
 
 When it is desirable to work with a single array of coordinates, the stored data can be retrieved and combined together. Below is an example where we zip the arrays and plot them using Matplotlib (please note that since there are over 600 elements in each array, 668 to be exact, a figurative number was put in the code excerpt).
 
+\newpage
+
 \begin{lstlisting}[language=python]
     lat = [10.001, 10.002] # the latitudes
     lng = [106.001, 106.002] # the longitudes
@@ -94,7 +96,7 @@ The automated data retrieval can be described in the following steps:
 
 Because the \lstinline{rouId} is present in a bus route view's URL, we can extract this value and log the value returned by the \lstinline{loadVarsByRou} function. After than, we can split the recorded string to get the \lstinline{prtId} value. The data retrieval process then involves injecting the website with two custom JavaScript variables that can capture the data loaded by the loadStopsByVar(prtId, rouId, varId) and loadPathByVar(prtId, rouId, varId). This is done after we have injected the website with our custom \lstinline{routevar.js} script that assigns the source's data to the custom variables. This whole process is then automated using Selenium WebDriver. Figure \ref{fig:data_org} shows how the raw JSON data are stored after they are collected. This structured organization makes it easy for later scripts to iterate over the data and further process them.
 
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{assets/images/Implementation/data_org.png}
     \caption{Organization of the data mining process.}

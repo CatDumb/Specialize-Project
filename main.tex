@@ -1,4 +1,4 @@
-\documentclass[]{article}
+\documentclass[a4paper]{article}
 
 
 \usepackage[backend=biber, style=ieee]{biblatex}
@@ -6,6 +6,7 @@
 
 \usepackage[utf8]{vntex, inputenc}
 \usepackage[english]{babel}
+
 
 \usepackage[nottoc,numbib]{tocbibind}
 \usepackage{a4wide,amssymb,epsfig,latexsym,multicol,array,hhline,fancyhdr}
@@ -33,7 +34,7 @@
 \usepackage{ragged2e}
 \usepackage{setspace}
 \usepackage{tabularray}
-\usepackage[nodayofweek]{datetime}
+\usepackage[en-US]{datetime2}
 \usepackage{epsfig}
 \usepackage{tikz}
 \usepackage{booktabs}
@@ -165,7 +166,7 @@ FACULTY OF COMPUTER SCIENCE AND ENGINEERING}}
 \begin{center}
 \textbf{{\Large SPECIALIZED PROJECT}}\\
 \vspace{1cm}
-{\fontsize{36}{20}\selectfont % Adjust the numbers (36 and 48) to increase/decrease the font size and line spacing as needed
+{\fontsize{20}{20}\selectfont % Adjust the numbers (36 and 48) to increase/decrease the font size and line spacing as needed
 \textbf{{BUILD A MOBILE APP FOR DATA COLLECTION AND URBAN TRAFFIC ESTIMATION}}\\
 }
 \vspace{1cm}
@@ -182,13 +183,13 @@ FACULTY OF COMPUTER SCIENCE AND ENGINEERING}}
     & & Ms. Eng. Bui Tien Duc\\
     & \textbf{Secretary}: & Dr. Phan Trong Nhan \\
     & \textbf{Students}: & Nguyen Minh Khoa - 2052538\\
-    & & Nguyen Nho Gia Phuc - 2052214 \\
+    & & Nguyen Nho Gia Phuc - 2052214 \\ 
     \end{tabular}
 \end{table}
 \vspace{2cm}
 
-\newdateformat{mydate}{\twodigit{\THEDAY}{ }\shortmonthname[\THEMONTH],\THEYEAR}
-{Ho Chi Minh City, \today}
+Ho Chi Minh City, \DTMtoday
+
 \end{center}
 \end{titlepage}
 
