@@ -1,4 +1,4 @@
-\section{UTraffic's system analysis and design}
+\section{SYSTEM ANALYSIS AND DESIGN}
 
 \subsection{Apple's MapKit framework}
 
@@ -53,7 +53,7 @@ When rendered onto the map, the geometry types are illustrated in Figure \ref{fi
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.55\textwidth]{assets/images/Research/geojson/geojson_features.png}
+    \includegraphics[width=0.7\textwidth]{assets/images/Research/geojson/geojson_features.png}
     \caption{The geometry types supported by GeoJSON.}
     \label{fig:geojson_geometry}
 \end{figure}
@@ -68,7 +68,7 @@ We came to choose GeoJSON for the following reasons:
     \item \textbf{Ease of testing}: Since GeoJSON is a standard format, we can easily test the data using online tools such as geojson.io \cite{mapbox_geojsonio}. This is especially useful when we are testing the data returned from the server, as we can easily visualize the data and see if there are any errors. Figure \ref{fig:geojson_io} gives an example in how we can see the bus stops within the 500-meter radius of the Ho Chi Minh City University of Technology.
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.5\textwidth]{assets/images/Research/geojson/geojsonio.png}
+        \includegraphics[width=0.55\textwidth]{assets/images/Research/geojson/geojsonio.png}
         \caption{Testing GeoJSON data using geojson.io.}
         \label{fig:geojson_io}
     \end{figure}
@@ -78,18 +78,17 @@ We came to choose GeoJSON for the following reasons:
 All in all, GeoJSON is part of our effort in standardizing the data format for UTraffic. We believe there are good reasons to choosing this format as we have explained, given our use cases and the advantages that it brings to the system.
 
 \subsection{Implemented APIs}
-
 During our research to improve the performance and coherence of the application, we have developed new API endpoints. They are tailored to work serve two major purposes when it comes to buses, which are the bus routes and the bus stops. The endpoints' description are as follows:
 \begin{enumerate}
     \item API endpoints related to bus stops:
     \begin{itemize}
-        \item \textbf{Get nearby bus stops}: This endpoint takes in a latitude value, a longitude value, and a radius value in meters. It then returns a list of bus stops that are within the radius of the given location and in the form of GeoJSON.
-        \item \textbf{Get nearby disability friendly bus stops}: This endpoint takes the same query paramaters like the nearby bus stops endpoint, but it returns a list of disability friendly bus stops instead.
+        \item \textbf{Get nearby bus stops}: This endpoint takes in a latitude, longitude, and a radius value in meters. It then returns a list of bus stops that are within the radius of the given location and in the form of GeoJSON.
+        \item \textbf{Get nearby disability friendly bus stops}: This endpoint takes the same query paramaters like the nearby bus stops endpoint, but it returns a list of disability-friendly bus stops instead.
         \item \textbf{Get the details of a bus stop}: This endpoint takes in a bus stop ID and returns the details of that bus stop.
     \end{itemize}
     \item API endpoints related to bus routes:
     \begin{itemize}
-        \item \textbf{Get all bus routes}: This endpoint simply returns all the bus routes in the database to the requesting client. This helps in building a list view for browsing purposes.
+        \item \textbf{Get all bus routes}: This endpoint returns all the bus routes in the database to the requesting client. This helps in building a list view for browsing purposes.
         \item \textbf{Get the details of a bus route}: This endpoint takes in a bus route ID and returns the details of that bus route.
         \item \textbf{Get the bus stops along a bus route's path}: This endpoint takes in a bus route ID and the leg, either \textbf{forward} or \textbf{return}. The endpoint then returns the bus stops along that bus route's path, preserving the order of the stops. The response is in the form of GeoJSON.
         \item \textbf{Get the path of a bus route}: This endpoint takes in a bus route ID, and the desired leg and then returns the path of that bus route in the form of GeoJSON.
@@ -113,19 +112,19 @@ We also made changes to the currently deployed API endpoints. At the moment, the
     \caption{Comparison between the current response format and the GeoJSON format.}
 \end{figure}
 
-Both of these API endpoints use the map bounds along with the street level in order to limit the processing load of the backend as well as the size of the data returned:
+Both of these API endpoints use the map bounds along with the street level to limit the processing load of the backend as well as the size of the data returned:
 \begin{itemize}
     \item The map bounds: The northeast and southwest coordinates of the visible region forms a rectangle. Figure \ref{fig:ne_sw_bounds} illustrates a simplified map region with the coordinates.
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.7\linewidth]{assets/images/Research/API/ne_sw_bounds.png}
+        \includegraphics[width=0.75\linewidth]{assets/images/Research/API/ne_sw_bounds.png}
         \caption{The northeast and southwest bounds of the visible region.}
         \label{fig:ne_sw_bounds}
     \end{figure}
     The idea is to find street segments that intersect with it, and then send the appropriate segnments back to the client that issued the API call. Figure \ref{fig:intersetion_ne_sw_bounds} illustrates a simplified segment that intersects with the map bounds. In reality, however, it should be understood that a set of segments fall into the region, while the others do not.
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.7\linewidth]{assets/images/Research/API/inaction_ne_sw--bounds.png}
+        \includegraphics[width=0.75\linewidth]{assets/images/Research/API/inaction_ne_sw--bounds.png}
         \caption{The intersection between the map bounds and the street segments.}
         \label{fig:intersetion_ne_sw_bounds}
     \end{figure}
