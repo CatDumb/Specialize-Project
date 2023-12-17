@@ -79,23 +79,23 @@
     \endentry
     \entry{added_services}{misc}{}
       \name{author}{2}{}{%
-        {{hash=69bd1583fd84464446c8d261e98cf174}{%
-           family={Nguyen\bibnamedelima Huu},
-           familyi={N\bibinitperiod\bibinitdelim H\bibinitperiod},
-           given={H},
-           giveni={H\bibinitperiod}}}%
-        {{hash=4ee40a5a3a3ff882d0a32d07f3486737}{%
-           family={Nguyen\bibnamedelima The},
-           familyi={N\bibinitperiod\bibinitdelim T\bibinitperiod},
-           given={V},
-           giveni={V\bibinitperiod}}}%
+        {{hash=54b58d0a75ddfb2bbedb8cfaf5a18cd7}{%
+           family={Hoàng},
+           familyi={H\bibinitperiod},
+           given={Nguyễn\bibnamedelima Hữu},
+           giveni={N\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=5cc8050f6a1ca4c964707437f3f7c89d}{%
+           family={Viễn},
+           familyi={V\bibinitperiod},
+           given={Nguyễn\bibnamedelima Thế},
+           giveni={N\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
       }
-      \strng{namehash}{c662eda2c4f62cd4a8ef62855577a249}
-      \strng{fullhash}{c662eda2c4f62cd4a8ef62855577a249}
-      \strng{bibnamehash}{c662eda2c4f62cd4a8ef62855577a249}
-      \strng{authorbibnamehash}{c662eda2c4f62cd4a8ef62855577a249}
-      \strng{authornamehash}{c662eda2c4f62cd4a8ef62855577a249}
-      \strng{authorfullhash}{c662eda2c4f62cd4a8ef62855577a249}
+      \strng{namehash}{4706ad6f95e3c9d0fc5c30b6bf6b052a}
+      \strng{fullhash}{4706ad6f95e3c9d0fc5c30b6bf6b052a}
+      \strng{bibnamehash}{4706ad6f95e3c9d0fc5c30b6bf6b052a}
+      \strng{authorbibnamehash}{4706ad6f95e3c9d0fc5c30b6bf6b052a}
+      \strng{authornamehash}{4706ad6f95e3c9d0fc5c30b6bf6b052a}
+      \strng{authorfullhash}{4706ad6f95e3c9d0fc5c30b6bf6b052a}
       \field{sortinit}{5}
       \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
@@ -352,6 +352,30 @@
       \verb https://developer.apple.com/documentation/mapkit/mkgeojsonobject
       \endverb
     \endentry
+    \entry{phong_duong}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1fe068c511c168845c6bcea31dad2561}{%
+           family={Dương\bibnamedelimb Hoài\bibnamedelima Phong},
+           familyi={D\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Nguyễn\bibnamedelimb Mậu\bibnamedelimb Quốc\bibnamedelima Dương},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim Q\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {vi}%
+      }
+      \strng{namehash}{1fe068c511c168845c6bcea31dad2561}
+      \strng{fullhash}{1fe068c511c168845c6bcea31dad2561}
+      \strng{bibnamehash}{1fe068c511c168845c6bcea31dad2561}
+      \strng{authorbibnamehash}{1fe068c511c168845c6bcea31dad2561}
+      \strng{authornamehash}{1fe068c511c168845c6bcea31dad2561}
+      \strng{authorfullhash}{1fe068c511c168845c6bcea31dad2561}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Xây dựng ứng dụng di động cảnh báo tình trạng giao thông}
+      \field{year}{2020}
+    \endentry
     \entry{osm_file_structure}{misc}{}
       \name{author}{2}{}{%
         {{hash=8bde637152c491eaf6f8557fa97e06ad}{%
@@ -402,8 +426,8 @@
       \list{organization}{1}{%
         {developer.apple.com}%
       }
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labeltitlesource}{title}
       \field{title}{Offering account deletion in your app - Support - Apple Developer}
       \field{urlday}{15}
@@ -510,8 +534,8 @@
       \strng{authorbibnamehash}{5afb8491e1fb0dda0764751faf47e082}
       \strng{authornamehash}{5afb8491e1fb0dda0764751faf47e082}
       \strng{authorfullhash}{5afb8491e1fb0dda0764751faf47e082}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Do you want to know the difference between swift vs objective c and want to know how they compare to swiftUI? Read this blog till the end.}

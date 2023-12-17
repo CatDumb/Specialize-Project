@@ -152,7 +152,7 @@
     ($ (current page.south east) + (-1.65cm,1.95cm) $); 
 \end{tikzpicture}
 \begin{center}
-\large\textcolor{BlueViolet}{\textbf{
+\large {\textbf{
 VIETNAM NATIONAL UNIVERSITY - HO CHI MINH CITY \\
 UNIVERSITY OF TECHNOLOGY \\
 FACULTY OF COMPUTER SCIENCE AND ENGINEERING}}
@@ -178,12 +178,12 @@ FACULTY OF COMPUTER SCIENCE AND ENGINEERING}}
 \begin{table}[h]
     \large
     \begin{tabular}{r r l}
-    \hspace{4 cm} & \textbf{Council}: & Information System \\
-    & \textbf{Supervisors}: & Assoc. Prof. Tran Minh Quang \\ 
+    \hspace{2 cm} & \textbf{THESIS COMMITTEE}: & Information System \\
+    & \textbf{SUPERVISORS}: & Assoc. Prof. Tran Minh Quang \\ 
     & & Ms. Eng. Bui Tien Duc\\
-    & \textbf{Secretary}: & Dr. Phan Trong Nhan \\
-    & \textbf{Students}: & Nguyen Minh Khoa - 2052538\\
-    & & Nguyen Nho Gia Phuc - 2052214 \\ 
+    & \textbf{REVIEWER}: & Dr. Phan Trong Nhan \\
+    & \textbf{STUDENT 1}: & Nguyen Minh Khoa - 2052538\\
+    & \textbf{STUDENT 2}: & Nguyen Nho Gia Phuc - 2052214 \\ 
     \end{tabular}
 \end{table}
 \vspace{2cm}
@@ -193,9 +193,22 @@ Ho Chi Minh City, \DTMtoday
 \end{center}
 \end{titlepage}
 
+% ---------------------------------- SIGNAGE --------------------------------- %
+
+\bigskip  \hfill \parbox{1.3in}{Date of Signature}  
+\vspace{2\baselineskip}  
+\newline
+\noindent\rule{4in}{0.7pt} \hfill \rule{1.5in}{0.7pt}  
+\newline
+\newline
+\noindent Associate Professor, Tran Minh Quang, PhD\\ 
+Faculty of Computer Science and Engineering\\ 
+Supervisor
+
 % ---------------------------------------------------------------------------- %
-%                       AUTHENTICITY AND ACKNOWLEDGEMENT                       %
+%                  AUTHENTICITY, ACKNOWLEDGEMENT, AND ABSTRACT                 %
 % ---------------------------------------------------------------------------- %
+\newpage
 \begin{center}
     \Large{\textbf{DECLARATION OF AUTHENTICITY}}
 \end{center}
@@ -228,6 +241,19 @@ Finally, we would like to express our gratitude to the Faculty of Computer Scien
     Nguyen Minh Khoa
 \end{flushright}
 
+\newpage
+\begin{center}
+    \Large{\textbf{ABSTRACT}}
+\end{center}
+
+This project addresses the need to enhance the functionality of a dedicated mobile application designed for data collection and urban traffic estimation. The primary focus is on integrating bus and parking-related services, coupled with extending support to a broader range of operating systems. The overarching objective is to optimize the application's efficiency in furnishing real-time insights into urban traffic patterns. The study involves a meticulous examination of current app limitations and challenges, followed by the strategic design and implementation of upgrades.
+
+The research methodology entails a comprehensive analysis of user requirements, feedback, and technological constraints. The integration of bus-related services involves data crawling from reliable sources, ensuring the provision of accurate and up-to-date information on routes, schedules, and other critical details. Simultaneously, the integration of parking services seeks to create a seamless user experience for locating, booking, and remunerating parking spaces within urban areas.
+
+The anticipated outcomes of this project aim to encourage sustainable transportation choices and mitigate urban traffic congestion. The study's findings provide valuable insights into the intricacies of upgrading mobile applications for data collection within the domain of urban traffic estimation. The integrated services offer a comprehensive solution to urban mobility challenges, contributing to a more efficient and sustainable urban transportation ecosystem.
+
+In this initial phase, crucial milestones have been achieved, including the conceptual design for parking services and the successful acquisition of bus data from online sources. The establishment of endpoints for various bus-related services is a major step toward the integration of bus services into mobile applications. Additionally, an early iOS frontend implementation has been initiated, showcasing the user interface and functionality for Apple devices. These accomplishments underscore substantial progress in enhancing the application's capabilities for data collection and urban traffic estimation while integrating essential bus services.
+
 % ---------------------------------------------------------------------------- %
 %                               INCLUDE CONTENTS                               %
 % ---------------------------------------------------------------------------- %
@@ -236,9 +262,7 @@ Finally, we would like to express our gratitude to the Faculty of Computer Scien
 \tableofcontents
 \newpage
 \listoffigures
-\newpage
 \listoftables
-\newpage
 
 \include{Sections/introduction}
 \include{Sections/related_research}
@@ -248,6 +272,6 @@ Finally, we would like to express our gratitude to the Faculty of Computer Scien
 
 % ------------------------------- BIBLIOGRAPHY ------------------------------- %
 \nocite{*}
-\printbibliography
+\printbibliography[heading=bibintoc, title={REFERENCE}]
 
 \end{document}

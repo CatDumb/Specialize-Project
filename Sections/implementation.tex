@@ -8,7 +8,7 @@ As developed by the previous groups, the UTraffic architecture consists of four 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{assets/images/Implementation/system_architecture_diagram.png}
+    \includegraphics[width=0.8\textwidth]{assets/images/Implementation/system_architecture_diagram.png}
     \caption{The system's architecture diagram.}
     \label{fig:utraffic_architecture}
 \end{figure}
@@ -34,7 +34,8 @@ Several JavaScript source files power this site:
 \end{itemize}
 
 \begin{figure}[H]
-    \includegraphics[width=\textwidth]{assets/images/Research/Bus/lat_long_web.png}
+    \centering
+    \includegraphics[width=0.8\textwidth]{assets/images/Research/Bus/lat_long_web.png}
     \caption{Capturing and observing the route data using the DevTool}
     \label{fig:lat_long_web}
 \end{figure}
@@ -42,8 +43,6 @@ Several JavaScript source files power this site:
 By inserting breakpoints in L.RouteMap.js, we can easily obtain the coordinates of the route, as demonstrated on the right-hand side. It is worth mentioning that while the coordinates are given in both distinct arrays and a single array with integrated data, it is more advantageous to utilize the latitudes and longitudes in separate arrays. The reason for this is that the present system implementation utilizes MongoDB, which does not allow tuples due to its implementation of BSON.
 
 When it is desirable to work with a single array of coordinates, the stored data can be retrieved and combined together. Below is an example where we zip the arrays and plot them using Matplotlib (please note that since there are over 600 elements in each array, 668 to be exact, a figurative number was put in the code excerpt).
-
-\newpage
 
 \begin{lstlisting}[language=python]
     lat = [10.001, 10.002] # the latitudes
@@ -86,7 +85,8 @@ The result is as follow:
 Similarly, information about the bus stops can be obtained by placing breakpoints in L.RouteMap.js. Each route comes with a list of stops and their corresponding data. This will be useful in designing our data schema later on when we integrate the gathered information into our database.
 
 \begin{figure}[H]
-    \includegraphics[width=\textwidth]{assets/images/Research/Bus/stop_web.png}
+    \centering
+    \includegraphics[width=0.95\textwidth]{assets/images/Research/Bus/stop_web.png}
     \caption{Capturing and observing the bus stops data using the DevTool}
     \label{fig:stop_data}
 \end{figure}
@@ -111,11 +111,11 @@ The automated data retrieval can be described in the following steps:
     \item Extract the necessary ID in each link and loop over the list to extract individual data.
 \end{enumerate}
 
-Because the \lstinline{rouId} is present in a bus route view's URL, we can extract this value and log the value returned by the \lstinline{loadVarsByRou} function. After than, we can split the recorded string to get the \lstinline{prtId} value. The data retrieval process then involves injecting the website with two custom JavaScript variables that can capture the data loaded by the \lstinline{loadStopsByVar(prtId, rouId, varId)} and \lstinline{loadPathByVar(prtId, rouId, varId)}. This is done after we have injected the website with our custom \lstinline{routevar.js} script that assigns the source's data to the custom variables. This whole process is then automated using Selenium WebDriver. Figure \ref{fig:data_org} shows how the raw JSON data are stored after they are collected. This structured organization makes it easy for later scripts to iterate over the data and further process them.
+Because the \lstinline{rouId} is present in a bus route view's URL, we can extract this value and log the value returned by the \lstinline{loadVarsByRou} function. After that, we can split the recorded string to get the \lstinline{prtId} value. The data retrieval process then involves injecting the website with two custom JavaScript variables that can capture the data loaded by the \lstinline{loadStopsByVar(prtId, rouId, varId)} and \lstinline{loadPathByVar(prtId, rouId, varId)}. This is done after we have injected the website with our custom \lstinline{routevar.js} script that assigns the source's data to the custom variables. This whole process is then automated using Selenium WebDriver. Figure \ref{fig:data_org} shows how the raw JSON data are stored after they are collected. This structured organization makes it easy for later scripts to iterate over the data and further process them.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{assets/images/Implementation/data_org.png}
+    \includegraphics[width=0.9\textwidth]{assets/images/Implementation/data_org.png}
     \caption{Organization of the data retrieval process.}
     \label{fig:data_org}
 \end{figure}
@@ -127,7 +127,7 @@ Given the structured nature of the data we collected, as well as the existing us
 
 \begin{figure}
     \centering
-    \includegraphics[width=\textwidth]{assets/images/Implementation/raw_stops.png}
+    \includegraphics[width=0.75\textwidth]{assets/images/Implementation/raw_stops.png}
     \caption{The bus stops of a route before processing.}
     \label{fig:raw_stops}
 \end{figure}
@@ -143,13 +143,16 @@ We decided to have 4 new collections within the existing MongoDB database. They 
     \item \textbf{Bus\_Path\_Coordinates}: This collection stores the paths of the bus routes in 4 arrays of forward and return latitudes and longitudes.
     \item \textbf{Bus\_Stops}: This collection stores all the bus stops in the database. The details of a stop are its official street address, its location, its type, whether it is disability-friendly, and the routes that pass through it.
 \end{itemize}
-\begin{figure}
+
+Figure \ref{fig:dbcompass} showcases the Bus\_Stops collection in MongoDB Compass with 4414 documents.
+
+\begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{assets/images/Implementation/db_compass.png}
+    \includegraphics[width=0.95\textwidth]{assets/images/Implementation/db_compass.png}
     \caption{The Bus\_Stops collection in MongoDB Compass.}
     \label{fig:dbcompass}
 \end{figure}
-Figure \ref{fig:dbcompass} showcases the Bus\_Stops collection in MongoDB Compass with 4414 documents.
+
 
 \subsection{Bus API Development and Server Deployment}
 We have previously discussed the introduction of the API additions in the UTraffic system, and we have taken the steps to deploy them on the live server of UTraffic. The endpoints are now live and working as intended.
@@ -174,6 +177,7 @@ The following are the details of the new API endpoints. An example URL and the c
         \end{figure}
     \end{itemize}
 
+    \newpage
     \item \textbf{Get nearby disability friendly bus stops}.
     \begin{itemize}
         \item URL: \url{https://api.bktraffic.com/api/bus/disability-friendly-stops}.
@@ -198,7 +202,7 @@ The following are the details of the new API endpoints. An example URL and the c
         \item Example response:
         \begin{figure}[H]
             \centering
-            \includegraphics[width=0.5\textwidth]{assets/images/Implementation/stop_detail_response.png}
+            \includegraphics[width=0.35\textwidth]{assets/images/Implementation/stop_detail_response.png}
             \caption{The response containing the details of the bus stop with the ID 2931.}
             \label{fig:stop_detail_response}
         \end{figure}
@@ -213,7 +217,7 @@ The following are the details of the new API endpoints. An example URL and the c
         \item Example response:
         \begin{figure}[H]
             \centering
-            \includegraphics[width=0.5\textwidth]{assets/images/Implementation/all_routes_response.png}
+            \includegraphics[width=0.4\textwidth]{assets/images/Implementation/all_routes_response.png}
             \caption{The response containing all the bus routes of Ho Chi Minh City.}
             \label{fig:all_routes_response}
         \end{figure}
@@ -258,7 +262,7 @@ The following are the details of the new API endpoints. An example URL and the c
         \item Example response:
         \begin{figure}[H]
             \centering
-            \includegraphics[width=0.5\textwidth]{assets/images/Implementation/route_path_response.png}
+            \includegraphics[width=0.4\textwidth]{assets/images/Implementation/route_path_response.png}
             \caption{The response containing the line string path of the bus route 08.}
             \label{fig:route_path_response}
         \end{figure}
@@ -274,9 +278,151 @@ We use GitLab to host our source code. After the code was ready on the GitLab re
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{assets/images/Implementation/pm2_show.png}
+    \includegraphics[width=0.7\textwidth]{assets/images/Implementation/pm2_show.png}
     \caption{The server information and the running NodeJS process.}
     \label{fig:pm2_show}
+\end{figure}
+
+\subsection{Concepts for parking services}
+
+In addition to advancing bus services, our group aims to implement functionalities related to parking. Due to the absence of a centralized data source, a model similar to the one adopted by Viettel (referenced in \ref{section:related_research}) is deemed more suitable for populating our database with information on available parking lots. However, to circumvent financial complexities, incentives offered to parking lot owners will be confined to analytics and the capability to promote their parking spaces to the application's user base.
+
+\subsubsection{Functional requirements}
+
+\begin{enumerate}
+    \item \textbf{User Registration and Authentication}:
+    \begin{itemize}
+        \item Users (parking lot owners) must be able to register and create accounts securely.
+        \item Authentication mechanisms, such as email verification or two-factor authentication, should be in place.
+    \end{itemize}
+    \item \textbf{Space Listing}: Parking lot owners should be able to list their available parking spaces, specifying details such as location, pricing, availability, and any special features.
+    \item \textbf{Photo Upload}: Users should be able to upload images of their parking spaces to provide visual information to potential customers.
+    \item \textbf{Search and Filterting}:
+    \begin{itemize}
+        \item Users should be able to search for parking spaces based on location, availability,
+        pricing, and other criteria.
+        \item Filtering options should be provided to refine search results.
+    \end{itemize}
+    \item \textbf{Real-Time Availability Information}: The module should display real-time availability status of parking spaces, indicating whether a space is currently vacant or booked.
+\end{enumerate}
+
+\subsubsection{Non-functional requirements}
+
+\begin{enumerate}
+    \item \textbf{Performance}: The module should be responsive and perform eﬀiciently, even during
+    peak usage times
+    \item \textbf{Security}:
+        \begin{itemize}
+            \item Ensure the security of user data, payment information, and sensitive details.
+            \item Implement secure authentication and authorization mechanisms.
+        \end{itemize}
+    \item \textbf{Scalability}: The system should be able to scale with an increasing number of users,
+    parking spaces, and transactions.
+    \item \textbf{Usability}: The user interface should be intuitive and user-friendly for both parking
+    lot owners and renters.
+    \item \textbf{Reliability}: Ensure that the system is available and reliable, with minimal downtime
+    for maintenance.
+    \item \textbf{Cross-Platform Compatibility}: The module should be accessible on various devices
+    and platforms, including web browsers and mobile applications.
+    \item \textbf{Geolocation Accuracy}: Ensure that the geolocation feature accurately identifies the
+    location of parking spaces on the map.
+    \item \textbf{Error Handling}: Implement robust error handling to provide clear and informative
+    error messages to users
+\end{enumerate}
+
+\subsubsection{Use cases}
+
+\begin{enumerate}
+    \item \textbf{List parking spaces}
+    \begin{itemize}
+        \item \textbf{Actor}: Parking lot owner
+        \item \textbf{Description}: Parking lot owners can list their available parking spaces by providing details such as location, pricing, availability, and any special features. They can also upload photos of the space.
+    \end{itemize}
+    \item \textbf{Manage parking listings}
+    \begin{itemize}
+        \item \textbf{Actor}: Parking lot owner
+        \item \textbf{Description}: The parking lot owner can view, edit, update, or remove their parking space listings. They can adjust pricing, mark spaces as unavailable, or delete listings as needed.
+    \end{itemize}
+    \item \textbf{Search for parking spaces}
+    \begin{itemize}
+        \item \textbf{Actor}: Customer
+        \item \textbf{Description}: Users looking for parking spaces can search for available options based on location, date, time, and price. They can also use filters to narrow down the search results.
+    \end{itemize}
+    \item \textbf{View parking space details}
+    \begin{itemize}
+        \item \textbf{Actor}: Parking lot owner, customers
+        \item \textbf{Description}: Both parking lot owners and users can see the real-time availability status of parking spaces
+    \end{itemize}
+    \item \textbf{Access account settings}
+    \begin{itemize}
+        \item \textbf{Actor}: Parking lot owner, customers
+        \item \textbf{Description}: Users can access their account settings to view and edit their profile information and change their password.
+    \end{itemize}
+\end{enumerate}
+
+Below is a diagram recapping these usecases
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{assets/images/Implementation/Parking/Parking Use case updated.drawio.png}
+    \caption{Activity diagram of the module}
+    \label{fig:parking_usecase}
+\end{figure}
+
+\subsubsection{Diagrams}
+
+\subsubsubsection{Sequence diagrams}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{assets/images/Implementation/Parking/Search_lot_sequence.png}
+    \caption{Sequence diagram for searching nearby parking lots}
+    \label{fig:parking_search}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{assets/images/Implementation/Parking/Availability.drawio.png}
+    \caption{Sequence diagram for checking parking lot availability}
+    \label{fig:parking_availability}
+\end{figure}
+
+The ability for users to promote their own parking spaces for rental is akin to the previous features, with an additional verification process to ensure essential information is provided
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{assets/images/Implementation/Parking/List and Manage.drawio.png}
+    \caption{Sequence diagram for advertising parking spaces}
+    \label{fig:parking_search}
+\end{figure}
+
+\subsubsubsection{Activity diagram}
+
+For the act of searching and observing various parking spots, activity diagrams are unnecessary because these tasks involve querying without decision-making. Activity diagrams are provided for adding new parking lots and modifying the number of available parking spots
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{assets/images/Implementation/Parking/Add parking activity.drawio.png}
+    \caption{Acitivity diagram fo adding new parking lots}
+    \label{fig:parking_add}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{assets/images/Implementation/Parking/Adjusting available activity.drawio.png}
+    \caption{Adjusting the number of available spots}
+    \label{fig:parking_adjust}
+\end{figure}
+
+\subsubsubsection{ERD diagram}
+
+In the realm of parking lot management, a well-structured Entity-Relationship Diagram (ERD) plays a crucial role in database system development. This ERD is thoughtfully crafted to address the specific requirements of parking lot management, offering a clear depiction of the connections between various entities. Central to this ERD is the ”owns” relationship, serving as a linchpin to associate weak entities, representing parking lots, with their respective owners. These parking lots exhibit a diverse range of attributes, including name, address, geographical coordinates, the count of available parking spaces, and even the capacity to store visual references through photos. Although the server do have other information for our users, this diagram only includes their UID to serve as a primary key.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{assets/images/Implementation/Parking/Parking ERD.drawio.png}
+    \caption{The ERD for storing parking lots and their relationships}
+    \label{fig:parking_erd}
 \end{figure}
 
 \subsection{iOS App Development}
@@ -288,22 +434,21 @@ However, the similarities between the two versions should only be implemented to
 
 \subsubsection{The landing page and permission requests}
 Because the UTraffic app must know the user's real-time location in order to gather GPS data and also display nearby traffic status, it is crucial that we ask the users for location permissions upon the first app launch. This is done by presenting a dialog box that asks for the user's permission to access their location. The choice is saved into \lstinline{UserDefaults}. \lstinline{UserDefaults} is an interface to the user's defaults database, where key-value pairs of data are stored persistently across launches of the app. \cite{a2019_userdefaults}. Therefore, this process will not be repeated on subsequent app launches. The onboarding process is divided into three main phases: greetings, location request, and always-on location request. They are as follows (the texts are in Vietnamese to first accommodate the Android app's design, but we are adding an option for language change in the next phase):
+
 \begin{figure}[H]
     \centering
     \subfloat[Greetings.]{
-        \includegraphics[width=0.28\linewidth]{assets/images/Implementation/onboard1.png}
+        \includegraphics[width=0.25\linewidth]{assets/images/Implementation/onboard1.png}
         \label{fig:onboard1}
     }
-    \hspace{0.5cm} % Add a horizontal space of 1cm
     \subfloat[Asking for location permission.]{
-        \includegraphics[width=0.28\linewidth]{assets/images/Implementation/onboard2.png}
+        \includegraphics[width=0.25\linewidth]{assets/images/Implementation/onboard2.png}
         \label{fig:onboard2}
     }
-    \hspace{0.5cm} % Add a horizontal space of 1cm
     \subfloat[Asking for always-on location permission.]{
-        \includegraphics[width=0.28\linewidth]{assets/images/Implementation/onboard3.png}
+        \includegraphics[width=0.25\linewidth]{assets/images/Implementation/onboard3.png}
         \label{fig:onboard3}
-        }
+    }
     \caption{The onboarding process of the iOS UTraffic app.}
 \end{figure}
 
@@ -312,26 +457,25 @@ We adapt most of the user interface from the Android app to the iOS app in order
 \begin{figure}[H]
     \centering
     \subfloat[The iOS account registration view.]{
-        \includegraphics[width=0.4\linewidth]{assets/images/Implementation/register_view.png}
+        \includegraphics[width=0.25\linewidth]{assets/images/Implementation/register_view.png}
         \label{fig:ios_register_view}
     }
-    \hspace{0.5cm} % Add a horizontal space of 1cm
+    \hspace{2cm}
     \subfloat[The iOS app's login view.]{
-        \includegraphics[width=0.4\linewidth]{assets/images/Implementation/login_view.png}
+        \includegraphics[width=0.25\linewidth]{assets/images/Implementation/login_view.png}
         \label{fig:ios_login_view}
     }
-    \hspace{0.5cm} % Add a horizontal space of 1cm
     \label{fig:ios_auth_views}
     \caption{The authentication views on the iOS UTraffic app.}
 \end{figure}
 
+
 \subsubsection{Viewing the traffic status report}
 We adopted the display logic from the Android app, where the northeast and southwest bounds of the map's visible area, along with the street level, are taken into account. However, since the Android app uses the original response data provided by the \lstinline{/get-status-v2} endpoint, using it on the iOS app means we have to develop additional classes to parse the data into the format that the iOS app can understand. We implemented the \lstinline{/get-status-v3} for this exact reason to support the iOS app better.
 
-The home screen with the traffic status displayed is as follows:
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.4\textwidth]{assets/images/Implementation/traffic_status_view.png}
+    \includegraphics[width=0.25\textwidth]{assets/images/Implementation/traffic_status_view.png}
     \caption{The home screen with the traffic status displayed.}
     \label{fig:traffic_status_view}
 \end{figure}
@@ -340,21 +484,20 @@ The home screen with the traffic status displayed is as follows:
 In this phase, we have implemented the bus list view within our iOS app. It is a view that displays all the routes within the database via the \lstinline{/routes} endpoint. 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.4\textwidth]{assets/images/Implementation/bus_view.png}
+    \includegraphics[width=0.25\textwidth]{assets/images/Implementation/bus_view.png}
     \caption{The bus list view displayed in a bottom sheet.}
     \label{fig:bus_view_ios}
 \end{figure}
+
 
 \subsubsection{Integration with HCMUT TrafficView}
 We have developed an UI to see how the elements of HCMUT TrafficView would look like on iOS. The result is as follows:
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.4\textwidth]{assets/images/Implementation/hcmut_trafficview.png}
+    \includegraphics[width=0.5\textwidth]{assets/images/Implementation/hcmut_trafficview.png}
     \caption{The traffic camera view within the iOS app.}
     \label{fig:trafficview_ios}
 \end{figure}
 
 Because of mobile devices' limited processing power, it is best that we only show a snapshot of the camera at the time the user issues the request. This is to avoid programming complexity of having to deal with stream data, as well as to avoid the app from crashing due to memory issues.
-
-
