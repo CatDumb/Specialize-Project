@@ -4,6 +4,23 @@
 \section{IMPLEMENTATION}
 \label{section:implementation}
 
+As developed by the previous groups, the UTraffic architecture consists of four main components: an API server, a computing server, a database server, and an application interface. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{assets/images/Implementation/system_architecture_diagram.png}
+    \caption{The system's architecture diagram.}
+    \label{fig:utraffic_architecture}
+\end{figure}
+
+\begin{itemize}
+    \item Database server: All the data of UTraffic is stored in a MongoDB database. The database server is responsible for storing and retrieving data. There is a lot of queries that concern geographical coordinates, and MongoDB well supports this type of data via the use of geospatial indexes.
+    \item API server: The API server is a pivotal point of the UTraffic architecture, acting as a bridge to connect the application interface and the database server via API endpoints.
+    \item Computing server: The computing server processes user data. This work consists of traffic status calculation, the user's credit, as well as the user's total traveled distance. We have not made any changes to this component in this phase of the project.
+    \item Application: The application is the interface that the users interact with. Previous groups have developed the web application and the Android application. In this phase, we have developed a prototype iOS application.
+\end{itemize}
+Along with the main components, the Resource APIs component acts as a data mining source in the case of insufficient data. 
+
 \subsection{Bus Services Integration}
 
 \subsubsection{Getting a single route's information}
@@ -12,7 +29,7 @@ The integrity of the data on the Buyt TPHCM website is guaranteed due to its com
 
 Several JavaScript source files power this site:
 \begin{itemize}
-    \item \textbf{L.Config.js:} This is a configuration file to set up the map rendering for Buyt TPHCM. The tiles are loaded from http://map.stis.vn/bright/{z}/{x}/{y}.png.
+    \item \textbf{L.Config.js:} This is a configuration file to set up the map rendering for Buyt TPHCM. The tiles are loaded from http://map.stis.vn/bright/{z}/{x}/{y}.png. This means that FPT has forked a copy of the OpenStreetMap project and is hosting it on their own server.
     \item \textbf{L.RouteMap.js:} This source file is responsible for showing the stops and bus routes. We were able to get the coordinate sets that we wanted by placing breakpoints on this file.
 \end{itemize}
 
@@ -72,11 +89,11 @@ Similarly, information about the bus stops can be obtained by placing breakpoint
     \label{fig:stop_data}
 \end{figure}
 
-\subsubsection{Automation of the mining process}
+\subsubsection{Automating the data collection process}
 
 Since there are about 130 routes currently displayed on the website, it is impossible to place breakpoints and collect data by hand. This necessitates the use of automatic scripts to gather data.
 
-After careful examinations, we found several places where we could mine the data. This introduces us to the routevar.js file, which contains the three functions: \lstinline{loadVarsByRou(rouId)}, \lstinline{loadStopsByVar(prtId, rouId, varId)}, and \lstinline{loadPathByVar(prtId, rouId, varId)}.
+After careful examinations, we found several places where we could automate getting the data. This introduces us to the routevar.js file, which contains the three functions: \lstinline{loadVarsByRou(rouId)}, \lstinline{loadStopsByVar(prtId, rouId, varId)}, and \lstinline{loadPathByVar(prtId, rouId, varId)}.
 
 It is worth it for us to elaborate more on the given terms:
 \begin{itemize}
@@ -92,12 +109,12 @@ The automated data retrieval can be described in the following steps:
     \item Extract the necessary ID in each link and loop over the list to extract individual data.
 \end{enumerate}
 
-Because the \lstinline{rouId} is present in a bus route view's URL, we can extract this value and log the value returned by the \lstinline{loadVarsByRou} function. After than, we can split the recorded string to get the \lstinline{prtId} value. The data retrieval process then involves injecting the website with two custom JavaScript variables that can capture the data loaded by the loadStopsByVar(prtId, rouId, varId) and loadPathByVar(prtId, rouId, varId). This is done after we have injected the website with our custom \lstinline{routevar.js} script that assigns the source's data to the custom variables. This whole process is then automated using Selenium WebDriver. Figure \ref{fig:data_org} shows how the raw JSON data are stored after they are collected. This structured organization makes it easy for later scripts to iterate over the data and further process them.
+Because the \lstinline{rouId} is present in a bus route view's URL, we can extract this value and log the value returned by the \lstinline{loadVarsByRou} function. After than, we can split the recorded string to get the \lstinline{prtId} value. The data retrieval process then involves injecting the website with two custom JavaScript variables that can capture the data loaded by the \lstinline{loadStopsByVar(prtId, rouId, varId)} and \lstinline{loadPathByVar(prtId, rouId, varId)}. This is done after we have injected the website with our custom \lstinline{routevar.js} script that assigns the source's data to the custom variables. This whole process is then automated using Selenium WebDriver. Figure \ref{fig:data_org} shows how the raw JSON data are stored after they are collected. This structured organization makes it easy for later scripts to iterate over the data and further process them.
 
 \begin{figure}
     \centering
     \includegraphics[width=\textwidth]{assets/images/Implementation/data_org.png}
-    \caption{Organization of the data mining process.}
+    \caption{Organization of the data retrieval process.}
     \label{fig:data_org}
 \end{figure}
 
@@ -143,6 +160,7 @@ The following are the details of the new API endpoints. An example URL and the c
     
     \begin{itemize}
         \item URL: \url{https://api.bktraffic.com/api/bus/nearby-stops}.
+        \item Method: GET.
         \item Query parameters: \lstinline{lat}, \lstinline{lng}, \lstinline{radius}.
         \item Example request URL: \url{https://api.bktraffic.com/api/bus/nearby-stops?lat=10.7721&lng=106.6579&radius=500}
         \item Example response: 
@@ -157,6 +175,7 @@ The following are the details of the new API endpoints. An example URL and the c
     \item \textbf{Get nearby disability friendly bus stops}.
     \begin{itemize}
         \item URL: \url{https://api.bktraffic.com/api/bus/disability-friendly-stops}.
+        \item Method: GET.
         \item Query parameters: \lstinline{lat}, \lstinline{lng}.
         \item Example request URL: \url{http://api.bktraffic.com/api/bus/disability-friendly-stops?lat=10.77037&lng=106.69868}
         \item Example response:
@@ -171,6 +190,7 @@ The following are the details of the new API endpoints. An example URL and the c
     \item \textbf{Get the details of a bus stop}.
     \begin{itemize}
         \item URL: \url{https://api.bktraffic.com/api/bus/stop-details}.
+        \item Method: GET.
         \item Query parameters: \lstinline{id}.
         \item Example request URL: \url{https://api.bktraffic.com/api/bus/stop-details?id=2931}.
         \item Example response:
@@ -185,6 +205,7 @@ The following are the details of the new API endpoints. An example URL and the c
     \item \textbf{Get all bus routes}.
     \begin{itemize}
         \item URL: \url{https://api.bktraffic.com/api/bus/routes}.
+        \item Method: GET.
         \item Query paramaters: none.
         \item Example request URL: \url{https://api.bktraffic.com/api/bus/routes}.
         \item Example response:
@@ -199,6 +220,7 @@ The following are the details of the new API endpoints. An example URL and the c
     \item \textbf{Get the details of a bus route}.
     \begin{itemize}
         \item URL: \url{https://api.bktraffic.com/api/bus/route-details}.
+        \item Method: GET.
         \item Query parameters: \lstinline{id}.
         \item Example request URL: \url{http://api.bktraffic.com/api/bus/route-info?id=08}
         \item Example response:
@@ -213,6 +235,7 @@ The following are the details of the new API endpoints. An example URL and the c
     \item \textbf{Get the bus stops along a bus route's path}.
     \begin{itemize}
         \item URL: \url{https://api.bktraffic.com/api/bus/route-stops}.
+        \item Method: GET.
         \item Query parameters: \lstinline{id}, \lstinline{leg}.
         \item Example request URL: \url{https://api.bktraffic.com/api/bus/route-stops?id=08&leg=forward}.
         \item Example response:
@@ -227,6 +250,7 @@ The following are the details of the new API endpoints. An example URL and the c
     \item \textbf{Get the path of a bus route}.
     \begin{itemize}
         \item URL: \url{https://api.bktraffic.com/api/bus/route-path}.
+        \item Method: GET.
         \item Query paramaters: \lstinline{id}, \lstinline{leg}.
         \item Example request URL: \url{https://api.bktraffic.com/api/bus/route-path?id=08&leg=forward}.
         \item Example response:
@@ -303,7 +327,7 @@ We adapt most of the user interface from the Android app to the iOS app in order
 We adopted the display logic from the Android app, where the northeast and southwest bounds of the map's visible area, along with the street level, are taken into account. However, since the Android app uses the original response data provided by the \lstinline{/get-status-v2} endpoint, using it on the iOS app means we have to develop additional classes to parse the data into the format that the iOS app can understand. We implemented the \lstinline{/get-status-v3} for this exact reason to support the iOS app better.
 
 The home screen with the traffic status displayed is as follows:
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.4\textwidth]{assets/images/Implementation/traffic_status_view.png}
     \caption{The home screen with the traffic status displayed.}
@@ -312,7 +336,7 @@ The home screen with the traffic status displayed is as follows:
 
 \subsubsection{Basic bus browsing}
 In this phase, we have implemented the bus list view within our iOS app. It is a view that displays all the routes within the database via the \lstinline{/routes} endpoint. 
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.4\textwidth]{assets/images/Implementation/bus_view.png}
     \caption{The bus list view displayed in a bottom sheet.}
@@ -322,7 +346,7 @@ In this phase, we have implemented the bus list view within our iOS app. It is a
 \subsubsection{Integration with HCMUT TrafficView}
 We have developed an UI to see how the elements of HCMUT TrafficView would look like on iOS. The result is as follows:
 
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.4\textwidth]{assets/images/Implementation/hcmut_trafficview.png}
     \caption{The traffic camera view within the iOS app.}
