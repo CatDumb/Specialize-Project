@@ -1,7 +1,6 @@
 \section{THEORETICAL BASIS}
 
 \subsection{OpenStreetMap's data format}
-% Khoa viet cai nay nhe, noi ve trunk, tag, way, node... nhu trong bao cao cuoi ki cua may anh chi nhe
 
 The OSM data file is structured around three fundamental elements:
 
@@ -13,7 +12,7 @@ The OSM data file is structured around three fundamental elements:
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{assets/images/Research/System/osm_file_structure.png}
+    \includegraphics[width=\textwidth]{assets/images/Research/System/osm_file_structure.png}
     \caption{OSM data format \cite{osm_file_structure}.}
     \label{fig:osm}
 \end{figure}
@@ -67,17 +66,17 @@ MVVM architecture offers two-way data binding between view and view-model. The v
         & \multicolumn{1}{c|}{Disadvantage} \\ \hline
         \multirow{7}{*}{MVC}     
                 &   \begin{itemize}[leftmargin=*,topsep=0pt,partopsep=0pt,parsep=0pt]
-                        \item The development of the various components can be performed parallelly.
+                        \item The development of components can be done in parallel.
                         \item It avoids complexity by dividing an application into separate (MVC) units
-                        \item It only uses a front controller pattern that processes web application requests using a single controller.
-                        \item It provides a clean separation of concerns.
+                        \item It processes application requests using a single controller.
+                        \item It provides separation of concerns.
                     \end{itemize}
                 &   \begin{itemize}[leftmargin=*,topsep=0pt,partopsep=0pt,parsep=0pt]
                         \item Business logic is mixed with Ul
                         \item Hard to reuse and implement tests
                         \item There is a need for multiple programmers to conduct parallel programming.
                     \end{itemize} \\ \hline
-        \multirow{5}{*}{MVVC}
+        \multirow{6}{*}{MVVC}
                 &   \begin{itemize}[leftmargin=*,topsep=0pt,partopsep=0pt,parsep=0pt]
                         \item Business logic is decoupled from Ul.
                         \item Easy to reuse components.
@@ -116,26 +115,24 @@ Swift is a powerful and modern programming language developed by Apple for build
 
 \subsubsection{SwiftUI}
 
-In summary, SwiftUI, developed by Apple, has become increasingly popular among iOS app developers for valid reasons. Introduced five years after Swift alongside Swift 5 and Xcode 11, it serves as a UI toolkit designed for creating software across various platforms, including iOS, macOS, watchOS, and tvOS. SwiftUI offers a declarative approach to UI design, enabling developers to describe layout and behavior using a simple and intuitive syntax. This results in more efficient and faster development of complex UIs, thanks to concise and easily readable code compared to traditional imperative approaches.
-
-In summary, SwiftUI stands out with these key features:
+SwiftUI, developed by Apple, has become increasingly popular among iOS app developers for valid reasons. Introduced five years after Swift alongside Swift 5 and Xcode 11, it serves as a UI toolkit designed for creating software across various platforms, including iOS, macOS, watchOS, and tvOS. SwiftUI offers a declarative approach to UI design, enabling developers to describe layout and behavior using a simple and intuitive syntax. This results in more efficient and faster development of complex UIs, thanks to concise and easily readable code compared to traditional imperative approaches. SwiftUI stands out with these key features:
 
 \begin{itemize}
     \item \textbf{Declarative Syntax}: Describes UI appearance easily, improving code readability.
-    \item \textbf{Automatic Layout}: Handles UI layout automatically, reducing manual effort.
+    \item \textbf{Automatic Layout}: Handles UI layout automatically
     \item \textbf{Dynamic UI}: Enables the creation of dynamic and interactive interfaces.
     \item \textbf{Cross-platform Support}: Works across all Apple devices with a single codebase.
-    \item \textbf{Real-time Preview}: Provides live previews of UI changes during development.
-    \item \textbf{Pre-built Components}: Offers ready-to-use UI components for quick and efficient development.
+    \item \textbf{Real-time Preview}: Provides live previews of UI during development.
+    \item \textbf{Pre-built Components}: Offers ready-to-use UI components.
 \end{itemize}
 
 \subsubsection{Conclusion}
 
 \begin{table}[H]
     \centering
-    \begin{tabular}{| >{\centering\arraybackslash}m{2cm} | >{\centering\arraybackslash}m{6cm} | >{\centering\arraybackslash}m{6cm} |}
+    \begin{tabular}{| >{\centering\arraybackslash}m{2.5cm} | m{6cm} | m{6cm} |}
         \hline
-        \textbf{Feature} & \textbf{Objective C} & \textbf{Swift} \\ \hline
+        \multicolumn{1}{|c|}{\textbf{Feature}} & \multicolumn{1}{c|}{\textbf{Objective C}} & \multicolumn{1}{c|}{\textbf{Swift}} \\ \hline
         Age & Developed in the early 1980s & Introduced in 2014 \\ \hline
         Syntax & Uses C-based syntax with Smalltalk-style messaging & Uses a modern and concise syntax \\ \hline
         Performance & Slower than Swift due to overhead and lack of optimization & Faster than Objective-C due to optimization features \\ \hline
@@ -170,26 +167,24 @@ Operating on an event-driven, non-blocking I/O model, Node.js facilitates high l
 
 \subsubsection{Conclusion}
 
+When weighing the pros and cons, each language possesses unique strengths and weaknesses tailored to specific project requirements. In scenarios demanding exceptional performance, scalability, and reliability, Java emerges as a compelling choice. Furthermore, Java's platform independence ensures compatibility with various operating systems and hardware configurations, offering versatility for diverse project types.
+
 \begin{table}[H]
     \centering
     \begin{tabular}{| c | p{0.4\textwidth} | p{0.4\textwidth} |}
         \hline
-        \multicolumn{1}{|c|}{}
-        & \multicolumn{1}{c|}{Advantage}
-        & \multicolumn{1}{c|}{Disadvantage} \\ \hline
+        \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{Advantage} & \multicolumn{1}{c|}{Disadvantage} \\ \hline
         \multirow{8}{*}{Java}     
                 &   \begin{itemize}[leftmargin=*,topsep=0pt,partopsep=0pt,parsep=0pt]
                         \item Java's strict type-checking and error checking enhance stability for complex apps.
-                        \item Efficiently handles large-scale applications with substantial data and high traffic.
-                        \item Supports cross-platform development with its "write once, run anywhere" philosophy.
-                        \item Java's extensive third-party libraries and frameworks enhance adaptability.
+                        \item Efficiently handles large-scale application.
+                        \item Supports cross-platform development.
+                        \item Java has extensive third-party libraries and frameworks
                     \end{itemize}
                 &   \begin{itemize}[leftmargin=*,topsep=0pt,partopsep=0pt,parsep=0pt]
-                        \item Java's strict syntax and type system may pose challenges for beginners, impacting their effective use of the language.
-
-                        \item Java applications can exhibit slower startup times compared to other languages, potentially affecting the performance of smaller applications.
-                        
-                        \item Java's garbage collection system, while efficient, may lead to performance issues in specific scenarios.
+                        \item Java's strict syntax and type system may pose challenges for beginners.
+                        \item Java applications can exhibit slower startup times compared to other languages.
+                        \item Java's garbage collection system may lead to performance issues in specific scenarios.
                     \end{itemize} \\ \hline
         \multirow{8}{*}{Python}
                 &   \begin{itemize}[leftmargin=*,topsep=0pt,partopsep=0pt,parsep=0pt]
@@ -216,8 +211,6 @@ Operating on an event-driven, non-blocking I/O model, Node.js facilitates high l
     \end{tabular}
     \caption{Comparison between Java, Python, and NodeJS.}
 \end{table}
-
-When weighing the pros and cons, each language possesses unique strengths and weaknesses tailored to specific project requirements. In scenarios demanding exceptional performance, scalability, and reliability, Java emerges as a compelling choice. Furthermore, Java's platform independence ensures compatibility with various operating systems and hardware configurations, offering versatility for diverse project types.
 
 \newpage
 \subsection{Database}
@@ -287,7 +280,6 @@ Oracle is a prominent and long-lasting database management solution that has bee
         \multirow{7}{*}{Oracle}     
                 &   \begin{itemize}[leftmargin=*,topsep=0pt,partopsep=0pt,parsep=0pt]
                         \item Oracle consistently deliver cutting-edge innovations.
-                        \item Oracle's tools are highly robust, offering a wide range of capabilities to meet diverse requirements.
                         \item Supports various data models, including semistructured (JSON, XML), spatial, RDF, and structured data (SQL).
                         \item Provides multiple access patterns based on the data model.
                     \end{itemize}

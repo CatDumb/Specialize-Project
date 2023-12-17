@@ -1,5 +1,6 @@
 \documentclass[13pt, a4paper]{article}
 
+\usepackage[fontsize=13pt]{scrextend}
 
 \usepackage[backend=biber, style=ieee]{biblatex}
 \addbibresource{refs.bib}
@@ -141,69 +142,69 @@
 % ---------------------------------------------------------------------------- %
 
 \begin{titlepage}
-\begin{tikzpicture}[overlay,remember picture]
-\draw [line width=3pt]
-       ($ (current page.north west) + (1.5cm,-2.0cm) $)
-    rectangle
-    ($ (current page.south east) + (-1.5cm,1.8cm) $);
-\draw [line width=1pt]
-    ($ (current page.north west) + (1.65cm,-2.15cm) $)
-    rectangle
-    ($ (current page.south east) + (-1.65cm,1.95cm) $); 
-\end{tikzpicture}
-\begin{center}
-\large {\textbf{
-VIETNAM NATIONAL UNIVERSITY - HO CHI MINH CITY \\
-UNIVERSITY OF TECHNOLOGY \\
-FACULTY OF COMPUTER SCIENCE AND ENGINEERING}}
-\vspace{1cm}
-
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=4cm]{assets/images/Trivia/hcmut.png}
-\end{figure}
-
-\begin{center}
-\textbf{{\Large SPECIALIZED PROJECT}}\\
-\vspace{1cm}
-{\fontsize{20}{20}\selectfont % Adjust the numbers (36 and 48) to increase/decrease the font size and line spacing as needed
-\textbf{{BUILD A MOBILE APP FOR DATA COLLECTION AND URBAN TRAFFIC ESTIMATION}}\\
-}
-\vspace{1cm}
-\textbf{{\Large Major: Computer Science}}
-\end{center}
-
-\vspace{1cm}
-
-\begin{table}[h]
-    \large
-    \begin{tabular}{r r l}
-    \hspace{2 cm} & \textbf{THESIS COMMITTEE}: & Information System \\
-    & \textbf{SUPERVISORS}: & Assoc. Prof. Tran Minh Quang \\ 
-    & & Ms. Eng. Bui Tien Duc\\
-    & \textbf{REVIEWER}: & Dr. Phan Trong Nhan \\
-    & \textbf{STUDENT 1}: & Nguyen Minh Khoa - 2052538\\
-    & \textbf{STUDENT 2}: & Nguyen Nho Gia Phuc - 2052214 \\ 
-    \end{tabular}
-\end{table}
-\vspace{2cm}
-
-Ho Chi Minh City, \DTMtoday
-
-\end{center}
+    \begin{tikzpicture}[overlay,remember picture]
+    \draw [line width=3pt]
+           ($ (current page.north west) + (1.5cm,-2.0cm) $)
+        rectangle
+        ($ (current page.south east) + (-1.5cm,1.8cm) $);
+    \draw [line width=1pt]
+        ($ (current page.north west) + (1.65cm,-2.15cm) $)
+        rectangle
+        ($ (current page.south east) + (-1.65cm,1.95cm) $); 
+    \end{tikzpicture}
+    \begin{center}
+    \normalsize {\textbf{
+    VIETNAM NATIONAL UNIVERSITY - HO CHI MINH CITY \\
+    UNIVERSITY OF TECHNOLOGY \\
+    FACULTY OF COMPUTER SCIENCE AND ENGINEERING}}
+    \vspace{1cm}
+    
+    \begin{figure}[ht]
+        \centering
+        \includegraphics[width=4cm]{assets/images/Trivia/hcmut.png}
+    \end{figure}
+    
+    \begin{center}
+    \textbf{{\large SPECIALIZED PROJECT}}\\
+    \vspace{1cm}
+    {\fontsize{16}{18}\selectfont
+    \textbf{{BUILD A MOBILE APP FOR DATA COLLECTION AND URBAN TRAFFIC ESTIMATION}}\\
+    }
+    \vspace{1cm}
+    \textbf{{\large Major: Computer Science}}
+    \end{center}
+    
+    \vspace{1cm}
+    
+    \begin{table}[h]
+        \normalsize
+        \begin{tabular}{r r l}
+        \hspace{2 cm} & \textbf{THESIS COMMITTEE}: & Information System \\
+        & \textbf{SUPERVISORS}: & Assoc. Prof. Tran Minh Quang \\ 
+        & & M. Eng. Bui Tien Duc\\
+        & \textbf{REVIEWER}: & Dr. Phan Trong Nhan \\
+        & \textbf{STUDENT 1}: & Nguyen Minh Khoa - 2052538\\
+        & \textbf{STUDENT 2}: & Nguyen Nho Gia Phuc - 2052214 \\ 
+        \end{tabular}
+    \end{table}
+    \vspace{2cm}
+    
+    Ho Chi Minh City, \DTMtoday
+    
+    \end{center}
 \end{titlepage}
 
 % ---------------------------------- SIGNAGE --------------------------------- %
 
-\bigskip  \hfill \parbox{1.3in}{Date of Signature}  
+\bigskip  \hfill \parbox{1.35in}{\small Date of Signature}  
 \vspace{2\baselineskip}  
 \newline
 \noindent\rule{4in}{0.7pt} \hfill \rule{1.5in}{0.7pt}  
 \newline
 \newline
-\noindent Associate Professor, Tran Minh Quang, PhD\\ 
-Faculty of Computer Science and Engineering\\ 
-Supervisor
+\noindent \small Associate Professor, Tran Minh Quang, PhD\\ 
+\small Faculty of Computer Science and Engineering\\ 
+\small Supervisor
 
 % ---------------------------------------------------------------------------- %
 %                  AUTHENTICITY, ACKNOWLEDGEMENT, AND ABSTRACT                 %
@@ -262,7 +263,6 @@ In this initial phase, crucial milestones have been achieved, including the conc
 \tableofcontents
 \newpage
 \listoffigures
-\newpage
 \listoftables
 
 \include{Sections/introduction}

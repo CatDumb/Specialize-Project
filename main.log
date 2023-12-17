@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.9)  17 DEC 2023 23:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.9)  18 DEC 2023 03:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -23,7 +23,30 @@ File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
-) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrextend.sty
+Package: scrextend 2023/07/07 v3.41 KOMA-Script package (extend other classes with features of KOMA-Script classes)
+ (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrkbase.sty
+Package: scrkbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
+ (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
+Package: scrbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+ (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.sty
+Package: scrlfile 2023/07/07 v3.41 KOMA-Script package (file load hooks)
+ (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-hook.sty
+Package: scrlfile-hook 2023/07/07 v3.41 KOMA-Script package (using LaTeX hooks)
+ (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
+Package: scrlogo 2023/07/07 v3.41 KOMA-Script package (logo)
+))) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line 368.
+)))
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <13> not available
+(Font)              size <12> substituted on input line 4.
+
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
@@ -40,9 +63,6 @@ Package pdftexcmds Info: \pdfdraftmode found.
 ) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count194
-) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks17
 ) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
@@ -864,14 +884,17 @@ Package caption Info: longtable package is loaded.
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
+Package caption Info: scrextend package is loaded.
+\caption@addmargin@hsize=\dimen188
+\caption@addmargin@linewidth=\dimen189
 Package caption Info: wrapfig package is loaded.
 ) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
-\TX@col@width=\dimen188
-\TX@old@table=\dimen189
-\TX@old@col=\dimen190
-\TX@target=\dimen191
-\TX@delta=\dimen192
+\TX@col@width=\dimen190
+\TX@old@table=\dimen191
+\TX@old@col=\dimen192
+\TX@target=\dimen193
+\TX@delta=\dimen194
 \TX@cols=\count446
 \TX@ftn=\toks33
 ) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
@@ -879,7 +902,7 @@ Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip112
 \multirow@cntb=\count447
 \multirow@dima=\skip113
-\bigstrutjot=\dimen193
+\bigstrutjot=\dimen195
 ) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 \c@r@tfl@t=\count448
@@ -917,16 +940,16 @@ Package: tabularray 2023-03-01 v2023A Typeset tabulars and arrays with LaTeX3
 \l__tblr_a_int=\count450
 \l__tblr_c_int=\count451
 \l__tblr_r_int=\count452
-\l__tblr_d_dim=\dimen194
-\l__tblr_h_dim=\dimen195
-\l__tblr_o_dim=\dimen196
-\l__tblr_p_dim=\dimen197
-\l__tblr_q_dim=\dimen198
-\l__tblr_r_dim=\dimen199
-\l__tblr_s_dim=\dimen256
-\l__tblr_t_dim=\dimen257
-\l__tblr_v_dim=\dimen258
-\l__tblr_w_dim=\dimen259
+\l__tblr_d_dim=\dimen196
+\l__tblr_h_dim=\dimen197
+\l__tblr_o_dim=\dimen198
+\l__tblr_p_dim=\dimen199
+\l__tblr_q_dim=\dimen256
+\l__tblr_r_dim=\dimen257
+\l__tblr_s_dim=\dimen258
+\l__tblr_t_dim=\dimen259
+\l__tblr_v_dim=\dimen260
+\l__tblr_w_dim=\dimen261
 \l__tblr_a_box=\box122
 \l__tblr_b_box=\box123
 \l__tblr_c_box=\box124
@@ -936,10 +959,10 @@ Package: tabularray 2023-03-01 v2023A Typeset tabulars and arrays with LaTeX3
 \c@colnum=\count455
 \c@rowcount=\count456
 \c@colcount=\count457
-\abovesep=\dimen260
-\belowsep=\dimen261
-\leftsep=\dimen262
-\rightsep=\dimen263
+\abovesep=\dimen262
+\belowsep=\dimen263
+\leftsep=\dimen264
+\rightsep=\dimen265
 \g_tblr_level_int=\count458
 \g__tblr_data_row_key_count_int=\count459
 \g__tblr_data_column_key_count_int=\count460
@@ -950,27 +973,27 @@ Package: tabularray 2023-03-01 v2023A Typeset tabulars and arrays with LaTeX3
 \l__tblr_key_quotient_two_int=\count465
 \l__tblr_key_remainder_int=\count466
 \g__tblr_data_str_value_count_int=\count467
-\rulewidth=\dimen264
-\l__tblr_strut_dp_dim=\dimen265
-\l__tblr_strut_ht_dim=\dimen266
-\g__tblr_cell_wd_dim=\dimen267
-\g__tblr_cell_ht_dim=\dimen268
-\g__tblr_cell_head_dim=\dimen269
-\g__tblr_cell_foot_dim=\dimen270
-\l__column_target_dim=\dimen271
+\rulewidth=\dimen266
+\l__tblr_strut_dp_dim=\dimen267
+\l__tblr_strut_ht_dim=\dimen268
+\g__tblr_cell_wd_dim=\dimen269
+\g__tblr_cell_ht_dim=\dimen270
+\g__tblr_cell_head_dim=\dimen271
+\g__tblr_cell_foot_dim=\dimen272
+\l__column_target_dim=\dimen273
 \l__tblr_caption_box=\box126
 \l__tblr_caption_left_box=\box127
 \l__tblr_row_head_box=\box128
 \l__tblr_row_foot_box=\box129
-\l__tblr_row_head_foot_dim=\dimen272
-\tablewidth=\dimen273
+\l__tblr_row_head_foot_dim=\dimen274
+\tablewidth=\dimen275
 \l__tblr_table_firsthead_box=\box130
 \l__tblr_table_middlehead_box=\box131
 \l__tblr_table_lasthead_box=\box132
 \l__tblr_table_firstfoot_box=\box133
 \l__tblr_table_middlefoot_box=\box134
 \l__tblr_table_lastfoot_box=\box135
-\l__tblr_remain_height_dim=\dimen274
+\l__tblr_remain_height_dim=\dimen276
 \l__tblr_long_from_int=\count468
 \l__tblr_long_to_int=\count469
 \l__tblr_curr_i_int=\count470
@@ -978,30 +1001,30 @@ Package: tabularray 2023-03-01 v2023A Typeset tabulars and arrays with LaTeX3
 \l__tblr_table_page_int=\count472
 \l__tblr_table_head_box=\box136
 \l__tblr_table_foot_box=\box137
-\l__tblr_table_head_foot_dim=\dimen275
-\l__tblr_table_head_body_foot_dim=\dimen276
+\l__tblr_table_head_foot_dim=\dimen277
+\l__tblr_table_head_body_foot_dim=\dimen278
 \l__tblr_table_box=\box138
 \l__tblr_table_hlines_box=\box139
 \l__tblr_hline_box=\box140
 \l__tblr_row_box=\box141
-\l__tblr_col_o_wd_dim=\dimen277
-\l__tblr_col_b_wd_dim=\dimen278
-\l__tblr_hline_leftskip_dim=\dimen279
-\l__tblr_hline_rightskip_dim=\dimen280
-\l__tblr_row_ht_dim=\dimen281
-\l__tblr_row_dp_dim=\dimen282
-\l__tblr_row_abovesep_dim=\dimen283
-\l__tblr_row_belowsep_dim=\dimen284
+\l__tblr_col_o_wd_dim=\dimen279
+\l__tblr_col_b_wd_dim=\dimen280
+\l__tblr_hline_leftskip_dim=\dimen281
+\l__tblr_hline_rightskip_dim=\dimen282
+\l__tblr_row_ht_dim=\dimen283
+\l__tblr_row_dp_dim=\dimen284
+\l__tblr_row_abovesep_dim=\dimen285
+\l__tblr_row_belowsep_dim=\dimen286
 \l__tblr_row_vlines_box=\box142
 \l__tblr_vline_box=\box143
 \l__tblr_cell_box=\box144
-\l__row_upper_dim=\dimen285
-\l__row_lower_dim=\dimen286
-\l__row_vpace_dim=\dimen287
-\l__tblr_vline_aboveskip_dim=\dimen288
-\l__tblr_vline_belowskip_dim=\dimen289
-\l__tblr_cell_wd_dim=\dimen290
-\l__tblr_cell_ht_dim=\dimen291
+\l__row_upper_dim=\dimen287
+\l__row_lower_dim=\dimen288
+\l__row_vpace_dim=\dimen289
+\l__tblr_vline_aboveskip_dim=\dimen290
+\l__tblr_vline_belowskip_dim=\dimen291
+\l__tblr_cell_wd_dim=\dimen292
+\l__tblr_cell_ht_dim=\dimen293
 \l__tblr_diag_box=\box145
 ) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/datetime2\datetime2.sty
 Package: datetime2 2021/03/21 v1.5.7 (NLCT) date and time formats
@@ -1023,8 +1046,8 @@ File: datetime2-english-base.ldf 2019/10/21 v1.05 (NLCT)
 File: datetime2-en-US.ldf 2019/10/21 v1.05 (NLCT)
 )) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks39
-\pgfutil@tempdima=\dimen292
-\pgfutil@tempdimb=\dimen293
+\pgfutil@tempdima=\dimen294
+\pgfutil@tempdimb=\dimen295
 ) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
 \pgfutil@abb=\box146
 ) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
@@ -1039,16 +1062,16 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks42
 ))
-\pgf@x=\dimen294
-\pgf@y=\dimen295
-\pgf@xa=\dimen296
-\pgf@ya=\dimen297
-\pgf@xb=\dimen298
-\pgf@yb=\dimen299
-\pgf@xc=\dimen300
-\pgf@yc=\dimen301
-\pgf@xd=\dimen302
-\pgf@yd=\dimen303
+\pgf@x=\dimen296
+\pgf@y=\dimen297
+\pgf@xa=\dimen298
+\pgf@ya=\dimen299
+\pgf@xb=\dimen300
+\pgf@yb=\dimen301
+\pgf@xc=\dimen302
+\pgf@yc=\dimen303
+\pgf@xd=\dimen304
+\pgf@yd=\dimen305
 \w@pgf@writea=\write4
 \r@pgf@reada=\read4
 \c@pgf@counta=\count474
@@ -1076,7 +1099,7 @@ File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
-\pgfmath@dimen=\dimen304
+\pgfmath@dimen=\dimen306
 \pgfmath@count=\count481
 \pgfmath@box=\box147
 \pgfmath@toks=\toks46
@@ -1086,28 +1109,28 @@ Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 \c@pgfmathroundto@lastzeros=\count482
 )) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen305
-\pgf@picmaxx=\dimen306
-\pgf@picminy=\dimen307
-\pgf@picmaxy=\dimen308
-\pgf@pathminx=\dimen309
-\pgf@pathmaxx=\dimen310
-\pgf@pathminy=\dimen311
-\pgf@pathmaxy=\dimen312
-\pgf@xx=\dimen313
-\pgf@xy=\dimen314
-\pgf@yx=\dimen315
-\pgf@yy=\dimen316
-\pgf@zx=\dimen317
-\pgf@zy=\dimen318
+\pgf@picminx=\dimen307
+\pgf@picmaxx=\dimen308
+\pgf@picminy=\dimen309
+\pgf@picmaxy=\dimen310
+\pgf@pathminx=\dimen311
+\pgf@pathmaxx=\dimen312
+\pgf@pathminy=\dimen313
+\pgf@pathmaxy=\dimen314
+\pgf@xx=\dimen315
+\pgf@xy=\dimen316
+\pgf@yx=\dimen317
+\pgf@yy=\dimen318
+\pgf@zx=\dimen319
+\pgf@zy=\dimen320
 ) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen319
-\pgf@path@lasty=\dimen320
+\pgf@path@lastx=\dimen321
+\pgf@path@lasty=\dimen322
 ) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen321
-\pgf@shorten@start@additional=\dimen322
+\pgf@shorten@end@additional=\dimen323
+\pgf@shorten@start@additional=\dimen324
 ) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box148
@@ -1116,12 +1139,12 @@ File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@picture@serial@count=\count483
 ) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen323
+\pgflinewidth=\dimen325
 ) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen324
-\pgf@pt@y=\dimen325
-\pgf@pt@temp=\dimen326
+\pgf@pt@x=\dimen326
+\pgf@pt@y=\dimen327
+\pgf@pt@temp=\dimen328
 ) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
@@ -1130,10 +1153,10 @@ File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen327
+\pgfarrowsep=\dimen329
 ) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen328
+\pgf@max=\dimen330
 \pgf@sys@shading@range@num=\count484
 \pgf@shadingcount=\count485
 ) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
@@ -1156,14 +1179,14 @@ File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen329
-\pgf@nodesepend=\dimen330
+\pgf@nodesepstart=\dimen331
+\pgf@nodesepend=\dimen332
 ) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 )) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen331
-\pgffor@skip=\dimen332
+\pgffor@iter=\dimen333
+\pgffor@skip=\dimen334
 \pgffor@stack=\toks49
 \pgffor@toks=\toks50
 )) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
@@ -1171,16 +1194,16 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@plot@mark@count=\count486
-\pgfplotmarksize=\dimen333
+\pgfplotmarksize=\dimen335
 )
-\tikz@lastx=\dimen334
-\tikz@lasty=\dimen335
-\tikz@lastxsaved=\dimen336
-\tikz@lastysaved=\dimen337
-\tikz@lastmovetox=\dimen338
-\tikz@lastmovetoy=\dimen339
-\tikzleveldistance=\dimen340
-\tikzsiblingdistance=\dimen341
+\tikz@lastx=\dimen336
+\tikz@lasty=\dimen337
+\tikz@lastxsaved=\dimen338
+\tikz@lastysaved=\dimen339
+\tikz@lastmovetox=\dimen340
+\tikz@lastmovetoy=\dimen341
+\tikzleveldistance=\dimen342
+\tikzsiblingdistance=\dimen343
 \tikz@figbox=\box153
 \tikz@figbox@bg=\box154
 \tikz@tempbox=\box155
@@ -1200,23 +1223,23 @@ File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen342
-\lightrulewidth=\dimen343
-\cmidrulewidth=\dimen344
-\belowrulesep=\dimen345
-\belowbottomsep=\dimen346
-\aboverulesep=\dimen347
-\abovetopsep=\dimen348
-\cmidrulesep=\dimen349
-\cmidrulekern=\dimen350
-\defaultaddspace=\dimen351
+\heavyrulewidth=\dimen344
+\lightrulewidth=\dimen345
+\cmidrulewidth=\dimen346
+\belowrulesep=\dimen347
+\belowbottomsep=\dimen348
+\aboverulesep=\dimen349
+\abovetopsep=\dimen350
+\cmidrulesep=\dimen351
+\cmidrulekern=\dimen352
+\defaultaddspace=\dimen353
 \@cmidla=\count495
 \@cmidlb=\count496
-\@aboverulesep=\dimen352
-\@belowrulesep=\dimen353
+\@aboverulesep=\dimen354
+\@belowrulesep=\dimen355
 \@thisruleclass=\count497
 \@lastruleclass=\count498
-\@thisrulewidth=\dimen354
+\@thisrulewidth=\dimen356
 ) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
@@ -1235,33 +1258,33 @@ Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
 Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
 \collectedbox=\box157
 )
-\tc@llx=\dimen355
-\tc@lly=\dimen356
-\tc@urx=\dimen357
-\tc@ury=\dimen358
+\tc@llx=\dimen357
+\tc@lly=\dimen358
+\tc@urx=\dimen359
+\tc@ury=\dimen360
 Package trimclip Info: Using driver 'tc-pdftex.def'.
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen359
-\adjbox@Height=\dimen360
-\adjbox@Depth=\dimen361
-\adjbox@Totalheight=\dimen362
-\adjbox@pwidth=\dimen363
-\adjbox@pheight=\dimen364
-\adjbox@pdepth=\dimen365
-\adjbox@ptotalheight=\dimen366
+\adjbox@Width=\dimen361
+\adjbox@Height=\dimen362
+\adjbox@Depth=\dimen363
+\adjbox@Totalheight=\dimen364
+\adjbox@pwidth=\dimen365
+\adjbox@pheight=\dimen366
+\adjbox@pdepth=\dimen367
+\adjbox@ptotalheight=\dimen368
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box158
 \sift@deathcycles=\count501
-\@vwid@loff=\dimen367
-\@vwid@roff=\dimen368
+\@vwid@loff=\dimen369
+\@vwid@roff=\dimen370
 )) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\arrowsize=\dimen369
+\arrowsize=\dimen371
 )) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarysnakes.code.tex
 File: tikzlibrarysnakes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
@@ -1269,14 +1292,14 @@ File: tikzlibrarysnakes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 Package pgf Warning: Snakes have been superseded by decorations. Please use the decoration libraries instead of the snakes library on input line 14.
 
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.code.tex (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen370
-\pgfdecoratedremainingdistance=\dimen371
-\pgfdecoratedinputsegmentcompleteddistance=\dimen372
-\pgfdecoratedinputsegmentremainingdistance=\dimen373
-\pgf@decorate@distancetomove=\dimen374
+\pgfdecoratedcompleteddistance=\dimen372
+\pgfdecoratedremainingdistance=\dimen373
+\pgfdecoratedinputsegmentcompleteddistance=\dimen374
+\pgfdecoratedinputsegmentremainingdistance=\dimen375
+\pgf@decorate@distancetomove=\dimen376
 \pgf@decorate@repeatstate=\count502
-\pgfdecorationsegmentamplitude=\dimen375
-\pgfdecorationsegmentlength=\dimen376
+\pgfdecorationsegmentamplitude=\dimen377
+\pgfdecorationsegmentlength=\dimen378
 )
 \tikz@lib@dec@box=\box159
 ) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathmorphing.code.tex)) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathreplacing.code.tex)) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.shapes.code.tex (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.shapes.code.tex))) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarybackgrounds.code.tex
@@ -1304,7 +1327,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count503
 )
-\@linkdim=\dimen377
+\@linkdim=\dimen379
 \Hy@linkcounter=\count504
 \Hy@pagecounter=\count505
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
@@ -1329,15 +1352,15 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4448.
 \c@Hy@tempcnt=\count507
 LaTeX Info: Redefining \url on input line 4786.
-\XeTeXLinkMargin=\dimen378
+\XeTeXLinkMargin=\dimen380
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count508
-\Field@Width=\dimen379
-\Fld@charsize=\dimen380
+\Field@Width=\dimen381
+\Fld@charsize=\dimen382
 Package hyperref Info: Hyper figures OFF on input line 6065.
 Package hyperref Info: Link nesting OFF on input line 6070.
 Package hyperref Info: Hyper index ON on input line 6073.
@@ -1371,7 +1394,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip130
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 80.
+Package hyperref Info: Option `colorlinks' set `true' on input line 81.
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/parskip\parskip.sty
 Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
 ) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
@@ -1382,14 +1405,14 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@cnth=\count514
 \Gm@cntv=\count515
 \c@Gm@tempcnt=\count516
-\Gm@bindingoffset=\dimen381
-\Gm@wd@mp=\dimen382
-\Gm@odd@mp=\dimen383
-\Gm@even@mp=\dimen384
-\Gm@layoutwidth=\dimen385
-\Gm@layoutheight=\dimen386
-\Gm@layouthoffset=\dimen387
-\Gm@layoutvoffset=\dimen388
+\Gm@bindingoffset=\dimen383
+\Gm@wd@mp=\dimen384
+\Gm@odd@mp=\dimen385
+\Gm@even@mp=\dimen386
+\Gm@layoutwidth=\dimen387
+\Gm@layoutheight=\dimen388
+\Gm@layouthoffset=\dimen389
+\Gm@layoutvoffset=\dimen390
 \Gm@dimlist=\toks51
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -1414,26 +1437,26 @@ LaTeX Warning: Label `fig:parking_search' multiply defined.
 ) (Sections/work_evaluation_&_future_plans.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
@@ -1548,18 +1571,18 @@ Package csquotes Warning: No space factor codes for 'T5' encoding.
 (csquotes)                Punctuation tracker may fail on input line 577.
 
 )
-Package biblatex Info: Reference section=0 on input line 137.
-Package biblatex Info: Reference segment=0 on input line 137.
+Package biblatex Info: Reference section=0 on input line 138.
+Package biblatex Info: Reference segment=0 on input line 138.
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count518
-\scratchdimen=\dimen389
+\scratchdimen=\dimen391
 \scratchbox=\box162
 \nofMPsegments=\count519
 \nofMParguments=\count520
 \everyMPshowfont=\toks52
 \MPscratchCnt=\count521
-\MPscratchDim=\dimen390
+\MPscratchDim=\dimen392
 \MPnumerator=\count522
 \makeMPintoPDFobject=\count523
 \everyMPtoPDFconversion=\toks53
@@ -1578,7 +1601,7 @@ Package caption Info: End \AtBeginDocument code.
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/ninecolors\ninecolors.sty
 Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
 )
-Package hyperref Info: Link coloring ON on input line 137.
+Package hyperref Info: Link coloring ON on input line 138.
  (main.out) (main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -1605,10 +1628,10 @@ Package hyperref Info: Link coloring ON on input line 137.
 * \headsep=25.0pt
 * \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=54.2025pt
+* \marginparwidth=57.0pt
 * \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=11.69997pt plus 5.19942pt minus 2.60054pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1621,88 +1644,182 @@ Package hyperref Info: Link coloring ON on input line 137.
 <assets/images/Trivia/hcmut.png, id=314, 1204.5pt x 1218.5525pt>
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 163.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 164.
 (pdftex.def)             Requested size: 113.81102pt x 115.1315pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 180.
+LaTeX Font Info:    Calculating math sizes for size <13> on input line 181.
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <6.5> not available
+(Font)              size <6> substituted on input line 181.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <13> not available
+(Font)              size <12> substituted on input line 181.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <6.5> not available
+(Font)              size <6> substituted on input line 181.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <13> not available
+(Font)              size <12> substituted on input line 181.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <6.5> not available
+(Font)              size <6> substituted on input line 181.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 181.
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 180.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 181.
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 180.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 181.
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-) [1
+)
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <13> not available
+(Font)              size <12> substituted on input line 181.
+
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <6.5> not available
+(Font)              size <6> substituted on input line 181.
+
+[1
 
 {C:/Users/User/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./assets/images/Trivia/hcmut.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 198--207
+Underfull \hbox (badness 10000) in paragraph at lines 199--208
 
  []
 
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 211.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 212.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
-LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 211.
+LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 212.
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmtt.fd
 File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `T5/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `T5/cmtt/m/n' tried instead on input line 211.
+LaTeX Font Info:    Font shape `T5/cmtt/bx/n' in size <13> not available
+(Font)              Font shape `T5/cmtt/m/n' tried instead on input line 212.
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.211 \newpage
+l.212 \newpage
                [1]
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 226.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 227.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [2]
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[2]
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 244.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 245.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [3]
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[3]
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 261.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 262.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [4] (main.toc
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[4] (main.toc
+LaTeX Font Info:    Calculating math sizes for size <11.86258> on input line 5.
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 44.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 37.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [5])
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[5]
+File: assets/images/Trivia/hcmut.png Graphic file (type png)
+<use assets/images/Trivia/hcmut.png>
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 75.
+(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[6])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 263.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 264.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [6] (main.lof
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[7] (main.lof
 
 Package csquotes Warning: No space factor codes for 'T5' encoding.
 (csquotes)                Punctuation tracker may fail on input line 15.
 
+File: assets/images/Trivia/hcmut.png Graphic file (type png)
+<use assets/images/Trivia/hcmut.png>
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 38.
+(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
 
-Overfull \hbox (1.1167pt too wide) in paragraph at lines 26--26
- [][] [][][]\T5/cmr/m/n/10 The re-sponse con-tain-ing bus stops that are disability-friendly near the co-or-di-nate (10.77037, 
- []
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
 
-)
+[8])
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
-File: assets/images/Trivia/hcmut.png Graphic file (type png)
-<use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 265.
-(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [7] (main.lot)
+ (main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
@@ -1710,7 +1827,15 @@ File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
 Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 268.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [8]
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[9]
 \openout2 = `Sections/introduction.aux'.
 
  (Sections/introduction.tex
@@ -1722,28 +1847,54 @@ Package csquotes Warning: No space factor codes for 'T5' encoding.
 Package csquotes Warning: No space factor codes for 'T5' encoding.
 (csquotes)                Punctuation tracker may fail on input line 8.
 
-<assets/images/Trivia/Ket_xe.jpg, id=547, 246.95691pt x 151.14754pt>
+<assets/images/Trivia/Ket_xe.jpg, id=551, 246.95691pt x 151.14754pt>
 File: assets/images/Trivia/Ket_xe.jpg Graphic file (type jpg)
 <use assets/images/Trivia/Ket_xe.jpg>
 Package pdftex.def Info: assets/images/Trivia/Ket_xe.jpg  used on input line 12.
 (pdftex.def)             Requested size: 364.19667pt x 222.9199pt.
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 24.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 22.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
-[9
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[10
 
  <./assets/images/Trivia/Ket_xe.jpg>]
 
 Package csquotes Warning: No space factor codes for 'T5' encoding.
 (csquotes)                Punctuation tracker may fail on input line 27.
 
-)
+File: assets/images/Trivia/hcmut.png Graphic file (type png)
+<use assets/images/Trivia/hcmut.png>
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 40.
+(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[11])
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
 Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 268.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [10]
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[12]
 \openout2 = `Sections/related_research.aux'.
 
  (Sections/related_research.tex
@@ -1754,59 +1905,93 @@ Package csquotes Warning: No space factor codes for 'T5' encoding.
 
 Package hyperref Warning: bookmark level for unknown subsubsubsection defaults to 0.
 
-<assets/images/Research/Bus/gobus_home.png, id=564, 558.085pt x 1074.0125pt>
+<assets/images/Research/Bus/gobus_home.png, id=574, 558.085pt x 1074.0125pt>
 File: assets/images/Research/Bus/gobus_home.png Graphic file (type png)
 <use assets/images/Research/Bus/gobus_home.png>
 Package pdftex.def Info: assets/images/Research/Bus/gobus_home.png  used on input line 23.
 (pdftex.def)             Requested size: 127.46779pt x 245.29692pt.
-<assets/images/Research/Bus/gobus_find.png, id=565, 558.085pt x 1074.0125pt>
+File: assets/images/Trivia/hcmut.png Graphic file (type png)
+<use assets/images/Trivia/hcmut.png>
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 27.
+(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[13
+
+
+
+]
+<assets/images/Research/Bus/gobus_find.png, id=581, 558.085pt x 1074.0125pt>
 File: assets/images/Research/Bus/gobus_find.png Graphic file (type png)
 <use assets/images/Research/Bus/gobus_find.png>
 Package pdftex.def Info: assets/images/Research/Bus/gobus_find.png  used on input line 34.
-(pdftex.def)             Requested size: 127.46779pt x 245.29692pt.
-<assets/images/Research/Bus/gobus_routes.png, id=566, 558.085pt x 1074.0125pt>
+(pdftex.def)             Requested size: 113.81102pt x 219.02681pt.
+<assets/images/Research/Bus/gobus_routes.png, id=582, 558.085pt x 1074.0125pt>
 File: assets/images/Research/Bus/gobus_routes.png Graphic file (type png)
 <use assets/images/Research/Bus/gobus_routes.png>
 Package pdftex.def Info: assets/images/Research/Bus/gobus_routes.png  used on input line 39.
-(pdftex.def)             Requested size: 127.46779pt x 245.29692pt.
-<assets/images/Research/Bus/gobus_instruction.png, id=567, 558.085pt x 1074.0125pt>
+(pdftex.def)             Requested size: 113.81102pt x 219.02681pt.
+
+Underfull \hbox (badness 1881) in paragraph at lines 39--39
+[]\T5/cmr/m/n/11.86258 (b) |The stops do not
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+\T5/cmr/m/n/11.86258 show any-thing when
+ []
+
+<assets/images/Research/Bus/gobus_instruction.png, id=583, 558.085pt x 1074.0125pt>
 File: assets/images/Research/Bus/gobus_instruction.png Graphic file (type png)
 <use assets/images/Research/Bus/gobus_instruction.png>
 Package pdftex.def Info: assets/images/Research/Bus/gobus_instruction.png  used on input line 44.
-(pdftex.def)             Requested size: 127.46779pt x 245.29692pt.
-
-Underfull \hbox (badness 2990) in paragraph at lines 44--44
-[]\T5/cmr/m/n/9 (c) |Em-bed-ded web view with
- []
-
-File: assets/images/Trivia/hcmut.png Graphic file (type png)
-<use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 47.
-(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
-[11
-
-
-
- <./assets/images/Research/Bus/gobus_home.png>]
+(pdftex.def)             Requested size: 113.81102pt x 219.02681pt.
 
 Package csquotes Warning: No space factor codes for 'T5' encoding.
 (csquotes)                Punctuation tracker may fail on input line 48.
+
+File: assets/images/Trivia/hcmut.png Graphic file (type png)
+<use assets/images/Trivia/hcmut.png>
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 50.
+(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[14 <./assets/images/Research/Bus/gobus_home.png> <./assets/images/Research/Bus/gobus_find.png> <./assets/images/Research/Bus/gobus_routes.png> <./assets/images/Research/Bus/gobus_instruction.png>]
+Overfull \hbox (42.65057pt too wide) in paragraph at lines 55--56
+[]\T5/cmr/bx/n/11.86258 Real-time bus ar-rival pre-dic-tions: \T5/cmr/m/n/11.86258 To pro-mote ef-fi-cient travel plan-ning, buyttphcm.com.vn
+ []
 
 
 Package hyperref Warning: Difference (3) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 62.
 
-File: assets/images/Trivia/hcmut.png Graphic file (type png)
-<use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 66.
-(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
-[12 <./assets/images/Research/Bus/gobus_find.png> <./assets/images/Research/Bus/gobus_routes.png> <./assets/images/Research/Bus/gobus_instruction.png>]
-<assets/images/Research/Bus/busmap_home.png, id=587, 558.085pt x 1074.0125pt>
+<assets/images/Research/Bus/busmap_home.png, id=595, 558.085pt x 1074.0125pt>
 File: assets/images/Research/Bus/busmap_home.png Graphic file (type png)
 <use assets/images/Research/Bus/busmap_home.png>
 Package pdftex.def Info: assets/images/Research/Bus/busmap_home.png  used on input line 70.
 (pdftex.def)             Requested size: 136.57462pt x 262.83218pt.
+File: assets/images/Trivia/hcmut.png Graphic file (type png)
+<use assets/images/Trivia/hcmut.png>
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 74.
+(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
 
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[15]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 75.
@@ -1815,65 +2000,112 @@ File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
 Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 85.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
-[13 <./assets/images/Research/Bus/busmap_home.png>]
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[16 <./assets/images/Research/Bus/busmap_home.png>]
 
 Package csquotes Warning: No space factor codes for 'T5' encoding.
 (csquotes)                Punctuation tracker may fail on input line 90.
 
-<assets/images/Research/Parking/myparking_surveillance.png, id=595, 813.0375pt x 1445.4pt>
+<assets/images/Research/Parking/myparking_surveillance.png, id=608, 813.0375pt x 1445.4pt>
 File: assets/images/Research/Parking/myparking_surveillance.png Graphic file (type png)
 <use assets/images/Research/Parking/myparking_surveillance.png>
 Package pdftex.def Info: assets/images/Research/Parking/myparking_surveillance.png  used on input line 97.
-(pdftex.def)             Requested size: 127.46779pt x 226.59306pt.
-<assets/images/Research/Parking/myparking_infraction_list.png, id=596, 813.0375pt x 1445.4pt>
+(pdftex.def)             Requested size: 113.81102pt x 202.3105pt.
+<assets/images/Research/Parking/myparking_infraction_list.png, id=609, 813.0375pt x 1445.4pt>
 File: assets/images/Research/Parking/myparking_infraction_list.png Graphic file (type png)
 <use assets/images/Research/Parking/myparking_infraction_list.png>
 Package pdftex.def Info: assets/images/Research/Parking/myparking_infraction_list.png  used on input line 102.
-(pdftex.def)             Requested size: 127.46779pt x 226.59306pt.
-<assets/images/Research/Parking/myparking_new_infraction.png, id=597, 722.7pt x 1284.8pt>
+(pdftex.def)             Requested size: 113.81102pt x 202.3105pt.
+<assets/images/Research/Parking/myparking_new_infraction.png, id=610, 722.7pt x 1284.8pt>
 File: assets/images/Research/Parking/myparking_new_infraction.png Graphic file (type png)
 <use assets/images/Research/Parking/myparking_new_infraction.png>
 Package pdftex.def Info: assets/images/Research/Parking/myparking_new_infraction.png  used on input line 107.
-(pdftex.def)             Requested size: 127.46779pt x 226.60777pt.
-<assets/images/Research/Parking/myparking_search.png, id=598, 813.0375pt x 1445.4pt>
+(pdftex.def)             Requested size: 113.81102pt x 202.31786pt.
+<assets/images/Research/Parking/myparking_search.png, id=611, 813.0375pt x 1445.4pt>
 File: assets/images/Research/Parking/myparking_search.png Graphic file (type png)
 <use assets/images/Research/Parking/myparking_search.png>
 Package pdftex.def Info: assets/images/Research/Parking/myparking_search.png  used on input line 120.
-(pdftex.def)             Requested size: 127.46779pt x 226.59306pt.
-<assets/images/Research/Parking/myparking_book.png, id=599, 813.0375pt x 1445.4pt>
+(pdftex.def)             Requested size: 113.81102pt x 202.3105pt.
+<assets/images/Research/Parking/myparking_book.png, id=612, 813.0375pt x 1445.4pt>
 File: assets/images/Research/Parking/myparking_book.png Graphic file (type png)
 <use assets/images/Research/Parking/myparking_book.png>
 Package pdftex.def Info: assets/images/Research/Parking/myparking_book.png  used on input line 125.
-(pdftex.def)             Requested size: 127.46779pt x 226.59306pt.
-<assets/images/Research/Parking/myparking_payment.png, id=600, 813.0375pt x 1445.4pt>
+(pdftex.def)             Requested size: 113.81102pt x 202.3105pt.
+<assets/images/Research/Parking/myparking_payment.png, id=613, 813.0375pt x 1445.4pt>
 File: assets/images/Research/Parking/myparking_payment.png Graphic file (type png)
 <use assets/images/Research/Parking/myparking_payment.png>
 Package pdftex.def Info: assets/images/Research/Parking/myparking_payment.png  used on input line 130.
-(pdftex.def)             Requested size: 127.46779pt x 226.59306pt.
+(pdftex.def)             Requested size: 113.81102pt x 202.3105pt.
+
+Underfull \hbox (badness 3568) in paragraph at lines 130--130
+[]\T5/cmr/m/n/11.86258 (c) |Make dig-i-tal pay-
+ []
+
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
 Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 133.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
-[14 <./assets/images/Research/Parking/myparking_surveillance.png> <./assets/images/Research/Parking/myparking_infraction_list.png> <./assets/images/Research/Parking/myparking_new_infraction.png>]
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[17 <./assets/images/Research/Parking/myparking_surveillance.png> <./assets/images/Research/Parking/myparking_infraction_list.png> <./assets/images/Research/Parking/myparking_new_infraction.png>]
 
 Package csquotes Warning: No space factor codes for 'T5' encoding.
 (csquotes)                Punctuation tracker may fail on input line 139.
 
-<assets/images/Research/trafficview/hcmut_trafficview_demo.png, id=612, 955.57pt x 1082.0425pt>
+<assets/images/Research/trafficview/hcmut_trafficview_demo.png, id=625, 955.57pt x 1082.0425pt>
 File: assets/images/Research/trafficview/hcmut_trafficview_demo.png Graphic file (type png)
 <use assets/images/Research/trafficview/hcmut_trafficview_demo.png>
 Package pdftex.def Info: assets/images/Research/trafficview/hcmut_trafficview_demo.png  used on input line 143.
-(pdftex.def)             Requested size: 318.66948pt x 360.83955pt.
+(pdftex.def)             Requested size: 364.19667pt x 412.3857pt.
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
 Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 147.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
-[15 <./assets/images/Research/Parking/myparking_search.png> <./assets/images/Research/Parking/myparking_book.png> <./assets/images/Research/Parking/myparking_payment.png>])
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[18 <./assets/images/Research/Parking/myparking_search.png> <./assets/images/Research/Parking/myparking_book.png> <./assets/images/Research/Parking/myparking_payment.png>])
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
 Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 269.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [16 <./assets/images/Research/trafficview/hcmut_trafficview_demo.png>]
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[19 <./assets/images/Research/trafficview/hcmut_trafficview_demo.png>]
+File: assets/images/Trivia/hcmut.png Graphic file (type png)
+<use assets/images/Trivia/hcmut.png>
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 269.
+(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[20]
 \openout2 = `Sections/system_analysis_and_design.aux'.
 
  (Sections/system_analysis_and_design.tex
@@ -1897,209 +2129,485 @@ Package csquotes Warning: No space factor codes for 'T5' encoding.
 Package csquotes Warning: No space factor codes for 'T5' encoding.
 (csquotes)                Punctuation tracker may fail on input line 21.
 
-<assets/images/Research/geojson/example_geojson.png, id=635, 1690.315pt x 1742.51pt>
+File: assets/images/Trivia/hcmut.png Graphic file (type png)
+<use assets/images/Trivia/hcmut.png>
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 22.
+(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[21
+
+
+
+]
+<assets/images/Research/geojson/example_geojson.png, id=663, 1690.315pt x 1742.51pt>
 File: assets/images/Research/geojson/example_geojson.png Graphic file (type png)
 <use assets/images/Research/geojson/example_geojson.png>
 Package pdftex.def Info: assets/images/Research/geojson/example_geojson.png  used on input line 25.
 (pdftex.def)             Requested size: 341.43307pt x 351.97893pt.
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 29.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 46.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
-[17
 
 
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
 
-]
-<assets/images/Research/geojson/geojson_features.png, id=647, 436.87215pt x 249.87352pt>
+[22 <./assets/images/Research/geojson/example_geojson.png>]
+<assets/images/Research/geojson/geojson_features.png, id=672, 436.87215pt x 249.87352pt>
 File: assets/images/Research/geojson/geojson_features.png Graphic file (type png)
 <use assets/images/Research/geojson/geojson_features.png>
 Package pdftex.def Info: assets/images/Research/geojson/geojson_features.png  used on input line 56.
-(pdftex.def)             Requested size: 250.38564pt x 143.21098pt.
-File: assets/images/Trivia/hcmut.png Graphic file (type png)
-<use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 60.
-(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [18 <./assets/images/Research/geojson/example_geojson.png>]
+(pdftex.def)             Requested size: 318.66948pt x 182.2765pt.
+
+Overfull \hbox (1.3739pt too wide) in paragraph at lines 67--68
+[]\T5/cmr/bx/n/11.86258 Ease of un-der-stand-ing\T5/cmr/m/n/11.86258 : Be-cause Geo-J-SON dis-plays data in a struc-tured and human-
+ []
+
 
 Package csquotes Warning: No space factor codes for 'T5' encoding.
 (csquotes)                Punctuation tracker may fail on input line 68.
 
-<assets/images/Research/geojson/geojsonio.png, id=657, 955.57pt x 1082.0425pt>
+<assets/images/Research/geojson/geojsonio.png, id=675, 955.57pt x 1082.0425pt>
 File: assets/images/Research/geojson/geojsonio.png Graphic file (type png)
 <use assets/images/Research/geojson/geojsonio.png>
 Package pdftex.def Info: assets/images/Research/geojson/geojsonio.png  used on input line 71.
-(pdftex.def)             Requested size: 227.62206pt x 257.74725pt.
+(pdftex.def)             Requested size: 250.38564pt x 283.52032pt.
+File: assets/images/Trivia/hcmut.png Graphic file (type png)
+<use assets/images/Trivia/hcmut.png>
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 75.
+(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[23 <./assets/images/Research/geojson/geojson_features.png>]
 
 Package csquotes Warning: No space factor codes for 'T5' encoding.
 (csquotes)                Punctuation tracker may fail on input line 75.
 
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 76.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 87.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
-[19 <./assets/images/Research/geojson/geojson_features.png> <./assets/images/Research/geojson/geojsonio.png>]
-File: assets/images/Trivia/hcmut.png Graphic file (type png)
-<use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 103.
-(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [20]
-<assets/images/Research/API/notgeojson.png, id=676, 1043.9pt x 1381.16pt>
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[24 <./assets/images/Research/geojson/geojsonio.png>]
+<assets/images/Research/API/notgeojson.png, id=694, 1043.9pt x 1381.16pt>
 File: assets/images/Research/API/notgeojson.png Graphic file (type png)
 <use assets/images/Research/API/notgeojson.png>
-Package pdftex.def Info: assets/images/Research/API/notgeojson.png  used on input line 108.
+Package pdftex.def Info: assets/images/Research/API/notgeojson.png  used on input line 107.
 (pdftex.def)             Requested size: 182.09486pt x 240.92685pt.
-<assets/images/Research/API/geojson.png, id=677, 1043.9pt x 1698.345pt>
+<assets/images/Research/API/geojson.png, id=695, 1043.9pt x 1698.345pt>
 File: assets/images/Research/API/geojson.png Graphic file (type png)
 <use assets/images/Research/API/geojson.png>
-Package pdftex.def Info: assets/images/Research/API/geojson.png  used on input line 112.
+Package pdftex.def Info: assets/images/Research/API/geojson.png  used on input line 111.
 (pdftex.def)             Requested size: 182.09486pt x 296.25598pt.
-<assets/images/Research/API/ne_sw_bounds.png, id=679, 1451.4225pt x 999.735pt>
-File: assets/images/Research/API/ne_sw_bounds.png Graphic file (type png)
-<use assets/images/Research/API/ne_sw_bounds.png>
-Package pdftex.def Info: assets/images/Research/API/ne_sw_bounds.png  used on input line 121.
-(pdftex.def)             Requested size: 318.66948pt x 219.49998pt.
-<assets/images/Research/API/inaction_ne_sw--bounds.png, id=681, 1330.9725pt x 1059.96pt>
-File: assets/images/Research/API/inaction_ne_sw--bounds.png Graphic file (type png)
-<use assets/images/Research/API/inaction_ne_sw--bounds.png>
-Package pdftex.def Info: assets/images/Research/API/inaction_ne_sw--bounds.png  used on input line 128.
-(pdftex.def)             Requested size: 318.66948pt x 253.78099pt.
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 131.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 114.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [21 <./assets/images/Research/API/notgeojson.png> <./assets/images/Research/API/geojson.png> <./assets/images/Research/API/ne_sw_bounds.png>]
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[25]
+<assets/images/Research/API/ne_sw_bounds.png, id=703, 1451.4225pt x 999.735pt>
+File: assets/images/Research/API/ne_sw_bounds.png Graphic file (type png)
+<use assets/images/Research/API/ne_sw_bounds.png>
+Package pdftex.def Info: assets/images/Research/API/ne_sw_bounds.png  used on input line 120.
+(pdftex.def)             Requested size: 341.43307pt x 235.16658pt.
+File: assets/images/Trivia/hcmut.png Graphic file (type png)
+<use assets/images/Trivia/hcmut.png>
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 124.
+(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[26 <./assets/images/Research/API/notgeojson.png> <./assets/images/Research/API/geojson.png>]
+<assets/images/Research/API/inaction_ne_sw--bounds.png, id=712, 1330.9725pt x 1059.96pt>
+File: assets/images/Research/API/inaction_ne_sw--bounds.png Graphic file (type png)
+<use assets/images/Research/API/inaction_ne_sw--bounds.png>
+Package pdftex.def Info: assets/images/Research/API/inaction_ne_sw--bounds.png  used on input line 127.
+(pdftex.def)             Requested size: 341.43307pt x 271.89551pt.
+
 
 Package csquotes Warning: No space factor codes for 'T5' encoding.
-(csquotes)                Punctuation tracker may fail on input line 132.
+(csquotes)                Punctuation tracker may fail on input line 131.
 
-)
+File: assets/images/Trivia/hcmut.png Graphic file (type png)
+<use assets/images/Trivia/hcmut.png>
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 133.
+(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[27 <./assets/images/Research/API/ne_sw_bounds.png> <./assets/images/Research/API/inaction_ne_sw--bounds.png>])
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
 Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 270.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [22 <./assets/images/Research/API/inaction_ne_sw--bounds.png>]
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[28]
 \openout2 = `Sections/theoretical_basis.aux'.
 
  (Sections/theoretical_basis.tex
-<assets/images/Research/System/osm_file_structure.png, id=699, 747.79375pt x 392.46625pt>
+<assets/images/Research/System/osm_file_structure.png, id=728, 747.79375pt x 392.46625pt>
 File: assets/images/Research/System/osm_file_structure.png Graphic file (type png)
 <use assets/images/Research/System/osm_file_structure.png>
-Package pdftex.def Info: assets/images/Research/System/osm_file_structure.png  used on input line 16.
-(pdftex.def)             Requested size: 409.71692pt x 215.03067pt.
+Package pdftex.def Info: assets/images/Research/System/osm_file_structure.png  used on input line 15.
+(pdftex.def)             Requested size: 455.24411pt x 238.92496pt.
 
 
 Package csquotes Warning: No space factor codes for 'T5' encoding.
-(csquotes)                Punctuation tracker may fail on input line 17.
+(csquotes)                Punctuation tracker may fail on input line 16.
 
 
 Package csquotes Warning: No space factor codes for 'T5' encoding.
-(csquotes)                Punctuation tracker may fail on input line 17.
+(csquotes)                Punctuation tracker may fail on input line 16.
 
-<assets/images/Research/System/MVC.png, id=702, 931.48pt x 660.4675pt>
-File: assets/images/Research/System/MVC.png Graphic file (type png)
-<use assets/images/Research/System/MVC.png>
-Package pdftex.def Info: assets/images/Research/System/MVC.png  used on input line 37.
-(pdftex.def)             Requested size: 318.66948pt x 225.94673pt.
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 41.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 25.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
-[23
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[29
 
 
 
  <./assets/images/Research/System/osm_file_structure.png>]
-<assets/images/Research/System/MVVM.png, id=709, 560.0925pt x 249.93375pt>
+<assets/images/Research/System/MVC.png, id=737, 931.48pt x 660.4675pt>
+File: assets/images/Research/System/MVC.png Graphic file (type png)
+<use assets/images/Research/System/MVC.png>
+Package pdftex.def Info: assets/images/Research/System/MVC.png  used on input line 36.
+(pdftex.def)             Requested size: 318.66948pt x 225.94673pt.
+<assets/images/Research/System/MVVM.png, id=738, 560.0925pt x 249.93375pt>
 File: assets/images/Research/System/MVVM.png Graphic file (type png)
 <use assets/images/Research/System/MVVM.png>
-Package pdftex.def Info: assets/images/Research/System/MVVM.png  used on input line 54.
+Package pdftex.def Info: assets/images/Research/System/MVVM.png  used on input line 53.
 (pdftex.def)             Requested size: 318.66948pt x 142.20819pt.
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 93.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 57.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [24 <./assets/images/Research/System/MVC.png> <./assets/images/Research/System/MVVM.png>]
-File: assets/images/Trivia/hcmut.png Graphic file (type png)
-<use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 116.
-(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [25]
-File: assets/images/Trivia/hcmut.png Graphic file (type png)
-<use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 150.
-(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [26]
-Underfull \hbox (badness 2229) in paragraph at lines 184--185
-[]\T5/cmr/m/n/10 Supports cross-platform de-vel-op-ment
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[30 <./assets/images/Research/System/MVC.png>]
+
+LaTeX Font Warning: Font shape `TS1/cmr/m/n' in size <13> not available
+(Font)              size <12> substituted on input line 68.
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 69--70
+[]\T5/cmr/m/n/13 The de-vel-op-ment of com-po-
  []
 
 
-Underfull \hbox (badness 1577) in paragraph at lines 185--186
-[]\T5/cmr/m/n/10 Java's ex-ten-sive third-party li-braries
+Underfull \hbox (badness 4036) in paragraph at lines 71--72
+[]\T5/cmr/m/n/13 It pro-cesses ap-pli-ca-tion re-
  []
 
 
-Underfull \hbox (badness 1117) in paragraph at lines 190--191
-[]\T5/cmr/m/n/10 Java ap-pli-ca-tions can ex-hibit slower
- []
-
-
-Underfull \hbox (badness 2941) in paragraph at lines 201--202
-[]\T5/cmr/m/n/10 Due to its in-ter-preted na-ture and
- []
-
-
-Underfull \hbox (badness 1454) in paragraph at lines 207--208
-[]\T5/cmr/m/n/10 NodeJS pri-or-i-tizes speed, mak-ing it
- []
-
-
-Underfull \hbox (badness 1158) in paragraph at lines 209--210
-[]\T5/cmr/m/n/10 A vi-brant de-vel-oper com-mu-nity has
- []
-
-
-Underfull \hbox (badness 1924) in paragraph at lines 213--214
-\T5/cmr/m/n/10 gram-ming model, which could pose
+Underfull \hbox (badness 4096) in paragraph at lines 81--82
+[]\T5/cmr/m/n/13 Business logic is de-cou-pled
  []
 
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 219.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 100.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
-[27]
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[31 <./assets/images/Research/System/MVVM.png>]
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 222.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 119.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [28]
-Underfull \hbox (badness 1881) in paragraph at lines 243--244
-\T5/cmr/m/n/10 spe-cific ac-tiv-i-ties may ne-ces-si-tate a
- []
 
 
-Underfull \hbox (badness 1184) in paragraph at lines 269--270
-[]\T5/cmr/m/n/10 Tools trans-lat-ing SQL to Mon-goDB
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[32]
+Underfull \hbox (badness 7558) in paragraph at lines 137--137
+[]|\T5/cmr/m/n/13 Uses C-based syn-tax with
  []
 
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 279.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 147.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
-[29]
-Underfull \hbox (badness 1270) in paragraph at lines 315--316
-[]\T5/cmr/m/n/10 PostgreSQL has ex-cel-lent scal-a-bil-ity,
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[33]
+File: assets/images/Trivia/hcmut.png Graphic file (type png)
+<use assets/images/Trivia/hcmut.png>
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 165.
+(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[34]
+Underfull \hbox (badness 6173) in paragraph at lines 196--197
+\T5/cmr/m/n/13 may ex-hibit slower per-for-
  []
 
 
-Underfull \hbox (badness 1448) in paragraph at lines 319--320
-\T5/cmr/m/n/10 sup-port-ing Spa-tial Data, Key-Value,
+Underfull \hbox (badness 5787) in paragraph at lines 198--199
+[]\T5/cmr/m/n/13 Python's Global In-ter-preter
  []
 
 
-Underfull \hbox (badness 2635) in paragraph at lines 319--320
-\T5/cmr/m/n/10 Struc-tured Data (SQL), and Semi-
+Underfull \hbox (badness 5475) in paragraph at lines 204--205
+\T5/cmr/m/n/13 nity has con-tributed to a
+ []
+
+
+Underfull \hbox (badness 2913) in paragraph at lines 204--205
+\T5/cmr/m/n/13 works, stream-lin-ing com-plex
+ []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 207--208
+[]\T5/cmr/m/n/13 While ex-celling in real-time
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+[]\T5/cmr/m/n/13 NodeJS uti-lizes an asyn-
+ []
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 208--209
+\T5/cmr/m/n/13 which could pose chal-lenges
+ []
+
+
+Underfull \hbox (badness 6559) in paragraph at lines 209--210
+[]\T5/cmr/m/n/13 Debugging NodeJS ap-pli-ca-
+ []
+
+File: assets/images/Trivia/hcmut.png Graphic file (type png)
+<use assets/images/Trivia/hcmut.png>
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 214.
+(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[35]
+File: assets/images/Trivia/hcmut.png Graphic file (type png)
+<use assets/images/Trivia/hcmut.png>
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 215.
+(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[36]
+Underfull \hbox (badness 2012) in paragraph at lines 232--233
+[]\T5/cmr/m/n/13 Multiple user in-ter-faces can
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
+\T5/cmr/m/n/13 (SQL) and semi-structured
+ []
+
+
+Underfull \hbox (badness 4556) in paragraph at lines 236--237
+[]\T5/cmr/m/n/13 The pro-cess of set-ting up
+ []
+
+
+Underfull \hbox (badness 6927) in paragraph at lines 237--238
+[]\T5/cmr/m/n/13 While sup-port is avail-able
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 257--258
+\T5/cmr/m/n/13 other NoSQL doc-u-ment for-
+ []
+
+
+Underfull \hbox (badness 4108) in paragraph at lines 258--259
+[]\T5/cmr/m/n/13 Capable of ef-fec-tively stor-
+ []
+
+
+Underfull \hbox (badness 3746) in paragraph at lines 258--259
+\T5/cmr/m/n/13 ing and re-triev-ing data of
+ []
+
+
+Underfull \hbox (badness 5667) in paragraph at lines 259--260
+[]\T5/cmr/m/n/13 Allows the mod-i-fi-ca-tion of
+ []
+
+
+Underfull \hbox (badness 5105) in paragraph at lines 263--264
+\T5/cmr/m/n/13 suf-fi-cient se-cu-rity mea-sures,
+ []
+
+
+Overfull \hbox (3.0968pt too wide) in paragraph at lines 249--266
+ [][] 
+ []
+
+File: assets/images/Trivia/hcmut.png Graphic file (type png)
+<use assets/images/Trivia/hcmut.png>
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 268.
+(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 282--283
+[]\T5/cmr/m/n/13 Oracle con-sis-tently de-liver
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 283--284
+[]\T5/cmr/m/n/13 Supports var-i-ous data mod-
+ []
+
+
+Underfull \hbox (badness 2221) in paragraph at lines 283--284
+\T5/cmr/m/n/13 els, in-clud-ing semistruc-tured
+ []
+
+
+Underfull \hbox (badness 1762) in paragraph at lines 287--288
+[]\T5/cmr/m/n/13 The cost of Or-a-cle can be
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--288
+\T5/cmr/m/n/13 pro-hibitive, par-tic-u-larly for
+ []
+
+File: assets/images/Trivia/hcmut.png Graphic file (type png)
+<use assets/images/Trivia/hcmut.png>
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 297.
+(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[38]
+Underfull \hbox (badness 2922) in paragraph at lines 311--312
+[]\T5/cmr/m/n/13 Functions as a multi-model
+ []
+
+
+Underfull \hbox (badness 2065) in paragraph at lines 311--312
+\T5/cmr/m/n/13 database, sup-port-ing Spa-tial
+ []
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 311--312
+\T5/cmr/m/n/13 Data, Key-Value, Struc-tured
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
+\T5/cmr/m/n/13 Data (SQL), and Semi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
+\T5/cmr/m/n/13 Structured Data (JSON,
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 315--316
+[]\T5/cmr/m/n/13 Speed may be af-fected dur-
+ []
+
+
+Overfull \hbox (13.07005pt too wide) in paragraph at lines 300--318
+ [][] 
  []
 
 )
@@ -2107,226 +2615,420 @@ File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
 Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 271.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [30]
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[39]
 \openout2 = `Sections/implementation.aux'.
 
  (Sections/implementation.tex
-<assets/images/Implementation/system_architecture_diagram.png, id=749, 1812.7725pt x 728.7225pt>
+<assets/images/Implementation/system_architecture_diagram.png, id=793, 1812.7725pt x 728.7225pt>
 File: assets/images/Implementation/system_architecture_diagram.png Graphic file (type png)
 <use assets/images/Implementation/system_architecture_diagram.png>
 Package pdftex.def Info: assets/images/Implementation/system_architecture_diagram.png  used on input line 11.
-(pdftex.def)             Requested size: 364.19667pt x 146.39795pt.
-<assets/images/Research/Bus/lat_long_web.png, id=750, 1445.4pt x 778.40813pt>
+(pdftex.def)             Requested size: 455.24411pt x 183.003pt.
+File: assets/images/Trivia/hcmut.png Graphic file (type png)
+<use assets/images/Trivia/hcmut.png>
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 32.
+(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[40
+
+
+
+ <./assets/images/Implementation/system_architecture_diagram.png>]
+Overfull \hbox (0.44586pt too wide) in paragraph at lines 32--33
+[]\T5/cmr/bx/n/11.86258 L.Config.js: \T5/cmr/m/n/11.86258 This is a con-fig-u-ra-tion file to set up the map ren-der-ing for Buyt TPHCM.
+ []
+
+<assets/images/Research/Bus/lat_long_web.png, id=800, 1445.4pt x 778.40813pt>
 File: assets/images/Research/Bus/lat_long_web.png Graphic file (type png)
 <use assets/images/Research/Bus/lat_long_web.png>
 Package pdftex.def Info: assets/images/Research/Bus/lat_long_web.png  used on input line 38.
-(pdftex.def)             Requested size: 364.19667pt x 196.13376pt.
-File: assets/images/Trivia/hcmut.png Graphic file (type png)
-<use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 42.
-(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [31
-
-
-
- <./assets/images/Implementation/system_architecture_diagram.png>] (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+(pdftex.def)             Requested size: 455.24411pt x 245.16423pt.
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
-<assets/images/Research/Bus/plot_route.png, id=757, 754.82pt x 658.46pt>
+File: assets/images/Trivia/hcmut.png Graphic file (type png)
+<use assets/images/Trivia/hcmut.png>
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 54.
+(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[41 <./assets/images/Research/Bus/lat_long_web.png>]
+<assets/images/Research/Bus/plot_route.png, id=815, 754.82pt x 658.46pt>
 File: assets/images/Research/Bus/plot_route.png Graphic file (type png)
 <use assets/images/Research/Bus/plot_route.png>
 Package pdftex.def Info: assets/images/Research/Bus/plot_route.png  used on input line 77.
 (pdftex.def)             Requested size: 182.09486pt x 158.84746pt.
-<assets/images/Research/Bus/actual_route.png, id=758, 948.54375pt x 865.2325pt>
+<assets/images/Research/Bus/actual_route.png, id=816, 948.54375pt x 865.2325pt>
 File: assets/images/Research/Bus/actual_route.png Graphic file (type png)
 <use assets/images/Research/Bus/actual_route.png>
 Package pdftex.def Info: assets/images/Research/Bus/actual_route.png  used on input line 82.
 (pdftex.def)             Requested size: 182.09486pt x 166.09898pt.
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 83.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 85.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [32 <./assets/images/Research/Bus/lat_long_web.png>]
-<assets/images/Research/Bus/stop_web.png, id=789, 1445.4pt x 775.39688pt>
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[42 <./assets/images/Research/Bus/plot_route.png> <./assets/images/Research/Bus/actual_route.png>]
+<assets/images/Research/Bus/stop_web.png, id=842, 1445.4pt x 775.39688pt>
 File: assets/images/Research/Bus/stop_web.png Graphic file (type png)
 <use assets/images/Research/Bus/stop_web.png>
-Package pdftex.def Info: assets/images/Research/Bus/stop_web.png  used on input line 89.
+Package pdftex.def Info: assets/images/Research/Bus/stop_web.png  used on input line 90.
 (pdftex.def)             Requested size: 432.48051pt x 232.00562pt.
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 104.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 106.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [33 <./assets/images/Research/Bus/plot_route.png> <./assets/images/Research/Bus/actual_route.png> <./assets/images/Research/Bus/stop_web.png>]
-<assets/images/Implementation/data_org.png, id=800, 1035.87pt x 715.67375pt>
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[43 <./assets/images/Research/Bus/stop_web.png>]
+<assets/images/Implementation/data_org.png, id=850, 1035.87pt x 715.67375pt>
 File: assets/images/Implementation/data_org.png Graphic file (type png)
 <use assets/images/Implementation/data_org.png>
-Package pdftex.def Info: assets/images/Implementation/data_org.png  used on input line 118.
-(pdftex.def)             Requested size: 409.71692pt x 283.0757pt.
+Package pdftex.def Info: assets/images/Implementation/data_org.png  used on input line 119.
+(pdftex.def)             Requested size: 364.19667pt x 251.62527pt.
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 127.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 128.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [34 <./assets/images/Implementation/data_org.png>]
-<assets/images/Implementation/raw_stops.png, id=810, 1814.78pt x 1832.8475pt>
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[44 <./assets/images/Implementation/data_org.png>]
+<assets/images/Implementation/raw_stops.png, id=860, 1814.78pt x 1832.8475pt>
 File: assets/images/Implementation/raw_stops.png Graphic file (type png)
 <use assets/images/Implementation/raw_stops.png>
-Package pdftex.def Info: assets/images/Implementation/raw_stops.png  used on input line 130.
-(pdftex.def)             Requested size: 341.43307pt x 344.83267pt.
+Package pdftex.def Info: assets/images/Implementation/raw_stops.png  used on input line 131.
+(pdftex.def)             Requested size: 455.24411pt x 459.7769pt.
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 142.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 137.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [35 <./assets/images/Implementation/raw_stops.png>]
-<assets/images/Implementation/db_compass.png, id=819, 1549.79pt x 895.345pt>
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[45 <./assets/images/Implementation/raw_stops.png>]
+<assets/images/Implementation/db_compass.png, id=869, 1549.79pt x 895.345pt>
 File: assets/images/Implementation/db_compass.png Graphic file (type png)
 <use assets/images/Implementation/db_compass.png>
-Package pdftex.def Info: assets/images/Implementation/db_compass.png  used on input line 151.
+Package pdftex.def Info: assets/images/Implementation/db_compass.png  used on input line 152.
 (pdftex.def)             Requested size: 432.48051pt x 249.84785pt.
-
-Overfull \hbox (2.12805pt too wide) in paragraph at lines 168--169
-[]\T5/cmr/m/n/10 Example re-quest URL: [][]$\T5/cmtt/m/n/10 https : / / api . bktraffic . com / api / bus / nearby-[]stops ? lat = 10 . 7721 &
- []
-
-<assets/images/Implementation/nearby_bus_response.png, id=822, 1224.575pt x 1969.3575pt>
-File: assets/images/Implementation/nearby_bus_response.png Graphic file (type png)
-<use assets/images/Implementation/nearby_bus_response.png>
-Package pdftex.def Info: assets/images/Implementation/nearby_bus_response.png  used on input line 172.
-(pdftex.def)             Requested size: 182.09486pt x 292.83664pt.
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 175.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 156.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
-[36 <./assets/images/Implementation/db_compass.png>]
-<assets/images/Implementation/stop_detail_response.png, id=833, 1112.155pt x 1381.16pt>
-File: assets/images/Implementation/stop_detail_response.png Graphic file (type png)
-<use assets/images/Implementation/stop_detail_response.png>
-Package pdftex.def Info: assets/images/Implementation/stop_detail_response.png  used on input line 187.
-(pdftex.def)             Requested size: 172.99498pt x 214.83627pt.
-File: assets/images/Trivia/hcmut.png Graphic file (type png)
-<use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 195.
-(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [37 <./assets/images/Implementation/nearby_bus_response.png> <./assets/images/Implementation/stop_detail_response.png>]
-Overfull \hbox (2.62805pt too wide) in paragraph at lines 198--199
-[]\T5/cmr/m/n/10 Example re-quest URL: [][]$\T5/cmtt/m/n/10 http : / / api . bktraffic . com / api / bus / disability-[]friendly-[]stops ?
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[46]
+Overfull \hbox (69.16158pt too wide) in paragraph at lines 169--170
+[]\T5/cmr/m/n/11.86258 Example re-quest URL: [][]$\T5/cmtt/m/n/11.86258 http : / / api . bktraffic . com / api / bus / disability-[]friendly-[]stops ?
  []
 
-<assets/images/Implementation/nearby_disable_response.png, id=843, 1212.53pt x 2555.5475pt>
+<assets/images/Implementation/nearby_disable_response.png, id=877, 1212.53pt x 2555.5475pt>
 File: assets/images/Implementation/nearby_disable_response.png Graphic file (type png)
 <use assets/images/Implementation/nearby_disable_response.png>
-Package pdftex.def Info: assets/images/Implementation/nearby_disable_response.png  used on input line 202.
+Package pdftex.def Info: assets/images/Implementation/nearby_disable_response.png  used on input line 173.
 (pdftex.def)             Requested size: 227.62206pt x 479.7099pt.
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 208.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 177.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
-[38 <./assets/images/Implementation/nearby_disable_response.png>]
-<assets/images/Implementation/all_routes_response.png, id=853, 1353.055pt x 1065.9825pt>
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[47 <./assets/images/Implementation/db_compass.png>]
+<assets/images/Implementation/stop_detail_response.png, id=887, 1112.155pt x 1381.16pt>
+File: assets/images/Implementation/stop_detail_response.png Graphic file (type png)
+<use assets/images/Implementation/stop_detail_response.png>
+Package pdftex.def Info: assets/images/Implementation/stop_detail_response.png  used on input line 188.
+(pdftex.def)             Requested size: 204.85846pt x 254.39363pt.
+File: assets/images/Trivia/hcmut.png Graphic file (type png)
+<use assets/images/Trivia/hcmut.png>
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 192.
+(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[48 <./assets/images/Implementation/nearby_disable_response.png>]
+<assets/images/Implementation/nearby_bus_response.png, id=898, 1224.575pt x 1969.3575pt>
+File: assets/images/Implementation/nearby_bus_response.png Graphic file (type png)
+<use assets/images/Implementation/nearby_bus_response.png>
+Package pdftex.def Info: assets/images/Implementation/nearby_bus_response.png  used on input line 203.
+(pdftex.def)             Requested size: 204.85846pt x 329.43745pt.
+File: assets/images/Trivia/hcmut.png Graphic file (type png)
+<use assets/images/Trivia/hcmut.png>
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 207.
+(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[49 <./assets/images/Implementation/stop_detail_response.png>]
+<assets/images/Implementation/all_routes_response.png, id=908, 1353.055pt x 1065.9825pt>
 File: assets/images/Implementation/all_routes_response.png Graphic file (type png)
 <use assets/images/Implementation/all_routes_response.png>
 Package pdftex.def Info: assets/images/Implementation/all_routes_response.png  used on input line 218.
-(pdftex.def)             Requested size: 182.09486pt x 143.44598pt.
+(pdftex.def)             Requested size: 250.38564pt x 197.25247pt.
+File: assets/images/Trivia/hcmut.png Graphic file (type png)
+<use assets/images/Trivia/hcmut.png>
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 222.
+(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
 
-Overfull \hbox (25.90002pt too wide) in paragraph at lines 229--230
-[]\T5/cmr/m/n/10 Example re-quest URL: [][]$\T5/cmtt/m/n/10 https : / / api . bktraffic . com / api / bus / route-[]stops ? id = 08 & leg = forward$[][]\T5/cmr/m/n/10 . 
- []
 
-<assets/images/Implementation/route_stops_response.png, id=856, 1357.07pt x 1923.185pt>
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[50 <./assets/images/Implementation/nearby_bus_response.png>]
+<assets/images/Implementation/route_stops_response.png, id=917, 1357.07pt x 1923.185pt>
 File: assets/images/Implementation/route_stops_response.png Graphic file (type png)
 <use assets/images/Implementation/route_stops_response.png>
 Package pdftex.def Info: assets/images/Implementation/route_stops_response.png  used on input line 233.
 (pdftex.def)             Requested size: 182.09486pt x 258.03412pt.
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 241.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 242.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
-[39 <./assets/images/Implementation/all_routes_response.png> <./assets/images/Implementation/route_stops_response.png>]
-<assets/images/Implementation/route_details_response.png, id=866, 1381.16pt x 1065.9825pt>
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[51 <./assets/images/Implementation/all_routes_response.png> <./assets/images/Implementation/route_stops_response.png>]
+<assets/images/Implementation/route_details_response.png, id=928, 1381.16pt x 1065.9825pt>
 File: assets/images/Implementation/route_details_response.png Graphic file (type png)
 <use assets/images/Implementation/route_details_response.png>
 Package pdftex.def Info: assets/images/Implementation/route_details_response.png  used on input line 248.
-(pdftex.def)             Requested size: 204.85846pt x 158.10126pt.
+(pdftex.def)             Requested size: 273.14923pt x 210.80168pt.
 
-Overfull \hbox (20.6513pt too wide) in paragraph at lines 259--260
-[]\T5/cmr/m/n/10 Example re-quest URL: [][]$\T5/cmtt/m/n/10 https : / / api . bktraffic . com / api / bus / route-[]path ? id = 08 & leg = forward$[][]\T5/cmr/m/n/10 . 
+Overfull \hbox (1.53096pt too wide) in paragraph at lines 259--260
+[]\T5/cmr/m/n/11.86258 Example re-quest URL: [][]$\T5/cmtt/m/n/11.86258 https : / / api . bktraffic . com / api / bus / route-[]path ? id =
  []
 
-<assets/images/Implementation/route_path_response.png, id=869, 1104.125pt x 1336.995pt>
+<assets/images/Implementation/route_path_response.png, id=931, 1104.125pt x 1336.995pt>
 File: assets/images/Implementation/route_path_response.png Graphic file (type png)
 <use assets/images/Implementation/route_path_response.png>
 Package pdftex.def Info: assets/images/Implementation/route_path_response.png  used on input line 263.
 (pdftex.def)             Requested size: 204.85846pt x 248.05423pt.
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 272.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 267.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
-[40 <./assets/images/Implementation/route_details_response.png> <./assets/images/Implementation/route_path_response.png>]
-<assets/images/Implementation/pm2_show.png, id=878, 955.57pt x 1083.04625pt>
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[52 <./assets/images/Implementation/route_details_response.png>]
+<assets/images/Implementation/pm2_show.png, id=941, 955.57pt x 1083.04625pt>
 File: assets/images/Implementation/pm2_show.png Graphic file (type png)
 <use assets/images/Implementation/pm2_show.png>
 Package pdftex.def Info: assets/images/Implementation/pm2_show.png  used on input line 279.
 (pdftex.def)             Requested size: 364.19667pt x 412.76825pt.
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 287.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 283.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [41 <./assets/images/Implementation/pm2_show.png>]
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[53 <./assets/images/Implementation/route_path_response.png>]
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 330.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 297.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [42]
-<assets/images/Implementation/Parking/Parking Use case updated.drawio.png, id=905, 628.3475pt x 443.6575pt>
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[54 <./assets/images/Implementation/pm2_show.png>]
+File: assets/images/Trivia/hcmut.png Graphic file (type png)
+<use assets/images/Trivia/hcmut.png>
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 336.
+(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[55]
+File: assets/images/Trivia/hcmut.png Graphic file (type png)
+<use assets/images/Trivia/hcmut.png>
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 354.
+(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[56]
+<assets/images/Implementation/Parking/Parking Use case updated.drawio.png, id=983, 628.3475pt x 443.6575pt>
 File: assets/images/Implementation/Parking/Parking Use case updated.drawio.png Graphic file (type png)
 <use assets/images/Implementation/Parking/Parking Use case updated.drawio.png>
 Package pdftex.def Info: assets/images/Implementation/Parking/Parking Use case updated.drawio.png  used on input line 359.
 (pdftex.def)             Requested size: 318.66948pt x 225.00316pt.
-<assets/images/Implementation/Parking/Search_lot_sequence.png, id=906, 563.10374pt x 322.20375pt>
+<assets/images/Implementation/Parking/Search_lot_sequence.png, id=984, 563.10374pt x 322.20375pt>
 File: assets/images/Implementation/Parking/Search_lot_sequence.png Graphic file (type png)
 <use assets/images/Implementation/Parking/Search_lot_sequence.png>
 Package pdftex.def Info: assets/images/Implementation/Parking/Search_lot_sequence.png  used on input line 370.
 (pdftex.def)             Requested size: 455.24411pt x 260.48705pt.
-File: assets/images/Trivia/hcmut.png Graphic file (type png)
-<use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 374.
-(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [43 <./assets/images/Implementation/Parking/Parking Use case updated.drawio.png>]
-<assets/images/Implementation/Parking/Availability.drawio.png, id=918, 563.10374pt x 322.20375pt>
+<assets/images/Implementation/Parking/Availability.drawio.png, id=985, 563.10374pt x 322.20375pt>
 File: assets/images/Implementation/Parking/Availability.drawio.png Graphic file (type png)
 <use assets/images/Implementation/Parking/Availability.drawio.png>
 Package pdftex.def Info: assets/images/Implementation/Parking/Availability.drawio.png  used on input line 377.
 (pdftex.def)             Requested size: 455.24411pt x 260.48705pt.
-<assets/images/Implementation/Parking/List and Manage.drawio.png, id=919, 644.4075pt x 522.95375pt>
+File: assets/images/Trivia/hcmut.png Graphic file (type png)
+<use assets/images/Trivia/hcmut.png>
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 381.
+(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[57 <./assets/images/Implementation/Parking/Parking Use case updated.drawio.png> <./assets/images/Implementation/Parking/Search_lot_sequence.png>]
+<assets/images/Implementation/Parking/List and Manage.drawio.png, id=993, 644.4075pt x 522.95375pt>
 File: assets/images/Implementation/Parking/List and Manage.drawio.png Graphic file (type png)
 <use assets/images/Implementation/Parking/List and Manage.drawio.png>
 Package pdftex.def Info: assets/images/Implementation/Parking/List and Manage.drawio.png  used on input line 386.
-(pdftex.def)             Requested size: 341.43307pt x 277.09235pt.
+(pdftex.def)             Requested size: 364.19667pt x 295.56517pt.
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 390.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 394.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [44 <./assets/images/Implementation/Parking/Search_lot_sequence.png> <./assets/images/Implementation/Parking/Availability.drawio.png>]
-<assets/images/Implementation/Parking/Add parking activity.drawio.png, id=927, 279.0425pt x 594.22pt>
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[58 <./assets/images/Implementation/Parking/Availability.drawio.png> <./assets/images/Implementation/Parking/List and Manage.drawio.png>]
+<assets/images/Implementation/Parking/Add parking activity.drawio.png, id=1001, 279.0425pt x 594.22pt>
 File: assets/images/Implementation/Parking/Add parking activity.drawio.png Graphic file (type png)
 <use assets/images/Implementation/Parking/Add parking activity.drawio.png>
 Package pdftex.def Info: assets/images/Implementation/Parking/Add parking activity.drawio.png  used on input line 400.
 (pdftex.def)             Requested size: 136.57462pt x 290.84393pt.
-<assets/images/Implementation/Parking/Adjusting available activity.drawio.png, id=928, 399.4925pt x 544.0325pt>
+
+Underfull \hbox (badness 6625) in paragraph at lines 400--400
+[]\T5/cmr/m/n/11.86258 (a) |Ac-i-tiv-ity di-a-gram for
+ []
+
+<assets/images/Implementation/Parking/Adjusting available activity.drawio.png, id=1002, 399.4925pt x 544.0325pt>
 File: assets/images/Implementation/Parking/Adjusting available activity.drawio.png Graphic file (type png)
 <use assets/images/Implementation/Parking/Adjusting available activity.drawio.png>
 Package pdftex.def Info: assets/images/Implementation/Parking/Adjusting available activity.drawio.png  used on input line 405.
 (pdftex.def)             Requested size: 204.85846pt x 278.98033pt.
-File: assets/images/Trivia/hcmut.png Graphic file (type png)
-<use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 411.
-(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [45 <./assets/images/Implementation/Parking/List and Manage.drawio.png> <./assets/images/Implementation/Parking/Add parking activity.drawio.png> <./assets/images/Implementation/Parking/Adjusting available activity.drawio.png>]
-<assets/images/Implementation/Parking/Parking ERD.drawio.png, id=938, 763.85374pt x 313.17pt>
+
+Underfull \hbox (badness 1845) in paragraph at lines 405--405
+[]\T5/cmr/m/n/11.86258 (b) |Ad-just-ing the num-ber of avail-able
+ []
+
+<assets/images/Implementation/Parking/Parking ERD.drawio.png, id=1003, 763.85374pt x 313.17pt>
 File: assets/images/Implementation/Parking/Parking ERD.drawio.png Graphic file (type png)
 <use assets/images/Implementation/Parking/Parking ERD.drawio.png>
 Package pdftex.def Info: assets/images/Implementation/Parking/Parking ERD.drawio.png  used on input line 414.
 (pdftex.def)             Requested size: 364.19667pt x 149.31638pt.
+File: assets/images/Trivia/hcmut.png Graphic file (type png)
+<use assets/images/Trivia/hcmut.png>
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 418.
+(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
 
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[59 <./assets/images/Implementation/Parking/Add parking activity.drawio.png> <./assets/images/Implementation/Parking/Adjusting available activity.drawio.png>]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 419.
@@ -2339,52 +3041,80 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 Package csquotes Warning: No space factor codes for 'T5' encoding.
 (csquotes)                Punctuation tracker may fail on input line 428.
 
-File: assets/images/Trivia/hcmut.png Graphic file (type png)
-<use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 429.
-(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
-[46 <./assets/images/Implementation/Parking/Parking ERD.drawio.png>]
-<assets/images/Implementation/onboard1.png, id=947, 308.15125pt x 653.44125pt>
+<assets/images/Implementation/onboard1.png, id=1013, 308.15125pt x 653.44125pt>
 File: assets/images/Implementation/onboard1.png Graphic file (type png)
 <use assets/images/Implementation/onboard1.png>
 Package pdftex.def Info: assets/images/Implementation/onboard1.png  used on input line 435.
-(pdftex.def)             Requested size: 113.81102pt x 241.33076pt.
-<assets/images/Implementation/onboard2.png, id=948, 306.14375pt x 652.4375pt>
+(pdftex.def)             Requested size: 127.46779pt x 270.29564pt.
+<assets/images/Implementation/onboard2.png, id=1014, 306.14375pt x 652.4375pt>
 File: assets/images/Implementation/onboard2.png Graphic file (type png)
 <use assets/images/Implementation/onboard2.png>
 Package pdftex.def Info: assets/images/Implementation/onboard2.png  used on input line 439.
-(pdftex.def)             Requested size: 113.81102pt x 242.54295pt.
-<assets/images/Implementation/onboard3.png, id=949, 306.14375pt x 652.4375pt>
+(pdftex.def)             Requested size: 127.46779pt x 271.6525pt.
+<assets/images/Implementation/onboard3.png, id=1015, 306.14375pt x 652.4375pt>
 File: assets/images/Implementation/onboard3.png Graphic file (type png)
 <use assets/images/Implementation/onboard3.png>
 Package pdftex.def Info: assets/images/Implementation/onboard3.png  used on input line 443.
-(pdftex.def)             Requested size: 113.81102pt x 242.54295pt.
-<assets/images/Implementation/register_view.png, id=950, 298.11375pt x 599.23875pt>
+(pdftex.def)             Requested size: 127.46779pt x 271.6525pt.
+File: assets/images/Trivia/hcmut.png Graphic file (type png)
+<use assets/images/Trivia/hcmut.png>
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 446.
+(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[60 <./assets/images/Implementation/Parking/Parking ERD.drawio.png>]
+<assets/images/Implementation/register_view.png, id=1024, 298.11375pt x 599.23875pt>
 File: assets/images/Implementation/register_view.png Graphic file (type png)
 <use assets/images/Implementation/register_view.png>
 Package pdftex.def Info: assets/images/Implementation/register_view.png  used on input line 454.
-(pdftex.def)             Requested size: 113.81102pt x 228.77374pt.
-<assets/images/Implementation/login_view.png, id=951, 304.13625pt x 598.235pt>
+(pdftex.def)             Requested size: 136.57462pt x 274.5285pt.
+<assets/images/Implementation/login_view.png, id=1025, 304.13625pt x 598.235pt>
 File: assets/images/Implementation/login_view.png Graphic file (type png)
 <use assets/images/Implementation/login_view.png>
 Package pdftex.def Info: assets/images/Implementation/login_view.png  used on input line 459.
-(pdftex.def)             Requested size: 113.81102pt x 223.8629pt.
+(pdftex.def)             Requested size: 136.57462pt x 268.64642pt.
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 467.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 463.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [47 <./assets/images/Implementation/onboard1.png> <./assets/images/Implementation/onboard2.png> <./assets/images/Implementation/onboard3.png> <./assets/images/Implementation/register_view.png> <./assets/images/Implementation/login_view.png>]
-<assets/images/Implementation/traffic_status_view.png, id=962, 497.86pt x 940.51375pt>
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[61 <./assets/images/Implementation/onboard1.png> <./assets/images/Implementation/onboard2.png> <./assets/images/Implementation/onboard3.png>]
+<assets/images/Implementation/traffic_status_view.png, id=1034, 497.86pt x 940.51375pt>
 File: assets/images/Implementation/traffic_status_view.png Graphic file (type png)
 <use assets/images/Implementation/traffic_status_view.png>
 Package pdftex.def Info: assets/images/Implementation/traffic_status_view.png  used on input line 470.
-(pdftex.def)             Requested size: 127.46779pt x 240.79652pt.
-<assets/images/Implementation/bus_view.png, id=963, 497.86pt x 940.51375pt>
+(pdftex.def)             Requested size: 136.57462pt x 258.00346pt.
+File: assets/images/Trivia/hcmut.png Graphic file (type png)
+<use assets/images/Trivia/hcmut.png>
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 474.
+(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[62 <./assets/images/Implementation/register_view.png> <./assets/images/Implementation/login_view.png>]
+<assets/images/Implementation/bus_view.png, id=1042, 497.86pt x 940.51375pt>
 File: assets/images/Implementation/bus_view.png Graphic file (type png)
 <use assets/images/Implementation/bus_view.png>
 Package pdftex.def Info: assets/images/Implementation/bus_view.png  used on input line 479.
-(pdftex.def)             Requested size: 127.46779pt x 240.79652pt.
-<assets/images/Implementation/hcmut_trafficview.png, id=964, 497.86pt x 940.51375pt>
+(pdftex.def)             Requested size: 136.57462pt x 258.00346pt.
+<assets/images/Implementation/hcmut_trafficview.png, id=1043, 497.86pt x 940.51375pt>
 File: assets/images/Implementation/hcmut_trafficview.png Graphic file (type png)
 <use assets/images/Implementation/hcmut_trafficview.png>
 Package pdftex.def Info: assets/images/Implementation/hcmut_trafficview.png  used on input line 490.
@@ -2393,15 +3123,51 @@ File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
 Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 493.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [48 <./assets/images/Implementation/traffic_status_view.png> <./assets/images/Implementation/bus_view.png>])
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[63 <./assets/images/Implementation/traffic_status_view.png> <./assets/images/Implementation/bus_view.png>])
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
 Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 272.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [49 <./assets/images/Implementation/hcmut_trafficview.png>]
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[64 <./assets/images/Implementation/hcmut_trafficview.png>]
 \openout2 = `Sections/work_evaluation_&_future_plans.aux'.
 
  (Sections/work_evaluation_&_future_plans.tex
+Overfull \hbox (14.58237pt too wide) in paragraph at lines 1--1
+[]\T5/cmr/bx/n/18.72003 WORK EVAL-U-A-TION AND FU-TURE PLANS 
+ []
+
+File: assets/images/Trivia/hcmut.png Graphic file (type png)
+<use assets/images/Trivia/hcmut.png>
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 45.
+(pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[65
+
+
+
+]
 
 Package csquotes Warning: No space factor codes for 'T5' encoding.
 (csquotes)                Punctuation tracker may fail on input line 49.
@@ -2412,50 +3178,84 @@ Package csquotes Warning: No space factor codes for 'T5' encoding.
 
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
-Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 50.
+Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 55.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
-[50
 
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
 
-
-])
+[66])
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
 Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 273.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [51]
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[67]
 
 Package csquotes Warning: No space factor codes for 'T5' encoding.
 (csquotes)                Punctuation tracker may fail on input line 277.
 
 
-Overfull \hbox (1.28845pt too wide) in paragraph at lines 277--277
-[]\T5/cmr/m/n/10 MapBox, \T5/cmr/m/it/10 Geo-j-son.io\T5/cmr/m/n/10 , geo-j-son.io. [On-line]. Avail-able: [][]$\T5/cmtt/m/n/10 https : / / geojson . io/$[][] \T5/cmr/m/n/10 (vis-ited on 12/15/2023). 
+Overfull \hbox (89.52351pt too wide) in paragraph at lines 277--277
+[][]$\T5/cmtt/m/n/13 https : / / developer . apple . com / documentation / corelocation / cllocationcoordinate2d$[][]
  []
 
 
-Overfull \hbox (1.01009pt too wide) in paragraph at lines 277--277
-[]\T5/cmr/m/it/10 Mkgeojsonobject\T5/cmr/m/n/10 , Ap-ple De-vel-oper Doc-u-men-ta-tion. [On-line]. Avail-able: [][]$\T5/cmtt/m/n/10 https : / / developer . apple .
- []
-
-
-Overfull \hbox (8.68117pt too wide) in paragraph at lines 277--277
-[]\T5/cmr/m/it/10 Understanding google play's app ac-count dele-tion re-quire-ments - play con-sole help\T5/cmr/m/n/10 , sup-port.google.com.
+Overfull \hbox (3.00597pt too wide) in paragraph at lines 277--277
+[]\T5/cmr/m/it/13 Openstreetmap (wgs84)\T5/cmr/m/n/13 , hub.arcgis.com, Jun. 2019. [On-line]. Avail-able: [][]$\T5/cmtt/m/n/13 https :
  []
 
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
 Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 277.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
-[52
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[68
 
 
 ]
+Overfull \hbox (2.44388pt too wide) in paragraph at lines 277--277
+[]\T5/cmr/m/it/13 Mkgeojsonobject\T5/cmr/m/n/13 , Ap-ple De-vel-oper Doc-u-men-ta-tion. [On-line]. Avail-able: [][]$\T5/cmtt/m/n/13 https :
+ []
+
+
+Overfull \hbox (35.77557pt too wide) in paragraph at lines 277--277
+\T5/cmr/m/n/13 [On-line]. Avail-able: [][]$\T5/cmtt/m/n/13 https : / / developer . apple . com / documentation / foundation /
+ []
+
+
+Overfull \hbox (12.22618pt too wide) in paragraph at lines 277--277
+\T5/cmr/m/n/13 oper.apple.com. [On-line]. Avail-able: [][]$\T5/cmtt/m/n/13 https : / / developer . apple . com / support /
+ []
+
 File: assets/images/Trivia/hcmut.png Graphic file (type png)
 <use assets/images/Trivia/hcmut.png>
 Package pdftex.def Info: assets/images/Trivia/hcmut.png  used on input line 279.
 (pdftex.def)             Requested size: 22.7534pt x 22.75854pt.
- [53] 
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 46.79984pt, for example:
+(fancyhdr)                \setlength{\headheight}{46.79984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.79984pt}.
+
+[69] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (main.aux (Sections/introduction.aux) (Sections/related_research.aux) (Sections/system_analysis_and_design.aux) (Sections/theoretical_basis.aux) (Sections/implementation.aux) (Sections/work_evaluation_&_future_plans.aux))
  ***********
@@ -2464,26 +3264,30 @@ L3 programming layer <2023-11-09>
  ***********
 
 
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.0pt have occurred.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B5F207ED88BB707D0C71CA1DCCD807CE;12524.
+(rerunfilecheck)             Checksum: 1FD8B4C5A105E62CFECBAC7853CCF57A;12585.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44345 strings out of 474587
- 889696 string characters out of 5746174
- 2081558 words of memory out of 5000000
- 65531 multiletter control sequences out of 15000+600000
- 577573 words of font info for 83 fonts, out of 8000000 for 9000
+ 45247 strings out of 474587
+ 907422 string characters out of 5746174
+ 2025558 words of memory out of 5000000
+ 66398 multiletter control sequences out of 15000+600000
+ 581574 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 88i,25n,92p,1265b,2693s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr5.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr9.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnti10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vntt10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vntt9.pfb>
-Output written on main.pdf (54 pages, 19613209 bytes).
+ 108i,25n,107p,1265b,2693s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr7.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnti12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vntt12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vntt9.pfb>
+Output written on main.pdf (70 pages, 19594804 bytes).
 PDF statistics:
- 1145 PDF objects out of 1200 (max. 8388607)
- 255 named destinations out of 1000 (max. 500000)
+ 1220 PDF objects out of 1440 (max. 8388607)
+ 270 named destinations out of 1000 (max. 500000)
  904 words of extra memory for PDF output out of 10000 (max. 10000000)
 

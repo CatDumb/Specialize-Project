@@ -1,17 +1,17 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[133] biber-MSWIN64:340> INFO - === 
-[173] Biber.pm:419> INFO - Reading 'main.bcf'
-[311] Biber.pm:976> INFO - Using all citekeys in bib section 0
-[331] Biber.pm:4419> INFO - Processing section 0
-[347] Biber.pm:4610> INFO - Looking for bibtex file 'refs.bib' for section 0
-[402] bibtex.pm:1713> INFO - LaTeX decoding ...
-[433] bibtex.pm:1519> INFO - Found BibTeX data source 'refs.bib'
-[549] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[549] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[550] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[550] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[575] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[582] bbl.pm:763> INFO - Output to main.bbl
-[582] Biber.pm:131> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
-[583] Biber.pm:133> INFO - WARNINGS: 1
+[137] biber-MSWIN64:340> INFO - === 
+[180] Biber.pm:419> INFO - Reading 'main.bcf'
+[335] Biber.pm:976> INFO - Using all citekeys in bib section 0
+[352] Biber.pm:4419> INFO - Processing section 0
+[366] Biber.pm:4610> INFO - Looking for bibtex file 'refs.bib' for section 0
+[420] bibtex.pm:1713> INFO - LaTeX decoding ...
+[449] bibtex.pm:1519> INFO - Found BibTeX data source 'refs.bib'
+[556] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[556] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[556] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[556] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[576] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[586] bbl.pm:763> INFO - Output to main.bbl
+[586] Biber.pm:131> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[587] Biber.pm:133> INFO - WARNINGS: 1
