@@ -1,43 +1,41 @@
 \babel@toc {english}{}\relax 
 \contentsline {figure}{\numberline {1}{\ignorespaces Traffic congestion at the Hang Xanh intersection at the end of 2022.}}{9}{figure.caption.6}%
 \contentsline {figure}{\numberline {2}{\ignorespaces The home screen for Go!Bus.}}{11}{figure.caption.7}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Go!Bus functionalities problems}}{12}{figure.caption.8}%
-\contentsline {figure}{\numberline {4}{\ignorespaces The home screen for BusMap}}{13}{figure.caption.9}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Myparking for owners - UI}}{14}{figure.caption.10}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Myparking's functionalities for general users}}{15}{figure.caption.11}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Go!Bus functionalities problems.}}{12}{figure.caption.8}%
+\contentsline {figure}{\numberline {4}{\ignorespaces The home screen for BusMap.}}{13}{figure.caption.9}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Myparking for owners - UI.}}{14}{figure.caption.10}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Myparking's functionalities for general users.}}{15}{figure.caption.11}%
 \contentsline {figure}{\numberline {7}{\ignorespaces Demonstration of HCMUT TrafficView.}}{16}{figure.caption.12}%
 \contentsline {figure}{\numberline {8}{\ignorespaces An example of GeoJSON data.}}{18}{figure.caption.13}%
 \contentsline {figure}{\numberline {9}{\ignorespaces The geometry types supported by GeoJSON.}}{19}{figure.caption.14}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Testing GeoJSON data using geojson.io.}}{20}{figure.caption.15}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Comparison between the current response format and the GeoJSON format.}}{22}{figure.caption.16}%
-\contentsline {figure}{\numberline {12}{\ignorespaces The northeast and southwest bounds of the visible region.}}{22}{figure.caption.17}%
-\contentsline {figure}{\numberline {13}{\ignorespaces The intersection between the map bounds and the street segments.}}{23}{figure.caption.18}%
-\contentsline {figure}{\numberline {14}{\ignorespaces OSM data format \blx@tocontentsinit {0}\cite {osm_file_structure}}}{24}{figure.caption.19}%
-\contentsline {figure}{\numberline {15}{\ignorespaces MVC architecture}}{25}{figure.caption.20}%
-\contentsline {figure}{\numberline {16}{\ignorespaces MVVM architecture}}{25}{figure.caption.21}%
-\contentsline {figure}{\numberline {17}{\ignorespaces The system's architecture diagram.}}{33}{figure.caption.29}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Capturing and observing the route data using the DevTool}}{34}{figure.caption.30}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Capturing and observing the bus stops data using the DevTool}}{35}{figure.caption.32}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Organization of the data retrieval process.}}{36}{figure.caption.33}%
-\contentsline {figure}{\numberline {22}{\ignorespaces The bus stops of a route before processing.}}{37}{figure.caption.34}%
-\contentsline {figure}{\numberline {23}{\ignorespaces The Bus\_Stops collection in MongoDB Compass.}}{38}{figure.caption.35}%
-\contentsline {figure}{\numberline {24}{\ignorespaces The response containing bus stops within 500m of the coordinate (10.7721, 106.6579).}}{39}{figure.caption.36}%
-\contentsline {figure}{\numberline {25}{\ignorespaces The response containing bus stops that are disability-friendly near the coordinate (10.77037, 106.69868).}}{40}{figure.caption.37}%
-\contentsline {figure}{\numberline {26}{\ignorespaces The response containing the details of the bus stop with the ID 2931.}}{41}{figure.caption.38}%
-\contentsline {figure}{\numberline {27}{\ignorespaces The response containing all the bus routes of Ho Chi Minh City.}}{41}{figure.caption.39}%
-\contentsline {figure}{\numberline {28}{\ignorespaces The response containing the details of the bus route with the ID 08.}}{42}{figure.caption.40}%
-\contentsline {figure}{\numberline {29}{\ignorespaces The response containing the array of the bus stop IDs along the route 08.}}{43}{figure.caption.41}%
-\contentsline {figure}{\numberline {30}{\ignorespaces The response containing the line string path of the bus route 08.}}{43}{figure.caption.42}%
-\contentsline {figure}{\numberline {31}{\ignorespaces The server information and the running NodeJS process.}}{44}{figure.caption.43}%
-\contentsline {figure}{\numberline {32}{\ignorespaces Activity diagram of the module}}{47}{figure.caption.44}%
-\contentsline {figure}{\numberline {33}{\ignorespaces Sequence diagram for searching nearby parking lots}}{47}{figure.caption.45}%
-\contentsline {figure}{\numberline {34}{\ignorespaces Sequence diagram for checking parking lot availability}}{48}{figure.caption.46}%
-\contentsline {figure}{\numberline {35}{\ignorespaces Sequence diagram for advertising parking spaces}}{48}{figure.caption.47}%
-\contentsline {figure}{\numberline {36}{\ignorespaces Acitivity diagram fo adding new parking lots}}{49}{figure.caption.48}%
-\contentsline {figure}{\numberline {37}{\ignorespaces Adjusting the number of available spots}}{50}{figure.caption.49}%
-\contentsline {figure}{\numberline {38}{\ignorespaces The ERD for storing parking lots and their relationships}}{51}{figure.caption.50}%
-\contentsline {figure}{\numberline {39}{\ignorespaces The onboarding process of the iOS UTraffic app.}}{52}{figure.caption.51}%
-\contentsline {figure}{\numberline {40}{\ignorespaces The authentication views on the iOS UTraffic app.}}{52}{figure.caption.52}%
-\contentsline {figure}{\numberline {41}{\ignorespaces The home screen with the traffic status displayed.}}{53}{figure.caption.53}%
-\contentsline {figure}{\numberline {42}{\ignorespaces The bus list view displayed in a bottom sheet.}}{53}{figure.caption.54}%
-\contentsline {figure}{\numberline {43}{\ignorespaces The traffic camera view within the iOS app.}}{54}{figure.caption.55}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Testing GeoJSON data using geojson.io.}}{19}{figure.caption.15}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Comparison between the current response format and the GeoJSON format.}}{21}{figure.caption.16}%
+\contentsline {figure}{\numberline {12}{\ignorespaces The northeast and southwest bounds of the visible region.}}{21}{figure.caption.17}%
+\contentsline {figure}{\numberline {13}{\ignorespaces The intersection between the map bounds and the street segments.}}{22}{figure.caption.18}%
+\contentsline {figure}{\numberline {14}{\ignorespaces OSM data format \blx@tocontentsinit {0}\cite {osm_file_structure}.}}{23}{figure.caption.19}%
+\contentsline {figure}{\numberline {15}{\ignorespaces MVC architecture.}}{24}{figure.caption.20}%
+\contentsline {figure}{\numberline {16}{\ignorespaces MVVM architecture.}}{24}{figure.caption.21}%
+\contentsline {figure}{\numberline {17}{\ignorespaces The system's architecture diagram.}}{31}{figure.caption.29}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Capturing and observing the route data using the DevTool.}}{32}{figure.caption.30}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Capturing and observing the bus stops data using the DevTool.}}{33}{figure.caption.32}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Organization of the data retrieval process.}}{34}{figure.caption.33}%
+\contentsline {figure}{\numberline {22}{\ignorespaces The bus stops of a route before processing.}}{35}{figure.caption.34}%
+\contentsline {figure}{\numberline {23}{\ignorespaces The Bus\_Stops collection in MongoDB Compass.}}{36}{figure.caption.35}%
+\contentsline {figure}{\numberline {24}{\ignorespaces The response containing bus stops within 500m of the coordinate (10.7721, 106.6579).}}{37}{figure.caption.36}%
+\contentsline {figure}{\numberline {25}{\ignorespaces The response containing the details of the bus stop with the ID 2931.}}{37}{figure.caption.37}%
+\contentsline {figure}{\numberline {26}{\ignorespaces The response containing bus stops that are disability-friendly near the coordinate (10.77037, 106.69868).}}{38}{figure.caption.38}%
+\contentsline {figure}{\numberline {27}{\ignorespaces The response containing all the bus routes of Ho Chi Minh City.}}{39}{figure.caption.39}%
+\contentsline {figure}{\numberline {28}{\ignorespaces The response containing the array of the bus stop IDs along the route 08.}}{39}{figure.caption.40}%
+\contentsline {figure}{\numberline {29}{\ignorespaces The response containing the details of the bus route with the ID 08.}}{40}{figure.caption.41}%
+\contentsline {figure}{\numberline {30}{\ignorespaces The response containing the line string path of the bus route 08.}}{40}{figure.caption.42}%
+\contentsline {figure}{\numberline {31}{\ignorespaces The server information and the running NodeJS process.}}{41}{figure.caption.43}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Activity diagram of the module.}}{43}{figure.caption.44}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Sequence diagram for searching nearby parking lots.}}{44}{figure.caption.45}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Sequence diagram for checking parking lot availability.}}{44}{figure.caption.46}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Sequence diagram for advertising parking spaces.}}{45}{figure.caption.47}%
+\contentsline {figure}{\numberline {37}{\ignorespaces The ERD for storing parking lots and their relationships.}}{46}{figure.caption.49}%
+\contentsline {figure}{\numberline {38}{\ignorespaces The onboarding process of the iOS UTraffic app.}}{47}{figure.caption.50}%
+\contentsline {figure}{\numberline {39}{\ignorespaces The authentication views on the iOS UTraffic app.}}{47}{figure.caption.51}%
+\contentsline {figure}{\numberline {40}{\ignorespaces The home screen with the traffic status displayed.}}{48}{figure.caption.52}%
+\contentsline {figure}{\numberline {41}{\ignorespaces The bus list view displayed in a bottom sheet.}}{48}{figure.caption.53}%
+\contentsline {figure}{\numberline {42}{\ignorespaces The traffic camera view within the iOS app.}}{49}{figure.caption.54}%

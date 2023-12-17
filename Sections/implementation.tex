@@ -36,7 +36,7 @@ Several JavaScript source files power this site:
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{assets/images/Research/Bus/lat_long_web.png}
-    \caption{Capturing and observing the route data using the DevTool}
+    \caption{Capturing and observing the route data using the DevTool.}
     \label{fig:lat_long_web}
 \end{figure}
 
@@ -44,7 +44,7 @@ By inserting breakpoints in L.RouteMap.js, we can easily obtain the coordinates 
 
 When it is desirable to work with a single array of coordinates, the stored data can be retrieved and combined together. Below is an example where we zip the arrays and plot them using Matplotlib (please note that since there are over 600 elements in each array, 668 to be exact, a figurative number was put in the code excerpt).
 
-\begin{lstlisting}[language=python]
+\begin{lstlisting}[basicstyle=\ttfamily\small, language=python]
     lat = [10.001, 10.002] # the latitudes
     lng = [106.001, 106.002] # the longitudes
     coordinates = [(lat[i], lng[i]) for i in range(min(len(lat), len(lng)))]
@@ -87,7 +87,7 @@ Similarly, information about the bus stops can be obtained by placing breakpoint
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.95\textwidth]{assets/images/Research/Bus/stop_web.png}
-    \caption{Capturing and observing the bus stops data using the DevTool}
+    \caption{Capturing and observing the bus stops data using the DevTool.}
     \label{fig:stop_data}
 \end{figure}
 
@@ -157,12 +157,10 @@ Figure \ref{fig:dbcompass} showcases the Bus\_Stops collection in MongoDB Compas
 \subsection{Bus API Development and Server Deployment}
 We have previously discussed the introduction of the API additions in the UTraffic system, and we have taken the steps to deploy them on the live server of UTraffic. The endpoints are now live and working as intended.
 \subsubsection{The Bus API}
-The following are the details of the new API endpoints. An example URL and the corresponding response are also provided for each endpoint.
+The following are the details of the new endpoints, an example URL and the corresponding response.
 
 \begin{itemize}
-    
     \item \textbf{Get nearby bus stops}.
-    
     \begin{itemize}
         \item URL: \url{https://api.bktraffic.com/api/bus/nearby-stops}.
         \item Method: GET.
@@ -171,13 +169,27 @@ The following are the details of the new API endpoints. An example URL and the c
         \item Example response: 
         \begin{figure}[H]
             \centering
-            \includegraphics[width=0.5\linewidth]{assets/images/Implementation/nearby_bus_response.png}
+            \includegraphics[width=0.4\linewidth]{assets/images/Implementation/nearby_bus_response.png}
             \caption{The response containing bus stops within 500m of the coordinate (10.7721, 106.6579).}
             \label{fig:nearby_stop_response}
         \end{figure}
     \end{itemize}
 
-    \newpage
+    \item \textbf{Get the details of a bus stop}.
+    \begin{itemize}
+        \item URL: \url{https://api.bktraffic.com/api/bus/stop-details}.
+        \item Method: GET.
+        \item Query parameters: \lstinline{id}.
+        \item Example request URL: \url{https://api.bktraffic.com/api/bus/stop-details?id=2931}.
+        \item Example response:
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.38\textwidth]{assets/images/Implementation/stop_detail_response.png}
+            \caption{The response containing the details of the bus stop with the ID 2931.}
+            \label{fig:stop_detail_response}
+        \end{figure}
+    \end{itemize}
+
     \item \textbf{Get nearby disability friendly bus stops}.
     \begin{itemize}
         \item URL: \url{https://api.bktraffic.com/api/bus/disability-friendly-stops}.
@@ -193,21 +205,7 @@ The following are the details of the new API endpoints. An example URL and the c
         \end{figure}
     \end{itemize}
 
-    \item \textbf{Get the details of a bus stop}.
-    \begin{itemize}
-        \item URL: \url{https://api.bktraffic.com/api/bus/stop-details}.
-        \item Method: GET.
-        \item Query parameters: \lstinline{id}.
-        \item Example request URL: \url{https://api.bktraffic.com/api/bus/stop-details?id=2931}.
-        \item Example response:
-        \begin{figure}[H]
-            \centering
-            \includegraphics[width=0.35\textwidth]{assets/images/Implementation/stop_detail_response.png}
-            \caption{The response containing the details of the bus stop with the ID 2931.}
-            \label{fig:stop_detail_response}
-        \end{figure}
-    \end{itemize}
-
+    \newpage
     \item \textbf{Get all bus routes}.
     \begin{itemize}
         \item URL: \url{https://api.bktraffic.com/api/bus/routes}.
@@ -220,21 +218,6 @@ The following are the details of the new API endpoints. An example URL and the c
             \includegraphics[width=0.4\textwidth]{assets/images/Implementation/all_routes_response.png}
             \caption{The response containing all the bus routes of Ho Chi Minh City.}
             \label{fig:all_routes_response}
-        \end{figure}
-    \end{itemize}
-
-    \item \textbf{Get the details of a bus route}.
-    \begin{itemize}
-        \item URL: \url{https://api.bktraffic.com/api/bus/route-details}.
-        \item Method: GET.
-        \item Query parameters: \lstinline{id}.
-        \item Example request URL: \url{http://api.bktraffic.com/api/bus/route-info?id=08}
-        \item Example response:
-        \begin{figure}[H]
-            \centering
-            \includegraphics[width=0.4\textwidth]{assets/images/Implementation/route_details_response.png}
-            \caption{The response containing the details of the bus route with the ID 08.}
-            \label{fig:route_details_response}
         \end{figure}
     \end{itemize}
 
@@ -253,6 +236,21 @@ The following are the details of the new API endpoints. An example URL and the c
         \end{figure}
     \end{itemize}
 
+    \item \textbf{Get the details of a bus route}.
+    \begin{itemize}
+        \item URL: \url{https://api.bktraffic.com/api/bus/route-details}.
+        \item Method: GET.
+        \item Query parameters: \lstinline{id}.
+        \item Example request URL: \url{http://api.bktraffic.com/api/bus/route-info?id=08}
+        \item Example response:
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.45\textwidth]{assets/images/Implementation/route_details_response.png}
+            \caption{The response containing the details of the bus route with the ID 08.}
+            \label{fig:route_details_response}
+        \end{figure}
+    \end{itemize}
+
     \item \textbf{Get the path of a bus route}.
     \begin{itemize}
         \item URL: \url{https://api.bktraffic.com/api/bus/route-path}.
@@ -262,7 +260,7 @@ The following are the details of the new API endpoints. An example URL and the c
         \item Example response:
         \begin{figure}[H]
             \centering
-            \includegraphics[width=0.4\textwidth]{assets/images/Implementation/route_path_response.png}
+            \includegraphics[width=0.45\textwidth]{assets/images/Implementation/route_path_response.png}
             \caption{The response containing the line string path of the bus route 08.}
             \label{fig:route_path_response}
         \end{figure}
@@ -278,7 +276,7 @@ We use GitLab to host our source code. After the code was ready on the GitLab re
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{assets/images/Implementation/pm2_show.png}
+    \includegraphics[width=0.8\textwidth]{assets/images/Implementation/pm2_show.png}
     \caption{The server information and the running NodeJS process.}
     \label{fig:pm2_show}
 \end{figure}
@@ -309,25 +307,19 @@ In addition to advancing bus services, our group aims to implement functionaliti
 \subsubsection{Non-functional requirements}
 
 \begin{enumerate}
-    \item \textbf{Performance}: The module should be responsive and perform eﬀiciently, even during
-    peak usage times
+    \item \textbf{Performance}: The module should be responsive and perform eﬀiciently, even during peak usage times
     \item \textbf{Security}:
         \begin{itemize}
             \item Ensure the security of user data, payment information, and sensitive details.
             \item Implement secure authentication and authorization mechanisms.
         \end{itemize}
-    \item \textbf{Scalability}: The system should be able to scale with an increasing number of users,
-    parking spaces, and transactions.
-    \item \textbf{Usability}: The user interface should be intuitive and user-friendly for both parking
-    lot owners and renters.
-    \item \textbf{Reliability}: Ensure that the system is available and reliable, with minimal downtime
-    for maintenance.
-    \item \textbf{Cross-Platform Compatibility}: The module should be accessible on various devices
-    and platforms, including web browsers and mobile applications.
+    \item \textbf{Scalability}: The system should be able to scale with an increasing number of users, parking spaces, and transactions.
+    \item \textbf{Usability}: The user interface should be intuitive and user-friendly for both parking lot owners and renters.
+    \item \textbf{Reliability}: Ensure that the system is available and reliable, with minimal downtime for maintenance.
+    \item \textbf{Cross-Platform Compatibility}: The module should be accessible on various devices and platforms, including web browsers and mobile applications.
     \item \textbf{Geolocation Accuracy}: Ensure that the geolocation feature accurately identifies the
     location of parking spaces on the map.
-    \item \textbf{Error Handling}: Implement robust error handling to provide clear and informative
-    error messages to users
+    \item \textbf{Error Handling}: Implement robust error handling to provide clear and informative error messages
 \end{enumerate}
 
 \subsubsection{Use cases}
@@ -364,8 +356,8 @@ Below is a diagram recapping these usecases
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\linewidth]{assets/images/Implementation/Parking/Parking Use case updated.drawio.png}
-    \caption{Activity diagram of the module}
+    \includegraphics[width=0.7\linewidth]{assets/images/Implementation/Parking/Parking Use case updated.drawio.png}
+    \caption{Activity diagram of the module.}
     \label{fig:parking_usecase}
 \end{figure}
 
@@ -376,14 +368,14 @@ Below is a diagram recapping these usecases
 \begin{figure}[H]
     \centering
     \includegraphics[width=\linewidth]{assets/images/Implementation/Parking/Search_lot_sequence.png}
-    \caption{Sequence diagram for searching nearby parking lots}
+    \caption{Sequence diagram for searching nearby parking lots.}
     \label{fig:parking_search}
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=\linewidth]{assets/images/Implementation/Parking/Availability.drawio.png}
-    \caption{Sequence diagram for checking parking lot availability}
+    \caption{Sequence diagram for checking parking lot availability.}
     \label{fig:parking_availability}
 \end{figure}
 
@@ -391,8 +383,8 @@ The ability for users to promote their own parking spaces for rental is akin to 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\linewidth]{assets/images/Implementation/Parking/List and Manage.drawio.png}
-    \caption{Sequence diagram for advertising parking spaces}
+    \includegraphics[width=0.75\linewidth]{assets/images/Implementation/Parking/List and Manage.drawio.png}
+    \caption{Sequence diagram for advertising parking spaces.}
     \label{fig:parking_search}
 \end{figure}
 
@@ -402,16 +394,15 @@ For the act of searching and observing various parking spots, activity diagrams 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\linewidth]{assets/images/Implementation/Parking/Add parking activity.drawio.png}
-    \caption{Acitivity diagram fo adding new parking lots}
-    \label{fig:parking_add}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\linewidth]{assets/images/Implementation/Parking/Adjusting available activity.drawio.png}
-    \caption{Adjusting the number of available spots}
-    \label{fig:parking_adjust}
+    \subfloat[Acitivity diagram for adding new parking lots.]{
+        \includegraphics[width=0.3\textwidth]{assets/images/Implementation/Parking/Add parking activity.drawio.png}
+        \label{fig:parking_add}
+    }
+    \hspace{1cm}
+    \subfloat[Adjusting the number of available spots.]{
+        \includegraphics[width=0.45\textwidth]{assets/images/Implementation/Parking/Adjusting available activity.drawio.png}
+        \label{fig:parking_adjust}
+    }
 \end{figure}
 
 \subsubsubsection{ERD diagram}
@@ -420,8 +411,8 @@ In the realm of parking lot management, a well-structured Entity-Relationship Di
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\linewidth]{assets/images/Implementation/Parking/Parking ERD.drawio.png}
-    \caption{The ERD for storing parking lots and their relationships}
+    \includegraphics[width=0.8\linewidth]{assets/images/Implementation/Parking/Parking ERD.drawio.png}
+    \caption{The ERD for storing parking lots and their relationships.}
     \label{fig:parking_erd}
 \end{figure}
 
@@ -431,6 +422,7 @@ The iOS app is developed using Swift 5.9 and Xcode 15. The app is compatible wit
 First and foremost, this app must at least offer the basic functionalities like that of the Android counterpart. This includes authentication, viewing the traffic status report, and the ability to communicate with the server. Other requirements are that the app must also be lightweight, performant, and consistent with the ongoing design of the Android app to an extent. During the development of this prototype, we have also taken into consideration the possibility of future expansion, such as adding more features and improving the user experience, as well as following Apple's best practices when it comes to iOS app development.
 
 However, the similarities between the two versions should only be implemented to an extent, given the core differences between the two operating systems. We do not expect the complete iOS app to be \textit{identical} to its Android counterpart, nor the Android app's new functionalities such as the bus services to be the same as in iOS. 
+
 
 \subsubsection{The landing page and permission requests}
 Because the UTraffic app must know the user's real-time location in order to gather GPS data and also display nearby traffic status, it is crucial that we ask the users for location permissions upon the first app launch. This is done by presenting a dialog box that asks for the user's permission to access their location. The choice is saved into \lstinline{UserDefaults}. \lstinline{UserDefaults} is an interface to the user's defaults database, where key-value pairs of data are stored persistently across launches of the app. \cite{a2019_userdefaults}. Therefore, this process will not be repeated on subsequent app launches. The onboarding process is divided into three main phases: greetings, location request, and always-on location request. They are as follows (the texts are in Vietnamese to first accommodate the Android app's design, but we are adding an option for language change in the next phase):
@@ -475,7 +467,7 @@ We adopted the display logic from the Android app, where the northeast and south
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.25\textwidth]{assets/images/Implementation/traffic_status_view.png}
+    \includegraphics[width=0.28\textwidth]{assets/images/Implementation/traffic_status_view.png}
     \caption{The home screen with the traffic status displayed.}
     \label{fig:traffic_status_view}
 \end{figure}
@@ -484,7 +476,7 @@ We adopted the display logic from the Android app, where the northeast and south
 In this phase, we have implemented the bus list view within our iOS app. It is a view that displays all the routes within the database via the \lstinline{/routes} endpoint. 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.25\textwidth]{assets/images/Implementation/bus_view.png}
+    \includegraphics[width=0.28\textwidth]{assets/images/Implementation/bus_view.png}
     \caption{The bus list view displayed in a bottom sheet.}
     \label{fig:bus_view_ios}
 \end{figure}
@@ -495,7 +487,7 @@ We have developed an UI to see how the elements of HCMUT TrafficView would look 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\textwidth]{assets/images/Implementation/hcmut_trafficview.png}
+    \includegraphics[width=0.3\textwidth]{assets/images/Implementation/hcmut_trafficview.png}
     \caption{The traffic camera view within the iOS app.}
     \label{fig:trafficview_ios}
 \end{figure}

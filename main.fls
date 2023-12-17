@@ -215,13 +215,6 @@ INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.st
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.sty
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\graphics\rotating.sty
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\graphics\rotating.sty
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifvtex.sty
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifvtex.sty
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\ragged2e\ragged2e.sty
@@ -436,6 +429,13 @@ INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniq
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\parskip\parskip.sty
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\parskip\parskip.sty
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarycalc.code.tex
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarycalc.code.tex
 INPUT .\main.aux
@@ -447,6 +447,9 @@ INPUT Sections\introduction.aux
 INPUT .\Sections\related_research.aux
 INPUT .\Sections\related_research.aux
 INPUT Sections\related_research.aux
+INPUT .\Sections\system_analysis_and_design.aux
+INPUT .\Sections\system_analysis_and_design.aux
+INPUT Sections\system_analysis_and_design.aux
 INPUT .\Sections\theoretical_basis.aux
 INPUT .\Sections\theoretical_basis.aux
 INPUT Sections\theoretical_basis.aux
@@ -575,11 +578,11 @@ INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\main.lof
 INPUT .\main.lof
 INPUT main.lof
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
 OUTPUT main.lof
+INPUT .\assets\images\Trivia\hcmut.png
+INPUT .\assets\images\Trivia\hcmut.png
+INPUT .\assets\images\Trivia\hcmut.png
+INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\main.lot
 INPUT .\main.lot
 INPUT main.lot
@@ -703,6 +706,12 @@ INPUT .\assets\images\Research\trafficview\hcmut_trafficview_demo.png
 INPUT .\assets\images\Research\trafficview\hcmut_trafficview_demo.png
 INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Trivia\hcmut.png
+INPUT .\Sections\system_analysis_and_design.tex
+INPUT .\Sections\system_analysis_and_design.tex
+OUTPUT Sections\system_analysis_and_design.aux
+INPUT .\Sections\system_analysis_and_design.tex
+INPUT .\Sections\system_analysis_and_design.tex
+INPUT Sections\system_analysis_and_design.tex
 INPUT .\assets\images\Research\geojson\example_geojson.png
 INPUT .\assets\images\Research\geojson\example_geojson.png
 INPUT .\assets\images\Research\geojson\example_geojson.png
@@ -727,7 +736,6 @@ INPUT .\assets\images\Research\geojson\geojsonio.png
 INPUT .\assets\images\Research\geojson\geojsonio.png
 INPUT .\assets\images\Research\geojson\geojsonio.png
 INPUT .\assets\images\Trivia\hcmut.png
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\vnr\vntt8.tfm
 INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Research\API\notgeojson.png
 INPUT .\assets\images\Research\API\notgeojson.png
@@ -743,7 +751,6 @@ INPUT .\assets\images\Research\API\geojson.png
 INPUT .\assets\images\Research\API\geojson.png
 INPUT .\assets\images\Research\API\geojson.png
 INPUT .\assets\images\Research\API\geojson.png
-INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Research\API\ne_sw_bounds.png
 INPUT .\assets\images\Research\API\ne_sw_bounds.png
 INPUT .\assets\images\Research\API\ne_sw_bounds.png
@@ -773,14 +780,14 @@ INPUT .\assets\images\Research\System\osm_file_structure.png
 INPUT .\assets\images\Research\System\osm_file_structure.png
 INPUT .\assets\images\Research\System\osm_file_structure.png
 INPUT .\assets\images\Research\System\osm_file_structure.png
+INPUT .\assets\images\Research\System\MVC.png
+INPUT .\assets\images\Research\System\MVC.png
+INPUT .\assets\images\Research\System\MVC.png
+INPUT .\assets\images\Research\System\MVC.png
+INPUT .\assets\images\Research\System\MVC.png
+INPUT .\assets\images\Research\System\MVC.png
+INPUT .\assets\images\Research\System\MVC.png
 INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Research\System\MVC.png
-INPUT .\assets\images\Research\System\MVC.png
-INPUT .\assets\images\Research\System\MVC.png
-INPUT .\assets\images\Research\System\MVC.png
-INPUT .\assets\images\Research\System\MVC.png
-INPUT .\assets\images\Research\System\MVC.png
-INPUT .\assets\images\Research\System\MVC.png
 INPUT .\assets\images\Research\System\MVVM.png
 INPUT .\assets\images\Research\System\MVVM.png
 INPUT .\assets\images\Research\System\MVVM.png
@@ -788,7 +795,6 @@ INPUT .\assets\images\Research\System\MVVM.png
 INPUT .\assets\images\Research\System\MVVM.png
 INPUT .\assets\images\Research\System\MVVM.png
 INPUT .\assets\images\Research\System\MVVM.png
-INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Trivia\hcmut.png
@@ -820,7 +826,7 @@ INPUT .\assets\images\Trivia\hcmut.png
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\vnr\vnr8.tfm
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\vnr\vntt9.tfm
 INPUT .\assets\images\Research\Bus\plot_route.png
 INPUT .\assets\images\Research\Bus\plot_route.png
 INPUT .\assets\images\Research\Bus\plot_route.png
@@ -867,7 +873,6 @@ INPUT .\assets\images\Implementation\db_compass.png
 INPUT .\assets\images\Implementation\db_compass.png
 INPUT .\assets\images\Implementation\db_compass.png
 INPUT .\assets\images\Implementation\db_compass.png
-INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Implementation\nearby_bus_response.png
 INPUT .\assets\images\Implementation\nearby_bus_response.png
 INPUT .\assets\images\Implementation\nearby_bus_response.png
@@ -876,6 +881,14 @@ INPUT .\assets\images\Implementation\nearby_bus_response.png
 INPUT .\assets\images\Implementation\nearby_bus_response.png
 INPUT .\assets\images\Implementation\nearby_bus_response.png
 INPUT .\assets\images\Trivia\hcmut.png
+INPUT .\assets\images\Implementation\stop_detail_response.png
+INPUT .\assets\images\Implementation\stop_detail_response.png
+INPUT .\assets\images\Implementation\stop_detail_response.png
+INPUT .\assets\images\Implementation\stop_detail_response.png
+INPUT .\assets\images\Implementation\stop_detail_response.png
+INPUT .\assets\images\Implementation\stop_detail_response.png
+INPUT .\assets\images\Implementation\stop_detail_response.png
+INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Implementation\nearby_disable_response.png
 INPUT .\assets\images\Implementation\nearby_disable_response.png
 INPUT .\assets\images\Implementation\nearby_disable_response.png
@@ -884,13 +897,6 @@ INPUT .\assets\images\Implementation\nearby_disable_response.png
 INPUT .\assets\images\Implementation\nearby_disable_response.png
 INPUT .\assets\images\Implementation\nearby_disable_response.png
 INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Implementation\stop_detail_response.png
-INPUT .\assets\images\Implementation\stop_detail_response.png
-INPUT .\assets\images\Implementation\stop_detail_response.png
-INPUT .\assets\images\Implementation\stop_detail_response.png
-INPUT .\assets\images\Implementation\stop_detail_response.png
-INPUT .\assets\images\Implementation\stop_detail_response.png
-INPUT .\assets\images\Implementation\stop_detail_response.png
 INPUT .\assets\images\Implementation\all_routes_response.png
 INPUT .\assets\images\Implementation\all_routes_response.png
 INPUT .\assets\images\Implementation\all_routes_response.png
@@ -898,14 +904,6 @@ INPUT .\assets\images\Implementation\all_routes_response.png
 INPUT .\assets\images\Implementation\all_routes_response.png
 INPUT .\assets\images\Implementation\all_routes_response.png
 INPUT .\assets\images\Implementation\all_routes_response.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Implementation\route_details_response.png
-INPUT .\assets\images\Implementation\route_details_response.png
-INPUT .\assets\images\Implementation\route_details_response.png
-INPUT .\assets\images\Implementation\route_details_response.png
-INPUT .\assets\images\Implementation\route_details_response.png
-INPUT .\assets\images\Implementation\route_details_response.png
-INPUT .\assets\images\Implementation\route_details_response.png
 INPUT .\assets\images\Implementation\route_stops_response.png
 INPUT .\assets\images\Implementation\route_stops_response.png
 INPUT .\assets\images\Implementation\route_stops_response.png
@@ -914,6 +912,13 @@ INPUT .\assets\images\Implementation\route_stops_response.png
 INPUT .\assets\images\Implementation\route_stops_response.png
 INPUT .\assets\images\Implementation\route_stops_response.png
 INPUT .\assets\images\Trivia\hcmut.png
+INPUT .\assets\images\Implementation\route_details_response.png
+INPUT .\assets\images\Implementation\route_details_response.png
+INPUT .\assets\images\Implementation\route_details_response.png
+INPUT .\assets\images\Implementation\route_details_response.png
+INPUT .\assets\images\Implementation\route_details_response.png
+INPUT .\assets\images\Implementation\route_details_response.png
+INPUT .\assets\images\Implementation\route_details_response.png
 INPUT .\assets\images\Implementation\route_path_response.png
 INPUT .\assets\images\Implementation\route_path_response.png
 INPUT .\assets\images\Implementation\route_path_response.png
@@ -938,14 +943,14 @@ INPUT .\assets\images\Implementation\Parking\Parking Use case updated.drawio.png
 INPUT .\assets\images\Implementation\Parking\Parking Use case updated.drawio.png
 INPUT .\assets\images\Implementation\Parking\Parking Use case updated.drawio.png
 INPUT .\assets\images\Implementation\Parking\Parking Use case updated.drawio.png
+INPUT .\assets\images\Implementation\Parking\Search_lot_sequence.png
+INPUT .\assets\images\Implementation\Parking\Search_lot_sequence.png
+INPUT .\assets\images\Implementation\Parking\Search_lot_sequence.png
+INPUT .\assets\images\Implementation\Parking\Search_lot_sequence.png
+INPUT .\assets\images\Implementation\Parking\Search_lot_sequence.png
+INPUT .\assets\images\Implementation\Parking\Search_lot_sequence.png
+INPUT .\assets\images\Implementation\Parking\Search_lot_sequence.png
 INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Implementation\Parking\Search_lot_sequence.png
-INPUT .\assets\images\Implementation\Parking\Search_lot_sequence.png
-INPUT .\assets\images\Implementation\Parking\Search_lot_sequence.png
-INPUT .\assets\images\Implementation\Parking\Search_lot_sequence.png
-INPUT .\assets\images\Implementation\Parking\Search_lot_sequence.png
-INPUT .\assets\images\Implementation\Parking\Search_lot_sequence.png
-INPUT .\assets\images\Implementation\Parking\Search_lot_sequence.png
 INPUT .\assets\images\Implementation\Parking\Availability.drawio.png
 INPUT .\assets\images\Implementation\Parking\Availability.drawio.png
 INPUT .\assets\images\Implementation\Parking\Availability.drawio.png
@@ -953,7 +958,6 @@ INPUT .\assets\images\Implementation\Parking\Availability.drawio.png
 INPUT .\assets\images\Implementation\Parking\Availability.drawio.png
 INPUT .\assets\images\Implementation\Parking\Availability.drawio.png
 INPUT .\assets\images\Implementation\Parking\Availability.drawio.png
-INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Implementation\Parking\List and Manage.drawio.png
 INPUT .\assets\images\Implementation\Parking\List and Manage.drawio.png
 INPUT .\assets\images\Implementation\Parking\List and Manage.drawio.png
@@ -1006,7 +1010,6 @@ INPUT .\assets\images\Implementation\onboard3.png
 INPUT .\assets\images\Implementation\onboard3.png
 INPUT .\assets\images\Implementation\onboard3.png
 INPUT .\assets\images\Implementation\onboard3.png
-INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Implementation\register_view.png
 INPUT .\assets\images\Implementation\register_view.png
 INPUT .\assets\images\Implementation\register_view.png
@@ -1062,6 +1065,9 @@ INPUT Sections\introduction.aux
 INPUT .\Sections\related_research.aux
 INPUT .\Sections\related_research.aux
 INPUT Sections\related_research.aux
+INPUT .\Sections\system_analysis_and_design.aux
+INPUT .\Sections\system_analysis_and_design.aux
+INPUT Sections\system_analysis_and_design.aux
 INPUT .\Sections\theoretical_basis.aux
 INPUT .\Sections\theoretical_basis.aux
 INPUT Sections\theoretical_basis.aux
@@ -1093,5 +1099,5 @@ INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\vnr\vnti10.p
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\vnr\vnti10.pfb
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\vnr\vntt10.pfb
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\vnr\vntt10.pfb
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\vnr\vntt8.pfb
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\vnr\vntt8.pfb
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\vnr\vntt9.pfb
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\vnr\vntt9.pfb

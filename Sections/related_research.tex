@@ -42,7 +42,7 @@ Nevertheless, during our testing of these features, none of them functioned, or 
         \includegraphics[width=0.28\linewidth]{assets/images/Research/Bus/gobus_instruction.png}
         \label{fig:gobus_fault3}
         }
-    \caption{Go!Bus functionalities problems}
+    \caption{Go!Bus functionalities problems.}
 \end{figure}
 
 It also portrayed some mobile app bad practices, such as embedding an excessive number of web views into the user interface. Apple, in particular, is not fond of this approach and publicly stated that apps using this will not be accepted in the future \cite{apple_webview}. This is one of the points that we will take into consideration when developing our iOS app.
@@ -68,7 +68,7 @@ The fundamental bus services like searching and routing are executed well on Bus
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.3\textwidth]{assets/images/Research/Bus/busmap_home.png}
-    \caption{The home screen for BusMap}
+    \caption{The home screen for BusMap.}
     \label{fig:busmap_homescreen}
 \end{figure}
 
@@ -105,7 +105,7 @@ While our exploration of the owner side of the ecosystem is constrained due to t
         \includegraphics[width=0.28\linewidth]{assets/images/Research/Parking/myparking_new_infraction.png}
         \label{fig:myparking_ui3}
     }
-    \caption{Myparking for owners - UI}
+    \caption{Myparking for owners - UI.}
 \end{figure}
 
 \subsubsection{Myparking for general users}
@@ -128,7 +128,7 @@ The application's intended functions are to provide users with a parking lot sea
         \includegraphics[width=0.28\linewidth]{assets/images/Research/Parking/myparking_payment.png}
         \label{fig:myparking_ui6}
     }
-    \caption{Myparking's functionalities for general users}
+    \caption{Myparking's functionalities for general users.}
 \end{figure}
 
 \subsubsection{Conclusion}
@@ -155,144 +155,3 @@ The core functionalities, as described by the authoring group, include:
 The group used pretrained models to arrive to their conclusions, including Mobilenet (v3\_large), GoogleNet, and Resnet18, with the reference times being 0.01108 second, 0.014 second, and 0.004 second, respectively.
 
 This is a particular useful application that can have a significant impact on the traffic problem of Ho Chi Minh City. Therefore, the addition of HCMUT TrafficView into the UTraffic system and its mobile apps is an impactful and necessary work. We were tasked with supporting the authoring group in integrating their work into the grand system, and meanwhile, we have also developed a UI to see how the traffic camera feed and the traffic status of it would look like. 
-
-\subsection{UTraffic's system analysis and design}
-
-\subsubsection{Apple's MapKit framework}
-
-Since UTraffic is all about maps, finding the right mapping framework was our first priority. For iOS, we have the options of using Apple's MapKit or the Google Maps Software Development Kit (SDK). We have decided to go with MapKit for the following reasons:
-
-\begin{itemize}
-    \item \textbf{Native support}: MapKit is a native framework of iOS, which means that it is developed and maintained by Apple. This ensures that the framework is always up-to-date with the latest iOS version and that it is optimized for the platform. We would be free from any SDK updates that would introduce breaking changes to the app. What is more, native support means that we have reduced development complexity, as we do not have to deal with third-party SDKs. This frees us to focus on the core functionalities of the app and the integration with the backend more easily.
-    \item \textbf{Performance}: MapKit is optimized for iOS, which means that it is faster than other frameworks. This is especially important for UTraffic, as we are dealing with a large amount of data and we need to display them on the map as fast as possible.
-    \item \textbf{Pricing}: Because MapKit is included in the iOS development tools, we are free from additional paid subscriptions or API calls. There is no dependence on Google's services or ecosystem, so we would have a greater flexibility.
-\end{itemize}
-
-While it is true that UTraffic web and its Android app uses Google Map SDK as their map rendering framework, we would not have to worry about incompatibility when rendering using MapKit. The fact that both MapKit and Google Maps use the same mapping standard, WGS-84, along with the OpenStreetMap data used on the UTraffic server being WGS-84 compatible, means that we can easily switch between the two frameworks without having to worry about the data being rendered incorrectly \cite{cllocationcoordinate2d} \cite{a2019_openstreetmap} \cite{google_map}. The World Geodetic System 1984 (WGS-84) is the Global Positioning System (GPS)'s reference, and has become the standard used in cartography, geodesy, and satellite navigation \cite{gisgeography_2015_world}.
-
-\subsubsection{The GeoJSON format}
-
-When we started working on the iOS app of UTraffic, it was crucial to visualize the data onto the map as seamlessly as possible. We have previously chosen MapKit as the mapping framework after examining its compatibility with the WGS-84 mapping standard. However, we still need to find a way to convert the data from the server into a format that is compatible with MapKit. This is where GeoJSON comes in.
-
-\subsubsubsection{GeoJSON definition}
-
-GeoJSON is an open standard geospatial data interchange format that represents simple geographic features and their nonspatial attributes. Based on JavaScript Object Notation (JSON), GeoJSON is a format for encoding a variety of geographic data structures. It uses a geographic coordinate reference system, World Geodetic System 1984, and units of decimal degrees \cite{geojsonarcgis}. 
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.75\textwidth]{assets/images/Research/geojson/example_geojson.png}
-    \caption{An example of GeoJSON data.}
-    \label{fig:geojson_example}
-\end{figure}
-
-\subsubsubsection{Feature and geometry types supported by GeoJSON}
-
-The following feature types are supported by GeoJSON:
-
-\begin{itemize}
-    \item Point: addresses and locations.
-    \item Line string: streets, highways, and boundaries.
-    \item Polygon: countries, provinces, and tracts of land.
-    \item Multipart collections of points, line strings, or polygons.
-\end{itemize}
-
-The following geometry types are supported by GeoJSON:
-
-\begin{itemize}
-    \item Point.
-    \item LineString.
-    \item Polygon.
-    \item MultiPoint.
-    \item MultiLineString.
-    \item MultiPolygon.
-\end{itemize}
-
-When rendered onto the map, the geometry types are illustrated in Figure \ref{fig:geojson_geometry}.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\textwidth]{assets/images/Research/geojson/geojson_features.png}
-    \caption{The geometry types supported by GeoJSON.}
-    \label{fig:geojson_geometry}
-\end{figure}
-
-\subsubsubsection{The reason for choosing GeoJSON}
-
-We came to choose GeoJSON for the following reasons:
-
-\begin{itemize}
-    \item \textbf{WGS-84 comaptible}: As the definition claims, GeoJSON is based on the WGS-84 mapping standard, which is the same standard used by MapKit, Google Maps, and OpenStreetMap. This means that we can easily convert the data from the server into a format that is compatible with MapKit.
-    \item \textbf{Ease of understanding}: Because GeoJSON displays data in a structured and human-readable format, it is easy to understand and work with. This is especially important when we are working with a large amount of data, as we can easily visualize the data and see if there are any errors.
-    \item \textbf{Ease of testing}: Since GeoJSON is a standard format, we can easily test the data using online tools such as geojson.io \cite{mapbox_geojsonio}. This is especially useful when we are testing the data returned from the server, as we can easily visualize the data and see if there are any errors. Figure \ref{fig:geojson_io} gives an example in how we can see the bus stops within the 500-meter radius of the Ho Chi Minh City University of Technology.
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.9\textwidth]{assets/images/Research/geojson/geojsonio.png}
-        \caption{Testing GeoJSON data using geojson.io.}
-        \label{fig:geojson_io}
-    \end{figure}
-    \item \textbf{Support for iOS MapKit framework}: The iOS MapKit framework supports GeoJSON natively via the use of the \lstinline{MKGeoJSONDecoder} class. This class is able to decode GeoJSON data into a list of \lstinline{MKAnnotation} objects, which can then be displayed on the map. This is a great advantage for us, as we do not have to parse the GeoJSON data into our own classes, saving development effort and adhering to Apple's best practices \cite{mkgeojsonobject}. Since it supports iOS 13.0 and newer versions, our target development version, iOS 16.0, is well within the supported range.
-\end{itemize}
-
-All in all, GeoJSON is part of our effort in standardizing the data format for UTraffic. We believe there are good reasons to choosing this format as we have explained, given our use cases and the advantages that it brings to the system.
-
-\subsubsection{Implemented APIs}
-
-During our research to improve the performance and coherence of the application, we have developed new API endpoints. They are tailored to work serve two major purposes when it comes to buses, which are the bus routes and the bus stops. The endpoints' description are as follows:
-\begin{enumerate}
-    \item API endpoints related to bus stops:
-    \begin{itemize}
-        \item \textbf{Get nearby bus stops}: This endpoint takes in a latitude value, a longitude value, and a radius value in meters. It then returns a list of bus stops that are within the radius of the given location and in the form of GeoJSON.
-        \item \textbf{Get nearby disability friendly bus stops}: This endpoint takes the same query paramaters like the nearby bus stops endpoint, but it returns a list of disability friendly bus stops instead.
-        \item \textbf{Get the details of a bus stop}: This endpoint takes in a bus stop ID and returns the details of that bus stop.
-    \end{itemize}
-    \item API endpoints related to bus routes:
-    \begin{itemize}
-        \item \textbf{Get all bus routes}: This endpoint simply returns all the bus routes in the database to the requesting client. This helps in building a list view for browsing purposes.
-        \item \textbf{Get the details of a bus route}: This endpoint takes in a bus route ID and returns the details of that bus route.
-        \item \textbf{Get the bus stops along a bus route's path}: This endpoint takes in a bus route ID and the leg, either \textbf{forward} or \textbf{return}. The endpoint then returns the bus stops along that bus route's path, preserving the order of the stops. The response is in the form of GeoJSON.
-        \item \textbf{Get the path of a bus route}: This endpoint takes in a bus route ID, and the desired leg and then returns the path of that bus route in the form of GeoJSON.
-    \end{itemize}
-\end{enumerate}
-
-The details of the API endpoints as well as the deployment efforts that we have done are discussed further in Section \ref{section:implementation}.
-
-\subsubsection{The expansion of the traffic status API endpoint}
-We also made changes to the currently deployed API endpoints. At the moment, the endpoint \lstinline{/traffic-status/get-status-v2} receives the query paramaters which are the northeast and southwest bounds of the client's visible map and the zoom level in order to return the appropriate street segments. This endpoint is currently used by the Android app as well as the web version of UTraffic. We have implemented another endpoint, \lstinline{/traffic-status/get-status-v3}, to handle the same functionality but with GeoJSON as the response. This is done by following the GeoJSON's standard format of being a FeatureCollection of Features, where each Feature is a Point with the coordinates of the traffic status. The following is the comparison between the two format when taking a node as an example:
-
-\begin{figure}[H]
-    \centering
-    \subfloat[The current response format.\label{fig:notgeojson_response}]{%
-        \includegraphics[width=0.4\linewidth]{assets/images/Research/API/notgeojson.png}
-    }
-    \hspace{0.5cm} % Add a horizontal space of 1cm
-    \subfloat[The GeoJSON response format.\label{fig:geojson_response}]{%
-        \includegraphics[width=0.4\linewidth]{assets/images/Research/API/geojson.png}
-    }
-    \caption{Comparison between the current response format and the GeoJSON format.}
-\end{figure}
-
-Both of these API endpoints use the map bounds along with the street level in order to limit the processing load of the backend as well as the size of the data returned:
-\begin{itemize}
-    \item The map bounds: The northeast and southwest coordinates of the visible region forms a rectangle. Figure \ref{fig:ne_sw_bounds} illustrates a simplified map region with the coordinates.
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.7\linewidth]{assets/images/Research/API/ne_sw_bounds.png}
-        \caption{The northeast and southwest bounds of the visible region.}
-        \label{fig:ne_sw_bounds}
-    \end{figure}
-    The idea is to find street segments that intersect with it, and then send the appropriate segnments back to the client that issued the API call. Figure \ref{fig:intersetion_ne_sw_bounds} illustrates a simplified segment that intersects with the map bounds. In reality, however, it should be understood that a set of segments fall into the region, while the others do not.
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=\linewidth]{assets/images/Research/API/inaction_ne_sw--bounds.png}
-        \caption{The intersection between the map bounds and the street segments.}
-        \label{fig:intersetion_ne_sw_bounds}
-    \end{figure}
-    \item The street level: The street levels correspond to the zoom level of the visible map. When the map is zoomed out, the application will only display traffic reports for major roads. As the map is zoomed in, the application will include traffic reports for smaller roads as well. We will adopt the definition of street levels based on the research of the group of Duong Hoai Phong and Nguyen Mau Quoc Duong \cite{phong_duong}, which is as follows:
-    \begin{itemize}
-        \item Level 1 - Zoom level 0 to 12: The application will only display traffic reports for trunk roads.
-        \item Level 2 - Zoom level 13 - 14: The application will onl display trunk and primary roads.
-        \item Level 3 - Zoom level 15 and higher: The application will display all types of roads.
-    \end{itemize}
-\end{itemize}
-
-With the bounds and street levels ready, we were able to display the traffic status on the iOS map, which is discussed about in greater detail in Section \ref{section:implementation}.

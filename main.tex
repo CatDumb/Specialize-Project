@@ -1,4 +1,4 @@
-\documentclass[a4paper]{article}
+\documentclass[13pt, a4paper]{article}
 
 
 \usepackage[backend=biber, style=ieee]{biblatex}
@@ -29,7 +29,6 @@
 \usepackage{multicol}
 \usepackage{rotating}
 \usepackage{graphics}
-\usepackage{geometry}
 \usepackage{float}
 \usepackage{ragged2e}
 \usepackage{setspace}
@@ -58,7 +57,10 @@
     keywordstyle=\color{magenta},
     numberstyle=\tiny\color{codegray},
     stringstyle=\color{codepurple},
-    basicstyle=\ttfamily\footnotesize,
+    basicstyle=%
+        \ttfamily
+        \color{blue}%
+        \lst@ifdisplaystyle\scriptsize\fi,
     breakatwhitespace=false,         
     breaklines=true,                 
     captionpos=b,                    
@@ -77,11 +79,9 @@
 \usepackage{hyperref}
 \hypersetup{urlcolor=blue,linkcolor=black,citecolor=black,colorlinks=true}
 \usepackage[skip=5pt, indent=20pt]{parskip}
-%\usepackage{pstcol} % PSTricks with the standard color package
 
 %% Layout %%
-\usepackage{geometry} 
-\geometry{a4paper,total={160mm,240mm},left=30mm,top=30mm, bottom=30mm}
+\usepackage[left=3.00cm, right=2.00cm, top=2.00cm, bottom=2.25cm]{geometry}
 \renewcommand{\baselinestretch}{1.3}
 \renewcommand{\arraystretch}{1.5}
 %% cover border %%
@@ -262,10 +262,12 @@ In this initial phase, crucial milestones have been achieved, including the conc
 \tableofcontents
 \newpage
 \listoffigures
+\newpage
 \listoftables
 
 \include{Sections/introduction}
 \include{Sections/related_research}
+\include{Sections/system_analysis_and_design}
 \include{Sections/theoretical_basis}
 \include{Sections/implementation}
 \include{Sections/work_evaluation_&_future_plans}
