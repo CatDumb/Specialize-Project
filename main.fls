@@ -525,8 +525,6 @@ INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\latex-fonts\l
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\latex-fonts\lasy8.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\latex-fonts\lasy6.tfm
 INPUT C:\Users\User\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\vnr\vnr12.tfm
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\vnr\vnbx10.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
@@ -542,12 +540,22 @@ INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Trivia\hcmut.png
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\vnr\vnbx10.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\vntex\t5cmtt.fd
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\vntex\t5cmtt.fd
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\vntex\t5cmtt.fd
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\vnr\vntt10.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\vnr\vnr5.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\vnr\vnbx5.tfm
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\vnr\vnr12.tfm
+INPUT .\assets\images\Trivia\hcmut.png
+INPUT .\assets\images\Trivia\hcmut.png
+INPUT .\assets\images\Trivia\hcmut.png
+INPUT .\assets\images\Trivia\hcmut.png
+INPUT .\assets\images\Trivia\hcmut.png
+INPUT .\assets\images\Trivia\hcmut.png
+INPUT .\assets\images\Trivia\hcmut.png
+INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Trivia\hcmut.png
@@ -567,22 +575,23 @@ INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\main.lof
 INPUT .\main.lof
 INPUT main.lof
+INPUT .\assets\images\Trivia\hcmut.png
+INPUT .\assets\images\Trivia\hcmut.png
+INPUT .\assets\images\Trivia\hcmut.png
+INPUT .\assets\images\Trivia\hcmut.png
 OUTPUT main.lof
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\main.lot
 INPUT .\main.lot
 INPUT main.lot
 OUTPUT main.lot
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\Sections\introduction.tex
 INPUT .\Sections\introduction.tex
+INPUT .\assets\images\Trivia\hcmut.png
+INPUT .\assets\images\Trivia\hcmut.png
+INPUT .\assets\images\Trivia\hcmut.png
+INPUT .\assets\images\Trivia\hcmut.png
 OUTPUT Sections\introduction.aux
+INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\Sections\introduction.tex
 INPUT .\Sections\introduction.tex
 INPUT Sections\introduction.tex
@@ -594,13 +603,7 @@ INPUT .\assets\images\Trivia\Ket_xe.jpg
 INPUT .\assets\images\Trivia\Ket_xe.jpg
 INPUT .\assets\images\Trivia\Ket_xe.jpg
 INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\Sections\related_research.tex
 INPUT .\Sections\related_research.tex
@@ -639,12 +642,6 @@ INPUT .\assets\images\Research\Bus\gobus_instruction.png
 INPUT .\assets\images\Research\Bus\gobus_instruction.png
 INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Research\Bus\busmap_home.png
 INPUT .\assets\images\Research\Bus\busmap_home.png
 INPUT .\assets\images\Research\Bus\busmap_home.png
@@ -652,9 +649,6 @@ INPUT .\assets\images\Research\Bus\busmap_home.png
 INPUT .\assets\images\Research\Bus\busmap_home.png
 INPUT .\assets\images\Research\Bus\busmap_home.png
 INPUT .\assets\images\Research\Bus\busmap_home.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Research\Parking\myparking_surveillance.png
 INPUT .\assets\images\Research\Parking\myparking_surveillance.png
@@ -698,9 +692,6 @@ INPUT .\assets\images\Research\Parking\myparking_payment.png
 INPUT .\assets\images\Research\Parking\myparking_payment.png
 INPUT .\assets\images\Research\Parking\myparking_payment.png
 INPUT .\assets\images\Research\Parking\myparking_payment.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Trivia\hcmut.png
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\vnr\vnti10.tfm
 INPUT .\assets\images\Research\trafficview\hcmut_trafficview_demo.png
@@ -712,12 +703,6 @@ INPUT .\assets\images\Research\trafficview\hcmut_trafficview_demo.png
 INPUT .\assets\images\Research\trafficview\hcmut_trafficview_demo.png
 INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Research\geojson\example_geojson.png
 INPUT .\assets\images\Research\geojson\example_geojson.png
 INPUT .\assets\images\Research\geojson\example_geojson.png
@@ -725,9 +710,6 @@ INPUT .\assets\images\Research\geojson\example_geojson.png
 INPUT .\assets\images\Research\geojson\example_geojson.png
 INPUT .\assets\images\Research\geojson\example_geojson.png
 INPUT .\assets\images\Research\geojson\example_geojson.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Research\geojson\geojson_features.png
 INPUT .\assets\images\Research\geojson\geojson_features.png
@@ -737,9 +719,6 @@ INPUT .\assets\images\Research\geojson\geojson_features.png
 INPUT .\assets\images\Research\geojson\geojson_features.png
 INPUT .\assets\images\Research\geojson\geojson_features.png
 INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Research\geojson\geojsonio.png
 INPUT .\assets\images\Research\geojson\geojsonio.png
 INPUT .\assets\images\Research\geojson\geojsonio.png
@@ -747,15 +726,9 @@ INPUT .\assets\images\Research\geojson\geojsonio.png
 INPUT .\assets\images\Research\geojson\geojsonio.png
 INPUT .\assets\images\Research\geojson\geojsonio.png
 INPUT .\assets\images\Research\geojson\geojsonio.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Trivia\hcmut.png
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\vnr\vntt8.tfm
 INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Research\API\notgeojson.png
 INPUT .\assets\images\Research\API\notgeojson.png
 INPUT .\assets\images\Research\API\notgeojson.png
@@ -771,11 +744,20 @@ INPUT .\assets\images\Research\API\geojson.png
 INPUT .\assets\images\Research\API\geojson.png
 INPUT .\assets\images\Research\API\geojson.png
 INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
+INPUT .\assets\images\Research\API\ne_sw_bounds.png
+INPUT .\assets\images\Research\API\ne_sw_bounds.png
+INPUT .\assets\images\Research\API\ne_sw_bounds.png
+INPUT .\assets\images\Research\API\ne_sw_bounds.png
+INPUT .\assets\images\Research\API\ne_sw_bounds.png
+INPUT .\assets\images\Research\API\ne_sw_bounds.png
+INPUT .\assets\images\Research\API\ne_sw_bounds.png
+INPUT .\assets\images\Research\API\inaction_ne_sw--bounds.png
+INPUT .\assets\images\Research\API\inaction_ne_sw--bounds.png
+INPUT .\assets\images\Research\API\inaction_ne_sw--bounds.png
+INPUT .\assets\images\Research\API\inaction_ne_sw--bounds.png
+INPUT .\assets\images\Research\API\inaction_ne_sw--bounds.png
+INPUT .\assets\images\Research\API\inaction_ne_sw--bounds.png
+INPUT .\assets\images\Research\API\inaction_ne_sw--bounds.png
 INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\Sections\theoretical_basis.tex
@@ -792,9 +774,6 @@ INPUT .\assets\images\Research\System\osm_file_structure.png
 INPUT .\assets\images\Research\System\osm_file_structure.png
 INPUT .\assets\images\Research\System\osm_file_structure.png
 INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Research\System\MVC.png
 INPUT .\assets\images\Research\System\MVC.png
 INPUT .\assets\images\Research\System\MVC.png
@@ -809,22 +788,6 @@ INPUT .\assets\images\Research\System\MVVM.png
 INPUT .\assets\images\Research\System\MVVM.png
 INPUT .\assets\images\Research\System\MVVM.png
 INPUT .\assets\images\Research\System\MVVM.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Trivia\hcmut.png
@@ -839,6 +802,13 @@ OUTPUT Sections\implementation.aux
 INPUT .\Sections\implementation.tex
 INPUT .\Sections\implementation.tex
 INPUT Sections\implementation.tex
+INPUT .\assets\images\Implementation\system_architecture_diagram.png
+INPUT .\assets\images\Implementation\system_architecture_diagram.png
+INPUT .\assets\images\Implementation\system_architecture_diagram.png
+INPUT .\assets\images\Implementation\system_architecture_diagram.png
+INPUT .\assets\images\Implementation\system_architecture_diagram.png
+INPUT .\assets\images\Implementation\system_architecture_diagram.png
+INPUT .\assets\images\Implementation\system_architecture_diagram.png
 INPUT .\assets\images\Research\Bus\lat_long_web.png
 INPUT .\assets\images\Research\Bus\lat_long_web.png
 INPUT .\assets\images\Research\Bus\lat_long_web.png
@@ -846,9 +816,6 @@ INPUT .\assets\images\Research\Bus\lat_long_web.png
 INPUT .\assets\images\Research\Bus\lat_long_web.png
 INPUT .\assets\images\Research\Bus\lat_long_web.png
 INPUT .\assets\images\Research\Bus\lat_long_web.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Trivia\hcmut.png
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
@@ -868,6 +835,7 @@ INPUT .\assets\images\Research\Bus\actual_route.png
 INPUT .\assets\images\Research\Bus\actual_route.png
 INPUT .\assets\images\Research\Bus\actual_route.png
 INPUT .\assets\images\Research\Bus\actual_route.png
+INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Research\Bus\stop_web.png
 INPUT .\assets\images\Research\Bus\stop_web.png
 INPUT .\assets\images\Research\Bus\stop_web.png
@@ -876,13 +844,6 @@ INPUT .\assets\images\Research\Bus\stop_web.png
 INPUT .\assets\images\Research\Bus\stop_web.png
 INPUT .\assets\images\Research\Bus\stop_web.png
 INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Implementation\data_org.png
 INPUT .\assets\images\Implementation\data_org.png
 INPUT .\assets\images\Implementation\data_org.png
@@ -890,6 +851,7 @@ INPUT .\assets\images\Implementation\data_org.png
 INPUT .\assets\images\Implementation\data_org.png
 INPUT .\assets\images\Implementation\data_org.png
 INPUT .\assets\images\Implementation\data_org.png
+INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Implementation\raw_stops.png
 INPUT .\assets\images\Implementation\raw_stops.png
 INPUT .\assets\images\Implementation\raw_stops.png
@@ -897,13 +859,6 @@ INPUT .\assets\images\Implementation\raw_stops.png
 INPUT .\assets\images\Implementation\raw_stops.png
 INPUT .\assets\images\Implementation\raw_stops.png
 INPUT .\assets\images\Implementation\raw_stops.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Implementation\db_compass.png
 INPUT .\assets\images\Implementation\db_compass.png
@@ -913,9 +868,6 @@ INPUT .\assets\images\Implementation\db_compass.png
 INPUT .\assets\images\Implementation\db_compass.png
 INPUT .\assets\images\Implementation\db_compass.png
 INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Implementation\nearby_bus_response.png
 INPUT .\assets\images\Implementation\nearby_bus_response.png
 INPUT .\assets\images\Implementation\nearby_bus_response.png
@@ -924,9 +876,6 @@ INPUT .\assets\images\Implementation\nearby_bus_response.png
 INPUT .\assets\images\Implementation\nearby_bus_response.png
 INPUT .\assets\images\Implementation\nearby_bus_response.png
 INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Implementation\nearby_disable_response.png
 INPUT .\assets\images\Implementation\nearby_disable_response.png
 INPUT .\assets\images\Implementation\nearby_disable_response.png
@@ -934,9 +883,6 @@ INPUT .\assets\images\Implementation\nearby_disable_response.png
 INPUT .\assets\images\Implementation\nearby_disable_response.png
 INPUT .\assets\images\Implementation\nearby_disable_response.png
 INPUT .\assets\images\Implementation\nearby_disable_response.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Implementation\stop_detail_response.png
 INPUT .\assets\images\Implementation\stop_detail_response.png
@@ -953,9 +899,6 @@ INPUT .\assets\images\Implementation\all_routes_response.png
 INPUT .\assets\images\Implementation\all_routes_response.png
 INPUT .\assets\images\Implementation\all_routes_response.png
 INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Implementation\route_details_response.png
 INPUT .\assets\images\Implementation\route_details_response.png
 INPUT .\assets\images\Implementation\route_details_response.png
@@ -971,9 +914,6 @@ INPUT .\assets\images\Implementation\route_stops_response.png
 INPUT .\assets\images\Implementation\route_stops_response.png
 INPUT .\assets\images\Implementation\route_stops_response.png
 INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Implementation\route_path_response.png
 INPUT .\assets\images\Implementation\route_path_response.png
 INPUT .\assets\images\Implementation\route_path_response.png
@@ -981,9 +921,6 @@ INPUT .\assets\images\Implementation\route_path_response.png
 INPUT .\assets\images\Implementation\route_path_response.png
 INPUT .\assets\images\Implementation\route_path_response.png
 INPUT .\assets\images\Implementation\route_path_response.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Implementation\pm2_show.png
 INPUT .\assets\images\Implementation\pm2_show.png
@@ -994,11 +931,59 @@ INPUT .\assets\images\Implementation\pm2_show.png
 INPUT .\assets\images\Implementation\pm2_show.png
 INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Trivia\hcmut.png
+INPUT .\assets\images\Implementation\Parking\Parking Use case updated.drawio.png
+INPUT .\assets\images\Implementation\Parking\Parking Use case updated.drawio.png
+INPUT .\assets\images\Implementation\Parking\Parking Use case updated.drawio.png
+INPUT .\assets\images\Implementation\Parking\Parking Use case updated.drawio.png
+INPUT .\assets\images\Implementation\Parking\Parking Use case updated.drawio.png
+INPUT .\assets\images\Implementation\Parking\Parking Use case updated.drawio.png
+INPUT .\assets\images\Implementation\Parking\Parking Use case updated.drawio.png
 INPUT .\assets\images\Trivia\hcmut.png
+INPUT .\assets\images\Implementation\Parking\Search_lot_sequence.png
+INPUT .\assets\images\Implementation\Parking\Search_lot_sequence.png
+INPUT .\assets\images\Implementation\Parking\Search_lot_sequence.png
+INPUT .\assets\images\Implementation\Parking\Search_lot_sequence.png
+INPUT .\assets\images\Implementation\Parking\Search_lot_sequence.png
+INPUT .\assets\images\Implementation\Parking\Search_lot_sequence.png
+INPUT .\assets\images\Implementation\Parking\Search_lot_sequence.png
+INPUT .\assets\images\Implementation\Parking\Availability.drawio.png
+INPUT .\assets\images\Implementation\Parking\Availability.drawio.png
+INPUT .\assets\images\Implementation\Parking\Availability.drawio.png
+INPUT .\assets\images\Implementation\Parking\Availability.drawio.png
+INPUT .\assets\images\Implementation\Parking\Availability.drawio.png
+INPUT .\assets\images\Implementation\Parking\Availability.drawio.png
+INPUT .\assets\images\Implementation\Parking\Availability.drawio.png
 INPUT .\assets\images\Trivia\hcmut.png
+INPUT .\assets\images\Implementation\Parking\List and Manage.drawio.png
+INPUT .\assets\images\Implementation\Parking\List and Manage.drawio.png
+INPUT .\assets\images\Implementation\Parking\List and Manage.drawio.png
+INPUT .\assets\images\Implementation\Parking\List and Manage.drawio.png
+INPUT .\assets\images\Implementation\Parking\List and Manage.drawio.png
+INPUT .\assets\images\Implementation\Parking\List and Manage.drawio.png
+INPUT .\assets\images\Implementation\Parking\List and Manage.drawio.png
 INPUT .\assets\images\Trivia\hcmut.png
+INPUT .\assets\images\Implementation\Parking\Add parking activity.drawio.png
+INPUT .\assets\images\Implementation\Parking\Add parking activity.drawio.png
+INPUT .\assets\images\Implementation\Parking\Add parking activity.drawio.png
+INPUT .\assets\images\Implementation\Parking\Add parking activity.drawio.png
+INPUT .\assets\images\Implementation\Parking\Add parking activity.drawio.png
+INPUT .\assets\images\Implementation\Parking\Add parking activity.drawio.png
+INPUT .\assets\images\Implementation\Parking\Add parking activity.drawio.png
+INPUT .\assets\images\Implementation\Parking\Adjusting available activity.drawio.png
+INPUT .\assets\images\Implementation\Parking\Adjusting available activity.drawio.png
+INPUT .\assets\images\Implementation\Parking\Adjusting available activity.drawio.png
+INPUT .\assets\images\Implementation\Parking\Adjusting available activity.drawio.png
+INPUT .\assets\images\Implementation\Parking\Adjusting available activity.drawio.png
+INPUT .\assets\images\Implementation\Parking\Adjusting available activity.drawio.png
+INPUT .\assets\images\Implementation\Parking\Adjusting available activity.drawio.png
 INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
+INPUT .\assets\images\Implementation\Parking\Parking ERD.drawio.png
+INPUT .\assets\images\Implementation\Parking\Parking ERD.drawio.png
+INPUT .\assets\images\Implementation\Parking\Parking ERD.drawio.png
+INPUT .\assets\images\Implementation\Parking\Parking ERD.drawio.png
+INPUT .\assets\images\Implementation\Parking\Parking ERD.drawio.png
+INPUT .\assets\images\Implementation\Parking\Parking ERD.drawio.png
+INPUT .\assets\images\Implementation\Parking\Parking ERD.drawio.png
 INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Implementation\onboard1.png
 INPUT .\assets\images\Implementation\onboard1.png
@@ -1021,6 +1006,7 @@ INPUT .\assets\images\Implementation\onboard3.png
 INPUT .\assets\images\Implementation\onboard3.png
 INPUT .\assets\images\Implementation\onboard3.png
 INPUT .\assets\images\Implementation\onboard3.png
+INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Implementation\register_view.png
 INPUT .\assets\images\Implementation\register_view.png
 INPUT .\assets\images\Implementation\register_view.png
@@ -1036,9 +1022,6 @@ INPUT .\assets\images\Implementation\login_view.png
 INPUT .\assets\images\Implementation\login_view.png
 INPUT .\assets\images\Implementation\login_view.png
 INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Implementation\traffic_status_view.png
 INPUT .\assets\images\Implementation\traffic_status_view.png
 INPUT .\assets\images\Implementation\traffic_status_view.png
@@ -1053,14 +1036,6 @@ INPUT .\assets\images\Implementation\bus_view.png
 INPUT .\assets\images\Implementation\bus_view.png
 INPUT .\assets\images\Implementation\bus_view.png
 INPUT .\assets\images\Implementation\bus_view.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Implementation\hcmut_trafficview.png
 INPUT .\assets\images\Implementation\hcmut_trafficview.png
 INPUT .\assets\images\Implementation\hcmut_trafficview.png
@@ -1068,12 +1043,6 @@ INPUT .\assets\images\Implementation\hcmut_trafficview.png
 INPUT .\assets\images\Implementation\hcmut_trafficview.png
 INPUT .\assets\images\Implementation\hcmut_trafficview.png
 INPUT .\assets\images\Implementation\hcmut_trafficview.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\Sections\work_evaluation_&_future_plans.tex
@@ -1082,18 +1051,6 @@ OUTPUT Sections\work_evaluation_&_future_plans.aux
 INPUT .\Sections\work_evaluation_&_future_plans.tex
 INPUT .\Sections\work_evaluation_&_future_plans.tex
 INPUT Sections\work_evaluation_&_future_plans.tex
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
-INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Trivia\hcmut.png
 INPUT .\assets\images\Trivia\hcmut.png

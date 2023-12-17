@@ -34,7 +34,7 @@ MVC is an architectural design pattern for building applications that separates 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{assets/images/Research/System/MVC.png}
+    \includegraphics[width=0.7\textwidth]{assets/images/Research/System/MVC.png}
     \caption{MVC architecture}
     \label{fig:mvc}
 \end{figure}
@@ -50,13 +50,13 @@ MVVM architecture offers two-way data binding between view and view-model. The v
 \end{itemize}
 
 \begin{figure}[H]
-    \includegraphics[width=\textwidth]{assets/images/Research/System/MVVM.png}
+    \centering
+    \includegraphics[width=0.7\textwidth]{assets/images/Research/System/MVVM.png}
     \caption{MVVM architecture}
     \label{fig:mvvm}
 \end{figure}
 
 \subsubsection{Conclusion}
-
 
 \begin{table}[H]
     \centering
@@ -93,7 +93,7 @@ MVVM architecture offers two-way data binding between view and view-model. The v
 
 Base on the comparison above, MVVM is more suitable for this project because it is easier to reuse components and write unit test cases.
 
-\subsection{Frontend}
+\subsection{Front-end}
 
 \subsubsection{Objective-C}
 
@@ -147,18 +147,76 @@ In summary, SwiftUI stands out with these key features:
 
 Base on the comparison above, Swift is more suitable for this project because it is superior in multiple aspects when comparing to Objective C.
 
-\subsection{Backend}
+\subsection{Back-end}
 
 \subsubsection{Java}
 
-
+Java stands out as a widely utilized and potent programming language, particularly in the realm of back-end development. Launched in 1995, it has evolved into one of the most embraced languages for enterprise-level software development. The robustness, portability, and scalability of Java contribute to its prevalence in the back-end space. Leveraging an object-oriented programming model facilitates the creation of modular and reusable code, and its platform independence enables code execution across various operating systems. Java's appeal is further enhanced by its extensive standard library and a broad ecosystem of third-party libraries, facilitating the rapid and efficient development of intricate, feature-rich applications. Particularly suited for constructing large-scale applications demanding high performance and reliability, Java's garbage collection system ensures efficient memory management, and its support for multithreading enables the execution of parallel tasks with efficiency.
 
 \subsubsection{Python}
 
+Python, a favored programming language, is commonly employed in backend systems. Noted for its straightforward syntax, it is easy to learn and wield, featuring a broad spectrum of libraries and frameworks, rendering it versatile for diverse applications. Python excels in backend systems handling data processing and analysis, leveraging popular libraries such as NumPy, Pandas, and Matplotlib. These facilitate seamless handling of large datasets, intricate computations, and data visualization.
+
+Moreover, Python is widely chosen for web applications, leveraging frameworks like Django and Flask. Its compatibility with ReactJS is notable, supporting commonly used web development protocols, including RESTful APIs, simplifying the creation of APIs consumable by ReactJS applications. Backed by a vast developer community, Python ensures accessibility to support and solutions for common challenges.
+
+Python's versatility extends to embedding image processing and natural language processing technologies, exemplified by YOLO, RASA, and OpenAI. This is made possible through a suite of libraries and frameworks, such as OpenCV for computer vision, TensorFlow and PyTorch for machine learning, NLTK for natural language processing, and RASA for conversational AI. Additionally, Python can access the robust OpenAI API through HTTP requests, providing advanced natural language processing capabilities. In essence, Python's rich ecosystem makes it a robust choice for constructing backend systems that incorporate image processing and natural language processing technologies.
 
 \subsubsection{NodeJS}
 
+Node.js, originating in 2009, stands as a preeminent back-end development framework, leveraging the JavaScript programming language. Revered for its speed, efficiency, and scalability, Node.js is widely adopted for constructing scalable back-end applications, particularly in real-time domains like chat applications, social networks, and online gaming platforms.
+
+Operating on an event-driven, non-blocking I/O model, Node.js facilitates high levels of concurrency and throughput. This design ensures applications can adeptly manage substantial traffic and data influx. The robust Node.js community has fostered the development of numerous valuable libraries and frameworks, streamlining the creation of intricate applications swiftly and effectively. Notable Node.js frameworks include Express.js, Koa, and Nest.js.
+
 \subsubsection{Conclusion}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{| c | p{0.4\textwidth} | p{0.4\textwidth} |}
+        \hline
+        \multicolumn{1}{|c|}{}
+        & \multicolumn{1}{c|}{Advantage}
+        & \multicolumn{1}{c|}{Disadvantage} \\ \hline
+        \multirow{8}{*}{Java}     
+                &   \begin{itemize}[leftmargin=*,topsep=0pt,partopsep=0pt,parsep=0pt]
+                        \item Java's strict type-checking and error checking enhance stability for complex apps.
+                        \item Efficiently handles large-scale applications with substantial data and high traffic.
+                        \item Supports cross-platform development with its "write once, run anywhere" philosophy.
+                        \item Java's extensive third-party libraries and frameworks enhance adaptability.
+                    \end{itemize}
+                &   \begin{itemize}[leftmargin=*,topsep=0pt,partopsep=0pt,parsep=0pt]
+                        \item Java's strict syntax and type system may pose challenges for beginners, impacting their effective use of the language.
+
+                        \item Java applications can exhibit slower startup times compared to other languages, potentially affecting the performance of smaller applications.
+                        
+                        \item Java's garbage collection system, while efficient, may lead to performance issues in specific scenarios.
+                    \end{itemize} \\ \hline
+        \multirow{8}{*}{Python}
+                &   \begin{itemize}[leftmargin=*,topsep=0pt,partopsep=0pt,parsep=0pt]
+                        \item Python's syntax is designed for easy comprehension, appealing to both beginners and seasoned developers.
+                        \item Python serves a broad range of applications, from web development to data science and machine learning.
+                        \item Python features a vast collection of third-party libraries and frameworks, extending its capabilities.
+                    \end{itemize}
+                &   \begin{itemize}[leftmargin=*,topsep=0pt,partopsep=0pt,parsep=0pt]
+                        \item Due to its interpreted nature and dynamic typing, Python may exhibit slower performance in comparison to some languages.
+                        \item Python may face limitations in handling large datasets and high traffic, impacting suitability for large-scale applications.
+                        \item Python's Global Interpreter Lock (GIL) can limit its ability to fully exploit multi-core processors.
+                    \end{itemize} \\ \hline
+        \multirow{8}{*}{NodeJS}
+                    &   \begin{itemize}[leftmargin=*,topsep=0pt,partopsep=0pt,parsep=0pt]
+                            \item NodeJS prioritizes speed, making it well-suited for real-time applications.
+                            \item NodeJS exhibits high scalability, handling substantial traffic and data volumes with ease.
+                            \item A vibrant developer community has contributed to a plethora of libraries and frameworks, streamlining complex application development.
+                        \end{itemize}
+                    &   \begin{itemize}[leftmargin=*,topsep=0pt,partopsep=0pt,parsep=0pt]
+                            \item While excelling in real-time scenarios, NodeJS might not be the optimal choice for applications requiring intricate data processing or machine learning.
+                            \item NodeJS utilizes an asynchronous programming model, which could pose challenges for beginners.
+                            \item Debugging NodeJS applications can be intricate due to its asynchronous model and event-driven architecture.
+                    \end{itemize} \\ \hline
+    \end{tabular}
+    \caption{Comparison between Java, Python, and NodeJS}
+\end{table}
+
+When weighing the pros and cons, each language possesses unique strengths and weaknesses tailored to specific project requirements. In scenarios demanding exceptional performance, scalability, and reliability, Java emerges as a compelling choice. Furthermore, Java's platform independence ensures compatibility with various operating systems and hardware configurations, offering versatility for diverse project types.
 
 \subsection{Database}
 
