@@ -256,6 +256,7 @@ During our research to improve the performance and coherence of the application,
 
 The details of the API endpoints as well as the deployment efforts that we have done are discussed further in Section \ref{section:implementation}.
 
+\subsubsection{The expansion of the traffic status API endpoint}
 We also made changes to the currently deployed API endpoints. At the moment, the endpoint \lstinline{/traffic-status/get-status-v2} receives the query paramaters which are the northeast and southwest bounds of the client's visible map and the zoom level in order to return the appropriate street segments. This endpoint is currently used by the Android app as well as the web version of UTraffic. We have implemented another endpoint, \lstinline{/traffic-status/get-status-v3}, to handle the same functionality but with GeoJSON as the response. This is done by following the GeoJSON's standard format of being a FeatureCollection of Features, where each Feature is a Point with the coordinates of the traffic status. The following is the comparison between the two format when taking a node as an example:
 
 \begin{figure}[H]
@@ -270,3 +271,28 @@ We also made changes to the currently deployed API endpoints. At the moment, the
     \caption{Comparison between the current response format and the GeoJSON format.}
 \end{figure}
 
+Both of these API endpoints use the map bounds along with the street level in order to limit the processing load of the backend as well as the size of the data returned:
+\begin{itemize}
+    \item The map bounds: The northeast and southwest coordinates of the visible region forms a rectangle. Figure \ref{fig:ne_sw_bounds} illustrates a simplified map region with the coordinates.
+    \begn{figure}
+        \centering
+        \includegraphics[width=\linewidth]{assets/images/Research/API/ne_sw_bounds.png}
+        \caption{The northeast and southwest bounds of the visible region.}
+        \label{fig:ne_sw_bounds}
+    \end{figure}
+    The idea is to find street segments that intersect with it, and then send the appropriate segnments back to the client that issued the API call. Figure \ref{fig:intersetion_ne_sw_bounds} illustrates a simplified segment that intersects with the map bounds. In reality, however, it should be understood that a set of segments fall into the region, while the others do not.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\linewidth]{assets/images/Research/API/inaction_ne_sw--bounds.png}
+        \caption{The intersection between the map bounds and the street segments.}
+        \label{fig:intersetion_ne_sw_bounds}
+    \end{figure}
+    \item The street level: The street levels correspond to the zoom level of the visible map. When the map is zoomed out, the application will only display traffic reports for major roads. As the map is zoomed in, the application will include traffic reports for smaller roads as well. We will adopt the definition of street levels based on the research of the group of Duong Hoai Phong and Nguyen Mau Quoc Duong \cite{phong_duong}, which is as follows:
+    \begin{itemize}
+        \item Level 1 - Zoom level 0 to 12: The application will only display traffic reports for trunk roads.
+        \item Level 2 - Zoom level 13 - 14: The application will onl display trunk and primary roads.
+        \item Level 3 - Zoom level 15 and higher: The application will display all types of roads.
+    \end{itemize}
+\end{itemize}
+
+With the bounds and street levels ready, we were able to display the traffic status on the iOS map, which is discussed about in greater detail in Section \ref{section:implementation}.
